@@ -36,7 +36,7 @@ outFile.writeText(buildString {
 ## Naming
 
 - Prefer simple names: `generatePages` over `generateTypePages`
-- Shadowing is fine - don't rename variables just to avoid it
+- Shadowing is fine
 
 ## Data Classes
 
@@ -47,4 +47,6 @@ outFile.writeText(buildString {
 
 ## Editing Discipline
 
-**If a line wasn't part of the task, don't touch it** — no renames, no reformatting, no "cleanup".
+Before each edit, ask: **"Is this change required by the task?"**
+
+If no → don't touch it. This includes shadowed variables, formatting, naming.
