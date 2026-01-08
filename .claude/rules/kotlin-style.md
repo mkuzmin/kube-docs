@@ -36,6 +36,7 @@ outFile.writeText(buildString {
 ## Naming
 
 - Prefer simple names: `generatePages` over `generateTypePages`
+- Shadowing is fine - don't rename variables just to avoid it
 
 ## Data Classes
 
@@ -43,3 +44,7 @@ outFile.writeText(buildString {
 - Use `= emptyMap()` default when JSON field may be missing
 - Use `JsonArray? = null` or `JsonObject? = null` when only checking presence, not processing details
 - Don't over-engineer - only add fields needed for the current task
+
+## Editing Discipline
+
+**If a line wasn't part of the task, don't touch it** — no renames, no reformatting, no "cleanup".

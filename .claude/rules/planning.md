@@ -14,13 +14,7 @@
 - Use task lists for multi-step work
 - Each step should be small and verifiable
 - Follow-up refinements are normal iteration, not planning failures
-
-## Scope Discipline
-
 - Don't discuss Step 2 while planning Step 1
-- Don't refactor code outside the task scope
-- Don't "improve" code that works - only change what's necessary
-- Keep the original code style unless asked to change it
 
 ## Plan Structure
 

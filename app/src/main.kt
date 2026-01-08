@@ -26,8 +26,12 @@ fun loadSchemas(specPath: String, packagePrefix: String): Map<String, Schema> {
 }
 
 fun generatePages(schemas: Map<String, Schema>, outDir: File) {
+    val typesDir = File(outDir, "types")
+    typesDir.mkdirs()
+
     schemas.forEach { (name, schema) ->
-        val file = File(outDir, "$name.md")
+        val dir = if (schema.kind != null) outDir else typesDir
+        val file = File(dir, "$name.md")
         file.writeText(buildString {
             appendLine("- Properties")
             appendLine("  heading:: true")

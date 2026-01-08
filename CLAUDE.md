@@ -11,3 +11,21 @@ This is a Kotlin/JVM application using Gradle with a composite build structure.
 - Kotlin 2.3
 - Gradle 9.2
 - JDK 25
+
+### Project Structure
+
+```
+app/src/                  # Application code
+kubernetes/               # Git submodule (specs in api/openapi-spec/v3/)
+api-groups.csv            # Config: which API groups to process
+docs/pages/generated/     # Output: Logseq markdown
+  types/                  # Subtypes (helper types)
+```
+
+### Data Flow
+
+```
+OpenAPI specs → load & filter schemas → generate markdown pages
+                                      → kinds go to generated/
+                                      → subtypes go to generated/types/
+```
