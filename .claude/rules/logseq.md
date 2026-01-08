@@ -17,6 +17,21 @@ Generated files go to `docs/pages/generated/`.
   - `kind`
 ```
 
-## Page Name
+## Page Naming
 
-If page title contains `/` - replace by `___`. Slashes are not allowed in filenames.
+Use `___` as separator (slashes not allowed in filenames).
+
+**Qualified names** for uniqueness across API groups:
+- Filename: `{group}___{apiVersion}___{TypeName}.md`
+- Example: `core___v1___Pod.md`
+
+**Aliases** for short references:
+- Add `alias:: {TypeName}` at top of page
+- Allows linking with `[[Pod]]` instead of full qualified name
+
+```markdown
+alias:: Pod
+
+- Properties
+  heading:: true
+```

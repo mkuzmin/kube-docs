@@ -85,9 +85,24 @@ See `api-groups.csv` for the mapping of API groups to files and package prefixes
 - Never referenced from other types
 - Example: `JobList`, `PodList`
 
-## Example: Batch API Group
+## Property Reference Patterns
 
-- Spec file: `apis__batch__v1_openapi.json`
-- Total schemas: 142 (includes shared types from core/apimachinery)
-- Batch-specific schemas: 17 (filtered by `io.k8s.api.batch.v1.`)
-- Top-level resources: 2 (Job, CronJob) after excluding `*List` types
+Properties reference other types in two ways:
+
+**Direct `$ref`** (rare):
+```json
+"additionalItems": {
+  "$ref": "#/components/schemas/...JSONSchemaPropsOrBool"
+}
+```
+
+**Wrapped in `allOf`** (common):
+```json
+"spec": {
+  "allOf": [{ "$ref": "#/components/schemas/...PodSpec" }],
+  "default": {},
+  "description": "..."
+}
+```
+
+The `allOf` wrapper is used when additional fields like `default` or `description` are present. The `allOf` array always contains exactly one element.

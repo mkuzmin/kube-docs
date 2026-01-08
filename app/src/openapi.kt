@@ -27,10 +27,12 @@ data class Property(
     val type: String? = null,
     val allOf: List<RefObject>? = null,
     val items: Property? = null,
+    @SerialName($$"$ref")
+    val ref: String? = null,
 )
 
 @Serializable
 data class RefObject(
-    @SerialName("\$ref")
+    @SerialName($$"$ref")
     val ref: String,
 )

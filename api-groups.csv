@@ -3,7 +3,7 @@ core,v1,true,io.k8s.api.core,api__v1_openapi.json
 admissionregistration.k8s.io,v1,true,io.k8s.api.admissionregistration,apis__admissionregistration.k8s.io__v1_openapi.json
 admissionregistration.k8s.io,v1alpha1,false,io.k8s.api.admissionregistration,apis__admissionregistration.k8s.io__v1alpha1_openapi.json
 admissionregistration.k8s.io,v1beta1,false,io.k8s.api.admissionregistration,apis__admissionregistration.k8s.io__v1beta1_openapi.json
-apiextensions.k8s.io,v1,true,io.k8s.apiextensions,apis__apiextensions.k8s.io__v1_openapi.json
+apiextensions.k8s.io,v1,true,io.k8s.apiextensions-apiserver.pkg.apis.apiextensions,apis__apiextensions.k8s.io__v1_openapi.json
 apiregistration.k8s.io,v1,true,io.k8s.kube-aggregator.pkg.apis.apiregistration,apis__apiregistration.k8s.io__v1_openapi.json
 apps,v1,true,io.k8s.api.apps,apis__apps__v1_openapi.json
 authentication.k8s.io,v1,true,io.k8s.api.authentication,apis__authentication.k8s.io__v1_openapi.json

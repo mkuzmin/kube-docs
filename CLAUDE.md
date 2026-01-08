@@ -19,13 +19,16 @@ app/src/                  # Application code
 kubernetes/               # Git submodule (specs in api/openapi-spec/v3/)
 api-groups.csv            # Config: which API groups to process
 docs/pages/generated/     # Output: Logseq markdown
-  types/                  # Subtypes (helper types)
+  {group}/                # One subdirectory per API group
+    types/                # Helper types for that group
 ```
 
 ### Data Flow
 
 ```
-OpenAPI specs → load & filter schemas → generate markdown pages
-                                      → kinds go to generated/
-                                      → subtypes go to generated/types/
+api-groups.csv → load API group configs
+                 ↓
+OpenAPI specs → filter schemas by package prefix → generate markdown
+                                                 → kinds go to {group}/
+                                                 → helpers go to {group}/types/
 ```
