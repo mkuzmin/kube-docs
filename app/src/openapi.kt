@@ -3,21 +3,34 @@ package app
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.JsonArray
-import kotlinx.serialization.json.JsonObject
 
 @Serializable
 data class OpenApiSpec(
-    val components: Components
+    val components: Components,
 )
 
 @Serializable
 data class Components(
-    val schemas: Map<String, Schema>
+    val schemas: Map<String, Schema>,
 )
 
 @Serializable
 data class Schema(
-    val properties: Map<String, JsonObject> = emptyMap(),
+    val properties: Map<String, Property> = emptyMap(),
+
     @SerialName("x-kubernetes-group-version-kind")
-    val kind: JsonArray? = null
+    val kind: JsonArray? = null,
+)
+
+@Serializable
+data class Property(
+    val type: String? = null,
+    val allOf: List<RefObject>? = null,
+    val items: Property? = null,
+)
+
+@Serializable
+data class RefObject(
+    @SerialName("\$ref")
+    val ref: String,
 )

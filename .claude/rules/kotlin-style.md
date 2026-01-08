@@ -40,10 +40,39 @@ outFile.writeText(buildString {
 
 ## Data Classes
 
-- Use `Map<String, JsonObject>` for strongly typed access while ignoring value details
 - Use `= emptyMap()` default when JSON field may be missing
 - Use `JsonArray? = null` or `JsonObject? = null` when only checking presence, not processing details
 - Don't over-engineer - only add fields needed for the current task
+
+## When Expressions
+
+Use `when` for type dispatch over chained `?.let`:
+
+```kotlin
+fun format(prop: Property): String = when {
+    prop.type == "array" -> "[]${format(prop.items)}"
+    prop.type != null -> prop.type
+    prop.allOf != null -> extractRef(prop.allOf)
+    else -> error("unknown: $prop")
+}
+```
+
+- End with `else -> error()` for exhaustive handling
+- Include context in error messages
+
+## Error Handling
+
+Fail fast on unexpected data. Don't add silent fallbacks:
+
+```kotlin
+// bad - hides data problems
+else -> "object"
+
+// good - surfaces data problems immediately
+else -> error("unknown property type: $prop")
+```
+
+If there's a problem with the dataset, fail with an error. Don't cover it with fallback values like `"object"` or `"array"`.
 
 ## Editing Discipline
 

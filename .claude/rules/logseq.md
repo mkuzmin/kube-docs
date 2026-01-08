@@ -18,4 +18,5 @@ Generated files go to `docs/pages/generated/`.
 ```
 
 ## Page Name
- If page title contains `/` -replace by `___`. Shashes are not allowed in filenames.
+
+If page title contains `/` - replace by `___`. Slashes are not allowed in filenames.

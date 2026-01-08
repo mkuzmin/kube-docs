@@ -12,7 +12,7 @@ fun main() {
     outDir.mkdirs()
 
     val schemas = loadSchemas(SPEC_PATH, PACKAGE_PREFIX)
-    generatePages(schemas, outDir)
+    generatePages(schemas, outDir, PACKAGE_PREFIX)
     generateIndex(schemas, outDir, "batch___v1.md")
 }
 
@@ -25,7 +25,7 @@ fun loadSchemas(specPath: String, packagePrefix: String): Map<String, Schema> {
         .mapKeys { (key, _) -> key.removePrefix(packagePrefix) }
 }
 
-fun generatePages(schemas: Map<String, Schema>, outDir: File) {
+fun generatePages(schemas: Map<String, Schema>, outDir: File, packagePrefix: String) {
     val typesDir = File(outDir, "types")
     typesDir.mkdirs()
 
@@ -35,11 +35,31 @@ fun generatePages(schemas: Map<String, Schema>, outDir: File) {
         file.writeText(buildString {
             appendLine("- Properties")
             appendLine("  heading:: true")
-            schema.properties.forEach { (name, _) ->
-                appendLine("  - `$name`")
+            schema.properties.forEach { (name, prop) ->
+                val typeStr = formatPropertyType(prop, packagePrefix)
+                appendLine("  - `$name` ($typeStr)")
             }
         })
     }
+}
+
+fun formatPropertyType(prop: Property, packagePrefix: String): String = when {
+    prop.type == "array" -> {
+        val items = prop.items ?: error("array without items")
+        "[]${formatPropertyType(items, packagePrefix)}"
+    }
+    prop.type != null -> prop.type
+    prop.allOf != null -> {
+        val ref = prop.allOf.firstOrNull()?.ref
+            ?: error("missing ref in allOf")
+        val fullName = ref.removePrefix("#/components/schemas/")
+        val typeName = fullName.substringAfterLast(".")
+        if (fullName.startsWith(packagePrefix))
+            "[[$typeName]]"
+        else
+            typeName
+    }
+    else -> error("unknown property type: $prop")
 }
 
 fun generateIndex(schemas: Map<String, Schema>, outDir: File, filename: String) {
