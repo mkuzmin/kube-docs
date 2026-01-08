@@ -19,11 +19,12 @@ Generated files go to `docs/pages/generated/`.
 
 ## Page Naming
 
-Use `___` as separator (slashes not allowed in filenames).
+Use `___` as separator (slashes not allowed in filenames). Logseq automatically maps `___` to `/` in page names, so no alias is needed for this.
 
 **Qualified names** for uniqueness across API groups:
 - Filename: `{group}___{apiVersion}___{TypeName}.md`
 - Example: `core___v1___Pod.md`
+- Link as: `[[core/v1/Pod]]` (Logseq resolves `___` automatically)
 
 **Aliases** for short references:
 - Add `alias:: {TypeName}` at top of page
@@ -35,3 +36,13 @@ alias:: Pod
 - Properties
   heading:: true
 ```
+
+## Link Syntax
+
+Use `[display text]([[page]])` for links with custom display text:
+
+```markdown
+- [v2]([[autoscaling/v2]])
+```
+
+Note: Obsidian-style `[[page|display]]` does NOT work in Logseq.

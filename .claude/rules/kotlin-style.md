@@ -33,10 +33,45 @@ outFile.writeText(buildString {
 })
 ```
 
+## Early Returns in Lambdas
+
+Use `return@forEach` for linear flow instead of nested conditionals:
+
+```kotlin
+// good - linear flow with early exit
+items.forEach { item ->
+    if (item.skip) return@forEach
+    if (item.invalid) error("invalid item")
+
+    process(item)
+}
+
+// avoid - nested when/let for simple cases
+items.forEach { item ->
+    when {
+        item.skip -> {}
+        item.invalid -> error("invalid item")
+        else -> process(item)
+    }
+}
+```
+
 ## Naming
 
 - Prefer simple names: `generatePages` over `generateTypePages`
-- Shadowing is fine
+- Shadowing is acceptable but avoid when it reduces clarity
+
+## Parameter Ordering
+
+Order function parameters: source/input first, target/output last.
+
+```kotlin
+// good - source (schemas, group) before target (outDir)
+fun generatePages(schemas: Map<String, Schema>, group: ApiGroup, outDir: File)
+
+// good - both are inputs, no output parameter
+fun loadSchemas(specDir: File, group: ApiGroup): Map<String, Schema>
+```
 
 ## Data Classes
 

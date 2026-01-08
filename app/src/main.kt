@@ -5,12 +5,27 @@ import java.io.File
 
 fun main() {
     val apiGroups = loadApiGroups("../api-groups.csv")
-    apiGroups.filter { it.preferredVersion }.forEach { group ->
-        val dir = File("../docs/pages/generated/${group.group}").also { it.mkdirs() }
-        val schemas = loadSchemas(group)
-        generatePages(schemas, dir, group)
-        generateIndex(schemas, dir, group)
-    }
+    val specDir = File("../kubernetes/api/openapi-spec/v3")
+    val baseDir = File("../docs/pages/generated")
+
+    apiGroups
+        .groupBy { it.group }
+        .forEach { (name, versions) ->
+            val groupDir = File(baseDir, name)
+                .also { it.mkdirs() }
+
+            generateGroupIndex(name, versions, groupDir)
+
+            val preferred = versions.filter { it.preferredVersion }
+            if (preferred.isEmpty()) return@forEach
+            if (preferred.size > 1) error("Multiple preferred versions for group '$name'")
+
+            val groupVersion = preferred.single()
+            val schemas = loadSchemas(specDir, groupVersion)
+
+            generateGroupVersionIndex(schemas, groupVersion, groupDir)
+            generatePages(schemas, groupVersion, groupDir)
+        }
 }
 
 fun loadApiGroups(filename: String): List<ApiGroup> = File(filename).readLines().drop(1) // skip header
@@ -33,15 +48,14 @@ data class ApiGroup(
     val packagePrefix: String get() = "$pkg.$apiVersion."
 }
 
-fun loadSchemas(group: ApiGroup): Map<String, Schema> {
+fun loadSchemas(specDir: File, group: ApiGroup): Map<String, Schema> {
     val json = Json { ignoreUnknownKeys = true }
-    val specPath = "../kubernetes/api/openapi-spec/v3/${group.file}"
-    val spec = json.decodeFromString<OpenApiSpec>(File(specPath).readText())
+    val spec = json.decodeFromString<OpenApiSpec>(File(specDir, group.file).readText())
     return spec.components.schemas.filterKeys { it.startsWith(group.packagePrefix) }.filterKeys { !it.endsWith("List") }
         .mapKeys { (key, _) -> key.removePrefix(group.packagePrefix) }
 }
 
-fun generatePages(schemas: Map<String, Schema>, outDir: File, group: ApiGroup) {
+fun generatePages(schemas: Map<String, Schema>, group: ApiGroup, outDir: File) {
     val typesDir = File(outDir, "types").also { it.mkdirs() }
 
     schemas.forEach { (name, schema) ->
@@ -81,12 +95,25 @@ fun formatRef(ref: String, packagePrefix: String): String {
     else typeName
 }
 
-fun generateIndex(schemas: Map<String, Schema>, outDir: File, group: ApiGroup) {
+fun generateGroupVersionIndex(schemas: Map<String, Schema>, group: ApiGroup, outDir: File) {
     val filename = "${group.group}___${group.apiVersion}.md"
     val file = File(outDir, filename)
     file.writeText(buildString {
         schemas.filter { (_, schema) -> schema.kind != null }.forEach { (name, _) ->
             appendLine("- [[$name]]")
+        }
+    })
+}
+
+fun generateGroupIndex(name: String, versions: List<ApiGroup>, groupDir: File) {
+    val file = File(groupDir, "$name.md")
+    file.writeText(buildString {
+        versions.forEach { ver ->
+            if (ver.preferredVersion) {
+                appendLine("- [${ver.apiVersion}]([[${ver.groupVersion}]])")
+            } else {
+                appendLine("- ${ver.apiVersion}")
+            }
         }
     })
 }
