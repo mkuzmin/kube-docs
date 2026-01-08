@@ -16,11 +16,14 @@ val schema = schemas["key"]
 
 ## Code Organization
 
-- Extract constants like file paths as file-level `private const val`
+- Extract constants as file-level `const val` (no `private` needed)
+- File-level functions don't need `private`
+- Create objects where they're used, not at file level
 
 ## Iteration & Strings
 
 - Prefer `forEach` over `for` loops
+- Use destructuring: `map.forEach { (key, _) -> }` over `map.keys.forEach`
 - Use `buildString { appendLine() }` for multi-line strings
 - Use `writeText(buildString { })` for file writing
 
@@ -30,8 +33,13 @@ outFile.writeText(buildString {
 })
 ```
 
+## Naming
+
+- Prefer simple names: `generatePages` over `generateTypePages`
+
 ## Data Classes
 
 - Use `Map<String, JsonObject>` for strongly typed access while ignoring value details
 - Use `= emptyMap()` default when JSON field may be missing
+- Use `JsonArray? = null` or `JsonObject? = null` when only checking presence, not processing details
 - Don't over-engineer - only add fields needed for the current task
