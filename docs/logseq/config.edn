@@ -38,7 +38,7 @@
 
  ;; Enable tooltip preview on hover.
  ;; Default value: true
- :ui/enable-tooltip? true
+ :ui/enable-tooltip? false
 
  ;; Display brackets [[]] around page references.
  ;; Default value: true
@@ -423,4 +423,5 @@
  :feature/enable-journals? false
  :feature/enable-whiteboards? false
  :feature/enable-flashcards? false
- :default-home {:page "Contents"}}
+ :default-home {:page "Contents"}
+ :feature/enable-timetracking? false}

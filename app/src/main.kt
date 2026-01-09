@@ -13,21 +13,21 @@ fun main() {
     generateApiIndex(groups.keys, baseDir)
 
     groups.forEach { (name, versions) ->
-            val groupDir = File(baseDir, name)
-                .also { it.mkdirs() }
+        val groupDir = File(baseDir, name)
+            .also { it.mkdirs() }
 
-            generateGroupIndex(name, versions, groupDir)
+        generateGroupIndex(name, versions, groupDir)
 
-            val preferred = versions.filter { it.preferredVersion }
-            if (preferred.isEmpty()) return@forEach
-            if (preferred.size > 1) error("Multiple preferred versions for group '$name'")
+        val preferred = versions.filter { it.preferredVersion }
+        if (preferred.isEmpty()) return@forEach
+        if (preferred.size > 1) error("Multiple preferred versions for group '$name'")
 
-            val groupVersion = preferred.single()
-            val schemas = loadSchemas(specDir, groupVersion)
+        val groupVersion = preferred.single()
+        val schemas = loadSchemas(specDir, groupVersion)
 
-            generateGroupVersionIndex(schemas, groupVersion, groupDir)
-            generatePages(schemas, groupVersion, groupDir)
-        }
+        generateGroupVersionIndex(schemas, groupVersion, groupDir)
+        generatePages(schemas, groupVersion, groupDir)
+    }
 }
 
 fun loadApiGroups(filename: String): List<ApiGroup> = File(filename).readLines().drop(1) // skip header
@@ -67,17 +67,33 @@ fun generatePages(schemas: Map<String, Schema>, group: ApiGroup, outDir: File) {
         file.writeText(buildString {
             appendLine("alias:: $name")
             appendLine()
-            appendLine("- ${schema.description}")
+
+            appendBlock(level = 0, schema.description)
             appendLine()
+
             appendLine("- Properties")
             appendLine("  heading:: true")
             appendLine()
+
             schema.properties.forEach { (name, prop) ->
                 val typeStr = formatPropertyType(prop, group.packagePrefix)
                 appendLine("  - `$name` ($typeStr)")
+                if (name !in setOf("apiVersion", "kind", "metadata")) {
+                    prop.description?.let {
+                        appendBlock(level = 2, it)
+                    }
+                }
+                appendLine()
             }
         })
     }
+}
+
+fun StringBuilder.appendBlock(level: Int, text: String) {
+    val indent = "  ".repeat(level)
+    val lines = text.split("\n")
+    appendLine("$indent- ${lines.first()}")
+    lines.drop(1).forEach { appendLine("$indent  $it") }
 }
 
 fun formatPropertyType(prop: Property, packagePrefix: String): String = when {

@@ -46,3 +46,20 @@ Use `[display text]([[page]])` for links with custom display text:
 ```
 
 Note: Obsidian-style `[[page|display]]` does NOT work in Logseq.
+
+## Multiline Content
+
+For multiline text in a single bullet, indent continuation lines to align with the text (after `- `):
+
+```markdown
+- First line of content
+  Second line continues here
+  Third line as well
+```
+
+Use `appendBlock(level, text)` to render multiline content:
+
+```kotlin
+appendBlock(level = 0, schema.description)  // top-level bullet
+appendBlock(level = 2, prop.description)    // nested under property
+```

@@ -120,3 +120,7 @@ Properties reference other types in two ways:
 ```
 
 The `allOf` wrapper is used when additional fields like `default` or `description` are present. The `allOf` array always contains exactly one element.
+
+## Descriptions
+
+Descriptions contain markup (`\n`, URLs, etc.). Handle when rendering (see Logseq rules for multiline content).

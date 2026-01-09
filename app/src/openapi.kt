@@ -25,6 +25,7 @@ data class Schema(
 
 @Serializable
 data class Property(
+    val description: String? = null,
     val type: String? = null,
     val allOf: List<RefObject>? = null,
     val items: Property? = null,
