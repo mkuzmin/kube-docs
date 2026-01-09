@@ -26,7 +26,7 @@ fun main() {
         val schemas = loadSchemas(specDir, groupVersion)
 
         generateGroupVersionIndex(schemas, groupVersion, groupDir)
-        generatePages(schemas, groupVersion, groupDir)
+        generatePages(schemas, groupVersion, specsDir, groupDir)
     }
 }
 
@@ -57,31 +57,36 @@ fun loadSchemas(specDir: File, group: ApiGroup): Map<String, Schema> {
         .mapKeys { (key, _) -> key.removePrefix(group.packagePrefix) }
 }
 
-fun generatePages(schemas: Map<String, Schema>, group: ApiGroup, outDir: File) {
+fun generatePages(schemas: Map<String, Schema>, group: ApiGroup, specsDir: File, outDir: File) {
     val typesDir = File(outDir, "types").also { it.mkdirs() }
 
-    schemas.forEach { (name, schema) ->
+    schemas.forEach { (typeName, schema) ->
         val dir = if (schema.kind != null) outDir else typesDir
-        val filename = "${group.group}___${group.apiVersion}___$name.md"
+        val filename = "${group.group}___${group.apiVersion}___$typeName.md"
         val file = File(dir, filename)
+
+        val typeSpecDir = File(specsDir, "${group.group}/${group.apiVersion}/$typeName")
+        val typeDescription = File(typeSpecDir, "_$typeName.md").readText()
+
         file.writeText(buildString {
-            appendLine("alias:: $name")
+            appendLine("alias:: $typeName")
             appendLine()
 
-            appendBlock(level = 0, schema.description)
+            appendBlock(level = 0, typeDescription)
             appendLine()
 
             appendLine("- Properties")
             appendLine("  heading:: true")
             appendLine()
 
-            schema.properties.forEach { (name, prop) ->
+            schema.properties.forEach { (fieldName, prop) ->
                 val typeStr = formatPropertyType(prop, group.packagePrefix)
-                val requiredStr = if (name in schema.required) ", **required**" else ""
-                appendLine("  - `$name` ($typeStr)$requiredStr")
-                if (name !in setOf("apiVersion", "kind", "metadata")) {
-                    prop.description?.let {
-                        appendBlock(level = 2, it)
+                val requiredStr = if (fieldName in schema.required) ", **required**" else ""
+                appendLine("  - `$fieldName` ($typeStr)$requiredStr")
+                if (fieldName !in setOf("apiVersion", "kind", "metadata")) {
+                    val fieldDescFile = File(typeSpecDir, "$fieldName.md")
+                    if (fieldDescFile.exists()) {
+                        appendBlock(level = 2, fieldDescFile.readText())
                     }
                 }
                 appendLine()
