@@ -65,6 +65,30 @@ items.forEach { item ->
 
 Order function parameters: source/input first, target/output last.
 
+Pass computed values from caller rather than recomputing in callee:
+
+```kotlin
+// good - compute once, use twice
+val grouped = items.groupBy { it.category }
+printSummary(grouped.keys)
+grouped.forEach { (category, items) -> process(category, items) }
+
+// bad - same groupBy computed twice
+printSummary(items)  // calls groupBy internally
+items.groupBy { it.category }.forEach { ... }
+```
+
+Use the simplest type that satisfies the function's needs:
+
+```kotlin
+// good - caller extracts what callee needs
+val grouped = items.groupBy { it.category }
+printSummary(grouped.keys)  // pass Set<String>
+
+// bad - callee extracts from rich objects
+printSummary(items)  // pass List<Item>, extract keys inside
+```
+
 ```kotlin
 // good - source (schemas, group) before target (outDir)
 fun generatePages(schemas: Map<String, Schema>, group: ApiGroup, outDir: File)

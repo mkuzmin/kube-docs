@@ -8,9 +8,11 @@ fun main() {
     val specDir = File("../kubernetes/api/openapi-spec/v3")
     val baseDir = File("../docs/pages/generated")
 
-    apiGroups
-        .groupBy { it.group }
-        .forEach { (name, versions) ->
+    val groups = apiGroups.groupBy { it.group }
+
+    generateApiIndex(groups.keys, baseDir)
+
+    groups.forEach { (name, versions) ->
             val groupDir = File(baseDir, name)
                 .also { it.mkdirs() }
 
@@ -114,6 +116,15 @@ fun generateGroupIndex(name: String, versions: List<ApiGroup>, groupDir: File) {
             } else {
                 appendLine("- ${ver.apiVersion}")
             }
+        }
+    })
+}
+
+fun generateApiIndex(groups: Set<String>, dir: File) {
+    val file = File(dir, "API.md")
+    file.writeText(buildString {
+        groups.forEach { name ->
+            appendLine("- [[$name]]")
         }
     })
 }
