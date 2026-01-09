@@ -22,3 +22,10 @@ tasks.named<JavaExec>("run") {
 tasks.clean {
     dependsOn(cleanGenerated)
 }
+
+val extractDescriptions by tasks.registering(JavaExec::class) {
+    group = "application"
+    description = "Extract descriptions from OpenAPI specs to markdown files"
+    classpath = sourceSets.main.get().runtimeClasspath
+    mainClass = "app.ExtractKt"
+}
