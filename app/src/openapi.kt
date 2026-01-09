@@ -16,6 +16,7 @@ data class Components(
 
 @Serializable
 data class Schema(
+    val description: String,
     val properties: Map<String, Property> = emptyMap(),
 
     @SerialName("x-kubernetes-group-version-kind")

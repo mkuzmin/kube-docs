@@ -53,6 +53,20 @@ Fully qualified names: `io.k8s.api.core.v1.Pod`
 }
 ```
 
+Treat documented fields as required (non-nullable). If a field is missing, fail with an error rather than using nullable types with fallbacks.
+
+```kotlin
+// good - fail if description is missing
+data class Schema(
+    val description: String,
+)
+
+// bad - unnecessary fallback hides data problems
+data class Schema(
+    val description: String? = null,
+)
+```
+
 ## Duplication Pattern
 
 Each spec includes:

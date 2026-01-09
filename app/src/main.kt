@@ -67,8 +67,11 @@ fun generatePages(schemas: Map<String, Schema>, group: ApiGroup, outDir: File) {
         file.writeText(buildString {
             appendLine("alias:: $name")
             appendLine()
+            appendLine("- ${schema.description}")
+            appendLine()
             appendLine("- Properties")
             appendLine("  heading:: true")
+            appendLine()
             schema.properties.forEach { (name, prop) ->
                 val typeStr = formatPropertyType(prop, group.packagePrefix)
                 appendLine("  - `$name` ($typeStr)")
