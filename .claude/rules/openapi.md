@@ -45,6 +45,7 @@ Fully qualified names: `io.k8s.api.core.v1.Pod`
 {
   "description": "Pod is a collection of containers...",
   "type": "object",
+  "required": ["containers"],
   "properties": {
     "apiVersion": { "type": "string", "description": "..." },
     "metadata": { "$ref": "#/components/schemas/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta" }

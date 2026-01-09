@@ -18,6 +18,7 @@ data class Components(
 data class Schema(
     val description: String,
     val properties: Map<String, Property> = emptyMap(),
+    val required: List<String> = emptyList(),
 
     @SerialName("x-kubernetes-group-version-kind")
     val kind: JsonArray? = null,

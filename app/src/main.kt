@@ -77,7 +77,8 @@ fun generatePages(schemas: Map<String, Schema>, group: ApiGroup, outDir: File) {
 
             schema.properties.forEach { (name, prop) ->
                 val typeStr = formatPropertyType(prop, group.packagePrefix)
-                appendLine("  - `$name` ($typeStr)")
+                val requiredStr = if (name in schema.required) ", **required**" else ""
+                appendLine("  - `$name` ($typeStr)$requiredStr")
                 if (name !in setOf("apiVersion", "kind", "metadata")) {
                     prop.description?.let {
                         appendBlock(level = 2, it)
