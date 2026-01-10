@@ -1,4 +1,4 @@
 [submodule "kubernetes"]
-	path = kubernetes
+	path = external/kubernetes
 	url = https://github.com/kubernetes/kubernetes.git
 	branch = release-1.34
