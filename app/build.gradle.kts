@@ -4,6 +4,10 @@ plugins {
     application
 }
 
+dependencies {
+    implementation(libs.kaml)
+}
+
 application {
     mainClass = "app.MainKt"
 }

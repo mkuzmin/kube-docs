@@ -58,22 +58,23 @@ kube-docs/
 Each description file contains both original and formatted text:
 
 ```yaml
-original: |
-  Pod is a collection of containers that can run on a host.
-  This resource is created by clients and scheduled onto hosts.
+description:
+  original: |
+    Pod is a collection of containers that can run on a host.
+    This resource is created by clients and scheduled onto hosts.
 
-formatted: |
-  Pod is a collection of containers that can run on a host.
-  This resource is created by clients and scheduled onto hosts.
+  formatted: |
+    Pod is a collection of containers that can run on a host.
+    This resource is created by clients and scheduled onto hosts.
 
-  **Key Characteristics:**
-  - Smallest deployable unit in Kubernetes
-  - Shares network namespace (containers share IP address)
-  - Shares storage volumes
+    **Key Characteristics:**
+    - Smallest deployable unit in Kubernetes
+    - Shares network namespace (containers share IP address)
+    - Shares storage volumes
 
-  **See Also:**
-  - [[Deployment]] - for managing replica Pods
-  - [[StatefulSet]] - for stateful applications
+    **See Also:**
+    - [[Deployment]] - for managing replica Pods
+    - [[StatefulSet]] - for stateful applications
 ```
 
 **Key details:**
@@ -135,16 +136,16 @@ git commit -m "Add K8s 1.34 OpenAPI specs"
 
 ```bash
 ./gradlew :app:extract
-# Creates data/docs/ with YAML files
+# Creates data/types/ with YAML files
 # Each YAML has 'original' field populated, 'formatted' is copy of original
 
-git add data/docs/
+git add data/types/
 git commit -m "Extract original descriptions from K8s 1.34"
 ```
 
 ### 4. Enrich Formatted Descriptions
 
-Edit YAML files in `data/docs/` to enhance the `formatted` field:
+Edit YAML files in `data/types/` to enhance the `formatted` field:
 - Add markdown formatting (bold, lists, code blocks)
 - Add cross-references using `[[TypeName]]` syntax
 - Add code examples
@@ -153,10 +154,10 @@ Edit YAML files in `data/docs/` to enhance the `formatted` field:
 
 Example workflow:
 ```bash
-# Edit data/docs/core/v1/Pod/_Pod.yaml
+# Edit data/types/core/v1/Pod/_Pod.yaml
 # Enhance the 'formatted' field while keeping 'original' unchanged
 
-git add data/docs/core/v1/Pod/
+git add data/types/core/v1/Pod/
 git commit -m "Enrich Pod type descriptions"
 
 # Continue with other types...
@@ -202,7 +203,7 @@ git commit -m "Update OpenAPI specs to K8s 1.35"
 
 ```bash
 ./gradlew :app:extract
-# Overwrites 'original' field in data/docs/**/*.yaml
+# Overwrites 'original' field in data/types/**/*.yaml
 # 'formatted' field remains unchanged (still has 1.34 enrichments)
 # Files NOT committed yet
 ```
@@ -210,7 +211,7 @@ git commit -m "Update OpenAPI specs to K8s 1.35"
 ### 4. Review Upstream Changes
 
 ```bash
-git diff data/docs/
+git diff data/types/
 # Shows what changed in 'original' field between K8s 1.34 and 1.35
 # Review to understand what K8s upstream modified
 ```
@@ -220,7 +221,7 @@ git diff data/docs/
 ```bash
 ./gradlew :app:merge
 # For each YAML file:
-#   - Reads old 'original' from git (HEAD:data/docs/.../file.yaml)
+#   - Reads old 'original' from git (HEAD:data/types/.../file.yaml)
 #   - Reads new 'original' from working directory (just extracted)
 #   - Reads current 'formatted' from working directory
 #   - Uses Claude API to merge: preserve formatting enhancements while incorporating upstream changes
@@ -231,7 +232,7 @@ git diff data/docs/
 ### 6. Review Merge Results
 
 ```bash
-git diff data/docs/
+git diff data/types/
 # Now shows changes to BOTH 'original' and 'formatted' fields
 # Verify that:
 #   - Upstream text changes are incorporated in 'formatted'
@@ -245,7 +246,7 @@ git diff data/docs/
 # Edit any YAML files that need manual fixes
 # Focus on merge conflicts or new types that need enrichment
 
-git add data/docs/
+git add data/types/
 git commit -m "Upgrade to K8s 1.35
 
 - Updated original descriptions from upstream
@@ -278,34 +279,34 @@ fun mergeFile(yamlFile: File) {
     val currentData = yaml.decodeFromString<DescriptionDoc>(currentYaml)
 
     // 2. Get old version from git
-    val relativePath = yamlFile.relativeTo(File("data/docs"))
-    val oldYaml = getFromGit("HEAD:data/docs/$relativePath")
+    val relativePath = yamlFile.relativeTo(File("data/types"))
+    val oldYaml = getFromGit("HEAD:data/types/$relativePath")
     val oldData = yaml.decodeFromString<DescriptionDoc>(oldYaml)
 
     // 3. Check if original changed
-    if (oldData.original == currentData.original) {
+    if (oldData.description.original == currentData.description.original) {
         // No upstream changes, keep formatted as-is
         return
     }
 
     // 4. Check if there are enrichments
-    if (oldData.original == oldData.formatted) {
+    if (oldData.description.original == oldData.description.formatted) {
         // No enrichments, just copy new original to formatted
-        currentData.formatted = currentData.original
+        currentData.description.formatted = currentData.description.original
         yamlFile.writeText(yaml.encodeToString(currentData))
         return
     }
 
     // 5. Use Claude API for intelligent merge
     val mergedFormatted = mergeWithClaude(
-        oldOriginal = oldData.original,
-        newOriginal = currentData.original,
-        oldFormatted = oldData.formatted,
+        oldOriginal = oldData.description.original,
+        newOriginal = currentData.description.original,
+        oldFormatted = oldData.description.formatted,
         filePath = relativePath.toString()
     )
 
     // 6. Update YAML file
-    currentData.formatted = mergedFormatted
+    currentData.description.formatted = mergedFormatted
     yamlFile.writeText(yaml.encodeToString(currentData))
 }
 
@@ -356,6 +357,11 @@ fun getFromGit(gitPath: String): String {
 ```kotlin
 @Serializable
 data class DescriptionDoc(
+    val description: Description
+)
+
+@Serializable
+data class Description(
     val original: String,
     var formatted: String
 )
@@ -366,7 +372,7 @@ data class DescriptionDoc(
 ### New Files:
 1. `app/src/MergeKt.kt` - AI merge implementation
 2. `data/openapi/` - Directory for committed OpenAPI specs
-3. `data/docs/` - Directory for YAML description files
+3. `data/types/` - Directory for YAML description files
 4. `data/logseq/` - Logseq database directory
 5. `external/kubernetes/` - Git submodule (will be added)
 6. `external/website/` - Git submodule (will be added)
@@ -391,16 +397,16 @@ dependencies {
 ## Verification Steps
 
 ### After Initial Setup (K8s 1.34):
-1. Verify extraction: `find data/docs -name "*.yaml" | wc -l` should show ~2,214 files
-2. Verify YAML format: `head -20 data/docs/core/v1/Pod/_Pod.yaml` should show original and formatted fields
-3. Verify formatted initially equals original: `yq '.original == .formatted' data/docs/core/v1/Pod/_Pod.yaml` → true
-4. After manual enrichment: `git diff data/docs/` should show only 'formatted' field changes
+1. Verify extraction: `find data/types -name "*.yaml" | wc -l` should show ~2,214 files
+2. Verify YAML format: `head -20 data/types/core/v1/Pod/_Pod.yaml` should show original and formatted fields
+3. Verify formatted initially equals original: `yq '.description.original == .description.formatted' data/types/core/v1/Pod/_Pod.yaml` → true
+4. After manual enrichment: `git diff data/types/` should show only 'formatted' field changes
 5. Verify generation: `ls data/logseq/pages/generated/ | wc -l` should show generated pages
 6. Test in Logseq: Open `data/logseq/` in Logseq, verify pages render correctly
 
 ### After Upgrade (K8s 1.35):
-1. After extract: `git diff data/docs/ | grep '^-original'` shows old upstream text
-2. After merge: `git diff data/docs/ | grep '^-formatted'` shows preserved enrichments were updated
+1. After extract: `git diff data/types/ | grep '^-original'` shows old upstream text
+2. After merge: `git diff data/types/ | grep '^-formatted'` shows preserved enrichments were updated
 3. Spot-check 5-10 YAML files manually:
    - Verify 'original' reflects K8s 1.35 text
    - Verify 'formatted' has upstream changes + preserved enrichments
