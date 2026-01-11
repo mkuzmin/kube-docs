@@ -1,0 +1,5 @@
+description:
+  original: averageValue is the target value of the average of the metric across all
+    relevant pods (as a quantity)
+  formatted: averageValue is the target value of the average of the metric across
+    all relevant pods (as a quantity)

@@ -1,0 +1,5 @@
+description:
+  original: scope represents if this refers to a cluster or namespace scoped resource.
+    This may be set to "Cluster" (default) or "Namespace".
+  formatted: scope represents if this refers to a cluster or namespace scoped resource.
+    This may be set to "Cluster" (default) or "Namespace".

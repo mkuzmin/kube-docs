@@ -1,0 +1,5 @@
+description:
+  original: clientConfig is the instructions for how to call the webhook if strategy
+    is `Webhook`.
+  formatted: clientConfig is the instructions for how to call the webhook if strategy
+    is `Webhook`.

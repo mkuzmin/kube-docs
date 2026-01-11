@@ -1,0 +1,5 @@
+description:
+  original: HorizontalPodAutoscalerCondition describes the state of a HorizontalPodAutoscaler
+    at a certain point.
+  formatted: HorizontalPodAutoscalerCondition describes the state of a HorizontalPodAutoscaler
+    at a certain point.

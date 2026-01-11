@@ -1,0 +1,5 @@
+description:
+  original: The number of non-terminating pods that have labels matching the labels
+    of the pod template of the replicaset.
+  formatted: The number of non-terminating pods that have labels matching the labels
+    of the pod template of the replicaset.

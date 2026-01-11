@@ -1,0 +1,9 @@
+description:
+  original: |-
+    Write the key at this path in the projected volume.
+
+    Most applications should use credentialBundlePath.  When using keyPath and certificateChainPath, your application needs to check that the key and leaf certificate are consistent, because it is possible to read the files mid-rotation.
+  formatted: |-
+    Write the key at this path in the projected volume.
+
+    Most applications should use credentialBundlePath.  When using keyPath and certificateChainPath, your application needs to check that the key and leaf certificate are consistent, because it is possible to read the files mid-rotation.

@@ -1,0 +1,3 @@
+description:
+  original: DaemonSetCondition describes the state of a DaemonSet at a certain point.
+  formatted: DaemonSetCondition describes the state of a DaemonSet at a certain point.

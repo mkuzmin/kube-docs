@@ -1,0 +1,5 @@
+description:
+  original: ResourceVersion is the metadata.ResourceVersion of the referenced ConfigMap.
+    This field is forbidden in Node.Spec, and required in Node.Status.
+  formatted: ResourceVersion is the metadata.ResourceVersion of the referenced ConfigMap.
+    This field is forbidden in Node.Spec, and required in Node.Status.

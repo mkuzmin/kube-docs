@@ -1,0 +1,3 @@
+description:
+  original: Required. The taint key to be applied to a node.
+  formatted: Required. The taint key to be applied to a node.

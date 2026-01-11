@@ -1,0 +1,5 @@
+description:
+  original: nodeAffinity defines constraints that limit what nodes this volume can
+    be accessed from. This field influences the scheduling of pods that use this volume.
+  formatted: nodeAffinity defines constraints that limit what nodes this volume can
+    be accessed from. This field influences the scheduling of pods that use this volume.

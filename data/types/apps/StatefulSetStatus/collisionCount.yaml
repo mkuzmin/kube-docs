@@ -1,0 +1,7 @@
+description:
+  original: collisionCount is the count of hash collisions for the StatefulSet. The
+    StatefulSet controller uses this field as a collision avoidance mechanism when
+    it needs to create the name for the newest ControllerRevision.
+  formatted: collisionCount is the count of hash collisions for the StatefulSet. The
+    StatefulSet controller uses this field as a collision avoidance mechanism when
+    it needs to create the name for the newest ControllerRevision.

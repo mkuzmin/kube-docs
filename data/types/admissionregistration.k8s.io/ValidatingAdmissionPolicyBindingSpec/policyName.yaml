@@ -1,0 +1,7 @@
+description:
+  original: PolicyName references a ValidatingAdmissionPolicy name which the ValidatingAdmissionPolicyBinding
+    binds to. If the referenced resource does not exist, this binding is considered
+    invalid and will be ignored Required.
+  formatted: PolicyName references a ValidatingAdmissionPolicy name which the ValidatingAdmissionPolicyBinding
+    binds to. If the referenced resource does not exist, this binding is considered
+    invalid and will be ignored Required.

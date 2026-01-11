@@ -1,0 +1,9 @@
+description:
+  original: 'flocker represents a Flocker volume attached to a kubelet''s host machine
+    and exposed to the pod for its usage. This depends on the Flocker control service
+    being running. Deprecated: Flocker is deprecated and the in-tree flocker type
+    is no longer supported.'
+  formatted: 'flocker represents a Flocker volume attached to a kubelet''s host machine
+    and exposed to the pod for its usage. This depends on the Flocker control service
+    being running. Deprecated: Flocker is deprecated and the in-tree flocker type
+    is no longer supported.'

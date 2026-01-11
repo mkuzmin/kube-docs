@@ -1,0 +1,9 @@
+description:
+  original: |-
+    AllNodes indicates that all nodes have access to the resources in the pool.
+
+    Exactly one of NodeName, NodeSelector, AllNodes, and PerDeviceNodeSelection must be set.
+  formatted: |-
+    AllNodes indicates that all nodes have access to the resources in the pool.
+
+    Exactly one of NodeName, NodeSelector, AllNodes, and PerDeviceNodeSelection must be set.

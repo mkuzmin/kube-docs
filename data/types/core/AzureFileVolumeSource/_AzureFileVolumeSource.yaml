@@ -1,0 +1,5 @@
+description:
+  original: AzureFile represents an Azure File Service mount on the host and bind
+    mount to the pod.
+  formatted: AzureFile represents an Azure File Service mount on the host and bind
+    mount to the pod.

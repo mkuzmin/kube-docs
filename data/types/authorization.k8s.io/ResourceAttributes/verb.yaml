@@ -1,0 +1,5 @@
+description:
+  original: 'Verb is a kubernetes resource API verb, like: get, list, watch, create,
+    update, delete, proxy.  "*" means all.'
+  formatted: 'Verb is a kubernetes resource API verb, like: get, list, watch, create,
+    update, delete, proxy.  "*" means all.'

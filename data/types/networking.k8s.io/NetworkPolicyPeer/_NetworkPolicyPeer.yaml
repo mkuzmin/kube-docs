@@ -1,0 +1,5 @@
+description:
+  original: NetworkPolicyPeer describes a peer to allow traffic to/from. Only certain
+    combinations of fields are allowed
+  formatted: NetworkPolicyPeer describes a peer to allow traffic to/from. Only certain
+    combinations of fields are allowed

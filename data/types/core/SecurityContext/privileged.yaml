@@ -1,0 +1,7 @@
+description:
+  original: Run container in privileged mode. Processes in privileged containers are
+    essentially equivalent to root on the host. Defaults to false. Note that this
+    field cannot be set when spec.os.name is windows.
+  formatted: Run container in privileged mode. Processes in privileged containers
+    are essentially equivalent to root on the host. Defaults to false. Note that this
+    field cannot be set when spec.os.name is windows.

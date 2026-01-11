@@ -1,0 +1,7 @@
+description:
+  original: shortNames are short names for the resource, exposed in API discovery
+    documents, and used by clients to support invocations like `kubectl get <shortname>`.
+    It must be all lowercase.
+  formatted: shortNames are short names for the resource, exposed in API discovery
+    documents, and used by clients to support invocations like `kubectl get <shortname>`.
+    It must be all lowercase.

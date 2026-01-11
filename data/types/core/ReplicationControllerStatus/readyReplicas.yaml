@@ -1,0 +1,3 @@
+description:
+  original: The number of ready replicas for this replication controller.
+  formatted: The number of ready replicas for this replication controller.

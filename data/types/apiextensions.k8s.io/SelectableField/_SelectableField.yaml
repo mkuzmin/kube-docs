@@ -1,0 +1,5 @@
+description:
+  original: SelectableField specifies the JSON path of a field that may be used with
+    field selectors.
+  formatted: SelectableField specifies the JSON path of a field that may be used with
+    field selectors.

@@ -1,0 +1,5 @@
+description:
+  original: PodCertificateProjection provides a private key and X.509 certificate
+    in the pod filesystem.
+  formatted: PodCertificateProjection provides a private key and X.509 certificate
+    in the pod filesystem.

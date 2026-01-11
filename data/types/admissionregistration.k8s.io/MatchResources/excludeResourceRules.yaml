@@ -1,0 +1,7 @@
+description:
+  original: ExcludeResourceRules describes what operations on what resources/subresources
+    the ValidatingAdmissionPolicy should not care about. The exclude rules take precedence
+    over include rules (if a resource matches both, it is excluded)
+  formatted: ExcludeResourceRules describes what operations on what resources/subresources
+    the ValidatingAdmissionPolicy should not care about. The exclude rules take precedence
+    over include rules (if a resource matches both, it is excluded)

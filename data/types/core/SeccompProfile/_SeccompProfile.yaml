@@ -1,0 +1,5 @@
+description:
+  original: SeccompProfile defines a pod/container's seccomp profile settings. Only
+    one profile source may be set.
+  formatted: SeccompProfile defines a pod/container's seccomp profile settings. Only
+    one profile source may be set.

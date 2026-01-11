@@ -1,0 +1,7 @@
+description:
+  original: 'SecurityContext holds pod-level security attributes and common container
+    settings. Optional: Defaults to empty.  See type description for default values
+    of each field.'
+  formatted: 'SecurityContext holds pod-level security attributes and common container
+    settings. Optional: Defaults to empty.  See type description for default values
+    of each field.'

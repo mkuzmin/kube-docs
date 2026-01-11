@@ -1,0 +1,5 @@
+description:
+  original: PersistentVolumeClaimTemplate is used to produce PersistentVolumeClaim
+    objects as part of an EphemeralVolumeSource.
+  formatted: PersistentVolumeClaimTemplate is used to produce PersistentVolumeClaim
+    objects as part of an EphemeralVolumeSource.

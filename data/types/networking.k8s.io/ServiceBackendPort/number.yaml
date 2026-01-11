@@ -1,0 +1,5 @@
+description:
+  original: number is the numerical port number (e.g. 80) on the Service. This is
+    a mutually exclusive setting with "Name".
+  formatted: number is the numerical port number (e.g. 80) on the Service. This is
+    a mutually exclusive setting with "Name".

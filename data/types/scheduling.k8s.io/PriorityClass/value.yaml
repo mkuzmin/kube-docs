@@ -1,0 +1,7 @@
+description:
+  original: value represents the integer value of this priority class. This is the
+    actual priority that pods receive when they have the name of this class in their
+    pod spec.
+  formatted: value represents the integer value of this priority class. This is the
+    actual priority that pods receive when they have the name of this class in their
+    pod spec.

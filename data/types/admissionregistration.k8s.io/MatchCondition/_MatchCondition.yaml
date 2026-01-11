@@ -1,0 +1,5 @@
+description:
+  original: MatchCondition represents a condition which must by fulfilled for a request
+    to be sent to a webhook.
+  formatted: MatchCondition represents a condition which must by fulfilled for a request
+    to be sent to a webhook.

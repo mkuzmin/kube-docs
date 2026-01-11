@@ -1,0 +1,5 @@
+description:
+  original: WebhookClientConfig contains the information to make a TLS connection
+    with the webhook.
+  formatted: WebhookClientConfig contains the information to make a TLS connection
+    with the webhook.

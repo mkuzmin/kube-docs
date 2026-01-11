@@ -1,0 +1,3 @@
+description:
+  original: ID of the controller instance, e.g. `kubelet-xyzf`.
+  formatted: ID of the controller instance, e.g. `kubelet-xyzf`.

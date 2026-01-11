@@ -1,0 +1,5 @@
+description:
+  original: ValidatingAdmissionPolicy describes the definition of an admission validation
+    policy that accepts or rejects an object without changing it.
+  formatted: ValidatingAdmissionPolicy describes the definition of an admission validation
+    policy that accepts or rejects an object without changing it.

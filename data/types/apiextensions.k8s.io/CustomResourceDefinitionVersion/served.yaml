@@ -1,0 +1,5 @@
+description:
+  original: served is a flag enabling/disabling this version from being served via
+    REST APIs
+  formatted: served is a flag enabling/disabling this version from being served via
+    REST APIs

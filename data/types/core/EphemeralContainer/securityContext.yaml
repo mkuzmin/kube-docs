@@ -1,0 +1,7 @@
+description:
+  original: 'Optional: SecurityContext defines the security options the ephemeral
+    container should be run with. If set, the fields of SecurityContext override the
+    equivalent fields of PodSecurityContext.'
+  formatted: 'Optional: SecurityContext defines the security options the ephemeral
+    container should be run with. If set, the fields of SecurityContext override the
+    equivalent fields of PodSecurityContext.'

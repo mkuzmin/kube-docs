@@ -1,0 +1,5 @@
+description:
+  original: audience is the intended audience of the token in "TokenRequestSpec".
+    It will default to the audiences of kube apiserver.
+  formatted: audience is the intended audience of the token in "TokenRequestSpec".
+    It will default to the audiences of kube apiserver.

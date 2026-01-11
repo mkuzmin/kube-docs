@@ -1,0 +1,5 @@
+description:
+  original: LimitRangeSpec defines a min/max usage limit for resources that match
+    on kind.
+  formatted: LimitRangeSpec defines a min/max usage limit for resources that match
+    on kind.

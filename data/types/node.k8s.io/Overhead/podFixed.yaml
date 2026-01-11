@@ -1,0 +1,5 @@
+description:
+  original: podFixed represents the fixed resource overhead associated with running
+    a pod.
+  formatted: podFixed represents the fixed resource overhead associated with running
+    a pod.

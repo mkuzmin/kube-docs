@@ -1,0 +1,5 @@
+description:
+  original: Extra corresponds to the user.Info.GetExtra() method from the authenticator.  Since
+    that is input to the authorizer it needs a reflection here.
+  formatted: Extra corresponds to the user.Info.GetExtra() method from the authenticator.  Since
+    that is input to the authorizer it needs a reflection here.

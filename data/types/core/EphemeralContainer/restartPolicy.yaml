@@ -1,0 +1,5 @@
+description:
+  original: Restart policy for the container to manage the restart behavior of each
+    container within a pod. You cannot set this field on ephemeral containers.
+  formatted: Restart policy for the container to manage the restart behavior of each
+    container within a pod. You cannot set this field on ephemeral containers.

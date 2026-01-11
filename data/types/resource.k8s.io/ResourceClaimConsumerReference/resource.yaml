@@ -1,0 +1,3 @@
+description:
+  original: Resource is the type of resource being referenced, for example "pods".
+  formatted: Resource is the type of resource being referenced, for example "pods".

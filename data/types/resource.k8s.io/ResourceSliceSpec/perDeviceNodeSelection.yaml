@@ -1,0 +1,9 @@
+description:
+  original: |-
+    PerDeviceNodeSelection defines whether the access from nodes to resources in the pool is set on the ResourceSlice level or on each device. If it is set to true, every device defined the ResourceSlice must specify this individually.
+
+    Exactly one of NodeName, NodeSelector, AllNodes, and PerDeviceNodeSelection must be set.
+  formatted: |-
+    PerDeviceNodeSelection defines whether the access from nodes to resources in the pool is set on the ResourceSlice level or on each device. If it is set to true, every device defined the ResourceSlice must specify this individually.
+
+    Exactly one of NodeName, NodeSelector, AllNodes, and PerDeviceNodeSelection must be set.

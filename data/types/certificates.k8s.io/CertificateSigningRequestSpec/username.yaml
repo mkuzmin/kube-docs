@@ -1,0 +1,5 @@
+description:
+  original: username contains the name of the user that created the CertificateSigningRequest.
+    Populated by the API server on creation and immutable.
+  formatted: username contains the name of the user that created the CertificateSigningRequest.
+    Populated by the API server on creation and immutable.

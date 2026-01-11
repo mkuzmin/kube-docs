@@ -1,0 +1,5 @@
+description:
+  original: readOnly here will force the Quobyte volume to be mounted with read-only
+    permissions. Defaults to false.
+  formatted: readOnly here will force the Quobyte volume to be mounted with read-only
+    permissions. Defaults to false.

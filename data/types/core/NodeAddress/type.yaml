@@ -1,0 +1,3 @@
+description:
+  original: Node address type, one of Hostname, ExternalIP or InternalIP.
+  formatted: Node address type, one of Hostname, ExternalIP or InternalIP.

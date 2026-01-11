@@ -1,0 +1,9 @@
+description:
+  original: regarding contains the object this Event is about. In most cases it's
+    an Object reporting controller implements, e.g. ReplicaSetController implements
+    ReplicaSets and this event is emitted because it acts on some changes in a ReplicaSet
+    object.
+  formatted: regarding contains the object this Event is about. In most cases it's
+    an Object reporting controller implements, e.g. ReplicaSetController implements
+    ReplicaSets and this event is emitted because it acts on some changes in a ReplicaSet
+    object.

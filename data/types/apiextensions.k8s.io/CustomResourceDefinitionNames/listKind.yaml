@@ -1,0 +1,5 @@
+description:
+  original: listKind is the serialized kind of the list for this resource. Defaults
+    to "`kind`List".
+  formatted: listKind is the serialized kind of the list for this resource. Defaults
+    to "`kind`List".

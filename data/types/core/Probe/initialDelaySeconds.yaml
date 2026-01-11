@@ -1,0 +1,5 @@
+description:
+  original: 'Number of seconds after the container has started before liveness probes
+    are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes'
+  formatted: 'Number of seconds after the container has started before liveness probes
+    are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes'

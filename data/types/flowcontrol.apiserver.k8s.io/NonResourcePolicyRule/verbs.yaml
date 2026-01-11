@@ -1,0 +1,5 @@
+description:
+  original: '`verbs` is a list of matching verbs and may not be empty. "*" matches
+    all verbs. If it is present, it must be the only entry. Required.'
+  formatted: '`verbs` is a list of matching verbs and may not be empty. "*" matches
+    all verbs. If it is present, it must be the only entry. Required.'

@@ -1,0 +1,5 @@
+description:
+  original: Host name to connect to, defaults to the pod IP. You probably want to
+    set "Host" in httpHeaders instead.
+  formatted: Host name to connect to, defaults to the pod IP. You probably want to
+    set "Host" in httpHeaders instead.

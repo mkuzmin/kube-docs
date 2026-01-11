@@ -1,0 +1,5 @@
+description:
+  original: attached indicates the volume is successfully attached. This field must
+    only be set by the entity completing the attach operation, i.e. the external-attacher.
+  formatted: attached indicates the volume is successfully attached. This field must
+    only be set by the entity completing the attach operation, i.e. the external-attacher.

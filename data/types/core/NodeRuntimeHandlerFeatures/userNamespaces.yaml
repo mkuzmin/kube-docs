@@ -1,0 +1,5 @@
+description:
+  original: UserNamespaces is set to true if the runtime handler supports UserNamespaces,
+    including for volumes.
+  formatted: UserNamespaces is set to true if the runtime handler supports UserNamespaces,
+    including for volumes.

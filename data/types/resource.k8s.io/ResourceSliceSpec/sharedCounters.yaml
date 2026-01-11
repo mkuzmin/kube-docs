@@ -1,0 +1,13 @@
+description:
+  original: |-
+    SharedCounters defines a list of counter sets, each of which has a name and a list of counters available.
+
+    The names of the SharedCounters must be unique in the ResourceSlice.
+
+    The maximum number of counters in all sets is 32.
+  formatted: |-
+    SharedCounters defines a list of counter sets, each of which has a name and a list of counters available.
+
+    The names of the SharedCounters must be unique in the ResourceSlice.
+
+    The maximum number of counters in all sets is 32.

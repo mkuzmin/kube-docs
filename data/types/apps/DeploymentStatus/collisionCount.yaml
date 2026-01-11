@@ -1,0 +1,7 @@
+description:
+  original: Count of hash collisions for the Deployment. The Deployment controller
+    uses this field as a collision avoidance mechanism when it needs to create the
+    name for the newest ReplicaSet.
+  formatted: Count of hash collisions for the Deployment. The Deployment controller
+    uses this field as a collision avoidance mechanism when it needs to create the
+    name for the newest ReplicaSet.

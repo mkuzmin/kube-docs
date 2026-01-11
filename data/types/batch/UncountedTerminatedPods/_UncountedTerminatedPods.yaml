@@ -1,0 +1,5 @@
+description:
+  original: UncountedTerminatedPods holds UIDs of Pods that have terminated but haven't
+    been accounted in Job status counters.
+  formatted: UncountedTerminatedPods holds UIDs of Pods that have terminated but haven't
+    been accounted in Job status counters.

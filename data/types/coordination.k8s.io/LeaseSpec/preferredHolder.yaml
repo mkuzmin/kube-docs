@@ -1,0 +1,7 @@
+description:
+  original: PreferredHolder signals to a lease holder that the lease has a more optimal
+    holder and should be given up. This field can only be set if Strategy is also
+    set.
+  formatted: PreferredHolder signals to a lease holder that the lease has a more optimal
+    holder and should be given up. This field can only be set if Strategy is also
+    set.

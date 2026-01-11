@@ -1,0 +1,5 @@
+description:
+  original: Default specifies how much of this capacity is consumed by a request that
+    does not contain an entry for it in DeviceRequest's Capacity.
+  formatted: Default specifies how much of this capacity is consumed by a request
+    that does not contain an entry for it in DeviceRequest's Capacity.

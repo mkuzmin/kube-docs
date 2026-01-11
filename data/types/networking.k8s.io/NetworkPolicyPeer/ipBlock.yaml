@@ -1,0 +1,5 @@
+description:
+  original: ipBlock defines policy on a particular IPBlock. If this field is set then
+    neither of the other fields can be.
+  formatted: ipBlock defines policy on a particular IPBlock. If this field is set
+    then neither of the other fields can be.

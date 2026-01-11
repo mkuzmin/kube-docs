@@ -1,0 +1,5 @@
+description:
+  original: Total number of available pods (ready for at least minReadySeconds) targeted
+    by this statefulset.
+  formatted: Total number of available pods (ready for at least minReadySeconds) targeted
+    by this statefulset.

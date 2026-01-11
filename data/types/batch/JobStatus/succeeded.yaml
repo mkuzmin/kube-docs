@@ -1,0 +1,7 @@
+description:
+  original: The number of pods which reached phase Succeeded. The value increases
+    monotonically for a given spec. However, it may decrease in reaction to scale
+    down of elastic indexed jobs.
+  formatted: The number of pods which reached phase Succeeded. The value increases
+    monotonically for a given spec. However, it may decrease in reaction to scale
+    down of elastic indexed jobs.

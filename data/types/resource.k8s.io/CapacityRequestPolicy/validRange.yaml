@@ -1,0 +1,17 @@
+description:
+  original: |-
+    ValidRange defines an acceptable quantity value range in consuming requests.
+
+    If this field is set, Default must be defined and it must fall within the defined ValidRange.
+
+    If the requested amount does not fall within the defined range, the request violates the policy, and this device cannot be allocated.
+
+    If the request doesn't contain this capacity entry, Default value is used.
+  formatted: |-
+    ValidRange defines an acceptable quantity value range in consuming requests.
+
+    If this field is set, Default must be defined and it must fall within the defined ValidRange.
+
+    If the requested amount does not fall within the defined range, the request violates the policy, and this device cannot be allocated.
+
+    If the request doesn't contain this capacity entry, Default value is used.

@@ -1,0 +1,3 @@
+description:
+  original: 'ID of the node assigned by the cloud provider in the format: <ProviderName>://<ProviderSpecificNodeID>'
+  formatted: 'ID of the node assigned by the cloud provider in the format: <ProviderName>://<ProviderSpecificNodeID>'

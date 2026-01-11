@@ -1,0 +1,8 @@
+description:
+  original: podIPs holds the IP addresses allocated to the pod. If this field is specified,
+    the 0th entry must match the podIP field. Pods may be allocated at most 1 value
+    for each of IPv4 and IPv6. This list is empty if no IPs have been allocated yet.
+  formatted: podIPs holds the IP addresses allocated to the pod. If this field is
+    specified, the 0th entry must match the podIP field. Pods may be allocated at
+    most 1 value for each of IPv4 and IPv6. This list is empty if no IPs have been
+    allocated yet.

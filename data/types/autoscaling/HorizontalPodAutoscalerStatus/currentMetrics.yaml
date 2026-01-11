@@ -1,0 +1,3 @@
+description:
+  original: currentMetrics is the last read state of the metrics used by this autoscaler.
+  formatted: currentMetrics is the last read state of the metrics used by this autoscaler.

@@ -1,0 +1,5 @@
+description:
+  original: RFC 3339 date and time at which the object was acknowledged by the Kubelet.
+    This is before the Kubelet pulled the container image(s) for the pod.
+  formatted: RFC 3339 date and time at which the object was acknowledged by the Kubelet.
+    This is before the Kubelet pulled the container image(s) for the pod.

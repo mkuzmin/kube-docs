@@ -1,0 +1,7 @@
+description:
+  original: Resources represents the compute resource requests and limits that have
+    been successfully enacted on the running container after it has been started or
+    has been successfully resized.
+  formatted: Resources represents the compute resource requests and limits that have
+    been successfully enacted on the running container after it has been started or
+    has been successfully resized.

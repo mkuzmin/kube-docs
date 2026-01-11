@@ -1,0 +1,7 @@
+description:
+  original: lastScaleTime is the last time the HorizontalPodAutoscaler scaled the
+    number of pods, used by the autoscaler to control how often the number of pods
+    is changed.
+  formatted: lastScaleTime is the last time the HorizontalPodAutoscaler scaled the
+    number of pods, used by the autoscaler to control how often the number of pods
+    is changed.

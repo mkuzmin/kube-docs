@@ -1,0 +1,7 @@
+description:
+  original: Name uniquely identifies this resource claim inside the pod. This must
+    match the name of an entry in pod.spec.resourceClaims, which implies that the
+    string must be a DNS_LABEL.
+  formatted: Name uniquely identifies this resource claim inside the pod. This must
+    match the name of an entry in pod.spec.resourceClaims, which implies that the
+    string must be a DNS_LABEL.

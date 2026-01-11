@@ -1,0 +1,5 @@
+description:
+  original: Represents an NFS mount that lasts the lifetime of a pod. NFS volumes
+    do not support ownership management or SELinux relabeling.
+  formatted: Represents an NFS mount that lasts the lifetime of a pod. NFS volumes
+    do not support ownership management or SELinux relabeling.

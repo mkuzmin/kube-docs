@@ -1,0 +1,5 @@
+description:
+  original: lastPhaseTransitionTime is the time the phase transitioned from one to
+    another and automatically resets to current time everytime a volume phase transitions.
+  formatted: lastPhaseTransitionTime is the time the phase transitioned from one to
+    another and automatically resets to current time everytime a volume phase transitions.

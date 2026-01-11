@@ -1,0 +1,5 @@
+description:
+  original: The ResourceClaim this DeviceToleration is attached to tolerates any taint
+    that matches the triple <key,value,effect> using the matching operator <operator>.
+  formatted: The ResourceClaim this DeviceToleration is attached to tolerates any
+    taint that matches the triple <key,value,effect> using the matching operator <operator>.

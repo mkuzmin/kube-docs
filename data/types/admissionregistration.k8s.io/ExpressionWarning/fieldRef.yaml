@@ -1,0 +1,5 @@
+description:
+  original: The path to the field that refers the expression. For example, the reference
+    to the expression of the first item of validations is "spec.validations[0].expression"
+  formatted: The path to the field that refers the expression. For example, the reference
+    to the expression of the first item of validations is "spec.validations[0].expression"

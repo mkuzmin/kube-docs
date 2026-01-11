@@ -1,0 +1,3 @@
+description:
+  original: EnvFromSource represents the source of a set of ConfigMaps or Secrets
+  formatted: EnvFromSource represents the source of a set of ConfigMaps or Secrets

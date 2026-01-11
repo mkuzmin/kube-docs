@@ -1,0 +1,13 @@
+description:
+  original: x-kubernetes-embedded-resource defines that the value is an embedded Kubernetes
+    runtime.Object, with TypeMeta and ObjectMeta. The type must be object. It is allowed
+    to further restrict the embedded object. kind, apiVersion and metadata are validated
+    automatically. x-kubernetes-preserve-unknown-fields is allowed to be true, but
+    does not have to be if the object is fully specified (up to kind, apiVersion,
+    metadata).
+  formatted: x-kubernetes-embedded-resource defines that the value is an embedded
+    Kubernetes runtime.Object, with TypeMeta and ObjectMeta. The type must be object.
+    It is allowed to further restrict the embedded object. kind, apiVersion and metadata
+    are validated automatically. x-kubernetes-preserve-unknown-fields is allowed to
+    be true, but does not have to be if the object is fully specified (up to kind,
+    apiVersion, metadata).

@@ -1,0 +1,5 @@
+description:
+  original: conditions holds an array of metav1.Condition that describe the state
+    of the ServiceCIDR. Current service state
+  formatted: conditions holds an array of metav1.Condition that describe the state
+    of the ServiceCIDR. Current service state

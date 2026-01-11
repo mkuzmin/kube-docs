@@ -1,0 +1,5 @@
+description:
+  original: ReplicaSetCondition describes the state of a replica set at a certain
+    point.
+  formatted: ReplicaSetCondition describes the state of a replica set at a certain
+    point.

@@ -1,0 +1,5 @@
+description:
+  original: PodDisruptionBudgetStatus represents information about the status of a
+    PodDisruptionBudget. Status may trail the actual state of a system.
+  formatted: PodDisruptionBudgetStatus represents information about the status of
+    a PodDisruptionBudget. Status may trail the actual state of a system.

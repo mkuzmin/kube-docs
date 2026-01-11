@@ -1,0 +1,5 @@
+description:
+  original: ContainerRestartRuleOnExitCodes describes the condition for handling an
+    exited container based on its exit codes.
+  formatted: ContainerRestartRuleOnExitCodes describes the condition for handling
+    an exited container based on its exit codes.

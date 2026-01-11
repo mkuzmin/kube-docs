@@ -1,0 +1,5 @@
+description:
+  original: JobTemplateSpec describes the data a Job should have when created from
+    a template
+  formatted: JobTemplateSpec describes the data a Job should have when created from
+    a template

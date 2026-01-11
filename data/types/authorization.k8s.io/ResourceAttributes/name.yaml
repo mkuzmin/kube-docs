@@ -1,0 +1,5 @@
+description:
+  original: Name is the name of the resource being requested for a "get" or deleted
+    for a "delete". "" (empty) means all.
+  formatted: Name is the name of the resource being requested for a "get" or deleted
+    for a "delete". "" (empty) means all.

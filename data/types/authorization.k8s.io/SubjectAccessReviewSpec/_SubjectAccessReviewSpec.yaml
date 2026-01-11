@@ -1,0 +1,7 @@
+description:
+  original: SubjectAccessReviewSpec is a description of the access request.  Exactly
+    one of ResourceAuthorizationAttributes and NonResourceAuthorizationAttributes
+    must be set
+  formatted: SubjectAccessReviewSpec is a description of the access request.  Exactly
+    one of ResourceAuthorizationAttributes and NonResourceAuthorizationAttributes
+    must be set

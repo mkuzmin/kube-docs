@@ -1,0 +1,5 @@
+description:
+  original: 'cephFS represents a Ceph FS mount on the host that shares a pod''s lifetime.
+    Deprecated: CephFS is deprecated and the in-tree cephfs type is no longer supported.'
+  formatted: 'cephFS represents a Ceph FS mount on the host that shares a pod''s lifetime.
+    Deprecated: CephFS is deprecated and the in-tree cephfs type is no longer supported.'

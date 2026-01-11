@@ -1,0 +1,9 @@
+description:
+  original: |-
+    Max defines the upper limit for capacity that can be requested.
+
+    Max must be less than or equal to the capacity value. Min and requestPolicy.default must be less than or equal to the maximum.
+  formatted: |-
+    Max defines the upper limit for capacity that can be requested.
+
+    Max must be less than or equal to the capacity value. Min and requestPolicy.default must be less than or equal to the maximum.

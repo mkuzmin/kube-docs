@@ -1,0 +1,9 @@
+description:
+  original: |-
+    ResourceSliceCount is the total number of ResourceSlices in the pool at this generation number. Must be greater than zero.
+
+    Consumers can use this to check whether they have seen all ResourceSlices belonging to the same pool.
+  formatted: |-
+    ResourceSliceCount is the total number of ResourceSlices in the pool at this generation number. Must be greater than zero.
+
+    Consumers can use this to check whether they have seen all ResourceSlices belonging to the same pool.

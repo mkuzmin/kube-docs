@@ -1,0 +1,5 @@
+description:
+  original: nodeName represents the name of the Node hosting this endpoint. This can
+    be used to determine endpoints local to a Node.
+  formatted: nodeName represents the name of the Node hosting this endpoint. This
+    can be used to determine endpoints local to a Node.

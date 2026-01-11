@@ -1,0 +1,13 @@
+description:
+  original: |-
+    NodeSelector defines which nodes have access to the resources in the pool, when that pool is not limited to a single node.
+
+    Must use exactly one term.
+
+    Exactly one of NodeName, NodeSelector, AllNodes, and PerDeviceNodeSelection must be set.
+  formatted: |-
+    NodeSelector defines which nodes have access to the resources in the pool, when that pool is not limited to a single node.
+
+    Must use exactly one term.
+
+    Exactly one of NodeName, NodeSelector, AllNodes, and PerDeviceNodeSelection must be set.

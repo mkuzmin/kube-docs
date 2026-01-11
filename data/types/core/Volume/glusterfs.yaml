@@ -1,0 +1,7 @@
+description:
+  original: 'glusterfs represents a Glusterfs mount on the host that shares a pod''s
+    lifetime. Deprecated: Glusterfs is deprecated and the in-tree glusterfs type is
+    no longer supported.'
+  formatted: 'glusterfs represents a Glusterfs mount on the host that shares a pod''s
+    lifetime. Deprecated: Glusterfs is deprecated and the in-tree glusterfs type is
+    no longer supported.'

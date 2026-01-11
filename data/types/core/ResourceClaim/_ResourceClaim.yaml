@@ -1,0 +1,3 @@
+description:
+  original: ResourceClaim references one entry in PodSpec.ResourceClaims.
+  formatted: ResourceClaim references one entry in PodSpec.ResourceClaims.

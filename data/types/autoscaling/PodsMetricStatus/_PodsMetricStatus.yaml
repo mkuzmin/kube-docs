@@ -1,0 +1,5 @@
+description:
+  original: PodsMetricStatus indicates the current value of a metric describing each
+    pod in the current scale target (for example, transactions-processed-per-second).
+  formatted: PodsMetricStatus indicates the current value of a metric describing each
+    pod in the current scale target (for example, transactions-processed-per-second).

@@ -1,0 +1,5 @@
+description:
+  original: PodFailurePolicyOnPodConditionsPattern describes a pattern for matching
+    an actual pod condition type.
+  formatted: PodFailurePolicyOnPodConditionsPattern describes a pattern for matching
+    an actual pod condition type.

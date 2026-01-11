@@ -1,0 +1,5 @@
+description:
+  original: PersistentVolumeClaimSpec describes the common attributes of storage devices
+    and allows a Source for provider-specific attributes
+  formatted: PersistentVolumeClaimSpec describes the common attributes of storage
+    devices and allows a Source for provider-specific attributes

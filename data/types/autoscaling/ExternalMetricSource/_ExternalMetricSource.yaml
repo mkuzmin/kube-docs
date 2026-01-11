@@ -1,0 +1,7 @@
+description:
+  original: ExternalMetricSource indicates how to scale on a metric not associated
+    with any Kubernetes object (for example length of queue in cloud messaging service,
+    or QPS from loadbalancer running outside of cluster).
+  formatted: ExternalMetricSource indicates how to scale on a metric not associated
+    with any Kubernetes object (for example length of queue in cloud messaging service,
+    or QPS from loadbalancer running outside of cluster).

@@ -1,0 +1,9 @@
+description:
+  original: |-
+    Step defines the step size between valid capacity amounts within the range.
+
+    Max (if set) and requestPolicy.default must be a multiple of Step. Min + Step must be less than or equal to the capacity value.
+  formatted: |-
+    Step defines the step size between valid capacity amounts within the range.
+
+    Max (if set) and requestPolicy.default must be a multiple of Step. Min + Step must be less than or equal to the capacity value.

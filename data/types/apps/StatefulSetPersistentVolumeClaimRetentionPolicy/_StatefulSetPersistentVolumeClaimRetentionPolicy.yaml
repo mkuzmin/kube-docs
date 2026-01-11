@@ -1,0 +1,5 @@
+description:
+  original: StatefulSetPersistentVolumeClaimRetentionPolicy describes the policy used
+    for PVCs created from the StatefulSet VolumeClaimTemplates.
+  formatted: StatefulSetPersistentVolumeClaimRetentionPolicy describes the policy
+    used for PVCs created from the StatefulSet VolumeClaimTemplates.

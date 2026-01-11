@@ -1,0 +1,5 @@
+description:
+  original: The number of nodes that should be running the daemon pod and have none
+    of the daemon pod running and available (ready for at least spec.minReadySeconds)
+  formatted: The number of nodes that should be running the daemon pod and have none
+    of the daemon pod running and available (ready for at least spec.minReadySeconds)

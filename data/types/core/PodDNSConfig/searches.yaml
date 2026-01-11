@@ -1,0 +1,7 @@
+description:
+  original: A list of DNS search domains for host-name lookup. This will be appended
+    to the base search paths generated from DNSPolicy. Duplicated search paths will
+    be removed.
+  formatted: A list of DNS search domains for host-name lookup. This will be appended
+    to the base search paths generated from DNSPolicy. Duplicated search paths will
+    be removed.

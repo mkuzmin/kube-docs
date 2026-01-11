@@ -1,0 +1,15 @@
+description:
+  original: Started indicates whether the container has finished its postStart lifecycle
+    hook and passed its startup probe. Initialized as false, becomes true after startupProbe
+    is considered successful. Resets to false when the container is restarted, or
+    if kubelet loses state temporarily. In both cases, startup probes will run again.
+    Is always true when no startupProbe is defined and container is running and has
+    passed the postStart lifecycle hook. The null value must be treated the same as
+    false.
+  formatted: Started indicates whether the container has finished its postStart lifecycle
+    hook and passed its startup probe. Initialized as false, becomes true after startupProbe
+    is considered successful. Resets to false when the container is restarted, or
+    if kubelet loses state temporarily. In both cases, startup probes will run again.
+    Is always true when no startupProbe is defined and container is running and has
+    passed the postStart lifecycle hook. The null value must be treated the same as
+    false.

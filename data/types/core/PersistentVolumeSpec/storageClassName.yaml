@@ -1,0 +1,5 @@
+description:
+  original: storageClassName is the name of StorageClass to which this persistent
+    volume belongs. Empty value means that this volume does not belong to any StorageClass.
+  formatted: storageClassName is the name of StorageClass to which this persistent
+    volume belongs. Empty value means that this volume does not belong to any StorageClass.

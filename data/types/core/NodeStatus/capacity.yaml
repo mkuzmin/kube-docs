@@ -1,0 +1,3 @@
+description:
+  original: 'Capacity represents the total resources of a node. More info: https://kubernetes.io/docs/reference/node/node-status/#capacity'
+  formatted: 'Capacity represents the total resources of a node. More info: https://kubernetes.io/docs/reference/node/node-status/#capacity'

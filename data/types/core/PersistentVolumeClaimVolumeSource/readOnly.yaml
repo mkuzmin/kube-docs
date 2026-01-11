@@ -1,0 +1,3 @@
+description:
+  original: readOnly Will force the ReadOnly setting in VolumeMounts. Default false.
+  formatted: readOnly Will force the ReadOnly setting in VolumeMounts. Default false.

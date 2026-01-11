@@ -1,0 +1,5 @@
+description:
+  original: reclaimPolicy controls the reclaimPolicy for dynamically provisioned PersistentVolumes
+    of this storage class. Defaults to Delete.
+  formatted: reclaimPolicy controls the reclaimPolicy for dynamically provisioned
+    PersistentVolumes of this storage class. Defaults to Delete.

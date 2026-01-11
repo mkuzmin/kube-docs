@@ -1,0 +1,5 @@
+description:
+  original: IngressClassParametersReference identifies an API object. This can be
+    used to specify a cluster or namespace-scoped resource.
+  formatted: IngressClassParametersReference identifies an API object. This can be
+    used to specify a cluster or namespace-scoped resource.

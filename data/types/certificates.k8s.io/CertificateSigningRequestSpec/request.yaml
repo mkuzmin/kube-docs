@@ -1,0 +1,7 @@
+description:
+  original: request contains an x509 certificate signing request encoded in a "CERTIFICATE
+    REQUEST" PEM block. When serialized as JSON or YAML, the data is additionally
+    base64-encoded.
+  formatted: request contains an x509 certificate signing request encoded in a "CERTIFICATE
+    REQUEST" PEM block. When serialized as JSON or YAML, the data is additionally
+    base64-encoded.

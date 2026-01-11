@@ -1,0 +1,3 @@
+description:
+  original: observedGeneration is the most recent generation observed by this autoscaler.
+  formatted: observedGeneration is the most recent generation observed by this autoscaler.

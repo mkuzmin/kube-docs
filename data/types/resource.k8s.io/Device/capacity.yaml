@@ -1,0 +1,9 @@
+description:
+  original: |-
+    Capacity defines the set of capacities for this device. The name of each capacity must be unique in that set.
+
+    The maximum number of attributes and capacities combined is 32.
+  formatted: |-
+    Capacity defines the set of capacities for this device. The name of each capacity must be unique in that set.
+
+    The maximum number of attributes and capacities combined is 32.

@@ -1,0 +1,5 @@
+description:
+  original: ResourceClaimSpec defines what is being requested in a ResourceClaim and
+    how to configure it.
+  formatted: ResourceClaimSpec defines what is being requested in a ResourceClaim
+    and how to configure it.

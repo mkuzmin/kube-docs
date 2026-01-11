@@ -1,0 +1,9 @@
+description:
+  original: |-
+    `service` is a reference to the service for this webhook. Either `service` or `url` must be specified.
+
+    If the webhook is running within the cluster, then you should use `service`.
+  formatted: |-
+    `service` is a reference to the service for this webhook. Either `service` or `url` must be specified.
+
+    If the webhook is running within the cluster, then you should use `service`.

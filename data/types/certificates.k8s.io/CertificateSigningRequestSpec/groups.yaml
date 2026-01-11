@@ -1,0 +1,5 @@
+description:
+  original: groups contains group membership of the user that created the CertificateSigningRequest.
+    Populated by the API server on creation and immutable.
+  formatted: groups contains group membership of the user that created the CertificateSigningRequest.
+    Populated by the API server on creation and immutable.

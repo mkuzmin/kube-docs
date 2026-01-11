@@ -1,0 +1,7 @@
+description:
+  original: group is the API group of the defined custom resource. The custom resources
+    are served under `/apis/<group>/...`. Must match the name of the CustomResourceDefinition
+    (in the form `<names.plural>.<group>`).
+  formatted: group is the API group of the defined custom resource. The custom resources
+    are served under `/apis/<group>/...`. Must match the name of the CustomResourceDefinition
+    (in the form `<names.plural>.<group>`).

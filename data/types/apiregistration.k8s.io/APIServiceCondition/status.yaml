@@ -1,0 +1,3 @@
+description:
+  original: Status is the status of the condition. Can be True, False, Unknown.
+  formatted: Status is the status of the condition. Can be True, False, Unknown.

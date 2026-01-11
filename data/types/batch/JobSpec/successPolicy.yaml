@@ -1,0 +1,11 @@
+description:
+  original: successPolicy specifies the policy when the Job can be declared as succeeded.
+    If empty, the default behavior applies - the Job is declared as succeeded only
+    when the number of succeeded pods equals to the completions. When the field is
+    specified, it must be immutable and works only for the Indexed Jobs. Once the
+    Job meets the SuccessPolicy, the lingering pods are terminated.
+  formatted: successPolicy specifies the policy when the Job can be declared as succeeded.
+    If empty, the default behavior applies - the Job is declared as succeeded only
+    when the number of succeeded pods equals to the completions. When the field is
+    specified, it must be immutable and works only for the Indexed Jobs. Once the
+    Job meets the SuccessPolicy, the lingering pods are terminated.

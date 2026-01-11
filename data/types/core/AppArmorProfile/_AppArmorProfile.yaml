@@ -1,0 +1,3 @@
+description:
+  original: AppArmorProfile defines a pod or container's AppArmor settings.
+  formatted: AppArmorProfile defines a pod or container's AppArmor settings.

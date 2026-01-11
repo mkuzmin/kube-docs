@@ -1,0 +1,5 @@
+description:
+  original: podIP address allocated to the pod. Routable at least within the cluster.
+    Empty if not yet allocated.
+  formatted: podIP address allocated to the pod. Routable at least within the cluster.
+    Empty if not yet allocated.

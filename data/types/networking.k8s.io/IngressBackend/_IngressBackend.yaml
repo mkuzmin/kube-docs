@@ -1,0 +1,3 @@
+description:
+  original: IngressBackend describes all endpoints for a given service and port.
+  formatted: IngressBackend describes all endpoints for a given service and port.

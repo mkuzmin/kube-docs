@@ -1,0 +1,5 @@
+description:
+  original: ObjectMetricStatus indicates the current value of a metric describing
+    a kubernetes object (for example, hits-per-second on an Ingress object).
+  formatted: ObjectMetricStatus indicates the current value of a metric describing
+    a kubernetes object (for example, hits-per-second on an Ingress object).

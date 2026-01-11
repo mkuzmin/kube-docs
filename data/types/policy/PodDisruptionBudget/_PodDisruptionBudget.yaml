@@ -1,0 +1,5 @@
+description:
+  original: PodDisruptionBudget is an object to define the max disruption that can
+    be caused to a collection of pods
+  formatted: PodDisruptionBudget is an object to define the max disruption that can
+    be caused to a collection of pods

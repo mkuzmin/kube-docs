@@ -1,0 +1,5 @@
+description:
+  original: 'Status is the status of the condition. Can be True, False, Unknown. More
+    info: https://kubernetes.io/docs/reference/kubernetes-api/config-and-storage-resources/persistent-volume-claim-v1/#:~:text=state%20of%20pvc-,conditions.status,-(string)%2C%20required'
+  formatted: 'Status is the status of the condition. Can be True, False, Unknown.
+    More info: https://kubernetes.io/docs/reference/kubernetes-api/config-and-storage-resources/persistent-volume-claim-v1/#:~:text=state%20of%20pvc-,conditions.status,-(string)%2C%20required'

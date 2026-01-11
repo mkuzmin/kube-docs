@@ -1,0 +1,13 @@
+description:
+  original: InternalTrafficPolicy describes how nodes distribute service traffic they
+    receive on the ClusterIP. If set to "Local", the proxy will assume that pods only
+    want to talk to endpoints of the service on the same node as the pod, dropping
+    the traffic if there are no local endpoints. The default value, "Cluster", uses
+    the standard behavior of routing to all endpoints evenly (possibly modified by
+    topology and other features).
+  formatted: InternalTrafficPolicy describes how nodes distribute service traffic
+    they receive on the ClusterIP. If set to "Local", the proxy will assume that pods
+    only want to talk to endpoints of the service on the same node as the pod, dropping
+    the traffic if there are no local endpoints. The default value, "Cluster", uses
+    the standard behavior of routing to all endpoints evenly (possibly modified by
+    topology and other features).

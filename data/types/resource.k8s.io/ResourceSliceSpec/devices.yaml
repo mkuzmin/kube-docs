@@ -1,0 +1,9 @@
+description:
+  original: |-
+    Devices lists some or all of the devices in this pool.
+
+    Must not have more than 128 entries.
+  formatted: |-
+    Devices lists some or all of the devices in this pool.
+
+    Must not have more than 128 entries.

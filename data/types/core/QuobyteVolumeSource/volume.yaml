@@ -1,0 +1,5 @@
+description:
+  original: volume is a string that references an already created Quobyte volume by
+    name.
+  formatted: volume is a string that references an already created Quobyte volume
+    by name.

@@ -1,0 +1,5 @@
+description:
+  original: StatefulSetOrdinals describes the policy used for replica ordinal assignment
+    in this StatefulSet.
+  formatted: StatefulSetOrdinals describes the policy used for replica ordinal assignment
+    in this StatefulSet.

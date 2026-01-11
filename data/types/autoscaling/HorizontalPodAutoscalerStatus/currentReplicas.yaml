@@ -1,0 +1,5 @@
+description:
+  original: currentReplicas is current number of replicas of pods managed by this
+    autoscaler, as last seen by the autoscaler.
+  formatted: currentReplicas is current number of replicas of pods managed by this
+    autoscaler, as last seen by the autoscaler.

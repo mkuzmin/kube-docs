@@ -1,0 +1,5 @@
+description:
+  original: Spec holds information about the request being evaluated.  user and groups
+    must be empty
+  formatted: Spec holds information about the request being evaluated.  user and groups
+    must be empty

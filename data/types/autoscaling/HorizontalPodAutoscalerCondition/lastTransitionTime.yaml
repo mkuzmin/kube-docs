@@ -1,0 +1,5 @@
+description:
+  original: lastTransitionTime is the last time the condition transitioned from one
+    status to another
+  formatted: lastTransitionTime is the last time the condition transitioned from one
+    status to another

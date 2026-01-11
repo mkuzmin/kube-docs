@@ -1,0 +1,5 @@
+description:
+  original: SupplementalGroupsPolicy is set to true if the runtime supports SupplementalGroupsPolicy
+    and ContainerUser.
+  formatted: SupplementalGroupsPolicy is set to true if the runtime supports SupplementalGroupsPolicy
+    and ContainerUser.

@@ -1,0 +1,7 @@
+description:
+  original: PodResourceClaimStatus is stored in the PodStatus for each PodResourceClaim
+    which references a ResourceClaimTemplate. It stores the generated name for the
+    corresponding ResourceClaim.
+  formatted: PodResourceClaimStatus is stored in the PodStatus for each PodResourceClaim
+    which references a ResourceClaimTemplate. It stores the generated name for the
+    corresponding ResourceClaim.

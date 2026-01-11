@@ -1,0 +1,5 @@
+description:
+  original: 'Deprecated. Not all kubelets will set this field. Remove field after
+    1.13. see: https://issues.k8s.io/61966'
+  formatted: 'Deprecated. Not all kubelets will set this field. Remove field after
+    1.13. see: https://issues.k8s.io/61966'

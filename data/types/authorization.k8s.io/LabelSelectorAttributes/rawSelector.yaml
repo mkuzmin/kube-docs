@@ -1,0 +1,9 @@
+description:
+  original: rawSelector is the serialization of a field selector that would be included
+    in a query parameter. Webhook implementations are encouraged to ignore rawSelector.
+    The kube-apiserver's *SubjectAccessReview will parse the rawSelector as long as
+    the requirements are not present.
+  formatted: rawSelector is the serialization of a field selector that would be included
+    in a query parameter. Webhook implementations are encouraged to ignore rawSelector.
+    The kube-apiserver's *SubjectAccessReview will parse the rawSelector as long as
+    the requirements are not present.

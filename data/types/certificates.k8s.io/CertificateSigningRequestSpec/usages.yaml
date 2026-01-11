@@ -1,0 +1,31 @@
+description:
+  original: |-
+    usages specifies a set of key usages requested in the issued certificate.
+
+    Requests for TLS client certificates typically request: "digital signature", "key encipherment", "client auth".
+
+    Requests for TLS serving certificates typically request: "key encipherment", "digital signature", "server auth".
+
+    Valid values are:
+     "signing", "digital signature", "content commitment",
+     "key encipherment", "key agreement", "data encipherment",
+     "cert sign", "crl sign", "encipher only", "decipher only", "any",
+     "server auth", "client auth",
+     "code signing", "email protection", "s/mime",
+     "ipsec end system", "ipsec tunnel", "ipsec user",
+     "timestamping", "ocsp signing", "microsoft sgc", "netscape sgc"
+  formatted: |-
+    usages specifies a set of key usages requested in the issued certificate.
+
+    Requests for TLS client certificates typically request: "digital signature", "key encipherment", "client auth".
+
+    Requests for TLS serving certificates typically request: "key encipherment", "digital signature", "server auth".
+
+    Valid values are:
+     "signing", "digital signature", "content commitment",
+     "key encipherment", "key agreement", "data encipherment",
+     "cert sign", "crl sign", "encipher only", "decipher only", "any",
+     "server auth", "client auth",
+     "code signing", "email protection", "s/mime",
+     "ipsec end system", "ipsec tunnel", "ipsec user",
+     "timestamping", "ocsp signing", "microsoft sgc", "netscape sgc"
