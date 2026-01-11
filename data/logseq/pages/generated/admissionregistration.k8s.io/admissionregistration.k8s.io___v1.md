@@ -1,0 +1,4 @@
+- [[MutatingWebhookConfiguration]]
+- [[ValidatingAdmissionPolicy]]
+- [[ValidatingAdmissionPolicyBinding]]
+- [[ValidatingWebhookConfiguration]]

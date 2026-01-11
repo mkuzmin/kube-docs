@@ -1,0 +1,7 @@
+alias:: JSON
+
+- JSON represents any valid JSON value. These types are supported: bool, int64, float64, string, []interface{}, map[string]interface{} and nil.
+
+- Properties
+  heading:: true
+

@@ -5,8 +5,8 @@ import java.io.File
 
 fun main() {
     val apiGroups = loadApiGroups("../api-groups.csv")
-    val specDir = File("../kubernetes/api/openapi-spec/v3")
-    val baseDir = File("../docs/pages/generated")
+    val specDir = File("../external/kubernetes/api/openapi-spec/v3")
+    val baseDir = File("../data/logseq/pages/generated")
 
     val groups = apiGroups.groupBy { it.group }
 

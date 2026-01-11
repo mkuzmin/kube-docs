@@ -1,0 +1,5 @@
+- [[ControllerRevision]]
+- [[DaemonSet]]
+- [[Deployment]]
+- [[ReplicaSet]]
+- [[StatefulSet]]

@@ -1,0 +1,4 @@
+- [[DeviceClass]]
+- [[ResourceClaim]]
+- [[ResourceClaimTemplate]]
+- [[ResourceSlice]]

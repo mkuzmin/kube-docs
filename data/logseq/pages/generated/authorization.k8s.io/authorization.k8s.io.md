@@ -1,0 +1,1 @@
+- [v1]([[authorization.k8s.io/v1]])
