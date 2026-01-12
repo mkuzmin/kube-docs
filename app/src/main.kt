@@ -5,7 +5,8 @@ import java.io.File
 
 fun main() {
     val apiGroups = loadApiGroups("../api-groups.csv")
-    val specDir = File("../external/kubernetes/api/openapi-spec/v3")
+    val specDir = File("../data/openapi")
+    val typesDir = File("../data/types")
     val baseDir = File("../data/logseq/pages/generated")
 
     val groups = apiGroups.groupBy { it.group }
@@ -26,7 +27,7 @@ fun main() {
         val schemas = loadSchemas(specDir, groupVersion)
 
         generateGroupVersionIndex(schemas, groupVersion, groupDir)
-        generatePages(schemas, groupVersion, specsDir, groupDir)
+        generatePages(schemas, groupVersion, typesDir, groupDir)
     }
 }
 
@@ -57,23 +58,25 @@ fun loadSchemas(specDir: File, group: ApiGroup): Map<String, Schema> {
         .mapKeys { (key, _) -> key.removePrefix(group.packagePrefix) }
 }
 
-fun generatePages(schemas: Map<String, Schema>, group: ApiGroup, specsDir: File, outDir: File) {
-    val typesDir = File(outDir, "types").also { it.mkdirs() }
+fun generatePages(schemas: Map<String, Schema>, group: ApiGroup, typesDir: File, outDir: File) {
+    val helperTypesDir = File(outDir, "types").also { it.mkdirs() }
 
     schemas.forEach { (typeName, schema) ->
-        val dir = if (schema.kind != null) outDir else typesDir
+        val dir = if (schema.kind != null) outDir else helperTypesDir
         val filename = "${group.group}___${group.apiVersion}___$typeName.md"
         val file = File(dir, filename)
 
-        val typeSpecDir = File(specsDir, "${group.group}/${group.apiVersion}/$typeName")
-        val typeDescription = File(typeSpecDir, "_$typeName.md").readText()
+        val typeMetaDir = File(typesDir, "${group.group}/$typeName")
+        val typeDescription = readFormatted(File(typeMetaDir, "_$typeName.yaml"))
 
         file.writeText(buildString {
             appendLine("alias:: $typeName")
             appendLine()
 
-            appendBlock(level = 0, typeDescription)
-            appendLine()
+            if (typeDescription != null) {
+                appendBlock(level = 0, typeDescription)
+                appendLine()
+            }
 
             appendLine("- Properties")
             appendLine("  heading:: true")
@@ -84,15 +87,23 @@ fun generatePages(schemas: Map<String, Schema>, group: ApiGroup, specsDir: File,
                 val requiredStr = if (fieldName in schema.required) ", **required**" else ""
                 appendLine("  - `$fieldName` ($typeStr)$requiredStr")
                 if (fieldName !in setOf("apiVersion", "kind", "metadata")) {
-                    val fieldDescFile = File(typeSpecDir, "$fieldName.md")
-                    if (fieldDescFile.exists()) {
-                        appendBlock(level = 2, fieldDescFile.readText())
+                    val fieldDescription = readFormatted(File(typeMetaDir, "$fieldName.yaml"))
+                    if (fieldDescription != null) {
+                        appendBlock(level = 2, fieldDescription)
                     }
                 }
                 appendLine()
             }
         })
     }
+}
+
+fun readFormatted(file: File): String? {
+    if (!file.exists()) return null
+    val text = file.readText()
+    if (text.isBlank()) return null
+    val doc = yaml.decodeFromString(FieldDoc.serializer(), text)
+    return doc.description?.formatted
 }
 
 fun StringBuilder.appendBlock(level: Int, text: String) {
