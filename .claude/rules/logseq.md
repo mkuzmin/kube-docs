@@ -4,8 +4,8 @@ This project generates Markdown files formatted for [Logseq](https://logseq.com)
 
 ## Output Location
 
-Logseq database is in `docs/pages/`.
-Generated files go to `docs/pages/generated/`.
+Logseq database is in `data/logseq/pages/`.
+Generated files go to `data/logseq/pages/generated/`.
 
 ## Pages Properties
 - Use `heading:: true` to mark items as section headings:

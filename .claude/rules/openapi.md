@@ -1,6 +1,9 @@
 # OpenAPI Spec Structure
 
-Location: `kubernetes/api/openapi-spec/v3/`
+Source: `external/kubernetes/api/openapi-spec/v3/` (git submodule)
+Committed copy: `data/openapi/`
+
+Use committed specs in `data/openapi/` for processing. Copy from submodule when updating K8s version.
 
 ## API Endpoints
 

@@ -18,31 +18,30 @@ This is a Kotlin/JVM application using Gradle with a composite build structure.
 app/src/                  # Application code
   main.kt                 # Entry point: generate markdown
   extract.kt              # Entry point: extract descriptions
-kubernetes/               # Git submodule (specs in api/openapi-spec/v3/)
+  yaml.kt                 # YAML serialization config and data classes
+external/
+  kubernetes/             # Git submodule (source for OpenAPI specs)
+data/
+  openapi/                # Committed OpenAPI JSON specs
+  types/                  # YAML metadata files (editable)
+    {group}/{TypeName}/
+      _TypeName.yaml      # Type metadata
+      fieldName.yaml      # Field metadata
+  logseq/                 # Logseq database
+    pages/generated/      # Generated markdown
+      {group}/            # One subdirectory per API group
+        types/            # Helper types for that group
 api-groups.csv            # Config: which API groups to process
-specs/                    # Extracted descriptions (editable)
-  {group}/{version}/{type}/
-    _{type}.md            # Type description
-    {field}.md            # Field descriptions
-docs/pages/generated/     # Output: Logseq markdown
-  {group}/                # One subdirectory per API group
-    types/                # Helper types for that group
 ```
 
 ### Data Flow
 
 **Extraction** (run once, or after upstream updates):
 ```
-api-groups.csv → load API group configs
-                 ↓
-OpenAPI specs → filter schemas → extract descriptions → specs/
+api-groups.csv + data/openapi/ → extract descriptions → data/types/
 ```
 
-**Generation** (reads edited descriptions):
+**Generation** (reads structure + edited descriptions):
 ```
-api-groups.csv → load API group configs
-                 ↓
-OpenAPI specs (structure only) + specs/ (descriptions) → generate markdown
-                                                       → kinds go to {group}/
-                                                       → helpers go to {group}/types/
+data/openapi/ (structure) + data/types/ (descriptions) → data/logseq/pages/generated/
 ```

@@ -2,8 +2,8 @@
 
 ```bash
 ./gradlew build                      # Build the project
-./gradlew :app:run                   # Generate markdown (reads from specs/)
-./gradlew :app:extractDescriptions   # Extract descriptions from OpenAPI to specs/
+./gradlew :app:run                   # Generate markdown from data/types/
+./gradlew :app:extractDescriptions   # Extract metadata from OpenAPI to data/types/
 ./gradlew check                      # Run all checks
 ./gradlew clean                      # Clean build outputs
 ```
@@ -11,8 +11,8 @@
 ### Modules
 
 - **app** - Main application module with two entry points:
-  - `app.MainKt` - generates markdown from specs/
-  - `app.ExtractKt` - extracts descriptions to specs/
+  - `app.MainKt` - generates markdown from data/types/
+  - `app.ExtractKt` - extracts metadata to data/types/
 - **build-logic** - Convention plugins for shared build configuration
 
 ### Build Configuration
@@ -31,6 +31,6 @@ Modules use a flat source structure:
 ### Working Directory
 
 When running via `./gradlew :app:run`, working directory is `app/`. Use relative paths from there:
-- `../kubernetes/...` for input specs
-- `../specs/...` for extracted descriptions
-- `../docs/...` for output files
+- `../data/openapi/...` for OpenAPI specs
+- `../data/types/...` for YAML metadata
+- `../data/logseq/...` for Logseq output

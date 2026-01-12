@@ -1,0 +1,53 @@
+# YAML Metadata Format
+
+Type and field metadata is stored in `data/types/` as YAML files.
+
+## Directory Structure
+
+```
+data/types/{group}/{TypeName}/
+  _TypeName.yaml      # Type metadata
+  fieldName.yaml      # Field metadata (one per field)
+```
+
+## Type Files (`_TypeName.yaml`)
+
+```yaml
+description:
+  original: |
+    Deployment enables declarative updates for Pods and ReplicaSets.
+  formatted: |
+    Deployment enables declarative updates for Pods and ReplicaSets.
+```
+
+## Field Files (`fieldName.yaml`)
+
+**With description:**
+```yaml
+description:
+  original: |
+    Specification of the desired behavior.
+  formatted: |
+    Specification of the desired behavior.
+```
+
+**Without description:** empty file
+
+## Description Object
+
+| Field | Description |
+|-------|-------------|
+| original | From OpenAPI (updated on K8s upgrade) |
+| formatted | Enriched documentation (edit this) |
+
+## Workflow
+
+**Initial extraction:**
+1. Extract reads OpenAPI → writes YAML
+2. Edit `formatted` fields to enrich documentation
+3. Generate reads `formatted` → produces markdown
+
+**K8s version upgrade:**
+1. Extract updates `original` field
+2. Git diff shows upstream changes
+3. 3-way merge upstream changes into `formatted`

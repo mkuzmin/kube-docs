@@ -1,10 +1,13 @@
 # Kubernetes
 
-Sources are in `kubernetes/` as a git submodule tracking `release-1.34` branch.
+Sources are in `external/kubernetes/` as a git submodule tracking `release-1.34` branch.
 
 ## OpenAPI Specs
 
-Location: `kubernetes/api/openapi-spec/v3/`
+- Source: `external/kubernetes/api/openapi-spec/v3/`
+- Committed copy: `data/openapi/`
+
+Use committed specs in `data/openapi/` for processing. Copy from submodule when updating K8s version.
 
 See `openapi.md` for spec structure details.
 
