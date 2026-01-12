@@ -24,4 +24,19 @@ A good plan answers:
 - **What** is the target state?
 - **How** to verify success?
 
-Implementation details come after the approach is agreed upon.
+No code in plans. Implementation details come after the approach is agreed upon.
+
+## Implementation Steps
+
+Structure steps as vertical slices (end-to-end through all layers), not horizontal layers.
+
+```
+# Bad - horizontal layers
+1. Update all data classes
+2. Update all extraction logic
+3. Update all generation logic
+
+# Good - vertical slices
+1. Add field X (extract → generate → verify)
+2. Add field Y (extract → generate → verify)
+```
