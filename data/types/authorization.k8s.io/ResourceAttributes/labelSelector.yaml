@@ -3,3 +3,4 @@ description:
     can only limit access, not broaden it.
   formatted: labelSelector describes the limitation on access based on labels.  It
     can only limit access, not broaden it.
+type: LabelSelectorAttributes

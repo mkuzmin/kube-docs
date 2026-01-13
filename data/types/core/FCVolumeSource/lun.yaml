@@ -1,3 +1,4 @@
 description:
   original: 'lun is Optional: FC target lun number'
   formatted: 'lun is Optional: FC target lun number'
+type: integer

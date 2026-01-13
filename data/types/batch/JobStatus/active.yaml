@@ -3,3 +3,4 @@ description:
     a deletionTimestamp). The value is zero for finished jobs.
   formatted: The number of pending and running pods which are not terminating (without
     a deletionTimestamp). The value is zero for finished jobs.
+type: integer

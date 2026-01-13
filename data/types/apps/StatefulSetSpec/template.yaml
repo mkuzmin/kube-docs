@@ -11,3 +11,5 @@ description:
     Each pod will be named with the format <statefulsetname>-<podindex>. For example,
     a pod in a StatefulSet named "web" with index number "3" would be named "web-3".
     The only allowed template.spec.restartPolicy value is "Always".
+type: PodTemplateSpec
+required: true

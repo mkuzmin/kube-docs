@@ -7,3 +7,4 @@ description:
     ResourceClaimName is the name of a ResourceClaim object in the same namespace as this pod.
 
     Exactly one of ResourceClaimName and ResourceClaimTemplateName must be set.
+type: string

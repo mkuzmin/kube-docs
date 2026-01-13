@@ -1,3 +1,5 @@
 description:
   original: Custom headers to set in the request. HTTP allows repeated headers.
   formatted: Custom headers to set in the request. HTTP allows repeated headers.
+type: HTTPHeader
+collection: array

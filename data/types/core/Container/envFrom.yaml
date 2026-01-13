@@ -9,3 +9,5 @@ description:
     '='. When a key exists in multiple sources, the value associated with the last
     source will take precedence. Values defined by an Env with a duplicate key will
     take precedence. Cannot be updated.
+type: EnvFromSource
+collection: array

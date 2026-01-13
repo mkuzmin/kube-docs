@@ -1,3 +1,5 @@
 description:
   original: Removed capabilities
   formatted: Removed capabilities
+type: string
+collection: array

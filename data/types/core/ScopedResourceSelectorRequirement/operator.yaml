@@ -3,3 +3,5 @@ description:
     are In, NotIn, Exists, DoesNotExist.
   formatted: Represents a scope's relationship to a set of values. Valid operators
     are In, NotIn, Exists, DoesNotExist.
+type: string
+required: true

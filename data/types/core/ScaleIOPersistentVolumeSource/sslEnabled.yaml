@@ -3,3 +3,4 @@ description:
     default false
   formatted: sslEnabled is the flag to enable/disable SSL communication with Gateway,
     default false
+type: boolean

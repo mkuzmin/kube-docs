@@ -1,3 +1,5 @@
 description:
   original: 'Deprecated: KubeProxy Version reported by the node.'
   formatted: 'Deprecated: KubeProxy Version reported by the node.'
+type: string
+required: true

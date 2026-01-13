@@ -13,3 +13,4 @@ description:
     "FieldValueRequired", "FieldValueDuplicate". If not set, default to use "FieldValueInvalid".
     All future added reasons must be accepted by clients when reading this value and
     unknown reasons should be treated as FieldValueInvalid.'
+type: string

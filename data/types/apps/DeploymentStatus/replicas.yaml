@@ -3,3 +3,4 @@ description:
     labels match the selector).
   formatted: Total number of non-terminating pods targeted by this deployment (their
     labels match the selector).
+type: integer

@@ -14,3 +14,5 @@ description:
     though group memberships defined in the container image may still be used, depending
     on the supplementalGroupsPolicy field. Note that this field cannot be set when
     spec.os.name is windows.
+type: integer
+collection: array

@@ -1,3 +1,5 @@
 description:
   original: The key to select.
   formatted: The key to select.
+type: string
+required: true

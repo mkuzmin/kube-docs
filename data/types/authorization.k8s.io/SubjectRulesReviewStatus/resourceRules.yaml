@@ -5,3 +5,6 @@ description:
   formatted: ResourceRules is the list of actions the subject is allowed to perform
     on resources. The list ordering isn't significant, may contain duplicates, and
     possibly be incomplete.
+type: ResourceRule
+collection: array
+required: true

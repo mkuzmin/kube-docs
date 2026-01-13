@@ -11,3 +11,6 @@ description:
     pods are removed. The terminal state for such a Job has the "Complete" condition.
     Additionally, these rules are evaluated in order; Once the Job meets one of the
     rules, other rules are ignored. At most 20 elements are allowed.
+type: SuccessPolicyRule
+collection: array
+required: true

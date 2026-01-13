@@ -1,3 +1,5 @@
 description:
   original: container is the name of the container in the pods of the scaling target
   formatted: container is the name of the container in the pods of the scaling target
+type: string
+required: true

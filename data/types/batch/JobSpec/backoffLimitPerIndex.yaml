@@ -9,3 +9,4 @@ description:
     kept in the pod's batch.kubernetes.io/job-index-failure-count annotation. It can
     only be set when Job's completionMode=Indexed, and the Pod's restart policy is
     Never. The field is immutable.
+type: integer

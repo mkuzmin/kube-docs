@@ -15,3 +15,5 @@ description:
     secondary sort is based on the alphabetical comparison of the name of the object.  (v1.bar
     before v1.foo) We''d recommend something like: *.k8s.io (except extensions) at
     18000 and PaaSes (OpenShift, Deis) are recommended to be in the 2000s'
+type: integer
+required: true

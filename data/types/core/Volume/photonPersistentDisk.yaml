@@ -5,3 +5,4 @@ description:
   formatted: 'photonPersistentDisk represents a PhotonController persistent disk attached
     and mounted on kubelets host machine. Deprecated: PhotonPersistentDisk is deprecated
     and the in-tree photonPersistentDisk type is no longer supported.'
+type: PhotonPersistentDiskVolumeSource

@@ -1,3 +1,4 @@
 description:
   original: StringValue is a string. Must not be longer than 64 characters.
   formatted: StringValue is a string. Must not be longer than 64 characters.
+type: string

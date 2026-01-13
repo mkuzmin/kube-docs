@@ -1,3 +1,5 @@
 description:
   original: total number of pods counted by this disruption budget
   formatted: total number of pods counted by this disruption budget
+type: integer
+required: true

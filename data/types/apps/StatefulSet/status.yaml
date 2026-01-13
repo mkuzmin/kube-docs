@@ -3,3 +3,4 @@ description:
     be out of date by some window of time.
   formatted: Status is the current status of Pods in this StatefulSet. This data may
     be out of date by some window of time.
+type: StatefulSetStatus

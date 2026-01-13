@@ -1,3 +1,4 @@
 description:
   original: Devices defines how to request devices.
   formatted: Devices defines how to request devices.
+type: DeviceClaim

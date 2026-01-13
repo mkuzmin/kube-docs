@@ -3,3 +3,5 @@ description:
     state.
   formatted: Represents the latest available observations of a namespace's current
     state.
+type: NamespaceCondition
+collection: array

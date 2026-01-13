@@ -15,3 +15,5 @@ description:
     should assume that addresses can change during the lifetime of a Node. However,
     there are some exceptions where this may not be possible, such as Pods that inherit
     a Node''s address in its own status or consumers of the downward API (status.hostIP).'
+type: NodeAddress
+collection: array

@@ -1,3 +1,5 @@
 description:
   original: name represents the name of the zone.
   formatted: name represents the name of the zone.
+type: string
+required: true

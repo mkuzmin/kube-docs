@@ -3,3 +3,5 @@ description:
     in the CEL expression language.
   formatted: x-kubernetes-validations describes a list of validation rules written
     in the CEL expression language.
+type: ValidationRule
+collection: array

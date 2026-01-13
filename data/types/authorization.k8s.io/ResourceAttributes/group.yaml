@@ -1,3 +1,4 @@
 description:
   original: Group is the API Group of the Resource.  "*" means all.
   formatted: Group is the API Group of the Resource.  "*" means all.
+type: string

@@ -1,3 +1,4 @@
 description:
   original: UID information about the requesting user.
   formatted: UID information about the requesting user.
+type: string

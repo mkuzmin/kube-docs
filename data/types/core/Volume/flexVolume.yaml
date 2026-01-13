@@ -5,3 +5,4 @@ description:
   formatted: 'flexVolume represents a generic volume resource that is provisioned/attached
     using an exec based plugin. Deprecated: FlexVolume is deprecated. Consider using
     a CSIDriver instead.'
+type: FlexVolumeSource

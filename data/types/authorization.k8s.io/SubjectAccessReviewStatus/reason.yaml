@@ -1,3 +1,4 @@
 description:
   original: Reason is optional.  It indicates why a request was allowed or denied.
   formatted: Reason is optional.  It indicates why a request was allowed or denied.
+type: string

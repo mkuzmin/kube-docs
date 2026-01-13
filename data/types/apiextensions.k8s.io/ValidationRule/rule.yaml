@@ -108,3 +108,5 @@ description:
     \ rules by default are applied only on UPDATE requests and are skipped if an old\
     \ value could not be found. You can opt a transition rule into unconditional evaluation\
     \ by setting `optionalOldSelf` to true."
+type: string
+required: true

@@ -1,3 +1,4 @@
 description:
   original: GRPC specifies a GRPC HealthCheckRequest.
   formatted: GRPC specifies a GRPC HealthCheckRequest.
+type: GRPCAction

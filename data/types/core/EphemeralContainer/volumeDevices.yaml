@@ -1,3 +1,5 @@
 description:
   original: volumeDevices is the list of block devices to be used by the container.
   formatted: volumeDevices is the list of block devices to be used by the container.
+type: VolumeDevice
+collection: array

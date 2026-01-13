@@ -19,3 +19,5 @@ description:
     If the requested amount does not match any valid value but smaller than some valid values, the scheduler calculates the smallest valid value that is greater than or equal to the request. That is: min(ceil(requestedValue) ∈ validValues), where requestedValue ≤ max(validValues).
 
     If the requested amount exceeds all valid values, the request violates the policy, and this device cannot be allocated.
+type: Quantity
+collection: array

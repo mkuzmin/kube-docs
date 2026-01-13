@@ -15,3 +15,5 @@ description:
     to ensure that the TokenReview server is audience aware. If a TokenReview returns
     an empty status.audience field where status.authenticated is "true", the token
     is valid against the audience of the Kubernetes API server.
+type: string
+collection: array

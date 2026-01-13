@@ -3,3 +3,5 @@ description:
     state.
   formatted: Represents the latest available observations of a replica set's current
     state.
+type: ReplicaSetCondition
+collection: array

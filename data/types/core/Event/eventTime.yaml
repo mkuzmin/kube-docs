@@ -1,3 +1,4 @@
 description:
   original: Time when this Event was first observed.
   formatted: Time when this Event was first observed.
+type: MicroTime

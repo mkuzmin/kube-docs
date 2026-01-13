@@ -17,3 +17,4 @@ description:
     Service which does not need it, creation will fail. This field will be wiped when
     updating a Service to no longer need it (e.g. changing type). This field cannot
     be updated once set.
+type: integer

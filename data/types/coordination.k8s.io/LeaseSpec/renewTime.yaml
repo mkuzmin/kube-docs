@@ -3,3 +3,4 @@ description:
     the lease.
   formatted: renewTime is a time when the current holder of a lease has last updated
     the lease.
+type: MicroTime

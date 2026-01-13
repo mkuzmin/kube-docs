@@ -25,3 +25,4 @@ description:
     with only spaces/string with line breaks will be logged. messageExpression has
     access to all the same variables as the `expression` except for ''authorizer''
     and ''authorizer.requestResource''. Example: "object.x must be less than max ("+string(params.max)+")"'
+type: string

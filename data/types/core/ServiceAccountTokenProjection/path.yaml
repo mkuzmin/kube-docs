@@ -3,3 +3,5 @@ description:
     token into.
   formatted: path is the path relative to the mount point of the file to project the
     token into.
+type: string
+required: true

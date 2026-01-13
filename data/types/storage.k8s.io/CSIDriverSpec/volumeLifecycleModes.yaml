@@ -15,3 +15,5 @@ description:
     For more information about implementing this mode, see https://kubernetes-csi.github.io/docs/ephemeral-local-volumes.html A driver can support one or more of these modes and more modes may be added in the future.
 
     This field is beta. This field is immutable.
+type: string
+collection: array

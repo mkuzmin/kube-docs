@@ -9,3 +9,5 @@ description:
       Localhost - a profile pre-loaded on the node.
       RuntimeDefault - the container runtime's default profile.
       Unconfined - no AppArmor enforcement.
+type: string
+required: true

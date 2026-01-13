@@ -1,3 +1,4 @@
 description:
   original: Component from which the event is generated.
   formatted: Component from which the event is generated.
+type: string

@@ -5,3 +5,5 @@ description:
   formatted: Selectors define criteria which must be satisfied by a specific device
     in order for that device to be considered for this subrequest. All selectors must
     be satisfied for a device to be considered.
+type: DeviceSelector
+collection: array

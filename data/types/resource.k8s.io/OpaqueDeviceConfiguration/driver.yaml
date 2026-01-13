@@ -11,3 +11,5 @@ description:
     An admission policy provided by the driver developer could use this to decide whether it needs to validate them.
 
     Must be a DNS subdomain and should end with a DNS domain owned by the vendor of the driver.
+type: string
+required: true

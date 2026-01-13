@@ -11,3 +11,5 @@ description:
     This is an alpha field and requires enabling the DynamicResourceAllocation feature gate.
 
     This field is immutable.
+type: PodResourceClaim
+collection: array

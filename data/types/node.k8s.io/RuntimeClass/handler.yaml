@@ -15,3 +15,5 @@ description:
     (using native Linux containers) will be used to run the containers in a pod. The
     Handler must be lowercase, conform to the DNS Label (RFC 1123) requirements, and
     is immutable.
+type: string
+required: true

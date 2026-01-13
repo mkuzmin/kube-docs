@@ -7,3 +7,4 @@ description:
     leader election. If the field is not specified, there is no active coordination
     for this lease. (Alpha) Using this field requires the CoordinatedLeaderElection
     feature gate to be enabled.
+type: string

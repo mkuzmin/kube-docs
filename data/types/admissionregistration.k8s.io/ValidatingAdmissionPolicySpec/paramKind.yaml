@@ -11,3 +11,4 @@ description:
     kind, this policy definition is mis-configured and the FailurePolicy is applied.
     If paramKind is specified but paramRef is unset in ValidatingAdmissionPolicyBinding,
     the params variable will be null.
+type: ParamKind

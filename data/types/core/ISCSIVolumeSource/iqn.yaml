@@ -1,3 +1,5 @@
 description:
   original: iqn is the target iSCSI Qualified Name.
   formatted: iqn is the target iSCSI Qualified Name.
+type: string
+required: true

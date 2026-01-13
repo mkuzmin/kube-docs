@@ -3,3 +3,5 @@ description:
     More info: https://kubernetes.io/docs/concepts/storage/volumes'
   formatted: 'List of volumes that can be mounted by containers belonging to the pod.
     More info: https://kubernetes.io/docs/concepts/storage/volumes'
+type: Volume
+collection: array

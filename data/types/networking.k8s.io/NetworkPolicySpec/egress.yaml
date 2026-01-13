@@ -13,3 +13,5 @@ description:
     matches the pod. If this field is empty then this NetworkPolicy limits all outgoing
     traffic (and serves solely to ensure that the pods it selects are isolated by
     default). This field is beta-level in 1.8
+type: NetworkPolicyEgressRule
+collection: array

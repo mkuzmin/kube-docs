@@ -3,3 +3,5 @@ description:
     - mount will simply fail if one is invalid. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes/#mount-options'
   formatted: 'mountOptions is the list of mount options, e.g. ["ro", "soft"]. Not
     validated - mount will simply fail if one is invalid. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes/#mount-options'
+type: string
+collection: array

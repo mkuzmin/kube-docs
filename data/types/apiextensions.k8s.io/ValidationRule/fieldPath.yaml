@@ -23,3 +23,4 @@ description:
     special characters, use `[''specialName'']` to refer the field name. e.g. for
     attribute `foo.34$` appears in a list `testList`, the fieldPath could be set to
     `.testList[''foo.34$'']`'
+type: string

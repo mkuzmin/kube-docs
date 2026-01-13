@@ -3,3 +3,5 @@ description:
     state.
   formatted: Represents the latest available observations of a DaemonSet's current
     state.
+type: DaemonSetCondition
+collection: array

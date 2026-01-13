@@ -19,3 +19,5 @@ description:
     Documentation on CEL: https://kubernetes.io/docs/reference/using-api/cel/
 
     Required.
+type: string
+required: true

@@ -3,3 +3,5 @@ description:
     More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1'
   formatted: 'accessModes contains the desired access modes the volume should have.
     More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1'
+type: string
+collection: array

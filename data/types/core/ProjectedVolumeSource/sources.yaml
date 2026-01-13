@@ -3,3 +3,5 @@ description:
     one source.
   formatted: sources is the list of volume projections. Each entry in this list handles
     one source.
+type: VolumeProjection
+collection: array

@@ -3,3 +3,4 @@ description:
     'stdin' to be true. Default is false.
   formatted: Whether this container should allocate a TTY for itself, also requires
     'stdin' to be true. Default is false.
+type: boolean

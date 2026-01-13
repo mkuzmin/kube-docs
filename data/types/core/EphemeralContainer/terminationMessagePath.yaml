@@ -11,3 +11,4 @@ description:
     be truncated by the node if greater than 4096 bytes. The total message length
     across all containers will be limited to 12kb. Defaults to /dev/termination-log.
     Cannot be updated.'
+type: string

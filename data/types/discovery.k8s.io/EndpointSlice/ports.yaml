@@ -9,3 +9,5 @@ description:
     of 100 ports. Services always have at least 1 port, so EndpointSlices generated
     by the EndpointSlice controller will likewise always have at least 1 port. EndpointSlices
     used for other purposes may have an empty ports list.
+type: EndpointPort
+collection: array

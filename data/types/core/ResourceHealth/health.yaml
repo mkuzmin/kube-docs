@@ -19,3 +19,4 @@ description:
                 For example, Device Plugin got unregistered and hasn't been re-registered since.
 
     In future we may want to introduce the PermanentlyUnhealthy Status.
+type: string

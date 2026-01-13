@@ -7,3 +7,4 @@ description:
     when the StatefulSet is deleted. The default policy of `Retain` causes PVCs to
     not be affected by StatefulSet deletion. The `Delete` policy causes those PVCs
     to be deleted.
+type: string

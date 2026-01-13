@@ -25,3 +25,4 @@ description:
     NodePort, and LoadBalancer. If this field is specified when creating a Service
     of type ExternalName, creation will fail. This field will be wiped when updating
     a Service to type ExternalName. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies'
+type: string

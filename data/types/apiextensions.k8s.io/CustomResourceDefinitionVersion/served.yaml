@@ -3,3 +3,5 @@ description:
     REST APIs
   formatted: served is a flag enabling/disabling this version from being served via
     REST APIs
+type: boolean
+required: true

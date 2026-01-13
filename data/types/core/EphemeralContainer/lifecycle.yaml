@@ -1,3 +1,4 @@
 description:
   original: Lifecycle is not allowed for ephemeral containers.
   formatted: Lifecycle is not allowed for ephemeral containers.
+type: Lifecycle

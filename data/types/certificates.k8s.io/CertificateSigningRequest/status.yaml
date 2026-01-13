@@ -5,3 +5,4 @@ description:
   formatted: status contains information about whether the request is approved or
     denied, and the certificate issued by the signer, or the failure condition indicating
     signer failure.
+type: CertificateSigningRequestStatus

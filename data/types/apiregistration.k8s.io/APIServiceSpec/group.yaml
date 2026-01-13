@@ -1,3 +1,4 @@
 description:
   original: Group is the API group name this server hosts
   formatted: Group is the API group name this server hosts
+type: string

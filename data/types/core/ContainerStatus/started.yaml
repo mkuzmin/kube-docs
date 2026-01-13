@@ -13,3 +13,4 @@ description:
     Is always true when no startupProbe is defined and container is running and has
     passed the postStart lifecycle hook. The null value must be treated the same as
     false.
+type: boolean

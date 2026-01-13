@@ -1,3 +1,4 @@
 description:
   original: User is the UserInfo associated with the provided token.
   formatted: User is the UserInfo associated with the provided token.
+type: UserInfo

@@ -19,3 +19,5 @@ description:
     that no egress is allowed, you must specify a policyTypes value that include "Egress"
     (since such a policy would not include an egress section and would otherwise default
     to just [ "Ingress" ]). This field is beta-level in 1.8
+type: string
+collection: array

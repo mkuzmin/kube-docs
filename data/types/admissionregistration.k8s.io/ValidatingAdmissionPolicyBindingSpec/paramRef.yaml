@@ -13,3 +13,4 @@ description:
     mis-configured and the FailurePolicy of the ValidatingAdmissionPolicy applied.
     If the policy does not specify a ParamKind then this field is ignored, and the
     rules are evaluated without a param.
+type: ParamRef

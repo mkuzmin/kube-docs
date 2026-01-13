@@ -1,3 +1,4 @@
 description:
   original: optional specify whether the ConfigMap or its keys must be defined
   formatted: optional specify whether the ConfigMap or its keys must be defined
+type: boolean

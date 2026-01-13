@@ -3,3 +3,5 @@ description:
     here
   formatted: Port is the port number of the service port of which status is recorded
     here
+type: integer
+required: true

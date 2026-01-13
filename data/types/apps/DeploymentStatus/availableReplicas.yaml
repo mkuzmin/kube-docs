@@ -3,3 +3,4 @@ description:
     targeted by this deployment.
   formatted: Total number of available non-terminating pods (ready for at least minReadySeconds)
     targeted by this deployment.
+type: integer

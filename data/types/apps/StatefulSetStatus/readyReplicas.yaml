@@ -3,3 +3,4 @@ description:
     a Ready Condition.
   formatted: readyReplicas is the number of pods created for this StatefulSet with
     a Ready Condition.
+type: integer

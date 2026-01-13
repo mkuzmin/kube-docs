@@ -1,3 +1,5 @@
 description:
   original: capacity represents the actual resources of the underlying volume.
   formatted: capacity represents the actual resources of the underlying volume.
+type: Quantity
+collection: map

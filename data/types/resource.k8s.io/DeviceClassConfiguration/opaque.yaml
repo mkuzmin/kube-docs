@@ -1,3 +1,4 @@
 description:
   original: Opaque provides driver-specific configuration parameters.
   formatted: Opaque provides driver-specific configuration parameters.
+type: OpaqueDeviceConfiguration

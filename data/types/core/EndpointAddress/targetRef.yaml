@@ -1,3 +1,4 @@
 description:
   original: Reference to object providing the endpoint.
   formatted: Reference to object providing the endpoint.
+type: ObjectReference

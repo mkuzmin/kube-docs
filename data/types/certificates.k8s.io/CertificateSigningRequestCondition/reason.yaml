@@ -1,3 +1,4 @@
 description:
   original: reason indicates a brief reason for the request state
   formatted: reason indicates a brief reason for the request state
+type: string

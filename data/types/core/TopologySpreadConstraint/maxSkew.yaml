@@ -25,3 +25,5 @@ description:
     onto any zone. When `whenUnsatisfiable=ScheduleAnyway`, it is used to give higher
     precedence to topologies that satisfy it. It''s a required field. Default value
     is 1 and 0 is not allowed.'
+type: integer
+required: true

@@ -1,3 +1,4 @@
 description:
   original: Time of the last occurrence observed
   formatted: Time of the last occurrence observed
+type: MicroTime

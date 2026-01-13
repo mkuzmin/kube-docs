@@ -9,3 +9,4 @@ description:
       * increase no more than 4 pods per 60 seconds
       * double the number of pods per 60 seconds
     No stabilization is used.
+type: HPAScalingRules

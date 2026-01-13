@@ -3,3 +3,6 @@ description:
     put, delete, patch, head, options.  "*" means all.'
   formatted: 'Verb is a list of kubernetes non-resource API verbs, like: get, post,
     put, delete, patch, head, options.  "*" means all.'
+type: string
+collection: array
+required: true

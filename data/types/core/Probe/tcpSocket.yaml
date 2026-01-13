@@ -1,3 +1,4 @@
 description:
   original: TCPSocket specifies a connection to a TCP port.
   formatted: TCPSocket specifies a connection to a TCP port.
+type: TCPSocketAction

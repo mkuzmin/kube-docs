@@ -3,3 +3,5 @@ description:
     not contain ':'.
   formatted: Path within the container at which the volume should be mounted.  Must
     not contain ':'.
+type: string
+required: true

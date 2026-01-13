@@ -3,3 +3,4 @@ description:
     be authenticated.
   formatted: Status is filled in by the server and indicates whether the request can
     be authenticated.
+type: TokenReviewStatus

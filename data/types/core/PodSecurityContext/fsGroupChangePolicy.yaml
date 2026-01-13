@@ -11,3 +11,4 @@ description:
     effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid
     values are "OnRootMismatch" and "Always". If not specified, "Always" is used.
     Note that this field cannot be set when spec.os.name is windows.'
+type: string

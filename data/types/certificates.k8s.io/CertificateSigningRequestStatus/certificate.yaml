@@ -45,3 +45,4 @@ description:
         ...
         -----END CERTIFICATE-----
         )
+type: string

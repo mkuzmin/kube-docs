@@ -11,3 +11,4 @@ description:
     validation will be performed. May also be set in PodSecurityContext.  If set in
     both SecurityContext and PodSecurityContext, the value specified in SecurityContext
     takes precedence.
+type: boolean

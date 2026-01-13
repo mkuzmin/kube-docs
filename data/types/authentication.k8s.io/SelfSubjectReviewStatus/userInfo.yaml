@@ -1,3 +1,4 @@
 description:
   original: User attributes of the user making this request.
   formatted: User attributes of the user making this request.
+type: UserInfo

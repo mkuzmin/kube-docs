@@ -17,3 +17,4 @@ description:
     rollback, this object is beta. However, it may be subject to name and representation
     changes in future releases, and clients should not depend on its stability. It
     is primarily for internal use by controllers.
+kind: true

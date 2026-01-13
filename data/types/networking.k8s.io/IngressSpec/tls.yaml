@@ -9,3 +9,5 @@ description:
     they will be multiplexed on the same port according to the hostname specified
     through the SNI TLS extension, if the ingress controller fulfilling the ingress
     supports SNI.
+type: IngressTLS
+collection: array

@@ -1,3 +1,5 @@
 description:
   original: The Architecture reported by the node
   formatted: The Architecture reported by the node
+type: string
+required: true

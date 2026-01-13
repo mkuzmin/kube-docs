@@ -35,3 +35,4 @@ description:
     \ matches this rule if the http host header is equal to Host. 2. If host is a\
     \ wildcard, then the request matches this rule if the http host header is to equal\
     \ to the suffix (removing the first label) of the wildcard rule."
+type: string

@@ -1,3 +1,4 @@
 description:
   original: Rolling update config params. Present only if type = "RollingUpdate".
   formatted: Rolling update config params. Present only if type = "RollingUpdate".
+type: RollingUpdateDaemonSet

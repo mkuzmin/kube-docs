@@ -5,3 +5,5 @@ description:
   formatted: 'Describes the pod that will be created when executing a job. The only
     allowed template.spec.restartPolicy values are "Never" or "OnFailure". More info:
     https://kubernetes.io/docs/concepts/workloads/controllers/jobs-run-to-completion/'
+type: PodTemplateSpec
+required: true

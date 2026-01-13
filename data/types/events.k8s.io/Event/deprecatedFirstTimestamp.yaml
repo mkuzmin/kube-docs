@@ -3,3 +3,4 @@ description:
     with core.v1 Event type.
   formatted: deprecatedFirstTimestamp is the deprecated field assuring backward compatibility
     with core.v1 Event type.
+type: Time

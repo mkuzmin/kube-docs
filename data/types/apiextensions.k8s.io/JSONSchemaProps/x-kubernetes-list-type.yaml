@@ -29,3 +29,4 @@ description:
          used to identify them. Order is preserved upon merge. The map tag
          must only be used on a list with elements of type object.
     Defaults to atomic for arrays.
+type: string

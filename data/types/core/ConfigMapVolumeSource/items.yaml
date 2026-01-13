@@ -13,3 +13,5 @@ description:
     which is not present in the ConfigMap, the volume setup will error unless it is
     marked optional. Paths must be relative and may not contain the '..' path or start
     with '..'.
+type: KeyToPath
+collection: array

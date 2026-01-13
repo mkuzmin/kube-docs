@@ -1,3 +1,5 @@
 description:
   original: Kubelet Version reported by the node.
   formatted: Kubelet Version reported by the node.
+type: string
+required: true

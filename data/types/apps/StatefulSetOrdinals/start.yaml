@@ -9,3 +9,4 @@ description:
       [.spec.ordinals.start, .spec.ordinals.start + .spec.replicas).
     If unset, defaults to 0. Replica indices will be in the range:
       [0, .spec.replicas).
+type: integer

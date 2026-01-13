@@ -3,3 +3,5 @@ description:
     IPAddress must reference a parent object.
   formatted: ParentRef references the resource that an IPAddress is attached to. An
     IPAddress must reference a parent object.
+type: ParentReference
+required: true

@@ -5,3 +5,4 @@ description:
   formatted: 'NodePhase is the recently observed lifecycle phase of the node. More
     info: https://kubernetes.io/docs/concepts/nodes/node/#phase The field is never
     populated, and now is deprecated.'
+type: string

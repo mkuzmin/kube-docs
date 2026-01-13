@@ -1,3 +1,4 @@
 description:
   original: Last time the condition was checked.
   formatted: Last time the condition was checked.
+type: Time

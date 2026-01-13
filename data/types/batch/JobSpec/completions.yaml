@@ -9,3 +9,4 @@ description:
     of all pods, and allows parallelism to have any positive value.  Setting to 1
     means that parallelism is limited to 1 and the success of that pod signals the
     success of the job. More info: https://kubernetes.io/docs/concepts/workloads/controllers/jobs-run-to-completion/'
+type: integer

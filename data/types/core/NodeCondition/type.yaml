@@ -1,3 +1,5 @@
 description:
   original: Type of node condition.
   formatted: Type of node condition.
+type: string
+required: true

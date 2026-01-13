@@ -9,3 +9,4 @@ description:
     this object to determine whether attach is required. Kubelet uses this object
     to determine whether pod information needs to be passed on mount. CSIDriver objects
     are non-namespaced.
+kind: true

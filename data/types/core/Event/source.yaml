@@ -3,3 +3,4 @@ description:
     string.
   formatted: The component reporting this event. Should be a short machine understandable
     string.
+type: EventSource

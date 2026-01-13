@@ -9,3 +9,4 @@ description:
     `hostNetwork` is true, specified `hostPort` fields in port definitions must match
     `containerPort`, and unspecified `hostPort` fields in port definitions are defaulted
     to match `containerPort`. Default to false.
+type: boolean

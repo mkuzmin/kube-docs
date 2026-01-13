@@ -1,3 +1,4 @@
 description:
   original: Specify whether the Secret or its key must be defined
   formatted: Specify whether the Secret or its key must be defined
+type: boolean

@@ -5,3 +5,5 @@ description:
   formatted: mountOptions controls the mountOptions for dynamically provisioned PersistentVolumes
     of this storage class. e.g. ["ro", "soft"]. Not validated - mount of the PVs will
     simply fail if one is invalid.
+type: string
+collection: array

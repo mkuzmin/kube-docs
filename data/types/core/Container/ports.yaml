@@ -11,3 +11,5 @@ description:
     Modifying this array with strategic merge patch may corrupt the data. For more
     information See https://github.com/kubernetes/kubernetes/issues/108255. Cannot
     be updated.
+type: ContainerPort
+collection: array

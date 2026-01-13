@@ -1,3 +1,4 @@
 description:
   original: HTTPGet specifies an HTTP GET request to perform.
   formatted: HTTPGet specifies an HTTP GET request to perform.
+type: HTTPGetAction

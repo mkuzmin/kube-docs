@@ -25,3 +25,4 @@ description:
     the error message in the Kubelet log. Error is a human-readable description of
     the error state; machines can check whether or not Error is empty, but should
     not rely on the stability of the Error text across Kubelet versions.
+type: string

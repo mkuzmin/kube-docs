@@ -17,3 +17,4 @@ description:
     \ legacy API and does not contain information about all Service features. Use\
     \ discoveryv1.EndpointSlice for complete information about Service endpoints.\n\
     \nDeprecated: This API is deprecated in v1.33+. Use discoveryv1.EndpointSlice."
+kind: true

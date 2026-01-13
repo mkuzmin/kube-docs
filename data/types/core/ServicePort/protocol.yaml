@@ -3,3 +3,4 @@ description:
     is TCP.
   formatted: The IP protocol for this port. Supports "TCP", "UDP", and "SCTP". Default
     is TCP.
+type: string

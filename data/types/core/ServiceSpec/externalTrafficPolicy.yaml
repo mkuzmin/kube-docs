@@ -23,3 +23,4 @@ description:
     that traffic sent to an External IP or LoadBalancer IP from within the cluster
     will always get "Cluster" semantics, but clients sending to a NodePort from within
     the cluster may need to take traffic policy into account when picking a node.
+type: string

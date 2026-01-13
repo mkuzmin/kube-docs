@@ -5,3 +5,4 @@ description:
   formatted: |-
     overhead represents the resource overhead associated with running a pod for a given RuntimeClass. For more details, see
      https://kubernetes.io/docs/concepts/scheduling-eviction/pod-overhead/
+type: Overhead

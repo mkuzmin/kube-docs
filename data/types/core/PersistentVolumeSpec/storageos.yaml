@@ -5,3 +5,4 @@ description:
   formatted: 'storageOS represents a StorageOS volume that is attached to the kubelet''s
     host machine and mounted into the pod. Deprecated: StorageOS is deprecated and
     the in-tree storageos type is no longer supported. More info: https://examples.k8s.io/volumes/storageos/README.md'
+type: StorageOSPersistentVolumeSource

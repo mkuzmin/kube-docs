@@ -14,3 +14,5 @@ description:
     is present in the list, or the list has duplicate names, the behavior of various
     Kubernetes components is not defined and those statuses might be ignored. More
     info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#pod-and-container-status'
+type: ContainerStatus
+collection: array

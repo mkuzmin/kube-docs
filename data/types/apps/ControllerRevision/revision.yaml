@@ -1,3 +1,5 @@
 description:
   original: Revision indicates the revision of the state represented by Data.
   formatted: Revision indicates the revision of the state represented by Data.
+type: integer
+required: true

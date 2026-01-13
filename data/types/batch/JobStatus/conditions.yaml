@@ -11,3 +11,5 @@ description:
     A job is considered finished when it is in a terminal condition, either "Complete" or "Failed". A Job cannot have both the "Complete" and "Failed" conditions. Additionally, it cannot be in the "Complete" and "FailureTarget" conditions. The "Complete", "Failed" and "FailureTarget" conditions cannot be disabled.
 
     More info: https://kubernetes.io/docs/concepts/workloads/controllers/jobs-run-to-completion/
+type: JobCondition
+collection: array

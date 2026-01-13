@@ -3,3 +3,5 @@ description:
     be unique among all containers, init containers and ephemeral containers.
   formatted: Name of the ephemeral container specified as a DNS_LABEL. This name must
     be unique among all containers, init containers and ephemeral containers.
+type: string
+required: true

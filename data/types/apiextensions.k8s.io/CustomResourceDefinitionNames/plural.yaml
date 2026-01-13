@@ -7,3 +7,5 @@ description:
     are served under `/apis/<group>/<version>/.../<plural>`. Must match the name of
     the CustomResourceDefinition (in the form `<names.plural>.<group>`). Must be all
     lowercase.
+type: string
+required: true

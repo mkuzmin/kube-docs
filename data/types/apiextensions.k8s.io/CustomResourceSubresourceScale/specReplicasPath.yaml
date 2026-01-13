@@ -9,3 +9,5 @@ description:
     are allowed. Must be a JSON Path under `.spec`. If there is no value under the
     given path in the custom resource, the `/scale` subresource will return an error
     on GET.
+type: string
+required: true

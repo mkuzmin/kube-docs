@@ -13,3 +13,5 @@ description:
     decrease as the pod count is increased, and vice-versa.  See the individual metric
     source types for more information about how each type of metric must respond.
     If not set, the default metric will be set to 80% average CPU utilization.
+type: MetricSpec
+collection: array

@@ -15,3 +15,4 @@ description:
     You may check for presence of oldSelf using `oldSelf.hasValue()` and unwrap it after checking using `oldSelf.value()`. Check the CEL documentation for Optional types for more information: https://pkg.go.dev/github.com/google/cel-go/cel#OptionalTypes
 
     May not be set unless `oldSelf` is used in `rule`.
+type: boolean

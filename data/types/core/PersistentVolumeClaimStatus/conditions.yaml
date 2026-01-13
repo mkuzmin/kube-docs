@@ -3,3 +3,5 @@ description:
     persistent volume is being resized then the Condition will be set to 'Resizing'.
   formatted: conditions is the current Condition of persistent volume claim. If underlying
     persistent volume is being resized then the Condition will be set to 'Resizing'.
+type: PersistentVolumeClaimCondition
+collection: array

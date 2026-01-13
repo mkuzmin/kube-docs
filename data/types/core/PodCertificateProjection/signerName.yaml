@@ -1,3 +1,5 @@
 description:
   original: Kubelet's generated CSRs will be addressed to this signer.
   formatted: Kubelet's generated CSRs will be addressed to this signer.
+type: string
+required: true

@@ -1,3 +1,4 @@
 description:
   original: allowVolumeExpansion shows whether the storage class allow volume expand.
   formatted: allowVolumeExpansion shows whether the storage class allow volume expand.
+type: boolean

@@ -1,3 +1,5 @@
 description:
   original: The port number of the endpoint.
   formatted: The port number of the endpoint.
+type: integer
+required: true

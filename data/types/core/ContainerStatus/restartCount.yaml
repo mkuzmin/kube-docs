@@ -7,3 +7,5 @@ description:
     Kubelet makes an effort to always increment the value, but there are cases when
     the state may be lost due to node restarts and then the value may be reset to
     0. The value is never negative.
+type: integer
+required: true

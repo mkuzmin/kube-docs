@@ -1,3 +1,5 @@
 description:
   original: failed holds UIDs of failed Pods.
   formatted: failed holds UIDs of failed Pods.
+type: string
+collection: array

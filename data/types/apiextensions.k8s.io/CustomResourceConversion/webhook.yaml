@@ -3,3 +3,4 @@ description:
     is set to `"Webhook"`.
   formatted: webhook describes how to call the conversion webhook. Required when `strategy`
     is set to `"Webhook"`.
+type: WebhookConversion

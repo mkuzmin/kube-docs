@@ -1,3 +1,5 @@
 description:
   original: '`conditions` is a list of the current states of FlowSchema.'
   formatted: '`conditions` is a list of the current states of FlowSchema.'
+type: FlowSchemaCondition
+collection: array

@@ -1,3 +1,6 @@
 description:
   original: Limits is the list of LimitRangeItem objects that are enforced.
   formatted: Limits is the list of LimitRangeItem objects that are enforced.
+type: LimitRangeItem
+collection: array
+required: true

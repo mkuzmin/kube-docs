@@ -5,3 +5,4 @@ description:
   formatted: 'vsphereVolume represents a vSphere volume attached and mounted on kubelets
     host machine. Deprecated: VsphereVolume is deprecated. All operations for the
     in-tree vsphereVolume type are redirected to the csi.vsphere.vmware.com CSI driver.'
+type: VsphereVirtualDiskVolumeSource

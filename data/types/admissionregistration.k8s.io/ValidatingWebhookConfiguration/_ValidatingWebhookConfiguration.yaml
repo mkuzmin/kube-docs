@@ -3,3 +3,4 @@ description:
     webhook that accept or reject and object without changing it.
   formatted: ValidatingWebhookConfiguration describes the configuration of and admission
     webhook that accept or reject and object without changing it.
+kind: true

@@ -7,3 +7,4 @@ description:
     the options within a container's SecurityContext will be used. If set in both
     SecurityContext and PodSecurityContext, the value specified in SecurityContext
     takes precedence. Note that this field cannot be set when spec.os.name is linux.
+type: WindowsSecurityContextOptions

@@ -15,3 +15,4 @@ description:
     to disk. When the Kubelet is restarted, it tries to make the Assigned config the
     Active config by loading and validating the checkpointed payload identified by
     Assigned.
+type: NodeConfigSource

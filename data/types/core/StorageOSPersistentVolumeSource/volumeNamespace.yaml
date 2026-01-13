@@ -11,3 +11,4 @@ description:
     Set VolumeName to any name to override the default behaviour. Set to "default"
     if you are not using namespaces within StorageOS. Namespaces that do not pre-exist
     within StorageOS will be created.
+type: string

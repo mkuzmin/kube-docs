@@ -3,3 +3,5 @@ description:
     satisfy requests in this claim. It is ignored while allocating the claim.
   formatted: This field holds configuration for multiple potential drivers which could
     satisfy requests in this claim. It is ignored while allocating the claim.
+type: DeviceClaimConfiguration
+collection: array

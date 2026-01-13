@@ -7,3 +7,4 @@ description:
     InterfaceName specifies the name of the network interface associated with the allocated device. This might be the name of a physical or virtual network interface being configured in the pod.
 
     Must not be longer than 256 characters.
+type: string

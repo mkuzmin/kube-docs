@@ -17,3 +17,4 @@ description:
     deputy, cache lifetime/revocation, and correctness concerns. SubjectAccessReview,
     and LocalAccessReview are the correct way to defer authorization decisions to
     the API server.
+kind: true

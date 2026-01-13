@@ -5,3 +5,5 @@ description:
   formatted: AllocatedResources represents the compute resources allocated for this
     container by the node. Kubelet sets this value to Container.Resources.Requests
     upon successful pod admission and after successfully admitting desired pod resize.
+type: Quantity
+collection: map

@@ -3,3 +3,4 @@ description:
     for scheduling. This field is beta.
   formatted: allocatable represents the volume resources of a node that are available
     for scheduling. This field is beta.
+type: VolumeNodeResources

@@ -15,3 +15,4 @@ description:
     is closed and remains closed until the container is restarted. If this flag is
     false, a container processes that reads from stdin will never receive an EOF.
     Default is false
+type: boolean

@@ -3,3 +3,5 @@ description:
     to the extended resource.
   formatted: The name of the request in the special ResourceClaim which corresponds
     to the extended resource.
+type: string
+required: true

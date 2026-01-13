@@ -3,3 +3,4 @@ description:
     this volume
   formatted: downwardAPI represents downward API about the pod that should populate
     this volume
+type: DownwardAPIVolumeSource

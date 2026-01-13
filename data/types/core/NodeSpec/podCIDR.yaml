@@ -1,3 +1,4 @@
 description:
   original: PodCIDR represents the pod IP range assigned to the node.
   formatted: PodCIDR represents the pod IP range assigned to the node.
+type: string

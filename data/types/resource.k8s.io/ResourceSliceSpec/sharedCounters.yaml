@@ -11,3 +11,5 @@ description:
     The names of the SharedCounters must be unique in the ResourceSlice.
 
     The maximum number of counters in all sets is 32.
+type: CounterSet
+collection: array

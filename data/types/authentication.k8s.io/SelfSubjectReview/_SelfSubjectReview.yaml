@@ -9,3 +9,4 @@ description:
     the user info of the user being impersonated.  If impersonation or request header
     authentication is used, any extra keys will have their case ignored and returned
     as lowercase.
+kind: true

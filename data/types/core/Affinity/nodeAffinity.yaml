@@ -1,3 +1,4 @@
 description:
   original: Describes node affinity scheduling rules for the pod.
   formatted: Describes node affinity scheduling rules for the pod.
+type: NodeAffinity

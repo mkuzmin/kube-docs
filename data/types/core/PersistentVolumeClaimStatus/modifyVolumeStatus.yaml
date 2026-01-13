@@ -3,3 +3,4 @@ description:
     operation. When this is unset, there is no ModifyVolume operation being attempted.
   formatted: ModifyVolumeStatus represents the status object of ControllerModifyVolume
     operation. When this is unset, there is no ModifyVolume operation being attempted.
+type: ModifyVolumeStatus

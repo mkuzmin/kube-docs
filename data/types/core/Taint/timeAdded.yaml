@@ -1,3 +1,4 @@
 description:
   original: TimeAdded represents the time at which the taint was added.
   formatted: TimeAdded represents the time at which the taint was added.
+type: Time

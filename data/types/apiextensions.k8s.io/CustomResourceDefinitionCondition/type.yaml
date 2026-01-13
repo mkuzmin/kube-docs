@@ -3,3 +3,5 @@ description:
     and Terminating.
   formatted: type is the type of the condition. Types include Established, NamesAccepted
     and Terminating.
+type: string
+required: true

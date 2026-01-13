@@ -21,3 +21,5 @@ description:
     after some time. If everything goes smooth this map should be empty for the most
     of the time. Large number of entries in the map may indicate problems with pod
     deletions.
+type: Time
+collection: map

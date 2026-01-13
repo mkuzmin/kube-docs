@@ -5,3 +5,4 @@ description:
   formatted: 'glusterfs represents a Glusterfs volume that is attached to a host and
     exposed to the pod. Provisioned by an admin. Deprecated: Glusterfs is deprecated
     and the in-tree glusterfs type is no longer supported. More info: https://examples.k8s.io/volumes/glusterfs/README.md'
+type: GlusterfsPersistentVolumeSource

@@ -27,3 +27,4 @@ description:
     If AllocationMode is not specified, the default mode is ExactCount. If the mode is ExactCount and count is not specified, the default count is one. Any other subrequests must specify this field.
 
     More modes may get added in the future. Clients must refuse to handle requests with unknown modes.
+type: string

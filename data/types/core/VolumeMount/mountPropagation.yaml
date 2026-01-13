@@ -7,3 +7,4 @@ description:
     container and the other way around. When not set, MountPropagationNone is used.
     This field is beta in 1.10. When RecursiveReadOnly is set to IfPossible or to
     Enabled, MountPropagation must be None or unspecified (which defaults to None).
+type: string

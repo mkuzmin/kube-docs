@@ -1,3 +1,4 @@
 description:
   original: Details about a waiting container
   formatted: Details about a waiting container
+type: ContainerStateWaiting

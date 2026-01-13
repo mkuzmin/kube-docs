@@ -1,3 +1,5 @@
 description:
   original: diskURI is the URI of data disk in the blob storage
   formatted: diskURI is the URI of data disk in the blob storage
+type: string
+required: true

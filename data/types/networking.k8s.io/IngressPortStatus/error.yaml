@@ -9,3 +9,4 @@ description:
       CamelCase names
     - cloud provider specific error values must have names that comply with the
       format foo.example.com/CamelCase.
+type: string

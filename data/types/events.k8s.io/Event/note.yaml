@@ -5,3 +5,4 @@ description:
   formatted: note is a human-readable description of the status of this operation.
     Maximal length of the note is 1kB, but libraries should be prepared to handle
     values up to 64kB.
+type: string

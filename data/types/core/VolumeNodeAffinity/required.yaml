@@ -1,3 +1,4 @@
 description:
   original: required specifies hard node constraints that must be met.
   formatted: required specifies hard node constraints that must be met.
+type: NodeSelector

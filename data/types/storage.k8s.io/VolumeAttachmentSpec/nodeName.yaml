@@ -1,3 +1,5 @@
 description:
   original: nodeName represents the node that the volume should be attached to.
   formatted: nodeName represents the node that the volume should be attached to.
+type: string
+required: true

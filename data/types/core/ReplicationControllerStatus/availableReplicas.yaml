@@ -3,3 +3,4 @@ description:
     for this replication controller.
   formatted: The number of available replicas (ready for at least minReadySeconds)
     for this replication controller.
+type: integer

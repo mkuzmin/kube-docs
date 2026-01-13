@@ -1,3 +1,5 @@
 description:
   original: Rules holds all the PolicyRules for this Role
   formatted: Rules holds all the PolicyRules for this Role
+type: PolicyRule
+collection: array

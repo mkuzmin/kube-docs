@@ -15,3 +15,5 @@ description:
     and nodeTaintsPolicy. e.g. If TopologyKey is "kubernetes.io/hostname", each Node
     is a domain of that topology. And, if TopologyKey is "topology.kubernetes.io/zone",
     each zone is a domain of that topology. It's a required field.
+type: string
+required: true

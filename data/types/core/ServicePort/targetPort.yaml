@@ -11,3 +11,4 @@ description:
     ports. If this is not specified, the value of the ''port'' field is used (an identity
     map). This field is ignored for services with clusterIP=None, and should be omitted
     or set equal to the ''port'' field. More info: https://kubernetes.io/docs/concepts/services-networking/service/#defining-a-service'
+type: IntOrString

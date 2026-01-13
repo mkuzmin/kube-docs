@@ -3,3 +3,5 @@ description:
     mapped to.
   formatted: devicePath is the path inside of the container that the device will be
     mapped to.
+type: string
+required: true

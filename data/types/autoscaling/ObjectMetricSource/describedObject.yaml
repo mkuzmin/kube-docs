@@ -3,3 +3,5 @@ description:
     apiVersion
   formatted: describedObject specifies the descriptions of a object,such as kind,name
     apiVersion
+type: CrossVersionObjectReference
+required: true

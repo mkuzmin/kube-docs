@@ -3,3 +3,4 @@ description:
     zero and not specified. Defaults to 1.
   formatted: Number of desired pods. This is a pointer to distinguish between explicit
     zero and not specified. Defaults to 1.
+type: integer

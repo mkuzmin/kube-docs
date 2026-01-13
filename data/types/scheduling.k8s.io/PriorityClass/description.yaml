@@ -3,3 +3,4 @@ description:
     when this priority class should be used.
   formatted: description is an arbitrary string that usually provides guidelines on
     when this priority class should be used.
+type: string

@@ -105,7 +105,7 @@ See `api-groups.csv` for the mapping of API groups to files and package prefixes
 
 ## Property Reference Patterns
 
-Properties reference other types in two ways:
+Properties reference other types in several ways:
 
 **Direct `$ref`** (rare):
 ```json
@@ -124,6 +124,22 @@ Properties reference other types in two ways:
 ```
 
 The `allOf` wrapper is used when additional fields like `default` or `description` are present. The `allOf` array always contains exactly one element.
+
+**Arrays** use `items` for element type:
+```json
+"containers": {
+  "type": "array",
+  "items": { "$ref": "#/components/schemas/...Container" }
+}
+```
+
+**Maps** use `additionalProperties` for value type:
+```json
+"labels": {
+  "type": "object",
+  "additionalProperties": { "type": "string" }
+}
+```
 
 ## Descriptions
 

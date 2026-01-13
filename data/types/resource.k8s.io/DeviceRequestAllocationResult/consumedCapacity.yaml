@@ -11,3 +11,5 @@ description:
     The total consumed capacity for each device must not exceed the DeviceCapacity's Value.
 
     This field is populated only for devices that allow multiple allocations. All capacity entries are included, even if the consumed amount is zero.
+type: Quantity
+collection: map

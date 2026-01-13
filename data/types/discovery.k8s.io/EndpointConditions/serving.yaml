@@ -7,3 +7,4 @@ description:
     to whatever system is managing the endpoint. For endpoints backed by pods, the
     EndpointSlice controller will mark the endpoint as serving if the pod's Ready
     condition is True. A nil value should be interpreted as "true".
+type: boolean

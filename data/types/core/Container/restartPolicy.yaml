@@ -24,3 +24,4 @@ description:
     before proceeding to the next init container. Instead, the next init container
     starts immediately after this init container is started, or after any startupProbe
     has successfully completed.'
+type: string

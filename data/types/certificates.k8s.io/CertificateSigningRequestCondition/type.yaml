@@ -23,3 +23,5 @@ description:
     Approved and Denied conditions are mutually exclusive. Approved, Denied, and Failed conditions cannot be removed once added.
 
     Only one condition of a given type is allowed.
+type: string
+required: true

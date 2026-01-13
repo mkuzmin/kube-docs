@@ -1,3 +1,5 @@
 description:
   original: Min usage constraints on this kind by resource name.
   formatted: Min usage constraints on this kind by resource name.
+type: Quantity
+collection: map

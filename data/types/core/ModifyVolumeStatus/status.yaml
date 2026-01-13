@@ -15,3 +15,5 @@ description:
     \ as invalid by the CSI driver. To\n\t  resolve the error, a valid VolumeAttributesClass\
     \ needs to be specified.\nNote: New statuses can be added in the future. Consumers\
     \ should check for unknown statuses and fail appropriately."
+type: string
+required: true

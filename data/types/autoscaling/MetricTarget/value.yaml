@@ -1,3 +1,4 @@
 description:
   original: value is the target value of the metric (as a quantity).
   formatted: value is the target value of the metric (as a quantity).
+type: Quantity

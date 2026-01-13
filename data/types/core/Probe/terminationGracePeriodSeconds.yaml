@@ -19,3 +19,4 @@ description:
     via the kill signal (no opportunity to shut down). This is a beta field and requires
     enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds
     is used if unset.
+type: integer

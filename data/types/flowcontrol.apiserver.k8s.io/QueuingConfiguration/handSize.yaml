@@ -17,3 +17,4 @@ description:
     flows do not saturate most of the queues).  See the user-facing documentation
     for more extensive guidance on setting this field.  This field has a default value
     of 8.'
+type: integer

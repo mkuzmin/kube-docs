@@ -3,3 +3,5 @@ description:
     for the Pod in the namespace of the Pod.
   formatted: ResourceClaimName is the name of the ResourceClaim that was generated
     for the Pod in the namespace of the Pod.
+type: string
+required: true

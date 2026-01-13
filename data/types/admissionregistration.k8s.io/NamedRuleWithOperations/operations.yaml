@@ -7,3 +7,5 @@ description:
     UPDATE, DELETE, CONNECT or * for all of those operations and any future admission
     operations that are added. If '*' is present, the length of the slice must be
     one. Required.
+type: string
+collection: array

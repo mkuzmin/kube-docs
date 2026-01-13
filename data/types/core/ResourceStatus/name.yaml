@@ -9,3 +9,5 @@ description:
     value must be "claim:<claim_name>/<request>". When this status is reported about
     a container, the "claim_name" and "request" must match one of the claims of this
     container.
+type: string
+required: true

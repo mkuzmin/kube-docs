@@ -1,3 +1,4 @@
 description:
   original: message is the human-readable message indicating details about last transition.
   formatted: message is the human-readable message indicating details about last transition.
+type: string

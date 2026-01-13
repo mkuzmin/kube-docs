@@ -1,3 +1,5 @@
 description:
   original: Pool describes the pool that this ResourceSlice belongs to.
   formatted: Pool describes the pool that this ResourceSlice belongs to.
+type: ResourcePool
+required: true

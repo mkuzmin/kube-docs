@@ -1,3 +1,5 @@
 description:
   original: List of volumes that are attached to the node.
   formatted: List of volumes that are attached to the node.
+type: AttachedVolume
+collection: array

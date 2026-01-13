@@ -3,3 +3,5 @@ description:
     https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller#what-is-a-replicationcontroller'
   formatted: 'Replicas is the most recently observed number of replicas. More info:
     https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller#what-is-a-replicationcontroller'
+type: integer
+required: true

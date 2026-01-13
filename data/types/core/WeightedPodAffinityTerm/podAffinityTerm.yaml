@@ -1,3 +1,5 @@
 description:
   original: Required. A pod affinity term, associated with the corresponding weight.
   formatted: Required. A pod affinity term, associated with the corresponding weight.
+type: PodAffinityTerm
+required: true

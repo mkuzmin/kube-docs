@@ -1,3 +1,4 @@
 description:
   original: The deployment strategy to use to replace existing pods with new ones.
   formatted: The deployment strategy to use to replace existing pods with new ones.
+type: DeploymentStrategy

@@ -3,3 +3,5 @@ description:
     info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names'
   formatted: 'name of the volume. Must be a DNS_LABEL and unique within the pod. More
     info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names'
+type: string
+required: true

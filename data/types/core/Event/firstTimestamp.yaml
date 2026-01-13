@@ -3,3 +3,4 @@ description:
     is in TypeMeta.)
   formatted: The time at which the event was first recorded. (Time of server receipt
     is in TypeMeta.)
+type: Time

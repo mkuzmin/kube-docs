@@ -11,3 +11,4 @@ description:
     This is a beta feature and requires the MutableCSINodeAllocatableCount feature gate to be enabled.
 
     This field is mutable.
+type: integer

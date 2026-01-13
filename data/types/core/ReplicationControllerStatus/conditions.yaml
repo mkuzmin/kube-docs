@@ -3,3 +3,5 @@ description:
     current state.
   formatted: Represents the latest available observations of a replication controller's
     current state.
+type: ReplicationControllerCondition
+collection: array

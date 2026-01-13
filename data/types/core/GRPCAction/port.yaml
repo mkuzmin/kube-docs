@@ -1,3 +1,5 @@
 description:
   original: Port number of the gRPC service. Number must be in the range 1 to 65535.
   formatted: Port number of the gRPC service. Number must be in the range 1 to 65535.
+type: integer
+required: true

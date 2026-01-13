@@ -1,3 +1,5 @@
 description:
   original: minimum desired number of healthy pods
   formatted: minimum desired number of healthy pods
+type: integer
+required: true

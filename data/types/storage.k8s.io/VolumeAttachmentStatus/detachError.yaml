@@ -5,3 +5,4 @@ description:
   formatted: detachError represents the last error encountered during detach operation,
     if any. This field must only be set by the entity completing the detach operation,
     i.e. the external-attacher.
+type: VolumeError

@@ -13,3 +13,5 @@ description:
     Qualified Domain Name. (Deprecated) The EndpointSlice controller only generates,
     and kube-proxy only processes, slices of addressType "IPv4" and "IPv6". No semantics
     are defined for the "FQDN" type.'
+type: string
+required: true

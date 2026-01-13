@@ -1,3 +1,4 @@
 description:
   original: configMap represents a configMap that should populate this volume
   formatted: configMap represents a configMap that should populate this volume
+type: ConfigMapVolumeSource

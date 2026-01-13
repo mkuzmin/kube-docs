@@ -1,3 +1,4 @@
 description:
   original: Specifies the output format of the exposed resources, defaults to "1"
   formatted: Specifies the output format of the exposed resources, defaults to "1"
+type: Quantity

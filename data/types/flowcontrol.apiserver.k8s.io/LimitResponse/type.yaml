@@ -7,3 +7,5 @@ description:
     not be executed upon arrival are held in a queue until they can be executed or
     a queuing limit is reached. "Reject" means that requests that can not be executed
     upon arrival are rejected. Required.'
+type: string
+required: true

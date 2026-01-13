@@ -17,3 +17,4 @@ description:
     the object selector only if the webhook is opt-in, because end users may skip
     the admission webhook by setting the labels. Default to the empty LabelSelector,
     which matches everything.
+type: LabelSelector

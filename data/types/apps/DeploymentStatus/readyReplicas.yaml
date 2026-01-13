@@ -3,3 +3,4 @@ description:
     a Ready Condition.
   formatted: Total number of non-terminating pods targeted by this Deployment with
     a Ready Condition.
+type: integer

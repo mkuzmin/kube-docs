@@ -3,3 +3,5 @@ description:
     volumes of this storage class.
   formatted: parameters holds the parameters for the provisioner that should create
     volumes of this storage class.
+type: string
+collection: map

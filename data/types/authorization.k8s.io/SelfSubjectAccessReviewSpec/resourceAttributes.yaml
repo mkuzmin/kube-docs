@@ -3,3 +3,4 @@ description:
     request
   formatted: ResourceAuthorizationAttributes describes information for a resource
     access request
+type: ResourceAttributes

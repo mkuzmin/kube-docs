@@ -15,3 +15,4 @@ description:
     This field is immutable and no changes will be made to the corresponding ResourceClaim by the control plane after creating the ResourceClaim.
 
     Exactly one of ResourceClaimName and ResourceClaimTemplateName must be set.
+type: string

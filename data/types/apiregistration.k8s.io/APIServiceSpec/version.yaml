@@ -1,3 +1,4 @@
 description:
   original: Version is the API version this server hosts.  For example, "v1"
   formatted: Version is the API version this server hosts.  For example, "v1"
+type: string

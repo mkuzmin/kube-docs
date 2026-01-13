@@ -7,3 +7,5 @@ description:
     using topology aware routing. May contain a maximum of 8 entries. This is an Alpha
     feature and is only used when the PreferSameTrafficDistribution feature gate is
     enabled.
+type: ForNode
+collection: array

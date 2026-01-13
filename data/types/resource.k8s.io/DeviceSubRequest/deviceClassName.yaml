@@ -11,3 +11,5 @@ description:
     A class is required. Which classes are available depends on the cluster.
 
     Administrators may use this to restrict which devices may get requested by only installing classes with selectors for permitted devices. If users are free to request anything without restrictions, then administrators can create an empty DeviceClass for users to reference.
+type: string
+required: true

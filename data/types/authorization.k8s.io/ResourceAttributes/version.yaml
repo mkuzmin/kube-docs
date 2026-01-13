@@ -1,3 +1,4 @@
 description:
   original: Version is the API Version of the Resource.  "*" means all.
   formatted: Version is the API Version of the Resource.  "*" means all.
+type: string

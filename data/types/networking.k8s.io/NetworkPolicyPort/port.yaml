@@ -7,3 +7,4 @@ description:
     numerical or named port on a pod. If this field is not provided, this matches
     all port names and numbers. If present, only traffic on the specified protocol
     AND port will be matched.
+type: IntOrString

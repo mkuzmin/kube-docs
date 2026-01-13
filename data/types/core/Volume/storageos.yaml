@@ -5,3 +5,4 @@ description:
   formatted: 'storageOS represents a StorageOS volume attached and mounted on Kubernetes
     nodes. Deprecated: StorageOS is deprecated and the in-tree storageos type is no
     longer supported.'
+type: StorageOSVolumeSource

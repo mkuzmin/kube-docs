@@ -1,3 +1,4 @@
 description:
   original: Spec defines the desired identities of pods in this set.
   formatted: Spec defines the desired identities of pods in this set.
+type: StatefulSetSpec

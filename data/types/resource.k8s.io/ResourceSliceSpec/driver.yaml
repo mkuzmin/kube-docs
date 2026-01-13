@@ -7,3 +7,5 @@ description:
     Driver identifies the DRA driver providing the capacity information. A field selector can be used to list only ResourceSlice objects with a certain driver name.
 
     Must be a DNS subdomain and should end with a DNS domain owned by the vendor of the driver. This field is immutable.
+type: string
+required: true

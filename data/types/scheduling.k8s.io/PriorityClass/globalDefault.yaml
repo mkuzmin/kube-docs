@@ -9,3 +9,4 @@ description:
     PriorityClass can be marked as `globalDefault`. However, if more than one PriorityClasses
     exists with their `globalDefault` field set to true, the smallest value of such
     global default PriorityClasses will be used as the default priority.
+type: boolean

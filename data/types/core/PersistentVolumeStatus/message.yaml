@@ -3,3 +3,4 @@ description:
     is in this state.
   formatted: message is a human-readable message indicating details about why the
     volume is in this state.
+type: string

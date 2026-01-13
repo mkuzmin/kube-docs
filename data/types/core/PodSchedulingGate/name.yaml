@@ -3,3 +3,5 @@ description:
     field.
   formatted: Name of the scheduling gate. Each scheduling gate must have a unique
     name field.
+type: string
+required: true

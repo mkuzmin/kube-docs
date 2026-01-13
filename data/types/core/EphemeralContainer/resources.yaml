@@ -3,3 +3,4 @@ description:
     use spare resources already allocated to the pod.
   formatted: Resources are not allowed for ephemeral containers. Ephemeral containers
     use spare resources already allocated to the pod.
+type: ResourceRequirements

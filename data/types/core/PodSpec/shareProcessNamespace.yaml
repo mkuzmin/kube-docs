@@ -9,3 +9,4 @@ description:
     other containers in the same pod, and the first process in each container will
     not be assigned PID 1. HostPID and ShareProcessNamespace cannot both be set. Optional:
     Default to false.'
+type: boolean

@@ -1,3 +1,5 @@
 description:
   original: Port numbers available on the related IP addresses.
   formatted: Port numbers available on the related IP addresses.
+type: EndpointPort
+collection: array

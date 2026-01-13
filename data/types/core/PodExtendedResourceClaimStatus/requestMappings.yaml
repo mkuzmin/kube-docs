@@ -3,3 +3,6 @@ description:
     backed by DRA> to  device request in the generated ResourceClaim.
   formatted: RequestMappings identifies the mapping of <container, extended resource
     backed by DRA> to  device request in the generated ResourceClaim.
+type: ContainerExtendedResourceRequest
+collection: array
+required: true

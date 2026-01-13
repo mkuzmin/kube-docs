@@ -1,3 +1,4 @@
 description:
   original: Namespace is the namespace of the service
   formatted: Namespace is the namespace of the service
+type: string

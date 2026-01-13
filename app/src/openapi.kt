@@ -30,6 +30,7 @@ data class Property(
     val type: String? = null,
     val allOf: List<RefObject>? = null,
     val items: Property? = null,
+    val additionalProperties: Property? = null,
     @SerialName($$"$ref")
     val ref: String? = null,
 )

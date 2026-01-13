@@ -7,3 +7,4 @@ description:
     a namespace (which happens either because the resource is not namespaced or the
     request targets all namespaces). If this field is omitted or false then the `namespaces`
     field must contain a non-empty list.'
+type: boolean

@@ -1,3 +1,5 @@
 description:
   original: ports provides information about the ports exposed by this LoadBalancer.
   formatted: ports provides information about the ports exposed by this LoadBalancer.
+type: IngressPortStatus
+collection: array

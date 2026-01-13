@@ -3,3 +3,4 @@ description:
     of the replication controller.
   formatted: The number of pods that have labels matching the labels of the pod template
     of the replication controller.
+type: integer

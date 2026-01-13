@@ -7,3 +7,4 @@ description:
     When enabled: 1. requests to the custom resource primary endpoint ignore changes
     to the `status` stanza of the object. 2. requests to the custom resource `/status`
     subresource ignore changes to anything other than the `status` stanza of the object.'
+type: CustomResourceSubresourceStatus

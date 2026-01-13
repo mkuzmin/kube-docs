@@ -7,3 +7,4 @@ description:
     maintained in the StatefulSet's revision history. The revision history consists
     of all revisions not represented by a currently applied StatefulSetSpec version.
     The default value is 10.
+type: integer

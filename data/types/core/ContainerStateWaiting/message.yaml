@@ -1,3 +1,4 @@
 description:
   original: Message regarding why the container is not yet running.
   formatted: Message regarding why the container is not yet running.
+type: string

@@ -7,3 +7,5 @@ description:
     to. The term is applied to the union of the namespaces listed in this field and
     the ones selected by namespaceSelector. null or empty namespaces list and null
     namespaceSelector means "this pod's namespace".
+type: string
+collection: array

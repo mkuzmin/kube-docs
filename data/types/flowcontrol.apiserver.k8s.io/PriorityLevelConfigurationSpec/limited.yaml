@@ -3,3 +3,4 @@ description:
     This field must be non-empty if and only if `type` is `"Limited"`.'
   formatted: '`limited` specifies how requests are handled for a Limited priority
     level. This field must be non-empty if and only if `type` is `"Limited"`.'
+type: LimitedPriorityLevelConfiguration

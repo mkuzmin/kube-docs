@@ -1,3 +1,4 @@
 description:
   original: Authenticated indicates that the token was associated with a known user.
   formatted: Authenticated indicates that the token was associated with a known user.
+type: boolean

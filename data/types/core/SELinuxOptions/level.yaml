@@ -1,3 +1,4 @@
 description:
   original: Level is SELinux level label that applies to the container.
   formatted: Level is SELinux level label that applies to the container.
+type: string

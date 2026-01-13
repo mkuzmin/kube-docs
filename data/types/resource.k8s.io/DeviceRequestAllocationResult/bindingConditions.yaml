@@ -7,3 +7,5 @@ description:
     BindingConditions contains a copy of the BindingConditions from the corresponding ResourceSlice at the time of allocation.
 
     This is an alpha field and requires enabling the DRADeviceBindingConditions and DRAResourceClaimDeviceStatus feature gates.
+type: string
+collection: array

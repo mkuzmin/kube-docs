@@ -15,3 +15,4 @@ description:
     only "1" and "3" indexes are considered in that rules. When this field is null,
     this doesn't default to any value and is never evaluated at any time. When specified
     it needs to be a positive integer.
+type: integer

@@ -9,3 +9,4 @@ description:
     the CSIMigration feature. It contains translated fields from a pod's inline VolumeSource
     to a PersistentVolumeSpec. This field is beta-level and is only honored by servers
     that enabled the CSIMigration feature.
+type: PersistentVolumeSpec

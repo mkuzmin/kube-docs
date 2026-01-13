@@ -9,3 +9,4 @@ description:
     For example, you may have different parameters for the same implementing controller.
     This should be specified as a domain-prefixed path no more than 250 characters
     in length, e.g. "acme.io/ingress-controller". This field is immutable.
+type: string

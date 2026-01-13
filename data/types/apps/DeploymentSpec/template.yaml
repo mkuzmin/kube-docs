@@ -3,3 +3,5 @@ description:
     value is "Always".
   formatted: Template describes the pods that will be created. The only allowed template.spec.restartPolicy
     value is "Always".
+type: PodTemplateSpec
+required: true

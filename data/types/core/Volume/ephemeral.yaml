@@ -29,3 +29,4 @@ description:
     Use CSI for light-weight local ephemeral volumes if the CSI driver is meant to be used that way - see the documentation of the driver for more information.
 
     A pod can use both types of ephemeral volumes and persistent volumes at the same time.
+type: EphemeralVolumeSource

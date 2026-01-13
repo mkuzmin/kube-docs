@@ -4,3 +4,4 @@ description:
   formatted: 'quobyte represents a Quobyte mount on the host that shares a pod''s
     lifetime. Deprecated: Quobyte is deprecated and the in-tree quobyte type is no
     longer supported.'
+type: QuobyteVolumeSource

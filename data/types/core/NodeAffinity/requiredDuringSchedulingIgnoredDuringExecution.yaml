@@ -9,3 +9,4 @@ description:
     specified by this field cease to be met at some point during pod execution (e.g.
     due to an update), the system may or may not try to eventually evict the pod from
     its node.
+type: NodeSelector

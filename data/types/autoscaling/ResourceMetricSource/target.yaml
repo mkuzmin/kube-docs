@@ -1,3 +1,5 @@
 description:
   original: target specifies the target value for the given metric
   formatted: target specifies the target value for the given metric
+type: MetricTarget
+required: true

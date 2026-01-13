@@ -1,3 +1,4 @@
 description:
   original: 'Use the host''s ipc namespace. Optional: Default to false.'
   formatted: 'Use the host''s ipc namespace. Optional: Default to false.'
+type: boolean

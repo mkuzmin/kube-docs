@@ -23,3 +23,5 @@ description:
       the IngressClass. Implementations can treat this as a separate PathType
       or treat it identically to Prefix or Exact path types.
     Implementations are required to support all path types.
+type: string
+required: true

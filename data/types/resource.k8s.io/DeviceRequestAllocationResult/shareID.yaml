@@ -5,3 +5,4 @@ description:
   formatted: ShareID uniquely identifies an individual allocation share of the device,
     used when the device supports multiple simultaneous allocations. It serves as
     an additional map key to differentiate concurrent shares of the same device.
+type: string

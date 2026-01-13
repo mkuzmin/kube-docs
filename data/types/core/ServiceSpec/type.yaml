@@ -23,3 +23,4 @@ description:
     to the same endpoints as the clusterIP. "ExternalName" aliases this service to
     the specified externalName. Several other fields do not apply to ExternalName
     services. More info: https://kubernetes.io/docs/concepts/services-networking/service/#publishing-services-service-types'
+type: string

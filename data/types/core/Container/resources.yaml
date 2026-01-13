@@ -3,3 +3,4 @@ description:
     info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/'
   formatted: 'Compute Resources required by this container. Cannot be updated. More
     info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/'
+type: ResourceRequirements

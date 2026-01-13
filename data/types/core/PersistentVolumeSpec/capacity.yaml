@@ -3,3 +3,5 @@ description:
     capacity. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#capacity'
   formatted: 'capacity is the description of the persistent volume''s resources and
     capacity. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#capacity'
+type: Quantity
+collection: map

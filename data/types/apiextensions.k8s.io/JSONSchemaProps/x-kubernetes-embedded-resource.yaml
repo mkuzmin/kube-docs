@@ -11,3 +11,4 @@ description:
     are validated automatically. x-kubernetes-preserve-unknown-fields is allowed to
     be true, but does not have to be if the object is fully specified (up to kind,
     apiVersion, metadata).
+type: boolean

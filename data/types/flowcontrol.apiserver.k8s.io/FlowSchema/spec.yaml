@@ -3,3 +3,4 @@ description:
     More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#spec-and-status'
   formatted: '`spec` is the specification of the desired behavior of a FlowSchema.
     More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#spec-and-status'
+type: FlowSchemaSpec

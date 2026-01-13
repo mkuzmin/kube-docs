@@ -5,3 +5,5 @@ description:
   formatted: 'A label query over pods that are managed by the daemon set. Must match
     in order to be controlled. It must match the pod template''s labels. More info:
     https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#label-selectors'
+type: LabelSelector
+required: true

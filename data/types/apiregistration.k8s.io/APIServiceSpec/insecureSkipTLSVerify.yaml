@@ -3,3 +3,4 @@ description:
     with this server. This is strongly discouraged.  You should use the CABundle instead.
   formatted: InsecureSkipTLSVerify disables TLS certificate verification when communicating
     with this server. This is strongly discouraged.  You should use the CABundle instead.
+type: boolean

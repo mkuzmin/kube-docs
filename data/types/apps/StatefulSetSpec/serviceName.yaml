@@ -7,3 +7,4 @@ description:
     This service must exist before the StatefulSet, and is responsible for the network
     identity of the set. Pods get DNS/hostnames that follow the pattern: pod-specific-string.serviceName.default.svc.cluster.local
     where "pod-specific-string" is managed by the StatefulSet controller.'
+type: string

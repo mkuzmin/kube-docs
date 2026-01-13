@@ -1,3 +1,5 @@
 description:
   original: name represents the name of the node.
   formatted: name represents the name of the node.
+type: string
+required: true

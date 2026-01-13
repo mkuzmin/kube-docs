@@ -1,3 +1,5 @@
 description:
   original: Type of statefulset condition.
   formatted: Type of statefulset condition.
+type: string
+required: true

@@ -1,3 +1,4 @@
 description:
   original: Most recently observed status of the Deployment.
   formatted: Most recently observed status of the Deployment.
+type: DeploymentStatus

@@ -13,3 +13,4 @@ description:
     must design their workload to gracefully handle this. Suspending a Job will reset
     the StartTime field of the Job, effectively resetting the ActiveDeadlineSeconds
     timer too. Defaults to false.
+type: boolean

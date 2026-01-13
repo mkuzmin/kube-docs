@@ -1,3 +1,4 @@
 description:
   original: Time at which the container last terminated
   formatted: Time at which the container last terminated
+type: Time

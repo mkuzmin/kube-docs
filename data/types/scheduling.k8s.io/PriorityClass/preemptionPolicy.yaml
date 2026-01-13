@@ -3,3 +3,4 @@ description:
     One of Never, PreemptLowerPriority. Defaults to PreemptLowerPriority if unset.
   formatted: preemptionPolicy is the Policy for preempting pods with lower priority.
     One of Never, PreemptLowerPriority. Defaults to PreemptLowerPriority if unset.
+type: string

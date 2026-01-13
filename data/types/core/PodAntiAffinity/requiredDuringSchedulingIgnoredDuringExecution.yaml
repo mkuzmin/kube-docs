@@ -13,3 +13,5 @@ description:
     evict the pod from its node. When there are multiple elements, the lists of nodes
     corresponding to each podAffinityTerm are intersected, i.e. all terms must be
     satisfied.
+type: PodAffinityTerm
+collection: array

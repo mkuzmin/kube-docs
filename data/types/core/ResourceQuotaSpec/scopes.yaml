@@ -3,3 +3,5 @@ description:
     If not specified, the quota matches all objects.
   formatted: A collection of filters that must match each object tracked by a quota.
     If not specified, the quota matches all objects.
+type: string
+collection: array

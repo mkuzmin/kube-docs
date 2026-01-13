@@ -3,3 +3,4 @@ description:
     the default value Max is used.
   formatted: selectPolicy is used to specify which policy should be used. If not set,
     the default value Max is used.
+type: string

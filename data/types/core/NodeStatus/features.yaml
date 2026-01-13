@@ -1,3 +1,4 @@
 description:
   original: Features describes the set of features implemented by the CRI implementation.
   formatted: Features describes the set of features implemented by the CRI implementation.
+type: NodeFeatures

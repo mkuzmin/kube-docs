@@ -15,3 +15,4 @@ description:
     When "false", Kubernetes won't pass any special SELinux mount options to the driver. This is typical for volumes that represent subdirectories of a bigger shared filesystem.
 
     Default is "false".
+type: boolean

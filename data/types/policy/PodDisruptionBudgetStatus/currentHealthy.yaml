@@ -1,3 +1,5 @@
 description:
   original: current number of healthy pods
   formatted: current number of healthy pods
+type: integer
+required: true

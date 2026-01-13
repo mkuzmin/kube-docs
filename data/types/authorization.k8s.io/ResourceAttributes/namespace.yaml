@@ -9,3 +9,4 @@ description:
     defaulted for LocalSubjectAccessReviews "" (empty) is empty for cluster-scoped
     resources "" (empty) means "all" for namespace scoped resources from a SubjectAccessReview
     or SelfSubjectAccessReview
+type: string

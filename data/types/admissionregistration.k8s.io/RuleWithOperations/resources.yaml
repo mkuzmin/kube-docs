@@ -15,3 +15,5 @@ description:
     If wildcard is present, the validation rule will ensure resources do not overlap with each other.
 
     Depending on the enclosing object, subresources might not be allowed. Required.
+type: string
+collection: array

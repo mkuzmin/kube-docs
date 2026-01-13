@@ -5,3 +5,4 @@ description:
   formatted: 'azureFile represents an Azure File Service mount on the host and bind
     mount to the pod. Deprecated: AzureFile is deprecated. All operations for the
     in-tree azureFile type are redirected to the file.csi.azure.com CSI driver.'
+type: AzureFileVolumeSource

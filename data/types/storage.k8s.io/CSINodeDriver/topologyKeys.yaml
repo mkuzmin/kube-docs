@@ -17,3 +17,5 @@ description:
     should retrieve from the node object and pass back to the driver. It is possible
     for different nodes to use different topology keys. This can be empty if driver
     does not support topology.
+type: string
+collection: array

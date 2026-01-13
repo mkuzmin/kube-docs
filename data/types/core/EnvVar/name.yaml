@@ -3,3 +3,5 @@ description:
     except '='.
   formatted: Name of the environment variable. May consist of any printable ASCII
     characters except '='.
+type: string
+required: true

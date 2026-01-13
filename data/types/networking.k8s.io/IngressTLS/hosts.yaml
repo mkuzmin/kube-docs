@@ -7,3 +7,5 @@ description:
     in this list must match the name/s used in the tlsSecret. Defaults to the wildcard
     host setting for the loadbalancer controller fulfilling this Ingress, if left
     unspecified.
+type: string
+collection: array

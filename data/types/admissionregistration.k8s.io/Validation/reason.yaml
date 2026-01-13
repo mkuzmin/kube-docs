@@ -11,3 +11,4 @@ description:
     client. The currently supported reasons are: "Unauthorized", "Forbidden", "Invalid",
     "RequestEntityTooLarge". If not set, StatusReasonInvalid is used in the response
     to the client.'
+type: string

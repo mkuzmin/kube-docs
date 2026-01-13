@@ -3,3 +3,5 @@ description:
     matching requests according to their verb and the target non-resource URL.'
   formatted: '`nonResourceRules` is a list of NonResourcePolicyRules that identify
     matching requests according to their verb and the target non-resource URL.'
+type: NonResourcePolicyRule
+collection: array

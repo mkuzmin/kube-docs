@@ -7,3 +7,6 @@ description:
     rule cares about. There must be at least one member in this slice. A slice that
     includes both the system:authenticated and system:unauthenticated user groups
     matches every request. Required.
+type: Subject
+collection: array
+required: true

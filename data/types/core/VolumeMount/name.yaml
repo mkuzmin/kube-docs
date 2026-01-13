@@ -1,3 +1,5 @@
 description:
   original: This must match the Name of a Volume.
   formatted: This must match the Name of a Volume.
+type: string
+required: true

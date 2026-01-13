@@ -3,3 +3,4 @@ description:
     have the desired template spec.
   formatted: Total number of non-terminating pods targeted by this deployment that
     have the desired template spec.
+type: integer

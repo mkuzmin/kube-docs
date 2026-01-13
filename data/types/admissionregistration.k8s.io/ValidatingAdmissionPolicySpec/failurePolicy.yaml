@@ -19,3 +19,4 @@ description:
     When failurePolicy is set to Fail, ValidatingAdmissionPolicyBinding validationActions define how failures are enforced.
 
     Allowed values are Ignore or Fail. Defaults to Fail.
+type: string

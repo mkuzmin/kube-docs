@@ -15,3 +15,4 @@ description:
     leading zeros for IPv4 and the representation defined by RFC 5952 for IPv6. Valid:
     192.168.1.5 or 2001:db8::1 or 2001:db8:aaaa:bbbb:cccc:dddd:eeee:1 Invalid: 10.01.2.3
     or 2001:db8:0:0:0::1'
+kind: true

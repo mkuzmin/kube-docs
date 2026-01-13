@@ -3,3 +3,5 @@ description:
     by DRA.
   formatted: The name of the extended resource in that container which gets backed
     by DRA.
+type: string
+required: true

@@ -1,3 +1,4 @@
 description:
   original: acquireTime is a time when the current lease was acquired.
   formatted: acquireTime is a time when the current lease was acquired.
+type: MicroTime

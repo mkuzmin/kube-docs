@@ -5,3 +5,5 @@ description:
   formatted: IP addresses which offer the related ports but are not currently marked
     as ready because they have not yet finished starting, have recently failed a readiness
     check, or have recently failed a liveness check.
+type: EndpointAddress
+collection: array

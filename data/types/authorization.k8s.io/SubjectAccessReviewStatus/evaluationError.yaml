@@ -7,3 +7,4 @@ description:
     authorization check. It is entirely possible to get an error and be able to continue
     determine authorization status in spite of it. For instance, RBAC can be missing
     a role, but enough roles are still present and bound to reason about the request.
+type: string

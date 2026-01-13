@@ -7,3 +7,4 @@ description:
     '..'.  If '.' is supplied, the volume directory will be the git repository.  Otherwise,
     if specified, the volume will contain the git repository in the subdirectory with
     the given name.
+type: string

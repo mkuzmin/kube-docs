@@ -11,3 +11,4 @@ description:
     This field enables fine-grained control over resource allocation for the entire pod, allowing resource sharing among containers in a pod.
 
     This is an alpha field and requires enabling the PodLevelResources feature gate.
+type: ResourceRequirements

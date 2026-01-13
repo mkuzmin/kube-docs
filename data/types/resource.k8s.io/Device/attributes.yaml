@@ -7,3 +7,5 @@ description:
     Attributes defines the set of attributes for this device. The name of each attribute must be unique in that set.
 
     The maximum number of attributes and capacities combined is 32.
+type: DeviceAttribute
+collection: map

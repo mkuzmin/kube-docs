@@ -7,3 +7,4 @@ description:
     AllowMultipleAllocations marks whether the device is allowed to be allocated to multiple DeviceRequests.
 
     If AllowMultipleAllocations is set to true, the device can be allocated more than once, and all of its capacity is consumable, regardless of whether the requestPolicy is defined or not.
+type: boolean

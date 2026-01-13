@@ -19,3 +19,5 @@ description:
     The maximum number of tolerations is 16.
 
     This is an alpha field and requires enabling the DRADeviceTaints feature gate.
+type: DeviceToleration
+collection: array

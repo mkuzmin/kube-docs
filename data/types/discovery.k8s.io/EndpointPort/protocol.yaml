@@ -3,3 +3,4 @@ description:
     SCTP. Default is TCP.
   formatted: protocol represents the IP protocol for this port. Must be UDP, TCP,
     or SCTP. Default is TCP.
+type: string

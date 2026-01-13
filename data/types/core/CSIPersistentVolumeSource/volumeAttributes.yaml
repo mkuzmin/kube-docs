@@ -1,3 +1,5 @@
 description:
   original: volumeAttributes of the volume to publish.
   formatted: volumeAttributes of the volume to publish.
+type: string
+collection: map

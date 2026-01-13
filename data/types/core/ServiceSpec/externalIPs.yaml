@@ -9,3 +9,5 @@ description:
     user is responsible for ensuring that traffic arrives at a node with this IP.  A
     common example is external load-balancers that are not part of the Kubernetes
     system.
+type: string
+collection: array

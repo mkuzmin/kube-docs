@@ -3,3 +3,4 @@ description:
     claim.
   formatted: volumeName is the binding reference to the PersistentVolume backing this
     claim.
+type: string

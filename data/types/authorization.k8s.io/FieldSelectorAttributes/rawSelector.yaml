@@ -7,3 +7,4 @@ description:
     in a query parameter. Webhook implementations are encouraged to ignore rawSelector.
     The kube-apiserver's *SubjectAccessReview will parse the rawSelector as long as
     the requirements are not present.
+type: string

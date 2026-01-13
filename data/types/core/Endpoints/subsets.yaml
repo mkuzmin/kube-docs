@@ -11,3 +11,5 @@ description:
     containers) will result in the address being displayed in different subsets for
     the different ports. No address will appear in both Addresses and NotReadyAddresses
     in the same subset. Sets of addresses and ports that comprise a service.
+type: EndpointSubset
+collection: array

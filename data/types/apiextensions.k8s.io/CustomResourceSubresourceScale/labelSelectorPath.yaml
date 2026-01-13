@@ -15,3 +15,4 @@ description:
     label selector in string form. More info: https://kubernetes.io/docs/tasks/access-kubernetes-api/custom-resources/custom-resource-definitions#scale-subresource
     If there is no value under the given path in the custom resource, the `status.selector`
     value in the `/scale` subresource will default to the empty string.'
+type: string

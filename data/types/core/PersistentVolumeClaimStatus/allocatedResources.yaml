@@ -33,3 +33,5 @@ description:
     \ that only is responsible for resizing capacity of the volume, should ignore\
     \ PVC updates that change other valid resources associated with PVC.\n\nThis is\
     \ an alpha field and requires enabling RecoverVolumeExpansionFailure feature."
+type: Quantity
+collection: map

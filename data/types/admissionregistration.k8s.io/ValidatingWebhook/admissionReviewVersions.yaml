@@ -11,3 +11,6 @@ description:
     by API server, validation will fail for this object. If a persisted webhook configuration
     specifies allowed versions and does not include any versions known to the API
     Server, calls to the webhook will fail and be subject to the failure policy.
+type: string
+collection: array
+required: true

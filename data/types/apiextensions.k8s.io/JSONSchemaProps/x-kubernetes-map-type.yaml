@@ -17,3 +17,4 @@ description:
          the default behaviour for all maps.
     2) `atomic`: the list is treated as a single entity, like a scalar.
          Atomic maps will be entirely replaced when updated.
+type: string

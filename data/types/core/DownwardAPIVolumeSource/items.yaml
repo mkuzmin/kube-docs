@@ -1,3 +1,5 @@
 description:
   original: Items is a list of downward API volume file
   formatted: Items is a list of downward API volume file
+type: DownwardAPIVolumeFile
+collection: array

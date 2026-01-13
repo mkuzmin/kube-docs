@@ -1,3 +1,4 @@
 description:
   original: IntValue is a number.
   formatted: IntValue is a number.
+type: integer

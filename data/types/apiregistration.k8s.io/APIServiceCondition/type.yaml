@@ -1,3 +1,5 @@
 description:
   original: Type is the type of the condition.
   formatted: Type is the type of the condition.
+type: string
+required: true

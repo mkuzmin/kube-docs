@@ -9,3 +9,4 @@ description:
     fields recursively, but switches back to normal pruning behaviour if nested properties
     or additionalProperties are specified in the schema. This can either be true or
     undefined. False is forbidden.
+type: boolean

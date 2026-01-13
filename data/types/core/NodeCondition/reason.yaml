@@ -1,3 +1,4 @@
 description:
   original: (brief) reason for the condition's last transition.
   formatted: (brief) reason for the condition's last transition.
+type: string

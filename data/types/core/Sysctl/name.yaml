@@ -1,3 +1,5 @@
 description:
   original: Name of a property to set
   formatted: Name of a property to set
+type: string
+required: true

@@ -11,3 +11,4 @@ description:
     Setting this to "Proxy" indicates that traffic is delivered to the node or pod
     with the destination set to the node's IP and node port or the pod's IP and port.
     Service implementations may use this information to adjust traffic routing.
+type: string

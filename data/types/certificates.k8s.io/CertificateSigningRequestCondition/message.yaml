@@ -3,3 +3,4 @@ description:
     state
   formatted: message contains a human readable message with details about the request
     state
+type: string

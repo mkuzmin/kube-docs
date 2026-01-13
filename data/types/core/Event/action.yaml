@@ -1,3 +1,4 @@
 description:
   original: What action was taken/failed regarding to the Regarding object.
   formatted: What action was taken/failed regarding to the Regarding object.
+type: string

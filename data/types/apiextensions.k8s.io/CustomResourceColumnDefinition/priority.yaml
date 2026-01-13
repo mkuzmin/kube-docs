@@ -7,3 +7,4 @@ description:
     compared to others. Lower numbers are considered higher priority. Columns that
     may be omitted in limited space scenarios should be given a priority greater than
     0.
+type: integer

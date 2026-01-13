@@ -1,3 +1,5 @@
 description:
   original: conditions indicate state for particular aspects of a CustomResourceDefinition
   formatted: conditions indicate state for particular aspects of a CustomResourceDefinition
+type: CustomResourceDefinitionCondition
+collection: array

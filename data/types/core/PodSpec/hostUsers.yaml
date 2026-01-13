@@ -15,3 +15,4 @@ description:
     vulnerabilities even allowing users to run their containers as root without actually
     having root privileges on the host. This field is alpha-level and is only honored
     by servers that enable the UserNamespacesSupport feature.'
+type: boolean

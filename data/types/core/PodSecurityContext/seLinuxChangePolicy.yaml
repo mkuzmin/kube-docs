@@ -23,3 +23,4 @@ description:
     This field affects only Pods that have SELinux label set, either in PodSecurityContext or in SecurityContext of all containers.
 
     All Pods that use the same volume should use the same seLinuxChangePolicy, otherwise some pods can get stuck in ContainerCreating state. Note that this field cannot be set when spec.os.name is windows.
+type: string

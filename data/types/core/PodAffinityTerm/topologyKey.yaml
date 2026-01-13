@@ -9,3 +9,5 @@ description:
     is defined as running on a node whose value of the label with key topologyKey
     matches that of any node on which any of the selected pods is running. Empty topologyKey
     is not allowed.
+type: string
+required: true

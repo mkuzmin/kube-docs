@@ -1,3 +1,4 @@
 description:
   original: 'Set of ids/uuids to uniquely identify the node. More info: https://kubernetes.io/docs/reference/node/node-status/#info'
   formatted: 'Set of ids/uuids to uniquely identify the node. More info: https://kubernetes.io/docs/reference/node/node-status/#info'
+type: NodeSystemInfo

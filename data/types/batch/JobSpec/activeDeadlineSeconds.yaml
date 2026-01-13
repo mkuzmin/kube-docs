@@ -7,3 +7,4 @@ description:
     job may be continuously active before the system tries to terminate it; value
     must be positive integer. If a Job is suspended (at creation or through an update),
     this timer will effectively be stopped and reset when the Job is resumed again.
+type: integer

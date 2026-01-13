@@ -1,3 +1,4 @@
 description:
   original: conversion defines conversion settings for the CRD.
   formatted: conversion defines conversion settings for the CRD.
+type: CustomResourceConversion

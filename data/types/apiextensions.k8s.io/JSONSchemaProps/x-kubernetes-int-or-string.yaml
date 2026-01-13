@@ -21,3 +21,4 @@ description:
          - type: integer
          - type: string
        - ... zero or more
+type: boolean

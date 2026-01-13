@@ -1,3 +1,4 @@
 description:
   original: Node name on which the event is generated.
   formatted: Node name on which the event is generated.
+type: string

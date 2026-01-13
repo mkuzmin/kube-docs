@@ -13,3 +13,5 @@ description:
     means that (a) requests of this priority level _are_ subject to limits and (b)
     some of the server''s limited capacity is made available exclusively to this priority
     level. Required.'
+type: string
+required: true

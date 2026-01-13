@@ -1,3 +1,4 @@
 description:
   original: ip is set for load-balancer ingress points that are IP based.
   formatted: ip is set for load-balancer ingress points that are IP based.
+type: string

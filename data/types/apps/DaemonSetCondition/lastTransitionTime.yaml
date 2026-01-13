@@ -1,3 +1,4 @@
 description:
   original: Last time the condition transitioned from one status to another.
   formatted: Last time the condition transitioned from one status to another.
+type: Time

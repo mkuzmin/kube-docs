@@ -1,3 +1,5 @@
 description:
   original: The type checking warnings for each expression.
   formatted: The type checking warnings for each expression.
+type: ExpressionWarning
+collection: array

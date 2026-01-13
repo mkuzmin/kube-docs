@@ -15,3 +15,5 @@ description:
     set. If RuntimeClass is configured and selected in the PodSpec, Overhead will
     be set to the value defined in the corresponding RuntimeClass, otherwise it will
     remain unset and treated as zero. More info: https://git.k8s.io/enhancements/keps/sig-node/688-pod-overhead/README.md'
+type: Quantity
+collection: map

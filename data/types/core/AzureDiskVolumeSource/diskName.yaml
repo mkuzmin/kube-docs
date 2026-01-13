@@ -1,3 +1,5 @@
 description:
   original: diskName is the Name of the data disk in the blob storage
   formatted: diskName is the Name of the data disk in the blob storage
+type: string
+required: true

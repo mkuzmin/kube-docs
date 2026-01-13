@@ -3,3 +3,4 @@ description:
     ReadOnly setting in VolumeMounts. More info: https://examples.k8s.io/mysql-cinder-pd/README.md'
   formatted: 'readOnly defaults to false (read/write). ReadOnly here will force the
     ReadOnly setting in VolumeMounts. More info: https://examples.k8s.io/mysql-cinder-pd/README.md'
+type: boolean

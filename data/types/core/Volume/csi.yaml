@@ -3,3 +3,4 @@ description:
     handled by certain external CSI drivers.
   formatted: csi (Container Storage Interface) represents ephemeral storage that is
     handled by certain external CSI drivers.
+type: CSIVolumeSource

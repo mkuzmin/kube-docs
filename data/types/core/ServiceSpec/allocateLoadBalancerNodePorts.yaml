@@ -11,3 +11,4 @@ description:
     requests specific NodePorts (by specifying a value), those requests will be respected,
     regardless of this field. This field may only be set for services with type LoadBalancer
     and will be cleared if the type is changed to any other type.
+type: boolean

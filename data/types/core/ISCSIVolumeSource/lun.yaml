@@ -1,3 +1,5 @@
 description:
   original: lun represents iSCSI Target Lun number.
   formatted: lun represents iSCSI Target Lun number.
+type: integer
+required: true

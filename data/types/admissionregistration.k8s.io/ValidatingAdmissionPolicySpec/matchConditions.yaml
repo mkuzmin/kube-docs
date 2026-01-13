@@ -21,3 +21,5 @@ description:
       3. If any matchCondition evaluates to an error (but none are FALSE):
          - If failurePolicy=Fail, reject the request
          - If failurePolicy=Ignore, the policy is skipped
+type: MatchCondition
+collection: array

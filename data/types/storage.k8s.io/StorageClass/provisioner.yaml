@@ -1,3 +1,5 @@
 description:
   original: provisioner indicates the type of the provisioner.
   formatted: provisioner indicates the type of the provisioner.
+type: string
+required: true

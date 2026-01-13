@@ -53,3 +53,5 @@ description:
     \ capacity of the volume, should ignore PVC updates that change other valid resources\
     \ associated with PVC.\n\nThis is an alpha field and requires enabling RecoverVolumeExpansionFailure\
     \ feature."
+type: string
+collection: map

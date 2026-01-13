@@ -15,3 +15,4 @@ description:
     there are no CSI Drivers available on the node, or the Kubelet version is low
     enough that it doesn't create this object. CSINode has an OwnerReference that
     points to the corresponding node object.
+kind: true

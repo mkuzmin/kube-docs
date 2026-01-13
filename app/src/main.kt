@@ -1,11 +1,9 @@
 package app
 
-import kotlinx.serialization.json.Json
 import java.io.File
 
 fun main() {
     val apiGroups = loadApiGroups("../api-groups.csv")
-    val specDir = File("../data/openapi")
     val typesDir = File("../data/types")
     val baseDir = File("../data/logseq/pages/generated")
 
@@ -24,10 +22,10 @@ fun main() {
         if (preferred.size > 1) error("Multiple preferred versions for group '$name'")
 
         val groupVersion = preferred.single()
-        val schemas = loadSchemas(specDir, groupVersion)
+        val types = loadTypes(typesDir, groupVersion)
 
-        generateGroupVersionIndex(schemas, groupVersion, groupDir)
-        generatePages(schemas, groupVersion, typesDir, groupDir)
+        generateGroupVersionIndex(types, groupVersion, groupDir)
+        generatePages(types, groupVersion, groupDir)
     }
 }
 
@@ -51,59 +49,68 @@ data class ApiGroup(
     val packagePrefix: String get() = "$pkg.$apiVersion."
 }
 
-fun loadSchemas(specDir: File, group: ApiGroup): Map<String, Schema> {
-    val json = Json { ignoreUnknownKeys = true }
-    val spec = json.decodeFromString<OpenApiSpec>(File(specDir, group.file).readText())
-    return spec.components.schemas.filterKeys { it.startsWith(group.packagePrefix) }.filterKeys { !it.endsWith("List") }
-        .mapKeys { (key, _) -> key.removePrefix(group.packagePrefix) }
+fun loadTypes(typesDir: File, group: ApiGroup): Map<String, Type> {
+    val groupDir = File(typesDir, group.group)
+    return groupDir.listFiles()!!
+        .filter { it.isDirectory }
+        .associate { typeDir ->
+            val typeName = typeDir.name
+            val typeYaml = yaml.decodeFromString(TypeYaml.serializer(), File(typeDir, "_$typeName.yaml").readText())
+            val fields = typeDir.listFiles()!!
+                .filter { it.name.endsWith(".yaml") && !it.name.startsWith("_") }
+                .associate { file ->
+                    val fieldName = file.nameWithoutExtension
+                    val text = file.readText()
+                    val fieldYaml = if (text.isBlank()) FieldYaml() else yaml.decodeFromString(FieldYaml.serializer(), text)
+                    fieldName to fieldYaml
+                }
+            typeName to Type(typeYaml, fields)
+        }
 }
 
-fun generatePages(schemas: Map<String, Schema>, group: ApiGroup, typesDir: File, outDir: File) {
+fun generatePages(types: Map<String, Type>, group: ApiGroup, outDir: File) {
     val helperTypesDir = File(outDir, "types").also { it.mkdirs() }
 
-    schemas.forEach { (typeName, schema) ->
-        val dir = if (schema.kind != null) outDir else helperTypesDir
+    types.forEach { (typeName, type) ->
+        val dir = if (type.yaml.kind == true) outDir else helperTypesDir
         val filename = "${group.group}___${group.apiVersion}___$typeName.md"
         val file = File(dir, filename)
-
-        val typeMetaDir = File(typesDir, "${group.group}/$typeName")
-        val typeDescription = readFormatted(File(typeMetaDir, "_$typeName.yaml"))
 
         file.writeText(buildString {
             appendLine("alias:: $typeName")
             appendLine()
 
-            if (typeDescription != null) {
-                appendBlock(level = 0, typeDescription)
-                appendLine()
-            }
+            appendBlock(level = 0, type.yaml.description.formatted)
+            appendLine()
 
             appendLine("- Properties")
             appendLine("  heading:: true")
             appendLine()
 
-            schema.properties.forEach { (fieldName, prop) ->
-                val typeStr = formatPropertyType(prop, group.packagePrefix)
-                val requiredStr = if (fieldName in schema.required) ", **required**" else ""
+            val standardFields = if (type.yaml.kind == true) {
+                listOf("apiVersion" to "string", "kind" to "string", "metadata" to "ObjectMeta")
+            } else emptyList()
+
+            val allFieldNames = (standardFields.map { it.first } + type.fields.keys).distinct().sorted()
+
+            allFieldNames.forEach { fieldName ->
+                val standardField = standardFields.find { it.first == fieldName }
+                val field = type.fields[fieldName]
+
+                val typeStr = standardField?.second ?: formatFieldType(field!!, types)
+                val requiredStr = if (field?.required == true) ", **required**" else ""
                 appendLine("  - `$fieldName` ($typeStr)$requiredStr")
+
                 if (fieldName !in setOf("apiVersion", "kind", "metadata")) {
-                    val fieldDescription = readFormatted(File(typeMetaDir, "$fieldName.yaml"))
-                    if (fieldDescription != null) {
-                        appendBlock(level = 2, fieldDescription)
+                    val description = field?.description?.formatted
+                    if (description != null) {
+                        appendBlock(level = 2, description)
                     }
                 }
                 appendLine()
             }
         })
     }
-}
-
-fun readFormatted(file: File): String? {
-    if (!file.exists()) return null
-    val text = file.readText()
-    if (text.isBlank()) return null
-    val doc = yaml.decodeFromString(FieldDoc.serializer(), text)
-    return doc.description?.formatted
 }
 
 fun StringBuilder.appendBlock(level: Int, text: String) {
@@ -113,54 +120,35 @@ fun StringBuilder.appendBlock(level: Int, text: String) {
     lines.drop(1).forEach { appendLine("$indent  $it") }
 }
 
-fun formatPropertyType(prop: Property, packagePrefix: String): String = when {
-    prop.type == "array" -> {
-        val items = prop.items ?: error("array without items")
-        "[]${formatPropertyType(items, packagePrefix)}"
+fun formatFieldType(field: FieldYaml, types: Map<String, Type>): String {
+    if (field.collection == "map") return "object"
+    val baseType = field.type ?: "object"
+    val formattedType = if (baseType[0].isUpperCase() && baseType in types) "[[$baseType]]" else baseType
+    return when (field.collection) {
+        "array" -> "[]$formattedType"
+        else -> formattedType
     }
-
-    prop.type != null -> prop.type
-    prop.ref != null -> formatRef(prop.ref, packagePrefix)
-    prop.allOf != null -> formatRef(prop.allOf.single().ref, packagePrefix)
-
-    else -> error("unknown property type: $prop")
 }
 
-fun formatRef(ref: String, packagePrefix: String): String {
-    val fullName = ref.removePrefix("#/components/schemas/")
-    val typeName = fullName.substringAfterLast(".")
-    return if (fullName.startsWith(packagePrefix)) "[[$typeName]]"
-    else typeName
-}
-
-fun generateGroupVersionIndex(schemas: Map<String, Schema>, group: ApiGroup, outDir: File) {
+fun generateGroupVersionIndex(types: Map<String, Type>, group: ApiGroup, outDir: File) {
     val filename = "${group.group}___${group.apiVersion}.md"
     val file = File(outDir, filename)
-    file.writeText(buildString {
-        schemas.filter { (_, schema) -> schema.kind != null }.forEach { (name, _) ->
-            appendLine("- [[$name]]")
-        }
-    })
+    val lines = types.filterValues { it.yaml.kind == true }.keys.sorted()
+        .map { "- [[$it]]" }
+    file.writeText(lines.joinToString("\n", postfix = "\n"))
 }
 
 fun generateGroupIndex(name: String, versions: List<ApiGroup>, groupDir: File) {
     val file = File(groupDir, "$name.md")
-    file.writeText(buildString {
-        versions.forEach { ver ->
-            if (ver.preferredVersion) {
-                appendLine("- [${ver.apiVersion}]([[${ver.groupVersion}]])")
-            } else {
-                appendLine("- ${ver.apiVersion}")
-            }
-        }
-    })
+    val lines = versions.map { ver ->
+        if (ver.preferredVersion) "- [${ver.apiVersion}]([[${ver.groupVersion}]])"
+        else "- ${ver.apiVersion}"
+    }
+    file.writeText(lines.joinToString("\n", postfix = "\n"))
 }
 
 fun generateApiIndex(groups: Set<String>, dir: File) {
     val file = File(dir, "API.md")
-    file.writeText(buildString {
-        groups.forEach { name ->
-            appendLine("- [[$name]]")
-        }
-    })
+    val lines = groups.map { "- [[$it]]" }
+    file.writeText(lines.joinToString("\n", postfix = "\n"))
 }

@@ -1,3 +1,5 @@
 description:
   original: Status of volume mounts.
   formatted: Status of volume mounts.
+type: VolumeMountStatus
+collection: array

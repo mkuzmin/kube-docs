@@ -1,3 +1,4 @@
 description:
   original: Name of the controller that emitted this Event, e.g. `kubernetes.io/kubelet`.
   formatted: Name of the controller that emitted this Event, e.g. `kubernetes.io/kubelet`.
+type: string

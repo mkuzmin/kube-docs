@@ -1,3 +1,5 @@
 description:
   original: List of component conditions observed
   formatted: List of component conditions observed
+type: ComponentCondition
+collection: array

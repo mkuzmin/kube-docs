@@ -11,3 +11,5 @@ description:
     since a request may be rejected by a future step in the admission chain and the
     side effects therefore need to be undone. Requests with the dryRun attribute will
     be auto-rejected if they match a webhook with sideEffects == Unknown or Some.'
+type: string
+required: true

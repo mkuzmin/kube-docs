@@ -19,3 +19,5 @@ description:
     }
 
     Note: Audience in each TokenRequest should be different and at most one token is empty string. To receive a new token after expiry, RequiresRepublish can be used to trigger NodePublishVolume periodically.
+type: TokenRequest
+collection: array

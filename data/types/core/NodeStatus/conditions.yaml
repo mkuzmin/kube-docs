@@ -3,3 +3,5 @@ description:
     https://kubernetes.io/docs/reference/node/node-status/#condition'
   formatted: 'Conditions is an array of current observed node conditions. More info:
     https://kubernetes.io/docs/reference/node/node-status/#condition'
+type: NodeCondition
+collection: array

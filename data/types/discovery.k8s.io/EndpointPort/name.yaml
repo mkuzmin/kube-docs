@@ -11,3 +11,4 @@ description:
     or pass DNS_LABEL validation: * must be no more than 63 characters long. * must
     consist of lower case alphanumeric characters or ''-''. * must start and end with
     an alphanumeric character. Default is empty string.'
+type: string

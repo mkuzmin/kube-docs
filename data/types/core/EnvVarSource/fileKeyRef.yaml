@@ -3,3 +3,4 @@ description:
     gate to be enabled.
   formatted: FileKeyRef selects a key of the env file. Requires the EnvFiles feature
     gate to be enabled.
+type: FileKeySelector

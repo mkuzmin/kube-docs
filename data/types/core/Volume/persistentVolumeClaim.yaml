@@ -3,3 +3,4 @@ description:
     in the same namespace. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims'
   formatted: 'persistentVolumeClaimVolumeSource represents a reference to a PersistentVolumeClaim
     in the same namespace. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims'
+type: PersistentVolumeClaimVolumeSource

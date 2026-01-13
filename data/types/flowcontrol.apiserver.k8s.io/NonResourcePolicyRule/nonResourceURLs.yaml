@@ -15,3 +15,6 @@ description:
       - "/hea/*" also matches nothing
       - "/healthz/*" matches all per-component health checks.
     "*" matches all non-resource urls. if it is present, it must be the only entry. Required.
+type: string
+collection: array
+required: true

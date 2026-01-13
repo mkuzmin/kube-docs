@@ -13,3 +13,4 @@ description:
     the kubelet pulls if the reference isn''t already present on disk. Container creation
     will fail if the reference isn''t present and the pull fails. Defaults to Always
     if :latest tag is specified, or IfNotPresent otherwise.'
+type: string

@@ -7,3 +7,4 @@ description:
     Data contains arbitrary driver-specific data.
 
     The length of the raw data must be smaller or equal to 10 Ki.
+type: RawExtension

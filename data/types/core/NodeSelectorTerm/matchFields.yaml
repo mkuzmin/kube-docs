@@ -1,3 +1,5 @@
 description:
   original: A list of node selector requirements by node's fields.
   formatted: A list of node selector requirements by node's fields.
+type: NodeSelectorRequirement
+collection: array

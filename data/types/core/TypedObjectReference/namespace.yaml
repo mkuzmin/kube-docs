@@ -9,3 +9,4 @@ description:
     required in the referent namespace to allow that namespace's owner to accept the
     reference. See the ReferenceGrant documentation for details. (Alpha) This field
     requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
+type: string

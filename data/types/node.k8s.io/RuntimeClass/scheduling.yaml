@@ -5,3 +5,4 @@ description:
   formatted: scheduling holds the scheduling constraints to ensure that pods running
     with this RuntimeClass are scheduled to nodes that support it. If scheduling is
     nil, this RuntimeClass is assumed to be supported by all nodes.
+type: Scheduling

@@ -3,3 +3,4 @@ description:
     allowed or not
   formatted: Status is filled in by the server and indicates whether the request is
     allowed or not
+type: SubjectAccessReviewStatus

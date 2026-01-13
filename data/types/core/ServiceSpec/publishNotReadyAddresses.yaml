@@ -15,3 +15,4 @@ description:
     this to mean that all endpoints are considered "ready" even if the Pods themselves
     are not. Agents which consume only Kubernetes generated endpoints through the
     Endpoints or EndpointSlice resources can safely assume this behavior.
+type: boolean

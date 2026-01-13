@@ -17,3 +17,4 @@ description:
         counter.
 
     Old jobs might not be tracked using this field, in which case the field remains null. The structure is empty for finished jobs.
+type: UncountedTerminatedPods

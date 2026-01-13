@@ -11,3 +11,4 @@ description:
     If multiple params are found, they are all evaluated with the policy expressions and the results are ANDed together.
 
     One of `name` or `selector` must be set, but `name` and `selector` are mutually exclusive properties. If one is set, the other must be unset.
+type: LabelSelector

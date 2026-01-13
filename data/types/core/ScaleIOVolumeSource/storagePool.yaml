@@ -3,3 +3,4 @@ description:
     domain.
   formatted: storagePool is the ScaleIO Storage Pool associated with the protection
     domain.
+type: string

@@ -3,3 +3,5 @@ description:
     "True", "False", or "Unknown".'
   formatted: 'Status of the condition for a component. Valid values for "Healthy":
     "True", "False", or "Unknown".'
+type: string
+required: true

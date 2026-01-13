@@ -9,3 +9,6 @@ description:
     with respect to the operator. The list of values must be ordered and must not
     contain duplicates. Value '0' cannot be used for the In operator. At least one
     element is required. At most 255 elements are allowed.
+type: integer
+collection: array
+required: true

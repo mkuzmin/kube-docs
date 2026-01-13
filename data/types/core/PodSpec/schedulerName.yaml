@@ -3,3 +3,4 @@ description:
     specified, the pod will be dispatched by default scheduler.
   formatted: If specified, the pod will be dispatched by specified scheduler. If not
     specified, the pod will be dispatched by default scheduler.
+type: string

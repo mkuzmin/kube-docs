@@ -2,3 +2,4 @@ description:
   original: targetRef is a reference to a Kubernetes object that represents this endpoint.
   formatted: targetRef is a reference to a Kubernetes object that represents this
     endpoint.
+type: ObjectReference

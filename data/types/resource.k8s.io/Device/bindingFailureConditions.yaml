@@ -15,3 +15,5 @@ description:
     The conditions must be a valid condition type string.
 
     This is an alpha field and requires enabling the DRADeviceBindingConditions and DRAResourceClaimDeviceStatus feature gates.
+type: string
+collection: array

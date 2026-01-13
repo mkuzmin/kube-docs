@@ -39,3 +39,5 @@ description:
     "Deny" and "Warn" may not be used together since this combination needlessly duplicates the validation failure both in the API response body and the HTTP warning headers.
 
     Required.
+type: string
+collection: array

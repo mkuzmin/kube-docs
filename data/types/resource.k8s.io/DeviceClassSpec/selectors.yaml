@@ -3,3 +3,5 @@ description:
     class.
   formatted: Each selector must be satisfied by a device which is claimed via this
     class.
+type: DeviceSelector
+collection: array

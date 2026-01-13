@@ -7,3 +7,4 @@ description:
     an Object reporting controller implements, e.g. ReplicaSetController implements
     ReplicaSets and this event is emitted because it acts on some changes in a ReplicaSet
     object.
+type: ObjectReference

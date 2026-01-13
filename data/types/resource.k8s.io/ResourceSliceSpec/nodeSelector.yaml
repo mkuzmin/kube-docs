@@ -11,3 +11,4 @@ description:
     Must use exactly one term.
 
     Exactly one of NodeName, NodeSelector, AllNodes, and PerDeviceNodeSelection must be set.
+type: NodeSelector

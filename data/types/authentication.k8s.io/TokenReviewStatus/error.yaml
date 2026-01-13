@@ -1,3 +1,4 @@
 description:
   original: Error indicates that the token couldn't be checked
   formatted: Error indicates that the token couldn't be checked
+type: string

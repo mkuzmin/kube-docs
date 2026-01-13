@@ -1,3 +1,4 @@
 description:
   original: Namespace provides a scope for Names. Use of multiple namespaces is optional.
   formatted: Namespace provides a scope for Names. Use of multiple namespaces is optional.
+kind: true

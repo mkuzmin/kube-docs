@@ -11,3 +11,5 @@ description:
     Pod on the same Node reports the status with the same resource ID, it must be
     the same resource they share. See ResourceID type definition for a specific format
     it has in various use cases.
+type: ResourceHealth
+collection: array

@@ -13,3 +13,5 @@ description:
     command to the storage system to attach a volume to a specific node, it can use
     this field to refer to the node name using the ID that the storage system will
     understand, e.g. "nodeA" instead of "node1". This field is required.
+type: string
+required: true

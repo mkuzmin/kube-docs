@@ -9,3 +9,4 @@ description:
     as "true". In general, an endpoint should be marked ready if it is serving and
     not terminating, though this can be overridden in some cases, such as when the
     associated Service has set the publishNotReadyAddresses flag.
+type: boolean

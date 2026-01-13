@@ -3,3 +3,4 @@ description:
     an action.
   formatted: SubjectAccessReview checks whether or not a user or group can perform
     an action.
+kind: true

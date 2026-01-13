@@ -9,3 +9,5 @@ description:
     (no sooner than kubernetes v1.24).  While this field can hold values, it is not
     writable through the v1 API, and any attempts to write to it will be silently
     ignored. Topology information can be found in the zone and nodeName fields instead.
+type: string
+collection: map

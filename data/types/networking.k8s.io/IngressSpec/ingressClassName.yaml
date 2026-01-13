@@ -17,3 +17,4 @@ description:
     resources. Newly created Ingress resources should prefer using the field. However,
     even though the annotation is officially deprecated, for backwards compatibility
     reasons, ingress controllers should still honor that annotation if present.
+type: string

@@ -13,3 +13,4 @@ description:
     field is specified when creating a Service which does not need it, creation will
     fail. This field will be wiped when updating a Service to no longer need it (e.g.
     changing type from NodePort to ClusterIP). More info: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport'
+type: integer

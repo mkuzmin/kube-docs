@@ -9,3 +9,4 @@ description:
     to indicate that an IngressClass should be considered default. When a single IngressClass
     resource has this annotation set to true, new Ingress resources without a class
     specified will be assigned this default class.
+kind: true

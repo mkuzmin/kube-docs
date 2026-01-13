@@ -7,3 +7,4 @@ description:
     capacity was reported. If not set, the storage is not accessible from any node
     in the cluster. If empty, the storage is accessible from all nodes. This field
     is immutable.
+type: LabelSelector

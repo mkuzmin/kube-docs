@@ -11,3 +11,4 @@ description:
     failed pods, represented by the jobs's .status.failed field, is incremented and
     it is checked against the backoffLimit. This field cannot be used in combination
     with restartPolicy=OnFailure.
+type: PodFailurePolicy

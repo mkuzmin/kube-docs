@@ -1,3 +1,4 @@
 description:
   original: Verb is the standard HTTP verb
   formatted: Verb is the standard HTTP verb
+type: string

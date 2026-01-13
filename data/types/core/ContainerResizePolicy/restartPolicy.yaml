@@ -3,3 +3,5 @@ description:
     it defaults to NotRequired.
   formatted: Restart policy to apply when specified resource is resized. If not specified,
     it defaults to NotRequired.
+type: string
+required: true

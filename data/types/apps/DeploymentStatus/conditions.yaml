@@ -3,3 +3,5 @@ description:
     state.
   formatted: Represents the latest available observations of a deployment's current
     state.
+type: DeploymentCondition
+collection: array

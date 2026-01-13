@@ -3,3 +3,4 @@ description:
     during create or update if not set.
   formatted: TimeAdded represents the time at which the taint was added. Added automatically
     during create or update if not set.
+type: Time

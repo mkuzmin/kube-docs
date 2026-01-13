@@ -3,3 +3,4 @@ description:
     last transition.'
   formatted: '`reason` is a unique, one-word, CamelCase reason for the condition''s
     last transition.'
+type: string

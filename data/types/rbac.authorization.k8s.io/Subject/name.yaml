@@ -1,3 +1,5 @@
 description:
   original: Name of the object being referenced.
   formatted: Name of the object being referenced.
+type: string
+required: true

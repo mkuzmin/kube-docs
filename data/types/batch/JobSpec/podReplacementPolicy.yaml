@@ -13,3 +13,4 @@ description:
       Failed or Succeeded) before creating a replacement Pod.
 
     When using podFailurePolicy, Failed is the the only allowed value. TerminatingOrFailed and Failed are allowed values when podFailurePolicy is not in use.
+type: string

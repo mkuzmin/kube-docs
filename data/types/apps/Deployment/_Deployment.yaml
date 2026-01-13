@@ -1,3 +1,4 @@
 description:
   original: Deployment enables declarative updates for Pods and ReplicaSets.
   formatted: Deployment enables declarative updates for Pods and ReplicaSets.
+kind: true

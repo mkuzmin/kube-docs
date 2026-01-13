@@ -1,3 +1,4 @@
 description:
   original: Last time we got an update on a given condition.
   formatted: Last time we got an update on a given condition.
+type: Time

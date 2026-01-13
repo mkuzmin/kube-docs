@@ -2,3 +2,4 @@ description:
   original: PodTemplate describes a template for creating copies of a predefined pod.
   formatted: PodTemplate describes a template for creating copies of a predefined
     pod.
+kind: true

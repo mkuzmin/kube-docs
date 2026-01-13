@@ -3,3 +3,4 @@ description:
     condition.
   formatted: A human readable message indicating details about why the pod is in this
     condition.
+type: string

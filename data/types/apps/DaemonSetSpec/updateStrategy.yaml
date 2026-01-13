@@ -1,3 +1,4 @@
 description:
   original: An update strategy to replace existing DaemonSet pods with new pods.
   formatted: An update strategy to replace existing DaemonSet pods with new pods.
+type: DaemonSetUpdateStrategy

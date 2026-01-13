@@ -13,3 +13,4 @@ description:
     clusters), or "RequireDualStack" (two IP families on dual-stack configured clusters,
     otherwise fail). The ipFamilies and clusterIPs fields depend on the value of this
     field. This field will be wiped when updating a service to type ExternalName.
+type: string

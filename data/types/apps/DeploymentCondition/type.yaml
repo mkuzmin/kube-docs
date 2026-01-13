@@ -1,3 +1,5 @@
 description:
   original: Type of deployment condition.
   formatted: Type of deployment condition.
+type: string
+required: true

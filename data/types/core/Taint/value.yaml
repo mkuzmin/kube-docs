@@ -1,3 +1,4 @@
 description:
   original: The taint value corresponding to the taint key.
   formatted: The taint value corresponding to the taint key.
+type: string

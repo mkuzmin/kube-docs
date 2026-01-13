@@ -1,3 +1,5 @@
 description:
   original: Value defines how much of a certain device counter is available.
   formatted: Value defines how much of a certain device counter is available.
+type: Quantity
+required: true

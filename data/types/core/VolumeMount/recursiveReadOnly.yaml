@@ -19,3 +19,4 @@ description:
     If this field is set to IfPossible or Enabled, MountPropagation must be set to None (or be unspecified, which defaults to None).
 
     If this field is not specified, it is treated as an equivalent of Disabled.
+type: string

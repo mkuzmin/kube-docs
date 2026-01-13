@@ -1,3 +1,4 @@
 description:
   original: DaemonSet represents the configuration of a daemon set.
   formatted: DaemonSet represents the configuration of a daemon set.
+kind: true

@@ -5,3 +5,5 @@ description:
   formatted: Validations contain CEL expressions which is used to apply the validation.
     Validations and AuditAnnotations may not both be empty; a minimum of one Validations
     or AuditAnnotations is required.
+type: Validation
+collection: array

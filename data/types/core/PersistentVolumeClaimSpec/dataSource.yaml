@@ -15,3 +15,4 @@ description:
     be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource
     when dataSourceRef.namespace is not specified. If the namespace is specified,
     then dataSourceRef will not be copied to dataSource.'
+type: TypedLocalObjectReference

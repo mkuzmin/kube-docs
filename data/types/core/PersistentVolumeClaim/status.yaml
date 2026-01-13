@@ -3,3 +3,4 @@ description:
     claim. Read-only. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims'
   formatted: 'status represents the current information/status of a persistent volume
     claim. Read-only. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims'
+type: PersistentVolumeClaimStatus

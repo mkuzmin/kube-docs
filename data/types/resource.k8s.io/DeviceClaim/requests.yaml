@@ -3,3 +3,5 @@ description:
     all be satisfied. If empty, nothing needs to be allocated.
   formatted: Requests represent individual requests for distinct devices which must
     all be satisfied. If empty, nothing needs to be allocated.
+type: DeviceRequest
+collection: array

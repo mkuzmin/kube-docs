@@ -3,3 +3,4 @@ description:
     to false.
   formatted: readOnly here will force the ReadOnly setting in VolumeMounts. Defaults
     to false.
+type: boolean

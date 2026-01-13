@@ -3,3 +3,4 @@ description:
     time for any reason.  Missed jobs executions will be counted as failed ones.
   formatted: Optional deadline in seconds for starting the job if it misses scheduled
     time for any reason.  Missed jobs executions will be counted as failed ones.
+type: integer

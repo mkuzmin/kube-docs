@@ -3,3 +3,4 @@ description:
     integer. Defaults to 1.
   formatted: The number of failed finished jobs to retain. Value must be non-negative
     integer. Defaults to 1.
+type: integer

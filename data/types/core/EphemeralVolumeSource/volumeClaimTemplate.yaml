@@ -15,3 +15,4 @@ description:
     This field is read-only and no changes will be made by Kubernetes to the PVC after it has been created.
 
     Required, must not be nil.
+type: PersistentVolumeClaimTemplate

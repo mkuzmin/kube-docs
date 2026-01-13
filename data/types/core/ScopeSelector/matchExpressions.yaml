@@ -1,3 +1,5 @@
 description:
   original: A list of scope selector requirements by scope of the resources.
   formatted: A list of scope selector requirements by scope of the resources.
+type: ScopedResourceSelectorRequirement
+collection: array

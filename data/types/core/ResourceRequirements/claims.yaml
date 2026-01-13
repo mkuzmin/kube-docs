@@ -11,3 +11,5 @@ description:
     This field depends on the DynamicResourceAllocation feature gate.
 
     This field is immutable. It can only be set for containers.
+type: ResourceClaim
+collection: array

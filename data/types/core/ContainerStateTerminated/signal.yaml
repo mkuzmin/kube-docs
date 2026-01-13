@@ -1,3 +1,4 @@
 description:
   original: Signal from the last termination of the container
   formatted: Signal from the last termination of the container
+type: integer

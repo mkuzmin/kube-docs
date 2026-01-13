@@ -13,3 +13,4 @@ description:
     with the `Complete` Job condition. It can only be specified when backoffLimitPerIndex
     is set. It can be null or up to completions. It is required and must be less than
     or equal to 10^4 when is completions greater than 10^5.
+type: integer

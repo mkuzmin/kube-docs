@@ -5,3 +5,5 @@ description:
   formatted: '`resourceRules` is a slice of ResourcePolicyRules that identify matching
     requests according to their verb and the target resource. At least one of `resourceRules`
     and `nonResourceRules` has to be non-empty.'
+type: ResourcePolicyRule
+collection: array

@@ -25,3 +25,4 @@ description:
       3. Signer whose configured minimum is longer than the requested duration
 
     The minimum valid value for expirationSeconds is 600, i.e. 10 minutes.
+type: integer

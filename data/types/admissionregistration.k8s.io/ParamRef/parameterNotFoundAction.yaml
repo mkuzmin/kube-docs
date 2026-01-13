@@ -11,3 +11,4 @@ description:
     Allowed values are `Allow` or `Deny`
 
     Required
+type: string

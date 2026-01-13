@@ -9,3 +9,4 @@ description:
     form and is in UTC. The completion time is set when the job finishes successfully,
     and only then. The value cannot be updated or removed. The value indicates the
     same or later point in time as the startTime field.
+type: Time

@@ -7,3 +7,4 @@ description:
     to distinguish endpoints from each other (e.g. in DNS names). Multiple endpoints
     which use the same hostname should be considered fungible (e.g. multiple A values
     in DNS). Must be lowercase and pass DNS Label (RFC 1123) validation.
+type: string

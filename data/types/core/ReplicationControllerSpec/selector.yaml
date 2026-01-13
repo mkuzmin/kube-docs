@@ -7,3 +7,5 @@ description:
     If Selector is empty, it is defaulted to the labels present on the Pod template.
     Label keys and values that must match in order to be controlled by this replication
     controller, if empty defaulted to labels on Pod template. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#label-selectors'
+type: string
+collection: map

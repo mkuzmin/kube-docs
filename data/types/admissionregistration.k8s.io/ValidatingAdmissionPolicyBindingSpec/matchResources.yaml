@@ -15,3 +15,4 @@ description:
     is matched by the other fields of this object, it will be validated. Note that
     this is differs from ValidatingAdmissionPolicy matchConstraints, where resourceRules
     are required.
+type: MatchResources

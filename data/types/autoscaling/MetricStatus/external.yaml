@@ -7,3 +7,4 @@ description:
     object. It allows autoscaling based on information coming from components running
     outside of cluster (for example length of queue in cloud messaging service, or
     QPS from loadbalancer running outside of cluster).
+type: ExternalMetricStatus

@@ -5,3 +5,5 @@ description:
   formatted: NonResourceURLs is a set of partial urls that a user should have access
     to.  *s are allowed, but only as the full, final step in the path.  "*" means
     all.
+type: string
+collection: array

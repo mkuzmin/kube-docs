@@ -15,3 +15,4 @@ description:
     If the requested amount does not fall within the defined range, the request violates the policy, and this device cannot be allocated.
 
     If the request doesn't contain this capacity entry, Default value is used.
+type: CapacityRequestPolicyRange

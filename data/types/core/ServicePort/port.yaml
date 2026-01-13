@@ -1,3 +1,5 @@
 description:
   original: The port that will be exposed by this service.
   formatted: The port that will be exposed by this service.
+type: integer
+required: true

@@ -3,3 +3,4 @@ description:
     match. If not specified, this field defaults to TCP.
   formatted: protocol represents the protocol (TCP, UDP, or SCTP) which traffic must
     match. If not specified, this field defaults to TCP.
+type: string

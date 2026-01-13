@@ -11,3 +11,4 @@ description:
     Must use exactly one term.
 
     Must only be set if Spec.PerDeviceNodeSelection is set to true. At most one of NodeName, NodeSelector and AllNodes can be set.
+type: NodeSelector

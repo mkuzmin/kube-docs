@@ -1,3 +1,4 @@
 description:
   original: (brief) reason the container is not yet running.
   formatted: (brief) reason the container is not yet running.
+type: string

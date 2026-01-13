@@ -11,3 +11,4 @@ description:
     BorrowingCL(i) = round( NominalCL(i) * borrowingLimitPercent(i)/100.0 )
 
     The value of this field can be more than 100, implying that this priority level can borrow a number of seats that is greater than its own nominal concurrency limit (NominalCL). When this field is left `nil`, the limit is effectively infinite.
+type: integer

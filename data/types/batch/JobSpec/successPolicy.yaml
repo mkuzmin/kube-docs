@@ -9,3 +9,4 @@ description:
     when the number of succeeded pods equals to the completions. When the field is
     specified, it must be immutable and works only for the Indexed Jobs. Once the
     Job meets the SuccessPolicy, the lingering pods are terminated.
+type: SuccessPolicy

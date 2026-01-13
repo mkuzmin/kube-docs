@@ -15,3 +15,5 @@ description:
     20 rules are allowed. - Rules can have the same action. - Identical rules are
     not forbidden in validations. When rules are specified, container MUST set RestartPolicy
     explicitly even it if matches the Pod''s RestartPolicy.'
+type: ContainerRestartRule
+collection: array

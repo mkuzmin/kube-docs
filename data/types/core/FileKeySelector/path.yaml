@@ -3,3 +3,5 @@ description:
     and may not contain the '..' path or start with '..'.
   formatted: The path within the volume from which to select the file. Must be relative
     and may not contain the '..' path or start with '..'.
+type: string
+required: true

@@ -1,3 +1,4 @@
 description:
   original: The time at which the most recent occurrence of this event was recorded.
   formatted: The time at which the most recent occurrence of this event was recorded.
+type: Time

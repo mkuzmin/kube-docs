@@ -1,3 +1,5 @@
 description:
   original: MountPath corresponds to the original VolumeMount.
   formatted: MountPath corresponds to the original VolumeMount.
+type: string
+required: true

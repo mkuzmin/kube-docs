@@ -5,3 +5,5 @@ description:
   formatted: ResourceRules describes what operations on what resources/subresources
     the ValidatingAdmissionPolicy matches. The policy cares about an operation if
     it matches _any_ Rule.
+type: NamedRuleWithOperations
+collection: array

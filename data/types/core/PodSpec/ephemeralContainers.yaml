@@ -9,3 +9,5 @@ description:
     This list cannot be specified when creating a pod, and it cannot be modified by
     updating the pod spec. In order to add an ephemeral container to an existing pod,
     use the pod's ephemeralcontainers subresource.
+type: EphemeralContainer
+collection: array

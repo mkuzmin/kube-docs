@@ -1,3 +1,5 @@
 description:
   original: eventTime is the time when this Event was first observed. It is required.
   formatted: eventTime is the time when this Event was first observed. It is required.
+type: MicroTime
+required: true

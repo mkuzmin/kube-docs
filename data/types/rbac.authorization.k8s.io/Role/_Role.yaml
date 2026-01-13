@@ -3,3 +3,4 @@ description:
     as a unit by a RoleBinding.
   formatted: Role is a namespaced, logical grouping of PolicyRules that can be referenced
     as a unit by a RoleBinding.
+kind: true

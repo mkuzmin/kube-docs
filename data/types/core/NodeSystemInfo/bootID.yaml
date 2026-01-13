@@ -1,3 +1,5 @@
 description:
   original: Boot ID reported by the node.
   formatted: Boot ID reported by the node.
+type: string
+required: true

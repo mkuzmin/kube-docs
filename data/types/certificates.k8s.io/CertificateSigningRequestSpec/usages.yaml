@@ -29,3 +29,5 @@ description:
      "code signing", "email protection", "s/mime",
      "ipsec end system", "ipsec tunnel", "ipsec user",
      "timestamping", "ocsp signing", "microsoft sgc", "netscape sgc"
+type: string
+collection: array

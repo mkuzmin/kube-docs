@@ -1,3 +1,4 @@
 description:
   original: Path is the URL path of the request
   formatted: Path is the URL path of the request
+type: string

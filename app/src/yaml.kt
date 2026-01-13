@@ -10,21 +10,31 @@ val yaml = Yaml(
     configuration = YamlConfiguration(
         singleLineStringStyle = SingleLineStringStyle.Plain,
         multiLineStringStyle = MultiLineStringStyle.Literal,
+        encodeDefaults = false,
     )
 )
 
 @Serializable
-data class TypeDoc(
+data class TypeYaml(
     val description: Description,
+    val kind: Boolean? = null,
 )
 
 @Serializable
-data class FieldDoc(
+data class FieldYaml(
     val description: Description? = null,
+    val type: String? = null,
+    val collection: String? = null,
+    val required: Boolean? = null,
 )
 
 @Serializable
 data class Description(
     val original: String,
     val formatted: String,
+)
+
+data class Type(
+    val yaml: TypeYaml,
+    val fields: Map<String, FieldYaml>,
 )

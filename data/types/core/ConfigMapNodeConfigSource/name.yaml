@@ -3,3 +3,5 @@ description:
     in all cases.
   formatted: Name is the metadata.name of the referenced ConfigMap. This field is
     required in all cases.
+type: string
+required: true

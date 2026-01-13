@@ -25,3 +25,4 @@ description:
     with line breaks will be logged. messageExpression has access to all the same
     variables as the rule; the only difference is the return type. Example: "x must
     be less than max ("+string(self.max)+")"'
+type: string

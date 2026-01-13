@@ -75,3 +75,5 @@ description:
     \    are overwritten by values in `Y` when the key sets of `X` and `Y` intersect.\
     \ Elements in `Y` with\n    non-intersecting keys are appended, retaining their\
     \ partial order.\nRequired."
+type: string
+required: true

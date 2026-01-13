@@ -3,3 +3,4 @@ description:
     request
   formatted: NonResourceAttributes describes information for a non-resource access
     request
+type: NonResourceAttributes
