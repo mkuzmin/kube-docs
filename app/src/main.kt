@@ -51,17 +51,23 @@ data class ApiGroup(
 
 fun loadTypes(typesDir: File, group: ApiGroup): Map<String, Type> {
     val groupDir = File(typesDir, group.group)
-    return groupDir.listFiles()!!
+    return (groupDir.listFiles()
+        ?: error("Cannot list directory: $groupDir"))
         .filter { it.isDirectory }
         .associate { typeDir ->
             val typeName = typeDir.name
             val typeYaml = yaml.decodeFromString(TypeYaml.serializer(), File(typeDir, "_$typeName.yaml").readText())
-            val fields = typeDir.listFiles()!!
+            val fields = (typeDir.listFiles()
+                ?: error("Cannot list directory: $typeDir"))
                 .filter { it.name.endsWith(".yaml") && !it.name.startsWith("_") }
                 .associate { file ->
                     val fieldName = file.nameWithoutExtension
                     val text = file.readText()
-                    val fieldYaml = if (text.isBlank()) FieldYaml() else yaml.decodeFromString(FieldYaml.serializer(), text)
+                    val fieldYaml =
+                        if (text.isBlank())
+                            FieldYaml()
+                        else
+                            yaml.decodeFromString(FieldYaml.serializer(), text)
                     fieldName to fieldYaml
                 }
             typeName to Type(typeYaml, fields)
@@ -97,7 +103,11 @@ fun generatePages(types: Map<String, Type>, group: ApiGroup, outDir: File) {
                 val standardField = standardFields.find { it.first == fieldName }
                 val field = type.fields[fieldName]
 
-                val typeStr = standardField?.second ?: formatFieldType(field!!, types)
+                val typeStr = when {
+                    standardField != null -> standardField.second
+                    field != null -> formatFieldType(field, types)
+                    else -> error("Field '$fieldName' not found in type or standard fields")
+                }
                 val requiredStr = if (field?.required == true) ", **required**" else ""
                 appendLine("  - `$fieldName` ($typeStr)$requiredStr")
 
@@ -133,8 +143,7 @@ fun formatFieldType(field: FieldYaml, types: Map<String, Type>): String {
 fun generateGroupVersionIndex(types: Map<String, Type>, group: ApiGroup, outDir: File) {
     val filename = "${group.group}___${group.apiVersion}.md"
     val file = File(outDir, filename)
-    val lines = types.filterValues { it.yaml.kind == true }.keys.sorted()
-        .map { "- [[$it]]" }
+    val lines = types.filterValues { it.yaml.kind == true }.keys.sorted().map { "- [[$it]]" }
     file.writeText(lines.joinToString("\n", postfix = "\n"))
 }
 
