@@ -71,7 +71,11 @@ fun extractType(prop: Property): Pair<String, String?> = when {
     }
     prop.type != null -> prop.type to null
     prop.ref != null -> extractRefType(prop.ref) to null
-    prop.allOf != null -> extractRefType(prop.allOf.single().ref) to null
+    prop.allOf != null -> {
+        val ref = prop.allOf.singleOrNull()?.ref
+            ?: error("Expected single allOf with ref: $prop")
+        extractRefType(ref) to null
+    }
     else -> error("unknown property type: $prop")
 }
 
