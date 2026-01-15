@@ -18,27 +18,21 @@ description:
     Deployment enables declarative updates for Pods and ReplicaSets.
   formatted: |
     Deployment enables declarative updates for Pods and ReplicaSets.
+kind: true  # only for top-level resources
 ```
 
 ## Field Files (`fieldName.yaml`)
 
-**With description:**
 ```yaml
 description:
   original: |
     Specification of the desired behavior.
   formatted: |
     Specification of the desired behavior.
+type: PodSpec
+collection: array
+required: true
 ```
-
-**Without description:** empty file
-
-## Description Object
-
-| Field | Description |
-|-------|-------------|
-| original | From OpenAPI (updated on K8s upgrade) |
-| formatted | Enriched documentation (edit this) |
 
 ## Workflow
 

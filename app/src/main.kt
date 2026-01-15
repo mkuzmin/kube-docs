@@ -62,12 +62,7 @@ fun loadTypes(typesDir: File, group: ApiGroup): Map<String, Type> {
                 .filter { it.name.endsWith(".yaml") && !it.name.startsWith("_") }
                 .associate { file ->
                     val fieldName = file.nameWithoutExtension
-                    val text = file.readText()
-                    val fieldYaml =
-                        if (text.isBlank())
-                            FieldYaml()
-                        else
-                            yaml.decodeFromString(FieldYaml.serializer(), text)
+                    val fieldYaml = yaml.decodeFromString(FieldYaml.serializer(), file.readText())
                     fieldName to fieldYaml
                 }
             typeName to Type(typeYaml, fields)
