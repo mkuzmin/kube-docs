@@ -70,12 +70,9 @@ fun loadTypes(typesDir: File, group: ApiGroup): Map<String, Type> {
 }
 
 fun generatePages(types: Map<String, Type>, group: ApiGroup, outDir: File) {
-    val helperTypesDir = File(outDir, "types").also { it.mkdirs() }
-
     types.forEach { (typeName, type) ->
-        val dir = if (type.yaml.kind == true) outDir else helperTypesDir
         val filename = "${group.group}___${group.apiVersion}___$typeName.md"
-        val file = File(dir, filename)
+        val file = File(outDir, filename)
 
         file.writeText(buildString {
             appendLine("alias:: $typeName")
