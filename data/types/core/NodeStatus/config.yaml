@@ -1,6 +1,4 @@
 description:
-  original: Status of the config assigned to the node via the dynamic Kubelet config
-    feature.
-  formatted: Status of the config assigned to the node via the dynamic Kubelet config
-    feature.
+  original: Status of the config assigned to the node via the dynamic Kubelet config feature.
+  formatted: Status of the config assigned to the node via the dynamic Kubelet config feature.
 type: NodeConfigStatus

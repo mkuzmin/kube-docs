@@ -1,6 +1,4 @@
 description:
-  original: 'A label query over pods that should match the pod count. Normally, the
-    system sets this field for you. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#label-selectors'
-  formatted: 'A label query over pods that should match the pod count. Normally, the
-    system sets this field for you. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#label-selectors'
+  original: 'A label query over pods that should match the pod count. Normally, the system sets this field for you. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#label-selectors'
+  formatted: 'A label query over pods that should match the pod count. Normally, the system sets this field for you. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#label-selectors'
 type: LabelSelector

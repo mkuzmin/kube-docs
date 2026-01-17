@@ -1,6 +1,4 @@
 description:
-  original: '`limitResponse` indicates what to do with requests that can not be executed
-    right now'
-  formatted: '`limitResponse` indicates what to do with requests that can not be executed
-    right now'
+  original: '`limitResponse` indicates what to do with requests that can not be executed right now'
+  formatted: '`limitResponse` indicates what to do with requests that can not be executed right now'
 type: LimitResponse

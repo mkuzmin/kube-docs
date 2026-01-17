@@ -1,6 +1,4 @@
 description:
-  original: A brief CamelCase message indicating details about why the pod is in this
-    state. e.g. 'Evicted'
-  formatted: A brief CamelCase message indicating details about why the pod is in
-    this state. e.g. 'Evicted'
+  original: A brief CamelCase message indicating details about why the pod is in this state. e.g. 'Evicted'
+  formatted: A brief CamelCase message indicating details about why the pod is in this state. e.g. 'Evicted'
 type: string

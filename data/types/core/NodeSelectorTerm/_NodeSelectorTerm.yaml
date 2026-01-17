@@ -1,5 +1,3 @@
 description:
-  original: A null or empty node selector term matches no objects. The requirements
-    of them are ANDed. The TopologySelectorTerm type implements a subset of the NodeSelectorTerm.
-  formatted: A null or empty node selector term matches no objects. The requirements
-    of them are ANDed. The TopologySelectorTerm type implements a subset of the NodeSelectorTerm.
+  original: A null or empty node selector term matches no objects. The requirements of them are ANDed. The TopologySelectorTerm type implements a subset of the NodeSelectorTerm.
+  formatted: A null or empty node selector term matches no objects. The requirements of them are ANDed. The TopologySelectorTerm type implements a subset of the NodeSelectorTerm.

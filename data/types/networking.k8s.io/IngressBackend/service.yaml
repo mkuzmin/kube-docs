@@ -1,6 +1,4 @@
 description:
-  original: service references a service as a backend. This is a mutually exclusive
-    setting with "Resource".
-  formatted: service references a service as a backend. This is a mutually exclusive
-    setting with "Resource".
+  original: service references a service as a backend. This is a mutually exclusive setting with "Resource".
+  formatted: service references a service as a backend. This is a mutually exclusive setting with "Resource".
 type: IngressServiceBackend

@@ -1,6 +1,4 @@
 description:
-  original: storageMode indicates whether the storage for a volume should be ThickProvisioned
-    or ThinProvisioned. Default is ThinProvisioned.
-  formatted: storageMode indicates whether the storage for a volume should be ThickProvisioned
-    or ThinProvisioned. Default is ThinProvisioned.
+  original: storageMode indicates whether the storage for a volume should be ThickProvisioned or ThinProvisioned. Default is ThinProvisioned.
+  formatted: storageMode indicates whether the storage for a volume should be ThickProvisioned or ThinProvisioned. Default is ThinProvisioned.
 type: string

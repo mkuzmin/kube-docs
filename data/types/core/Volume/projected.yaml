@@ -1,6 +1,4 @@
 description:
-  original: projected items for all in one resources secrets, configmaps, and downward
-    API
-  formatted: projected items for all in one resources secrets, configmaps, and downward
-    API
+  original: projected items for all in one resources secrets, configmaps, and downward API
+  formatted: projected items for all in one resources secrets, configmaps, and downward API
 type: ProjectedVolumeSource

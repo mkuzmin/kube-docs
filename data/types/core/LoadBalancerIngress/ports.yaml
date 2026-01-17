@@ -1,7 +1,5 @@
 description:
-  original: Ports is a list of records of service ports If used, every port defined
-    in the service should have an entry in it
-  formatted: Ports is a list of records of service ports If used, every port defined
-    in the service should have an entry in it
+  original: Ports is a list of records of service ports If used, every port defined in the service should have an entry in it
+  formatted: Ports is a list of records of service ports If used, every port defined in the service should have an entry in it
 type: PortStatus
 collection: array

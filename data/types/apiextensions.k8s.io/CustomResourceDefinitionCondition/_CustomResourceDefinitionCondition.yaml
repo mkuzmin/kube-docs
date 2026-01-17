@@ -1,5 +1,3 @@
 description:
-  original: CustomResourceDefinitionCondition contains details for the current condition
-    of this pod.
-  formatted: CustomResourceDefinitionCondition contains details for the current condition
-    of this pod.
+  original: CustomResourceDefinitionCondition contains details for the current condition of this pod.
+  formatted: CustomResourceDefinitionCondition contains details for the current condition of this pod.

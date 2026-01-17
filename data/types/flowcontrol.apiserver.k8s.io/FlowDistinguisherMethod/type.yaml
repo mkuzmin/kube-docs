@@ -1,7 +1,5 @@
 description:
-  original: '`type` is the type of flow distinguisher method The supported types are
-    "ByUser" and "ByNamespace". Required.'
-  formatted: '`type` is the type of flow distinguisher method The supported types
-    are "ByUser" and "ByNamespace". Required.'
+  original: '`type` is the type of flow distinguisher method The supported types are "ByUser" and "ByNamespace". Required.'
+  formatted: '`type` is the type of flow distinguisher method The supported types are "ByUser" and "ByNamespace". Required.'
 type: string
 required: true

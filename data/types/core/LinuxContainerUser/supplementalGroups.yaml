@@ -1,7 +1,5 @@
 description:
-  original: SupplementalGroups are the supplemental groups initially attached to the
-    first process in the container
-  formatted: SupplementalGroups are the supplemental groups initially attached to
-    the first process in the container
+  original: SupplementalGroups are the supplemental groups initially attached to the first process in the container
+  formatted: SupplementalGroups are the supplemental groups initially attached to the first process in the container
 type: integer
 collection: array

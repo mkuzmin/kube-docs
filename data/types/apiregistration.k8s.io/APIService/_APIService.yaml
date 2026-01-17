@@ -1,6 +1,4 @@
 description:
-  original: APIService represents a server for a particular GroupVersion. Name must
-    be "version.group".
-  formatted: APIService represents a server for a particular GroupVersion. Name must
-    be "version.group".
+  original: APIService represents a server for a particular GroupVersion. Name must be "version.group".
+  formatted: APIService represents a server for a particular GroupVersion. Name must be "version.group".
 kind: true

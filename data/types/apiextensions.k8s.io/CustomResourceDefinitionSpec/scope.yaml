@@ -1,7 +1,5 @@
 description:
-  original: scope indicates whether the defined custom resource is cluster- or namespace-scoped.
-    Allowed values are `Cluster` and `Namespaced`.
-  formatted: scope indicates whether the defined custom resource is cluster- or namespace-scoped.
-    Allowed values are `Cluster` and `Namespaced`.
+  original: scope indicates whether the defined custom resource is cluster- or namespace-scoped. Allowed values are `Cluster` and `Namespaced`.
+  formatted: scope indicates whether the defined custom resource is cluster- or namespace-scoped. Allowed values are `Cluster` and `Namespaced`.
 type: string
 required: true

@@ -1,7 +1,5 @@
 description:
-  original: Specifies the set of values to check for container exit codes. At most
-    255 elements are allowed.
-  formatted: Specifies the set of values to check for container exit codes. At most
-    255 elements are allowed.
+  original: Specifies the set of values to check for container exit codes. At most 255 elements are allowed.
+  formatted: Specifies the set of values to check for container exit codes. At most 255 elements are allowed.
 type: integer
 collection: array

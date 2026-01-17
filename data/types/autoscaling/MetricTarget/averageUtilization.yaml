@@ -1,10 +1,4 @@
 description:
-  original: averageUtilization is the target value of the average of the resource
-    metric across all relevant pods, represented as a percentage of the requested
-    value of the resource for the pods. Currently only valid for Resource metric source
-    type
-  formatted: averageUtilization is the target value of the average of the resource
-    metric across all relevant pods, represented as a percentage of the requested
-    value of the resource for the pods. Currently only valid for Resource metric source
-    type
+  original: averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
+  formatted: averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
 type: integer

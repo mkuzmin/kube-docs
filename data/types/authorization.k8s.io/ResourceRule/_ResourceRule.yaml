@@ -1,7 +1,3 @@
 description:
-  original: ResourceRule is the list of actions the subject is allowed to perform
-    on resources. The list ordering isn't significant, may contain duplicates, and
-    possibly be incomplete.
-  formatted: ResourceRule is the list of actions the subject is allowed to perform
-    on resources. The list ordering isn't significant, may contain duplicates, and
-    possibly be incomplete.
+  original: ResourceRule is the list of actions the subject is allowed to perform on resources. The list ordering isn't significant, may contain duplicates, and possibly be incomplete.
+  formatted: ResourceRule is the list of actions the subject is allowed to perform on resources. The list ordering isn't significant, may contain duplicates, and possibly be incomplete.

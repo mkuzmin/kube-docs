@@ -1,6 +1,4 @@
 description:
-  original: Node is a worker node in Kubernetes. Each node will have a unique identifier
-    in the cache (i.e. in etcd).
-  formatted: Node is a worker node in Kubernetes. Each node will have a unique identifier
-    in the cache (i.e. in etcd).
+  original: Node is a worker node in Kubernetes. Each node will have a unique identifier in the cache (i.e. in etcd).
+  formatted: Node is a worker node in Kubernetes. Each node will have a unique identifier in the cache (i.e. in etcd).
 kind: true

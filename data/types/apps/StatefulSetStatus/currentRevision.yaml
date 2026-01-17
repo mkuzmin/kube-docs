@@ -1,6 +1,4 @@
 description:
-  original: currentRevision, if not empty, indicates the version of the StatefulSet
-    used to generate Pods in the sequence [0,currentReplicas).
-  formatted: currentRevision, if not empty, indicates the version of the StatefulSet
-    used to generate Pods in the sequence [0,currentReplicas).
+  original: currentRevision, if not empty, indicates the version of the StatefulSet used to generate Pods in the sequence [0,currentReplicas).
+  formatted: currentRevision, if not empty, indicates the version of the StatefulSet used to generate Pods in the sequence [0,currentReplicas).
 type: string

@@ -1,5 +1,3 @@
 description:
-  original: IngressLoadBalancerIngress represents the status of a load-balancer ingress
-    point.
-  formatted: IngressLoadBalancerIngress represents the status of a load-balancer ingress
-    point.
+  original: IngressLoadBalancerIngress represents the status of a load-balancer ingress point.
+  formatted: IngressLoadBalancerIngress represents the status of a load-balancer ingress point.

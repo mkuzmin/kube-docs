@@ -1,12 +1,6 @@
 description:
-  original: persistentVolumeClaimRetentionPolicy describes the lifecycle of persistent
-    volume claims created from volumeClaimTemplates. By default, all persistent volume
-    claims are created as needed and retained until manually deleted. This policy
-    allows the lifecycle to be altered, for example by deleting persistent volume
-    claims when their stateful set is deleted, or when their pod is scaled down.
-  formatted: persistentVolumeClaimRetentionPolicy describes the lifecycle of persistent
-    volume claims created from volumeClaimTemplates. By default, all persistent volume
-    claims are created as needed and retained until manually deleted. This policy
-    allows the lifecycle to be altered, for example by deleting persistent volume
-    claims when their stateful set is deleted, or when their pod is scaled down.
+  original: persistentVolumeClaimRetentionPolicy describes the lifecycle of persistent volume claims created from volumeClaimTemplates. By default, all persistent volume claims are created as needed and retained until manually deleted. This policy allows the lifecycle to be altered, for example by deleting
+    persistent volume claims when their stateful set is deleted, or when their pod is scaled down.
+  formatted: persistentVolumeClaimRetentionPolicy describes the lifecycle of persistent volume claims created from volumeClaimTemplates. By default, all persistent volume claims are created as needed and retained until manually deleted. This policy allows the lifecycle to be altered, for example by deleting
+    persistent volume claims when their stateful set is deleted, or when their pod is scaled down.
 type: StatefulSetPersistentVolumeClaimRetentionPolicy

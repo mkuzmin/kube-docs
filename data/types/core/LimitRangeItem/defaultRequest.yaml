@@ -1,7 +1,5 @@
 description:
-  original: DefaultRequest is the default resource requirement request value by resource
-    name if resource request is omitted.
-  formatted: DefaultRequest is the default resource requirement request value by resource
-    name if resource request is omitted.
+  original: DefaultRequest is the default resource requirement request value by resource name if resource request is omitted.
+  formatted: DefaultRequest is the default resource requirement request value by resource name if resource request is omitted.
 type: Quantity
 collection: map

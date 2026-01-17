@@ -1,6 +1,4 @@
 description:
-  original: The number of available non-terminating pods (ready for at least minReadySeconds)
-    for this replica set.
-  formatted: The number of available non-terminating pods (ready for at least minReadySeconds)
-    for this replica set.
+  original: The number of available non-terminating pods (ready for at least minReadySeconds) for this replica set.
+  formatted: The number of available non-terminating pods (ready for at least minReadySeconds) for this replica set.
 type: integer

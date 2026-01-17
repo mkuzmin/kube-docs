@@ -1,10 +1,6 @@
 description:
-  original: 'Specifies the maximum desired number of pods the job should run at any
-    given time. The actual number of pods running in steady state will be less than
-    this number when ((.spec.completions - .status.successful) < .spec.parallelism),
-    i.e. when the work left to do is less than max parallelism. More info: https://kubernetes.io/docs/concepts/workloads/controllers/jobs-run-to-completion/'
-  formatted: 'Specifies the maximum desired number of pods the job should run at any
-    given time. The actual number of pods running in steady state will be less than
-    this number when ((.spec.completions - .status.successful) < .spec.parallelism),
-    i.e. when the work left to do is less than max parallelism. More info: https://kubernetes.io/docs/concepts/workloads/controllers/jobs-run-to-completion/'
+  original: 'Specifies the maximum desired number of pods the job should run at any given time. The actual number of pods running in steady state will be less than this number when ((.spec.completions - .status.successful) < .spec.parallelism), i.e. when the work left to do is less than max parallelism.
+    More info: https://kubernetes.io/docs/concepts/workloads/controllers/jobs-run-to-completion/'
+  formatted: 'Specifies the maximum desired number of pods the job should run at any given time. The actual number of pods running in steady state will be less than this number when ((.spec.completions - .status.successful) < .spec.parallelism), i.e. when the work left to do is less than max parallelism.
+    More info: https://kubernetes.io/docs/concepts/workloads/controllers/jobs-run-to-completion/'
 type: integer

@@ -1,8 +1,4 @@
 description:
-  original: 'scaleIO represents a ScaleIO persistent volume attached and mounted on
-    Kubernetes nodes. Deprecated: ScaleIO is deprecated and the in-tree scaleIO type
-    is no longer supported.'
-  formatted: 'scaleIO represents a ScaleIO persistent volume attached and mounted
-    on Kubernetes nodes. Deprecated: ScaleIO is deprecated and the in-tree scaleIO
-    type is no longer supported.'
+  original: 'scaleIO represents a ScaleIO persistent volume attached and mounted on Kubernetes nodes. Deprecated: ScaleIO is deprecated and the in-tree scaleIO type is no longer supported.'
+  formatted: 'scaleIO represents a ScaleIO persistent volume attached and mounted on Kubernetes nodes. Deprecated: ScaleIO is deprecated and the in-tree scaleIO type is no longer supported.'
 type: ScaleIOVolumeSource

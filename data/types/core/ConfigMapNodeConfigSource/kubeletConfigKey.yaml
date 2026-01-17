@@ -1,7 +1,5 @@
 description:
-  original: KubeletConfigKey declares which key of the referenced ConfigMap corresponds
-    to the KubeletConfiguration structure This field is required in all cases.
-  formatted: KubeletConfigKey declares which key of the referenced ConfigMap corresponds
-    to the KubeletConfiguration structure This field is required in all cases.
+  original: KubeletConfigKey declares which key of the referenced ConfigMap corresponds to the KubeletConfiguration structure This field is required in all cases.
+  formatted: KubeletConfigKey declares which key of the referenced ConfigMap corresponds to the KubeletConfiguration structure This field is required in all cases.
 type: string
 required: true

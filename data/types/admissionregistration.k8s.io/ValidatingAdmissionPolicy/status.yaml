@@ -1,8 +1,4 @@
 description:
-  original: The status of the ValidatingAdmissionPolicy, including warnings that are
-    useful to determine if the policy behaves in the expected way. Populated by the
-    system. Read-only.
-  formatted: The status of the ValidatingAdmissionPolicy, including warnings that
-    are useful to determine if the policy behaves in the expected way. Populated by
-    the system. Read-only.
+  original: The status of the ValidatingAdmissionPolicy, including warnings that are useful to determine if the policy behaves in the expected way. Populated by the system. Read-only.
+  formatted: The status of the ValidatingAdmissionPolicy, including warnings that are useful to determine if the policy behaves in the expected way. Populated by the system. Read-only.
 type: ValidatingAdmissionPolicyStatus

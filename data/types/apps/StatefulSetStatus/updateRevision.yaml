@@ -1,6 +1,4 @@
 description:
-  original: updateRevision, if not empty, indicates the version of the StatefulSet
-    used to generate Pods in the sequence [replicas-updatedReplicas,replicas)
-  formatted: updateRevision, if not empty, indicates the version of the StatefulSet
-    used to generate Pods in the sequence [replicas-updatedReplicas,replicas)
+  original: updateRevision, if not empty, indicates the version of the StatefulSet used to generate Pods in the sequence [replicas-updatedReplicas,replicas)
+  formatted: updateRevision, if not empty, indicates the version of the StatefulSet used to generate Pods in the sequence [replicas-updatedReplicas,replicas)
 type: string

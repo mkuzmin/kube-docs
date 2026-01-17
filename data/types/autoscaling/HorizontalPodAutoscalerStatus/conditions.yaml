@@ -1,7 +1,5 @@
 description:
-  original: conditions is the set of conditions required for this autoscaler to scale
-    its target, and indicates whether or not those conditions are met.
-  formatted: conditions is the set of conditions required for this autoscaler to scale
-    its target, and indicates whether or not those conditions are met.
+  original: conditions is the set of conditions required for this autoscaler to scale its target, and indicates whether or not those conditions are met.
+  formatted: conditions is the set of conditions required for this autoscaler to scale its target, and indicates whether or not those conditions are met.
 type: HorizontalPodAutoscalerCondition
 collection: array

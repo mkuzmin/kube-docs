@@ -1,6 +1,4 @@
 description:
-  original: 'Optional: Node hosting this endpoint. This can be used to determine endpoints
-    local to a node.'
-  formatted: 'Optional: Node hosting this endpoint. This can be used to determine
-    endpoints local to a node.'
+  original: 'Optional: Node hosting this endpoint. This can be used to determine endpoints local to a node.'
+  formatted: 'Optional: Node hosting this endpoint. This can be used to determine endpoints local to a node.'
 type: string

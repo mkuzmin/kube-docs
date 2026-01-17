@@ -11,6 +11,7 @@ val yaml = Yaml(
         singleLineStringStyle = SingleLineStringStyle.Plain,
         multiLineStringStyle = MultiLineStringStyle.Literal,
         encodeDefaults = false,
+        breakScalarsAt = 300,
     )
 )
 

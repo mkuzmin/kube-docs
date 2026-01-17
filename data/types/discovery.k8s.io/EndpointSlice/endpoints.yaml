@@ -1,8 +1,6 @@
 description:
-  original: endpoints is a list of unique endpoints in this slice. Each slice may
-    include a maximum of 1000 endpoints.
-  formatted: endpoints is a list of unique endpoints in this slice. Each slice may
-    include a maximum of 1000 endpoints.
+  original: endpoints is a list of unique endpoints in this slice. Each slice may include a maximum of 1000 endpoints.
+  formatted: endpoints is a list of unique endpoints in this slice. Each slice may include a maximum of 1000 endpoints.
 type: Endpoint
 collection: array
 required: true

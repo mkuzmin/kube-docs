@@ -1,7 +1,5 @@
 description:
-  original: Represents the latest available observations of a deployment's current
-    state.
-  formatted: Represents the latest available observations of a deployment's current
-    state.
+  original: Represents the latest available observations of a deployment's current state.
+  formatted: Represents the latest available observations of a deployment's current state.
 type: DeploymentCondition
 collection: array

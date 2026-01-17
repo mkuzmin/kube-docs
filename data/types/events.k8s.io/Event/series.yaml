@@ -1,6 +1,4 @@
 description:
-  original: series is data about the Event series this event represents or nil if
-    it's a singleton Event.
-  formatted: series is data about the Event series this event represents or nil if
-    it's a singleton Event.
+  original: series is data about the Event series this event represents or nil if it's a singleton Event.
+  formatted: series is data about the Event series this event represents or nil if it's a singleton Event.
 type: EventSeries

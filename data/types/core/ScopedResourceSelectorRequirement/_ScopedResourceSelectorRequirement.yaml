@@ -1,5 +1,3 @@
 description:
-  original: A scoped-resource selector requirement is a selector that contains values,
-    a scope name, and an operator that relates the scope name and values.
-  formatted: A scoped-resource selector requirement is a selector that contains values,
-    a scope name, and an operator that relates the scope name and values.
+  original: A scoped-resource selector requirement is a selector that contains values, a scope name, and an operator that relates the scope name and values.
+  formatted: A scoped-resource selector requirement is a selector that contains values, a scope name, and an operator that relates the scope name and values.

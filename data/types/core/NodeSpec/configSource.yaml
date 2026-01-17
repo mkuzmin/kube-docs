@@ -1,6 +1,4 @@
 description:
-  original: 'Deprecated: Previously used to specify the source of the node''s configuration
-    for the DynamicKubeletConfig feature. This feature is removed.'
-  formatted: 'Deprecated: Previously used to specify the source of the node''s configuration
-    for the DynamicKubeletConfig feature. This feature is removed.'
+  original: 'Deprecated: Previously used to specify the source of the node''s configuration for the DynamicKubeletConfig feature. This feature is removed.'
+  formatted: 'Deprecated: Previously used to specify the source of the node''s configuration for the DynamicKubeletConfig feature. This feature is removed.'
 type: NodeConfigSource

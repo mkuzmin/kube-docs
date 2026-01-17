@@ -1,6 +1,4 @@
 description:
-  original: targetVolumeAttributesClassName is the name of the VolumeAttributesClass
-    the PVC currently being reconciled
-  formatted: targetVolumeAttributesClassName is the name of the VolumeAttributesClass
-    the PVC currently being reconciled
+  original: targetVolumeAttributesClassName is the name of the VolumeAttributesClass the PVC currently being reconciled
+  formatted: targetVolumeAttributesClassName is the name of the VolumeAttributesClass the PVC currently being reconciled
 type: string

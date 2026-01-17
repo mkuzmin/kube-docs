@@ -1,7 +1,5 @@
 description:
-  original: Represents a list of rules to be checked to determine if the container
-    should be restarted on exit. You cannot set this field on ephemeral containers.
-  formatted: Represents a list of rules to be checked to determine if the container
-    should be restarted on exit. You cannot set this field on ephemeral containers.
+  original: Represents a list of rules to be checked to determine if the container should be restarted on exit. You cannot set this field on ephemeral containers.
+  formatted: Represents a list of rules to be checked to determine if the container should be restarted on exit. You cannot set this field on ephemeral containers.
 type: ContainerRestartRule
 collection: array

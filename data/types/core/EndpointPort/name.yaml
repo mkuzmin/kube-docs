@@ -1,6 +1,4 @@
 description:
-  original: The name of this port.  This must match the 'name' field in the corresponding
-    ServicePort. Must be a DNS_LABEL. Optional only if one port is defined.
-  formatted: The name of this port.  This must match the 'name' field in the corresponding
-    ServicePort. Must be a DNS_LABEL. Optional only if one port is defined.
+  original: The name of this port.  This must match the 'name' field in the corresponding ServicePort. Must be a DNS_LABEL. Optional only if one port is defined.
+  formatted: The name of this port.  This must match the 'name' field in the corresponding ServicePort. Must be a DNS_LABEL. Optional only if one port is defined.
 type: string

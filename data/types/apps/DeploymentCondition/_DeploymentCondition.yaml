@@ -1,4 +1,3 @@
 description:
   original: DeploymentCondition describes the state of a deployment at a certain point.
-  formatted: DeploymentCondition describes the state of a deployment at a certain
-    point.
+  formatted: DeploymentCondition describes the state of a deployment at a certain point.

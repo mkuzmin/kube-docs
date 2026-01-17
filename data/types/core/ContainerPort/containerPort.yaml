@@ -1,7 +1,5 @@
 description:
-  original: Number of port to expose on the pod's IP address. This must be a valid
-    port number, 0 < x < 65536.
-  formatted: Number of port to expose on the pod's IP address. This must be a valid
-    port number, 0 < x < 65536.
+  original: Number of port to expose on the pod's IP address. This must be a valid port number, 0 < x < 65536.
+  formatted: Number of port to expose on the pod's IP address. This must be a valid port number, 0 < x < 65536.
 type: integer
 required: true

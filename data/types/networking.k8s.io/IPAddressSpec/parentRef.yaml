@@ -1,7 +1,5 @@
 description:
-  original: ParentRef references the resource that an IPAddress is attached to. An
-    IPAddress must reference a parent object.
-  formatted: ParentRef references the resource that an IPAddress is attached to. An
-    IPAddress must reference a parent object.
+  original: ParentRef references the resource that an IPAddress is attached to. An IPAddress must reference a parent object.
+  formatted: ParentRef references the resource that an IPAddress is attached to. An IPAddress must reference a parent object.
 type: ParentReference
 required: true

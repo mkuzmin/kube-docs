@@ -1,8 +1,4 @@
 description:
-  original: default is a default value for undefined object fields. Defaulting is
-    a beta feature under the CustomResourceDefaulting feature gate. Defaulting requires
-    spec.preserveUnknownFields to be false.
-  formatted: default is a default value for undefined object fields. Defaulting is
-    a beta feature under the CustomResourceDefaulting feature gate. Defaulting requires
-    spec.preserveUnknownFields to be false.
+  original: default is a default value for undefined object fields. Defaulting is a beta feature under the CustomResourceDefaulting feature gate. Defaulting requires spec.preserveUnknownFields to be false.
+  formatted: default is a default value for undefined object fields. Defaulting is a beta feature under the CustomResourceDefaulting feature gate. Defaulting requires spec.preserveUnknownFields to be false.
 type: JSON

@@ -1,6 +1,4 @@
 description:
-  original: LoadBalancer contains the current status of the load-balancer, if one
-    is present.
-  formatted: LoadBalancer contains the current status of the load-balancer, if one
-    is present.
+  original: LoadBalancer contains the current status of the load-balancer, if one is present.
+  formatted: LoadBalancer contains the current status of the load-balancer, if one is present.
 type: LoadBalancerStatus

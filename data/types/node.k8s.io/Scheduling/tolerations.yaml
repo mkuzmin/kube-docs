@@ -1,9 +1,5 @@
 description:
-  original: tolerations are appended (excluding duplicates) to pods running with this
-    RuntimeClass during admission, effectively unioning the set of nodes tolerated
-    by the pod and the RuntimeClass.
-  formatted: tolerations are appended (excluding duplicates) to pods running with
-    this RuntimeClass during admission, effectively unioning the set of nodes tolerated
-    by the pod and the RuntimeClass.
+  original: tolerations are appended (excluding duplicates) to pods running with this RuntimeClass during admission, effectively unioning the set of nodes tolerated by the pod and the RuntimeClass.
+  formatted: tolerations are appended (excluding duplicates) to pods running with this RuntimeClass during admission, effectively unioning the set of nodes tolerated by the pod and the RuntimeClass.
 type: Toleration
 collection: array

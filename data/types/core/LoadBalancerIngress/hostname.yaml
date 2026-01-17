@@ -1,6 +1,4 @@
 description:
-  original: Hostname is set for load-balancer ingress points that are DNS based (typically
-    AWS load-balancers)
-  formatted: Hostname is set for load-balancer ingress points that are DNS based (typically
-    AWS load-balancers)
+  original: Hostname is set for load-balancer ingress points that are DNS based (typically AWS load-balancers)
+  formatted: Hostname is set for load-balancer ingress points that are DNS based (typically AWS load-balancers)
 type: string

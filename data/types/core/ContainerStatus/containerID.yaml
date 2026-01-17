@@ -1,8 +1,4 @@
 description:
-  original: ContainerID is the ID of the container in the format '<type>://<container_id>'.
-    Where type is a container runtime identifier, returned from Version call of CRI
-    API (for example "containerd").
-  formatted: ContainerID is the ID of the container in the format '<type>://<container_id>'.
-    Where type is a container runtime identifier, returned from Version call of CRI
-    API (for example "containerd").
+  original: ContainerID is the ID of the container in the format '<type>://<container_id>'. Where type is a container runtime identifier, returned from Version call of CRI API (for example "containerd").
+  formatted: ContainerID is the ID of the container in the format '<type>://<container_id>'. Where type is a container runtime identifier, returned from Version call of CRI API (for example "containerd").
 type: string

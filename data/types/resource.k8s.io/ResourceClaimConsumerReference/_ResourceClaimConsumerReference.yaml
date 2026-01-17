@@ -1,7 +1,3 @@
 description:
-  original: ResourceClaimConsumerReference contains enough information to let you
-    locate the consumer of a ResourceClaim. The user must be a resource in the same
-    namespace as the ResourceClaim.
-  formatted: ResourceClaimConsumerReference contains enough information to let you
-    locate the consumer of a ResourceClaim. The user must be a resource in the same
-    namespace as the ResourceClaim.
+  original: ResourceClaimConsumerReference contains enough information to let you locate the consumer of a ResourceClaim. The user must be a resource in the same namespace as the ResourceClaim.
+  formatted: ResourceClaimConsumerReference contains enough information to let you locate the consumer of a ResourceClaim. The user must be a resource in the same namespace as the ResourceClaim.

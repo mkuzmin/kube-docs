@@ -1,10 +1,4 @@
 description:
-  original: If true, don't block pod startup if the referenced ClusterTrustBundle(s)
-    aren't available.  If using name, then the named ClusterTrustBundle is allowed
-    not to exist.  If using signerName, then the combination of signerName and labelSelector
-    is allowed to match zero ClusterTrustBundles.
-  formatted: If true, don't block pod startup if the referenced ClusterTrustBundle(s)
-    aren't available.  If using name, then the named ClusterTrustBundle is allowed
-    not to exist.  If using signerName, then the combination of signerName and labelSelector
-    is allowed to match zero ClusterTrustBundles.
+  original: If true, don't block pod startup if the referenced ClusterTrustBundle(s) aren't available.  If using name, then the named ClusterTrustBundle is allowed not to exist.  If using signerName, then the combination of signerName and labelSelector is allowed to match zero ClusterTrustBundles.
+  formatted: If true, don't block pod startup if the referenced ClusterTrustBundle(s) aren't available.  If using name, then the named ClusterTrustBundle is allowed not to exist.  If using signerName, then the combination of signerName and labelSelector is allowed to match zero ClusterTrustBundles.
 type: boolean

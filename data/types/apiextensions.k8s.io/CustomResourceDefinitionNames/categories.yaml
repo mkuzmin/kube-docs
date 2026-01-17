@@ -1,9 +1,5 @@
 description:
-  original: categories is a list of grouped resources this custom resource belongs
-    to (e.g. 'all'). This is published in API discovery documents, and used by clients
-    to support invocations like `kubectl get all`.
-  formatted: categories is a list of grouped resources this custom resource belongs
-    to (e.g. 'all'). This is published in API discovery documents, and used by clients
-    to support invocations like `kubectl get all`.
+  original: categories is a list of grouped resources this custom resource belongs to (e.g. 'all'). This is published in API discovery documents, and used by clients to support invocations like `kubectl get all`.
+  formatted: categories is a list of grouped resources this custom resource belongs to (e.g. 'all'). This is published in API discovery documents, and used by clients to support invocations like `kubectl get all`.
 type: string
 collection: array

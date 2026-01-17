@@ -1,6 +1,4 @@
 description:
-  original: name is the name of the port on the Service. This is a mutually exclusive
-    setting with "Number".
-  formatted: name is the name of the port on the Service. This is a mutually exclusive
-    setting with "Number".
+  original: name is the name of the port on the Service. This is a mutually exclusive setting with "Number".
+  formatted: name is the name of the port on the Service. This is a mutually exclusive setting with "Number".
 type: string

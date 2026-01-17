@@ -1,6 +1,4 @@
 description:
-  original: The number of non-terminating pods targeted by this ReplicaSet with a
-    Ready Condition.
-  formatted: The number of non-terminating pods targeted by this ReplicaSet with a
-    Ready Condition.
+  original: The number of non-terminating pods targeted by this ReplicaSet with a Ready Condition.
+  formatted: The number of non-terminating pods targeted by this ReplicaSet with a Ready Condition.
 type: integer

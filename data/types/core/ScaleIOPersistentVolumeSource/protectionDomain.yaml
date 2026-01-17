@@ -1,6 +1,4 @@
 description:
-  original: protectionDomain is the name of the ScaleIO Protection Domain for the
-    configured storage.
-  formatted: protectionDomain is the name of the ScaleIO Protection Domain for the
-    configured storage.
+  original: protectionDomain is the name of the ScaleIO Protection Domain for the configured storage.
+  formatted: protectionDomain is the name of the ScaleIO Protection Domain for the configured storage.
 type: string

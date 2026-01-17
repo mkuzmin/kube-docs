@@ -1,6 +1,4 @@
 description:
-  original: 'Replicas is the number of desired pods. This is a pointer to distinguish
-    between explicit zero and unspecified. Defaults to 1. More info: https://kubernetes.io/docs/concepts/workloads/controllers/replicaset'
-  formatted: 'Replicas is the number of desired pods. This is a pointer to distinguish
-    between explicit zero and unspecified. Defaults to 1. More info: https://kubernetes.io/docs/concepts/workloads/controllers/replicaset'
+  original: 'Replicas is the number of desired pods. This is a pointer to distinguish between explicit zero and unspecified. Defaults to 1. More info: https://kubernetes.io/docs/concepts/workloads/controllers/replicaset'
+  formatted: 'Replicas is the number of desired pods. This is a pointer to distinguish between explicit zero and unspecified. Defaults to 1. More info: https://kubernetes.io/docs/concepts/workloads/controllers/replicaset'
 type: integer

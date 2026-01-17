@@ -1,5 +1,3 @@
 description:
-  original: LimitRangeItem defines a min/max usage limit for any resource that matches
-    on kind.
-  formatted: LimitRangeItem defines a min/max usage limit for any resource that matches
-    on kind.
+  original: LimitRangeItem defines a min/max usage limit for any resource that matches on kind.
+  formatted: LimitRangeItem defines a min/max usage limit for any resource that matches on kind.

@@ -1,9 +1,5 @@
 description:
-  original: Incomplete is true when the rules returned by this call are incomplete.
-    This is most commonly encountered when an authorizer, such as an external authorizer,
-    doesn't support rules evaluation.
-  formatted: Incomplete is true when the rules returned by this call are incomplete.
-    This is most commonly encountered when an authorizer, such as an external authorizer,
-    doesn't support rules evaluation.
+  original: Incomplete is true when the rules returned by this call are incomplete. This is most commonly encountered when an authorizer, such as an external authorizer, doesn't support rules evaluation.
+  formatted: Incomplete is true when the rules returned by this call are incomplete. This is most commonly encountered when an authorizer, such as an external authorizer, doesn't support rules evaluation.
 type: boolean
 required: true

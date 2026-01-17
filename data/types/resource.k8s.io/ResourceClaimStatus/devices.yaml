@@ -1,9 +1,5 @@
 description:
-  original: Devices contains the status of each device allocated for this claim, as
-    reported by the driver. This can include driver-specific information. Entries
-    are owned by their respective drivers.
-  formatted: Devices contains the status of each device allocated for this claim,
-    as reported by the driver. This can include driver-specific information. Entries
-    are owned by their respective drivers.
+  original: Devices contains the status of each device allocated for this claim, as reported by the driver. This can include driver-specific information. Entries are owned by their respective drivers.
+  formatted: Devices contains the status of each device allocated for this claim, as reported by the driver. This can include driver-specific information. Entries are owned by their respective drivers.
 type: AllocatedDeviceStatus
 collection: array

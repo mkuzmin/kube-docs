@@ -1,7 +1,5 @@
 description:
-  original: GID is the primary gid initially attached to the first process in the
-    container
-  formatted: GID is the primary gid initially attached to the first process in the
-    container
+  original: GID is the primary gid initially attached to the first process in the container
+  formatted: GID is the primary gid initially attached to the first process in the container
 type: integer
 required: true

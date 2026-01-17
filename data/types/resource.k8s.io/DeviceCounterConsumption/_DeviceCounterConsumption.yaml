@@ -1,5 +1,3 @@
 description:
-  original: DeviceCounterConsumption defines a set of counters that a device will
-    consume from a CounterSet.
-  formatted: DeviceCounterConsumption defines a set of counters that a device will
-    consume from a CounterSet.
+  original: DeviceCounterConsumption defines a set of counters that a device will consume from a CounterSet.
+  formatted: DeviceCounterConsumption defines a set of counters that a device will consume from a CounterSet.

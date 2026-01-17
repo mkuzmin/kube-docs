@@ -1,10 +1,4 @@
 description:
-  original: Strategy indicates the strategy for picking the leader for coordinated
-    leader election. If the field is not specified, there is no active coordination
-    for this lease. (Alpha) Using this field requires the CoordinatedLeaderElection
-    feature gate to be enabled.
-  formatted: Strategy indicates the strategy for picking the leader for coordinated
-    leader election. If the field is not specified, there is no active coordination
-    for this lease. (Alpha) Using this field requires the CoordinatedLeaderElection
-    feature gate to be enabled.
+  original: Strategy indicates the strategy for picking the leader for coordinated leader election. If the field is not specified, there is no active coordination for this lease. (Alpha) Using this field requires the CoordinatedLeaderElection feature gate to be enabled.
+  formatted: Strategy indicates the strategy for picking the leader for coordinated leader election. If the field is not specified, there is no active coordination for this lease. (Alpha) Using this field requires the CoordinatedLeaderElection feature gate to be enabled.
 type: string

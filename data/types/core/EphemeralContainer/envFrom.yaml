@@ -1,13 +1,7 @@
 description:
-  original: List of sources to populate environment variables in the container. The
-    keys defined within a source may consist of any printable ASCII characters except
-    '='. When a key exists in multiple sources, the value associated with the last
-    source will take precedence. Values defined by an Env with a duplicate key will
-    take precedence. Cannot be updated.
-  formatted: List of sources to populate environment variables in the container. The
-    keys defined within a source may consist of any printable ASCII characters except
-    '='. When a key exists in multiple sources, the value associated with the last
-    source will take precedence. Values defined by an Env with a duplicate key will
-    take precedence. Cannot be updated.
+  original: List of sources to populate environment variables in the container. The keys defined within a source may consist of any printable ASCII characters except '='. When a key exists in multiple sources, the value associated with the last source will take precedence. Values defined by an Env with
+    a duplicate key will take precedence. Cannot be updated.
+  formatted: List of sources to populate environment variables in the container. The keys defined within a source may consist of any printable ASCII characters except '='. When a key exists in multiple sources, the value associated with the last source will take precedence. Values defined by an Env with
+    a duplicate key will take precedence. Cannot be updated.
 type: EnvFromSource
 collection: array

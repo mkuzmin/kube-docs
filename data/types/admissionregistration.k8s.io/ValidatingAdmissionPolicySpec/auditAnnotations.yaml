@@ -1,9 +1,5 @@
 description:
-  original: auditAnnotations contains CEL expressions which are used to produce audit
-    annotations for the audit event of the API request. validations and auditAnnotations
-    may not both be empty; a least one of validations or auditAnnotations is required.
-  formatted: auditAnnotations contains CEL expressions which are used to produce audit
-    annotations for the audit event of the API request. validations and auditAnnotations
-    may not both be empty; a least one of validations or auditAnnotations is required.
+  original: auditAnnotations contains CEL expressions which are used to produce audit annotations for the audit event of the API request. validations and auditAnnotations may not both be empty; a least one of validations or auditAnnotations is required.
+  formatted: auditAnnotations contains CEL expressions which are used to produce audit annotations for the audit event of the API request. validations and auditAnnotations may not both be empty; a least one of validations or auditAnnotations is required.
 type: AuditAnnotation
 collection: array

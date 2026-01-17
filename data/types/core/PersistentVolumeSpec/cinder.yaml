@@ -1,8 +1,4 @@
 description:
-  original: 'cinder represents a cinder volume attached and mounted on kubelets host
-    machine. Deprecated: Cinder is deprecated. All operations for the in-tree cinder
-    type are redirected to the cinder.csi.openstack.org CSI driver. More info: https://examples.k8s.io/mysql-cinder-pd/README.md'
-  formatted: 'cinder represents a cinder volume attached and mounted on kubelets host
-    machine. Deprecated: Cinder is deprecated. All operations for the in-tree cinder
-    type are redirected to the cinder.csi.openstack.org CSI driver. More info: https://examples.k8s.io/mysql-cinder-pd/README.md'
+  original: 'cinder represents a cinder volume attached and mounted on kubelets host machine. Deprecated: Cinder is deprecated. All operations for the in-tree cinder type are redirected to the cinder.csi.openstack.org CSI driver. More info: https://examples.k8s.io/mysql-cinder-pd/README.md'
+  formatted: 'cinder represents a cinder volume attached and mounted on kubelets host machine. Deprecated: Cinder is deprecated. All operations for the in-tree cinder type are redirected to the cinder.csi.openstack.org CSI driver. More info: https://examples.k8s.io/mysql-cinder-pd/README.md'
 type: CinderPersistentVolumeSource

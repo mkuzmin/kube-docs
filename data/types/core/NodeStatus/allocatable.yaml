@@ -1,7 +1,5 @@
 description:
-  original: Allocatable represents the resources of a node that are available for
-    scheduling. Defaults to Capacity.
-  formatted: Allocatable represents the resources of a node that are available for
-    scheduling. Defaults to Capacity.
+  original: Allocatable represents the resources of a node that are available for scheduling. Defaults to Capacity.
+  formatted: Allocatable represents the resources of a node that are available for scheduling. Defaults to Capacity.
 type: Quantity
 collection: map

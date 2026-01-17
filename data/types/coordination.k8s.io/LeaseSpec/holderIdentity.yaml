@@ -1,8 +1,4 @@
 description:
-  original: holderIdentity contains the identity of the holder of a current lease.
-    If Coordinated Leader Election is used, the holder identity must be equal to the
-    elected LeaseCandidate.metadata.name field.
-  formatted: holderIdentity contains the identity of the holder of a current lease.
-    If Coordinated Leader Election is used, the holder identity must be equal to the
-    elected LeaseCandidate.metadata.name field.
+  original: holderIdentity contains the identity of the holder of a current lease. If Coordinated Leader Election is used, the holder identity must be equal to the elected LeaseCandidate.metadata.name field.
+  formatted: holderIdentity contains the identity of the holder of a current lease. If Coordinated Leader Election is used, the holder identity must be equal to the elected LeaseCandidate.metadata.name field.
 type: string

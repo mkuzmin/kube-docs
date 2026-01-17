@@ -1,5 +1,3 @@
 description:
-  original: VolumeResourceRequirements describes the storage resource requirements
-    for a volume.
-  formatted: VolumeResourceRequirements describes the storage resource requirements
-    for a volume.
+  original: VolumeResourceRequirements describes the storage resource requirements for a volume.
+  formatted: VolumeResourceRequirements describes the storage resource requirements for a volume.

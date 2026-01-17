@@ -1,5 +1,3 @@
 description:
-  original: ResourceFieldSelector represents container resources (cpu, memory) and
-    their output format
-  formatted: ResourceFieldSelector represents container resources (cpu, memory) and
-    their output format
+  original: ResourceFieldSelector represents container resources (cpu, memory) and their output format
+  formatted: ResourceFieldSelector represents container resources (cpu, memory) and their output format

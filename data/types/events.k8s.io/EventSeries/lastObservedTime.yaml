@@ -1,7 +1,5 @@
 description:
-  original: lastObservedTime is the time when last Event from the series was seen
-    before last heartbeat.
-  formatted: lastObservedTime is the time when last Event from the series was seen
-    before last heartbeat.
+  original: lastObservedTime is the time when last Event from the series was seen before last heartbeat.
+  formatted: lastObservedTime is the time when last Event from the series was seen before last heartbeat.
 type: MicroTime
 required: true

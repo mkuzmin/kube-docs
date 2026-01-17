@@ -1,6 +1,4 @@
 description:
-  original: leaseDurationSeconds is a duration that candidates for a lease need to
-    wait to force acquire it. This is measured against the time of last observed renewTime.
-  formatted: leaseDurationSeconds is a duration that candidates for a lease need to
-    wait to force acquire it. This is measured against the time of last observed renewTime.
+  original: leaseDurationSeconds is a duration that candidates for a lease need to wait to force acquire it. This is measured against the time of last observed renewTime.
+  formatted: leaseDurationSeconds is a duration that candidates for a lease need to wait to force acquire it. This is measured against the time of last observed renewTime.
 type: integer

@@ -1,6 +1,4 @@
 description:
-  original: updatedReplicas is the number of Pods created by the StatefulSet controller
-    from the StatefulSet version indicated by updateRevision.
-  formatted: updatedReplicas is the number of Pods created by the StatefulSet controller
-    from the StatefulSet version indicated by updateRevision.
+  original: updatedReplicas is the number of Pods created by the StatefulSet controller from the StatefulSet version indicated by updateRevision.
+  formatted: updatedReplicas is the number of Pods created by the StatefulSet controller from the StatefulSet version indicated by updateRevision.
 type: integer

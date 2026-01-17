@@ -1,7 +1,5 @@
 description:
-  original: Pod volumes to mount into the container's filesystem. Subpath mounts are
-    not allowed for ephemeral containers. Cannot be updated.
-  formatted: Pod volumes to mount into the container's filesystem. Subpath mounts
-    are not allowed for ephemeral containers. Cannot be updated.
+  original: Pod volumes to mount into the container's filesystem. Subpath mounts are not allowed for ephemeral containers. Cannot be updated.
+  formatted: Pod volumes to mount into the container's filesystem. Subpath mounts are not allowed for ephemeral containers. Cannot be updated.
 type: VolumeMount
 collection: array

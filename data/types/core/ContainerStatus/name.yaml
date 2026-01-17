@@ -1,9 +1,5 @@
 description:
-  original: Name is a DNS_LABEL representing the unique name of the container. Each
-    container in a pod must have a unique name across all container types. Cannot
-    be updated.
-  formatted: Name is a DNS_LABEL representing the unique name of the container. Each
-    container in a pod must have a unique name across all container types. Cannot
-    be updated.
+  original: Name is a DNS_LABEL representing the unique name of the container. Each container in a pod must have a unique name across all container types. Cannot be updated.
+  formatted: Name is a DNS_LABEL representing the unique name of the container. Each container in a pod must have a unique name across all container types. Cannot be updated.
 type: string
 required: true

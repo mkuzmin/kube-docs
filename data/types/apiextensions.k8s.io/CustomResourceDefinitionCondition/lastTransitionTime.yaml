@@ -1,6 +1,4 @@
 description:
-  original: lastTransitionTime last time the condition transitioned from one status
-    to another.
-  formatted: lastTransitionTime last time the condition transitioned from one status
-    to another.
+  original: lastTransitionTime last time the condition transitioned from one status to another.
+  formatted: lastTransitionTime last time the condition transitioned from one status to another.
 type: Time

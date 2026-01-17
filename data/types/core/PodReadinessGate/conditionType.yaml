@@ -1,7 +1,5 @@
 description:
-  original: ConditionType refers to a condition in the pod's condition list with matching
-    type.
-  formatted: ConditionType refers to a condition in the pod's condition list with
-    matching type.
+  original: ConditionType refers to a condition in the pod's condition list with matching type.
+  formatted: ConditionType refers to a condition in the pod's condition list with matching type.
 type: string
 required: true

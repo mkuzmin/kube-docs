@@ -1,6 +1,4 @@
 description:
-  original: Path within the volume from which the container's volume should be mounted.
-    Defaults to "" (volume's root).
-  formatted: Path within the volume from which the container's volume should be mounted.
-    Defaults to "" (volume's root).
+  original: Path within the volume from which the container's volume should be mounted. Defaults to "" (volume's root).
+  formatted: Path within the volume from which the container's volume should be mounted. Defaults to "" (volume's root).
 type: string

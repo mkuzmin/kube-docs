@@ -1,6 +1,4 @@
 description:
-  original: CustomResourceDefinition represents a resource that should be exposed
-    on the API server.  Its name MUST be in the format <.spec.name>.<.spec.group>.
-  formatted: CustomResourceDefinition represents a resource that should be exposed
-    on the API server.  Its name MUST be in the format <.spec.name>.<.spec.group>.
+  original: CustomResourceDefinition represents a resource that should be exposed on the API server.  Its name MUST be in the format <.spec.name>.<.spec.group>.
+  formatted: CustomResourceDefinition represents a resource that should be exposed on the API server.  Its name MUST be in the format <.spec.name>.<.spec.group>.
 kind: true

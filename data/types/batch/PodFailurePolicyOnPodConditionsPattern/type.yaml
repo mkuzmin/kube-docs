@@ -1,7 +1,5 @@
 description:
-  original: Specifies the required Pod condition type. To match a pod condition it
-    is required that specified type equals the pod condition type.
-  formatted: Specifies the required Pod condition type. To match a pod condition it
-    is required that specified type equals the pod condition type.
+  original: Specifies the required Pod condition type. To match a pod condition it is required that specified type equals the pod condition type.
+  formatted: Specifies the required Pod condition type. To match a pod condition it is required that specified type equals the pod condition type.
 type: string
 required: true

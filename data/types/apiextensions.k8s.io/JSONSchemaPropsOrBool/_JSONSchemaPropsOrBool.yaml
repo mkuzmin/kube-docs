@@ -1,5 +1,3 @@
 description:
-  original: JSONSchemaPropsOrBool represents JSONSchemaProps or a boolean value. Defaults
-    to true for the boolean property.
-  formatted: JSONSchemaPropsOrBool represents JSONSchemaProps or a boolean value.
-    Defaults to true for the boolean property.
+  original: JSONSchemaPropsOrBool represents JSONSchemaProps or a boolean value. Defaults to true for the boolean property.
+  formatted: JSONSchemaPropsOrBool represents JSONSchemaProps or a boolean value. Defaults to true for the boolean property.

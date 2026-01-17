@@ -1,6 +1,4 @@
 description:
-  original: message contains a human readable message with details about the request
-    state
-  formatted: message contains a human readable message with details about the request
-    state
+  original: message contains a human readable message with details about the request state
+  formatted: message contains a human readable message with details about the request state
 type: string

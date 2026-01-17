@@ -1,7 +1,5 @@
 description:
-  original: UID is the primary uid initially attached to the first process in the
-    container
-  formatted: UID is the primary uid initially attached to the first process in the
-    container
+  original: UID is the primary uid initially attached to the first process in the container
+  formatted: UID is the primary uid initially attached to the first process in the container
 type: integer
 required: true

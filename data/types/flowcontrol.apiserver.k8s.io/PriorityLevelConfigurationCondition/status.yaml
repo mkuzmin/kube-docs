@@ -1,6 +1,4 @@
 description:
-  original: '`status` is the status of the condition. Can be True, False, Unknown.
-    Required.'
-  formatted: '`status` is the status of the condition. Can be True, False, Unknown.
-    Required.'
+  original: '`status` is the status of the condition. Can be True, False, Unknown. Required.'
+  formatted: '`status` is the status of the condition. Can be True, False, Unknown. Required.'
 type: string

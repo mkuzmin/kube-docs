@@ -1,5 +1,3 @@
 description:
-  original: Volume represents a named volume in a pod that may be accessed by any
-    container in the pod.
-  formatted: Volume represents a named volume in a pod that may be accessed by any
-    container in the pod.
+  original: Volume represents a named volume in a pod that may be accessed by any container in the pod.
+  formatted: Volume represents a named volume in a pod that may be accessed by any container in the pod.

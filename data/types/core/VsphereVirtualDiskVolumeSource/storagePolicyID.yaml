@@ -1,6 +1,4 @@
 description:
-  original: storagePolicyID is the storage Policy Based Management (SPBM) profile
-    ID associated with the StoragePolicyName.
-  formatted: storagePolicyID is the storage Policy Based Management (SPBM) profile
-    ID associated with the StoragePolicyName.
+  original: storagePolicyID is the storage Policy Based Management (SPBM) profile ID associated with the StoragePolicyName.
+  formatted: storagePolicyID is the storage Policy Based Management (SPBM) profile ID associated with the StoragePolicyName.
 type: string

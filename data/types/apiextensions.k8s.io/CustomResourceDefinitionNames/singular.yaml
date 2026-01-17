@@ -1,6 +1,4 @@
 description:
-  original: singular is the singular name of the resource. It must be all lowercase.
-    Defaults to lowercased `kind`.
-  formatted: singular is the singular name of the resource. It must be all lowercase.
-    Defaults to lowercased `kind`.
+  original: singular is the singular name of the resource. It must be all lowercase. Defaults to lowercased `kind`.
+  formatted: singular is the singular name of the resource. It must be all lowercase. Defaults to lowercased `kind`.
 type: string

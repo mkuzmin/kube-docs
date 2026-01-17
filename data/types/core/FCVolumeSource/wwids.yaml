@@ -1,7 +1,5 @@
 description:
-  original: 'wwids Optional: FC volume world wide identifiers (wwids) Either wwids
-    or combination of targetWWNs and lun must be set, but not both simultaneously.'
-  formatted: 'wwids Optional: FC volume world wide identifiers (wwids) Either wwids
-    or combination of targetWWNs and lun must be set, but not both simultaneously.'
+  original: 'wwids Optional: FC volume world wide identifiers (wwids) Either wwids or combination of targetWWNs and lun must be set, but not both simultaneously.'
+  formatted: 'wwids Optional: FC volume world wide identifiers (wwids) Either wwids or combination of targetWWNs and lun must be set, but not both simultaneously.'
 type: string
 collection: array

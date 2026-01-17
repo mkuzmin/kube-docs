@@ -1,6 +1,4 @@
 description:
-  original: PersistentVolumeClaim is a user's request for and claim to a persistent
-    volume
-  formatted: PersistentVolumeClaim is a user's request for and claim to a persistent
-    volume
+  original: PersistentVolumeClaim is a user's request for and claim to a persistent volume
+  formatted: PersistentVolumeClaim is a user's request for and claim to a persistent volume
 kind: true

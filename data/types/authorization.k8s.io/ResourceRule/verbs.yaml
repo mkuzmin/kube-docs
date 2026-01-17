@@ -1,8 +1,6 @@
 description:
-  original: 'Verb is a list of kubernetes resource API verbs, like: get, list, watch,
-    create, update, delete, proxy.  "*" means all.'
-  formatted: 'Verb is a list of kubernetes resource API verbs, like: get, list, watch,
-    create, update, delete, proxy.  "*" means all.'
+  original: 'Verb is a list of kubernetes resource API verbs, like: get, list, watch, create, update, delete, proxy.  "*" means all.'
+  formatted: 'Verb is a list of kubernetes resource API verbs, like: get, list, watch, create, update, delete, proxy.  "*" means all.'
 type: string
 collection: array
 required: true

@@ -1,8 +1,4 @@
 description:
-  original: Immutable, if set to true, ensures that data stored in the ConfigMap cannot
-    be updated (only object metadata can be modified). If not set to true, the field
-    can be modified at any time. Defaulted to nil.
-  formatted: Immutable, if set to true, ensures that data stored in the ConfigMap
-    cannot be updated (only object metadata can be modified). If not set to true,
-    the field can be modified at any time. Defaulted to nil.
+  original: Immutable, if set to true, ensures that data stored in the ConfigMap cannot be updated (only object metadata can be modified). If not set to true, the field can be modified at any time. Defaulted to nil.
+  formatted: Immutable, if set to true, ensures that data stored in the ConfigMap cannot be updated (only object metadata can be modified). If not set to true, the field can be modified at any time. Defaulted to nil.
 type: boolean

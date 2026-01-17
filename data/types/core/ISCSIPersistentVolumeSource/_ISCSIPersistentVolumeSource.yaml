@@ -1,7 +1,3 @@
 description:
-  original: ISCSIPersistentVolumeSource represents an ISCSI disk. ISCSI volumes can
-    only be mounted as read/write once. ISCSI volumes support ownership management
-    and SELinux relabeling.
-  formatted: ISCSIPersistentVolumeSource represents an ISCSI disk. ISCSI volumes can
-    only be mounted as read/write once. ISCSI volumes support ownership management
-    and SELinux relabeling.
+  original: ISCSIPersistentVolumeSource represents an ISCSI disk. ISCSI volumes can only be mounted as read/write once. ISCSI volumes support ownership management and SELinux relabeling.
+  formatted: ISCSIPersistentVolumeSource represents an ISCSI disk. ISCSI volumes can only be mounted as read/write once. ISCSI volumes support ownership management and SELinux relabeling.

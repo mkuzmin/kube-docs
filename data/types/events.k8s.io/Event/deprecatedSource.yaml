@@ -1,6 +1,4 @@
 description:
-  original: deprecatedSource is the deprecated field assuring backward compatibility
-    with core.v1 Event type.
-  formatted: deprecatedSource is the deprecated field assuring backward compatibility
-    with core.v1 Event type.
+  original: deprecatedSource is the deprecated field assuring backward compatibility with core.v1 Event type.
+  formatted: deprecatedSource is the deprecated field assuring backward compatibility with core.v1 Event type.
 type: EventSource

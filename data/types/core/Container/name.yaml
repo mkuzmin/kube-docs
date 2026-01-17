@@ -1,7 +1,5 @@
 description:
-  original: Name of the container specified as a DNS_LABEL. Each container in a pod
-    must have a unique name (DNS_LABEL). Cannot be updated.
-  formatted: Name of the container specified as a DNS_LABEL. Each container in a pod
-    must have a unique name (DNS_LABEL). Cannot be updated.
+  original: Name of the container specified as a DNS_LABEL. Each container in a pod must have a unique name (DNS_LABEL). Cannot be updated.
+  formatted: Name of the container specified as a DNS_LABEL. Each container in a pod must have a unique name (DNS_LABEL). Cannot be updated.
 type: string
 required: true

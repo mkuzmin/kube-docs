@@ -1,6 +1,4 @@
 description:
-  original: deprecatedLastTimestamp is the deprecated field assuring backward compatibility
-    with core.v1 Event type.
-  formatted: deprecatedLastTimestamp is the deprecated field assuring backward compatibility
-    with core.v1 Event type.
+  original: deprecatedLastTimestamp is the deprecated field assuring backward compatibility with core.v1 Event type.
+  formatted: deprecatedLastTimestamp is the deprecated field assuring backward compatibility with core.v1 Event type.
 type: Time

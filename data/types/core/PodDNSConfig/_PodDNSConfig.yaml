@@ -1,5 +1,3 @@
 description:
-  original: PodDNSConfig defines the DNS parameters of a pod in addition to those
-    generated from DNSPolicy.
-  formatted: PodDNSConfig defines the DNS parameters of a pod in addition to those
-    generated from DNSPolicy.
+  original: PodDNSConfig defines the DNS parameters of a pod in addition to those generated from DNSPolicy.
+  formatted: PodDNSConfig defines the DNS parameters of a pod in addition to those generated from DNSPolicy.

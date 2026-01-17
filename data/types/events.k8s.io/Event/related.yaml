@@ -1,6 +1,4 @@
 description:
-  original: related is the optional secondary object for more complex actions. E.g.
-    when regarding object triggers a creation or deletion of related object.
-  formatted: related is the optional secondary object for more complex actions. E.g.
-    when regarding object triggers a creation or deletion of related object.
+  original: related is the optional secondary object for more complex actions. E.g. when regarding object triggers a creation or deletion of related object.
+  formatted: related is the optional secondary object for more complex actions. E.g. when regarding object triggers a creation or deletion of related object.
 type: ObjectReference

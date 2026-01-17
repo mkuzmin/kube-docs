@@ -1,6 +1,4 @@
 description:
-  original: '`queuing` holds the configuration parameters for queuing. This field
-    may be non-empty only if `type` is `"Queue"`.'
-  formatted: '`queuing` holds the configuration parameters for queuing. This field
-    may be non-empty only if `type` is `"Queue"`.'
+  original: '`queuing` holds the configuration parameters for queuing. This field may be non-empty only if `type` is `"Queue"`.'
+  formatted: '`queuing` holds the configuration parameters for queuing. This field may be non-empty only if `type` is `"Queue"`.'
 type: QueuingConfiguration

@@ -1,5 +1,4 @@
 description:
   original: Type indicates the type of the StatefulSetUpdateStrategy. Default is RollingUpdate.
-  formatted: Type indicates the type of the StatefulSetUpdateStrategy. Default is
-    RollingUpdate.
+  formatted: Type indicates the type of the StatefulSetUpdateStrategy. Default is RollingUpdate.
 type: string

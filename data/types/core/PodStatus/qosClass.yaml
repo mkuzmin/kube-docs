@@ -1,8 +1,4 @@
 description:
-  original: 'The Quality of Service (QOS) classification assigned to the pod based
-    on resource requirements See PodQOSClass type for available QOS classes More info:
-    https://kubernetes.io/docs/concepts/workloads/pods/pod-qos/#quality-of-service-classes'
-  formatted: 'The Quality of Service (QOS) classification assigned to the pod based
-    on resource requirements See PodQOSClass type for available QOS classes More info:
-    https://kubernetes.io/docs/concepts/workloads/pods/pod-qos/#quality-of-service-classes'
+  original: 'The Quality of Service (QOS) classification assigned to the pod based on resource requirements See PodQOSClass type for available QOS classes More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-qos/#quality-of-service-classes'
+  formatted: 'The Quality of Service (QOS) classification assigned to the pod based on resource requirements See PodQOSClass type for available QOS classes More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-qos/#quality-of-service-classes'
 type: string

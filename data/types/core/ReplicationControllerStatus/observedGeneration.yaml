@@ -1,6 +1,4 @@
 description:
-  original: ObservedGeneration reflects the generation of the most recently observed
-    replication controller.
-  formatted: ObservedGeneration reflects the generation of the most recently observed
-    replication controller.
+  original: ObservedGeneration reflects the generation of the most recently observed replication controller.
+  formatted: ObservedGeneration reflects the generation of the most recently observed replication controller.
 type: integer

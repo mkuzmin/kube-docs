@@ -1,6 +1,4 @@
 description:
-  original: downwardAPI represents downward API about the pod that should populate
-    this volume
-  formatted: downwardAPI represents downward API about the pod that should populate
-    this volume
+  original: downwardAPI represents downward API about the pod that should populate this volume
+  formatted: downwardAPI represents downward API about the pod that should populate this volume
 type: DownwardAPIVolumeSource

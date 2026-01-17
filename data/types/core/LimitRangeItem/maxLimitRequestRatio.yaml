@@ -1,9 +1,5 @@
 description:
-  original: MaxLimitRequestRatio if specified, the named resource must have a request
-    and limit that are both non-zero where limit divided by request is less than or
-    equal to the enumerated value; this represents the max burst for the named resource.
-  formatted: MaxLimitRequestRatio if specified, the named resource must have a request
-    and limit that are both non-zero where limit divided by request is less than or
-    equal to the enumerated value; this represents the max burst for the named resource.
+  original: MaxLimitRequestRatio if specified, the named resource must have a request and limit that are both non-zero where limit divided by request is less than or equal to the enumerated value; this represents the max burst for the named resource.
+  formatted: MaxLimitRequestRatio if specified, the named resource must have a request and limit that are both non-zero where limit divided by request is less than or equal to the enumerated value; this represents the max burst for the named resource.
 type: Quantity
 collection: map

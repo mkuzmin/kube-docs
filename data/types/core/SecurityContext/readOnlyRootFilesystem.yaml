@@ -1,6 +1,4 @@
 description:
-  original: Whether this container has a read-only root filesystem. Default is false.
-    Note that this field cannot be set when spec.os.name is windows.
-  formatted: Whether this container has a read-only root filesystem. Default is false.
-    Note that this field cannot be set when spec.os.name is windows.
+  original: Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
+  formatted: Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
 type: boolean

@@ -1,5 +1,3 @@
 description:
-  original: FlexVolume represents a generic volume resource that is provisioned/attached
-    using an exec based plugin.
-  formatted: FlexVolume represents a generic volume resource that is provisioned/attached
-    using an exec based plugin.
+  original: FlexVolume represents a generic volume resource that is provisioned/attached using an exec based plugin.
+  formatted: FlexVolume represents a generic volume resource that is provisioned/attached using an exec based plugin.

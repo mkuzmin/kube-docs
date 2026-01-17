@@ -1,6 +1,4 @@
 description:
-  original: Type of daemon set update. Can be "RollingUpdate" or "OnDelete". Default
-    is RollingUpdate.
-  formatted: Type of daemon set update. Can be "RollingUpdate" or "OnDelete". Default
-    is RollingUpdate.
+  original: Type of daemon set update. Can be "RollingUpdate" or "OnDelete". Default is RollingUpdate.
+  formatted: Type of daemon set update. Can be "RollingUpdate" or "OnDelete". Default is RollingUpdate.
 type: string

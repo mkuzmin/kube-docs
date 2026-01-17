@@ -1,6 +1,4 @@
 description:
-  original: scale indicates the custom resource should serve a `/scale` subresource
-    that returns an `autoscaling/v1` Scale object.
-  formatted: scale indicates the custom resource should serve a `/scale` subresource
-    that returns an `autoscaling/v1` Scale object.
+  original: scale indicates the custom resource should serve a `/scale` subresource that returns an `autoscaling/v1` Scale object.
+  formatted: scale indicates the custom resource should serve a `/scale` subresource that returns an `autoscaling/v1` Scale object.
 type: CustomResourceSubresourceScale

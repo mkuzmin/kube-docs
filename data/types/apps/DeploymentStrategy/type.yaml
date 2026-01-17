@@ -1,5 +1,4 @@
 description:
   original: Type of deployment. Can be "Recreate" or "RollingUpdate". Default is RollingUpdate.
-  formatted: Type of deployment. Can be "Recreate" or "RollingUpdate". Default is
-    RollingUpdate.
+  formatted: Type of deployment. Can be "Recreate" or "RollingUpdate". Default is RollingUpdate.
 type: string

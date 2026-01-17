@@ -1,6 +1,4 @@
 description:
-  original: fsType to mount. Must be a filesystem type supported by the host operating
-    system. Ex. "ext4", "xfs", "ntfs".
-  formatted: fsType to mount. Must be a filesystem type supported by the host operating
-    system. Ex. "ext4", "xfs", "ntfs".
+  original: fsType to mount. Must be a filesystem type supported by the host operating system. Ex. "ext4", "xfs", "ntfs".
+  formatted: fsType to mount. Must be a filesystem type supported by the host operating system. Ex. "ext4", "xfs", "ntfs".
 type: string

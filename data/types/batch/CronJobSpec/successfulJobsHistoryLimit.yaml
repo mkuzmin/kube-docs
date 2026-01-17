@@ -1,6 +1,4 @@
 description:
-  original: The number of successful finished jobs to retain. Value must be non-negative
-    integer. Defaults to 3.
-  formatted: The number of successful finished jobs to retain. Value must be non-negative
-    integer. Defaults to 3.
+  original: The number of successful finished jobs to retain. Value must be non-negative integer. Defaults to 3.
+  formatted: The number of successful finished jobs to retain. Value must be non-negative integer. Defaults to 3.
 type: integer

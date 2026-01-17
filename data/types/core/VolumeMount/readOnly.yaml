@@ -1,6 +1,4 @@
 description:
-  original: Mounted read-only if true, read-write otherwise (false or unspecified).
-    Defaults to false.
-  formatted: Mounted read-only if true, read-write otherwise (false or unspecified).
-    Defaults to false.
+  original: Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
+  formatted: Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
 type: boolean

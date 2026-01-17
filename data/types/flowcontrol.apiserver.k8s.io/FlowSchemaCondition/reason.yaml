@@ -1,6 +1,4 @@
 description:
-  original: '`reason` is a unique, one-word, CamelCase reason for the condition''s
-    last transition.'
-  formatted: '`reason` is a unique, one-word, CamelCase reason for the condition''s
-    last transition.'
+  original: '`reason` is a unique, one-word, CamelCase reason for the condition''s last transition.'
+  formatted: '`reason` is a unique, one-word, CamelCase reason for the condition''s last transition.'
 type: string

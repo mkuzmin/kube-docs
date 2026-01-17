@@ -1,5 +1,3 @@
 description:
-  original: ContainerState holds a possible state of container. Only one of its members
-    may be specified. If none of them is specified, the default one is ContainerStateWaiting.
-  formatted: ContainerState holds a possible state of container. Only one of its members
-    may be specified. If none of them is specified, the default one is ContainerStateWaiting.
+  original: ContainerState holds a possible state of container. Only one of its members may be specified. If none of them is specified, the default one is ContainerStateWaiting.
+  formatted: ContainerState holds a possible state of container. Only one of its members may be specified. If none of them is specified, the default one is ContainerStateWaiting.

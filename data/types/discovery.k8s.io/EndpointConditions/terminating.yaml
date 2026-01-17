@@ -1,6 +1,4 @@
 description:
-  original: terminating indicates that this endpoint is terminating. A nil value should
-    be interpreted as "false".
-  formatted: terminating indicates that this endpoint is terminating. A nil value
-    should be interpreted as "false".
+  original: terminating indicates that this endpoint is terminating. A nil value should be interpreted as "false".
+  formatted: terminating indicates that this endpoint is terminating. A nil value should be interpreted as "false".
 type: boolean

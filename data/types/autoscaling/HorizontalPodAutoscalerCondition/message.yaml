@@ -1,5 +1,4 @@
 description:
   original: message is a human-readable explanation containing details about the transition
-  formatted: message is a human-readable explanation containing details about the
-    transition
+  formatted: message is a human-readable explanation containing details about the transition
 type: string

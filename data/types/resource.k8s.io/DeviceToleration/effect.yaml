@@ -1,6 +1,4 @@
 description:
-  original: Effect indicates the taint effect to match. Empty means match all taint
-    effects. When specified, allowed values are NoSchedule and NoExecute.
-  formatted: Effect indicates the taint effect to match. Empty means match all taint
-    effects. When specified, allowed values are NoSchedule and NoExecute.
+  original: Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule and NoExecute.
+  formatted: Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule and NoExecute.
 type: string

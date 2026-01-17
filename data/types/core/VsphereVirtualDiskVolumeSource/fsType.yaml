@@ -1,8 +1,4 @@
 description:
-  original: fsType is filesystem type to mount. Must be a filesystem type supported
-    by the host operating system. Ex. "ext4", "xfs", "ntfs". Implicitly inferred to
-    be "ext4" if unspecified.
-  formatted: fsType is filesystem type to mount. Must be a filesystem type supported
-    by the host operating system. Ex. "ext4", "xfs", "ntfs". Implicitly inferred to
-    be "ext4" if unspecified.
+  original: fsType is filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. "ext4", "xfs", "ntfs". Implicitly inferred to be "ext4" if unspecified.
+  formatted: fsType is filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. "ext4", "xfs", "ntfs". Implicitly inferred to be "ext4" if unspecified.
 type: string

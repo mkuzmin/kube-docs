@@ -1,6 +1,4 @@
 description:
-  original: readOnly value to pass to ControllerPublishVolumeRequest. Defaults to
-    false (read/write).
-  formatted: readOnly value to pass to ControllerPublishVolumeRequest. Defaults to
-    false (read/write).
+  original: readOnly value to pass to ControllerPublishVolumeRequest. Defaults to false (read/write).
+  formatted: readOnly value to pass to ControllerPublishVolumeRequest. Defaults to false (read/write).
 type: boolean

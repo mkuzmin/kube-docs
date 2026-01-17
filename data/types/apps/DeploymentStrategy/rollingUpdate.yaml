@@ -1,6 +1,4 @@
 description:
-  original: Rolling update config params. Present only if DeploymentStrategyType =
-    RollingUpdate.
-  formatted: Rolling update config params. Present only if DeploymentStrategyType
-    = RollingUpdate.
+  original: Rolling update config params. Present only if DeploymentStrategyType = RollingUpdate.
+  formatted: Rolling update config params. Present only if DeploymentStrategyType = RollingUpdate.
 type: RollingUpdateDeployment

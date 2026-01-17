@@ -1,9 +1,5 @@
 description:
-  original: name is the version name, e.g. “v1”, “v2beta1”, etc. The custom resources
-    are served under this version at `/apis/<group>/<version>/...` if `served` is
-    true.
-  formatted: name is the version name, e.g. “v1”, “v2beta1”, etc. The custom resources
-    are served under this version at `/apis/<group>/<version>/...` if `served` is
-    true.
+  original: name is the version name, e.g. “v1”, “v2beta1”, etc. The custom resources are served under this version at `/apis/<group>/<version>/...` if `served` is true.
+  formatted: name is the version name, e.g. “v1”, “v2beta1”, etc. The custom resources are served under this version at `/apis/<group>/<version>/...` if `served` is true.
 type: string
 required: true

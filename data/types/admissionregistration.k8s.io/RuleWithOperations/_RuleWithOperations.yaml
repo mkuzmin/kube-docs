@@ -1,5 +1,3 @@
 description:
-  original: RuleWithOperations is a tuple of Operations and Resources. It is recommended
-    to make sure that all the tuple expansions are valid.
-  formatted: RuleWithOperations is a tuple of Operations and Resources. It is recommended
-    to make sure that all the tuple expansions are valid.
+  original: RuleWithOperations is a tuple of Operations and Resources. It is recommended to make sure that all the tuple expansions are valid.
+  formatted: RuleWithOperations is a tuple of Operations and Resources. It is recommended to make sure that all the tuple expansions are valid.

@@ -1,8 +1,4 @@
 description:
-  original: Namespace of the referenced object.  If the object kind is non-namespace,
-    such as "User" or "Group", and this value is not empty the Authorizer should report
-    an error.
-  formatted: Namespace of the referenced object.  If the object kind is non-namespace,
-    such as "User" or "Group", and this value is not empty the Authorizer should report
-    an error.
+  original: Namespace of the referenced object.  If the object kind is non-namespace, such as "User" or "Group", and this value is not empty the Authorizer should report an error.
+  formatted: Namespace of the referenced object.  If the object kind is non-namespace, such as "User" or "Group", and this value is not empty the Authorizer should report an error.
 type: string

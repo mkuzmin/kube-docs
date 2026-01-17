@@ -1,5 +1,3 @@
 description:
-  original: TopologySpreadConstraint specifies how to spread matching pods among the
-    given topology.
-  formatted: TopologySpreadConstraint specifies how to spread matching pods among
-    the given topology.
+  original: TopologySpreadConstraint specifies how to spread matching pods among the given topology.
+  formatted: TopologySpreadConstraint specifies how to spread matching pods among the given topology.

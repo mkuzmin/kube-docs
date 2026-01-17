@@ -1,6 +1,4 @@
 description:
-  original: volumeName is the name of a volume already created in the ScaleIO system
-    that is associated with this volume source.
-  formatted: volumeName is the name of a volume already created in the ScaleIO system
-    that is associated with this volume source.
+  original: volumeName is the name of a volume already created in the ScaleIO system that is associated with this volume source.
+  formatted: volumeName is the name of a volume already created in the ScaleIO system that is associated with this volume source.
 type: string

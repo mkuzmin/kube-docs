@@ -1,9 +1,5 @@
 description:
-  original: An array of string values. If the operator is In or NotIn, the values
-    array must be non-empty. If the operator is Exists or DoesNotExist, the values
-    array must be empty. This array is replaced during a strategic merge patch.
-  formatted: An array of string values. If the operator is In or NotIn, the values
-    array must be non-empty. If the operator is Exists or DoesNotExist, the values
-    array must be empty. This array is replaced during a strategic merge patch.
+  original: An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
+  formatted: An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
 type: string
 collection: array

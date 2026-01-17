@@ -1,6 +1,4 @@
 description:
-  original: storagePool is the ScaleIO Storage Pool associated with the protection
-    domain.
-  formatted: storagePool is the ScaleIO Storage Pool associated with the protection
-    domain.
+  original: storagePool is the ScaleIO Storage Pool associated with the protection domain.
+  formatted: storagePool is the ScaleIO Storage Pool associated with the protection domain.
 type: string

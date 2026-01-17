@@ -1,7 +1,5 @@
 description:
-  original: 'hard is the set of desired hard limits for each named resource. More
-    info: https://kubernetes.io/docs/concepts/policy/resource-quotas/'
-  formatted: 'hard is the set of desired hard limits for each named resource. More
-    info: https://kubernetes.io/docs/concepts/policy/resource-quotas/'
+  original: 'hard is the set of desired hard limits for each named resource. More info: https://kubernetes.io/docs/concepts/policy/resource-quotas/'
+  formatted: 'hard is the set of desired hard limits for each named resource. More info: https://kubernetes.io/docs/concepts/policy/resource-quotas/'
 type: Quantity
 collection: map

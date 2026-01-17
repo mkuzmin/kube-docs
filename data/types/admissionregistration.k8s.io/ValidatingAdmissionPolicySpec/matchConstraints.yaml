@@ -1,12 +1,6 @@
 description:
-  original: MatchConstraints specifies what resources this policy is designed to validate.
-    The AdmissionPolicy cares about a request if it matches _all_ Constraints. However,
-    in order to prevent clusters from being put into an unstable state that cannot
-    be recovered from via the API ValidatingAdmissionPolicy cannot match ValidatingAdmissionPolicy
-    and ValidatingAdmissionPolicyBinding. Required.
-  formatted: MatchConstraints specifies what resources this policy is designed to
-    validate. The AdmissionPolicy cares about a request if it matches _all_ Constraints.
-    However, in order to prevent clusters from being put into an unstable state that
-    cannot be recovered from via the API ValidatingAdmissionPolicy cannot match ValidatingAdmissionPolicy
-    and ValidatingAdmissionPolicyBinding. Required.
+  original: MatchConstraints specifies what resources this policy is designed to validate. The AdmissionPolicy cares about a request if it matches _all_ Constraints. However, in order to prevent clusters from being put into an unstable state that cannot be recovered from via the API ValidatingAdmissionPolicy
+    cannot match ValidatingAdmissionPolicy and ValidatingAdmissionPolicyBinding. Required.
+  formatted: MatchConstraints specifies what resources this policy is designed to validate. The AdmissionPolicy cares about a request if it matches _all_ Constraints. However, in order to prevent clusters from being put into an unstable state that cannot be recovered from via the API ValidatingAdmissionPolicy
+    cannot match ValidatingAdmissionPolicy and ValidatingAdmissionPolicyBinding. Required.
 type: MatchResources

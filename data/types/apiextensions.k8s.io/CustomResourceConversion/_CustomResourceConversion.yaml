@@ -1,5 +1,3 @@
 description:
-  original: CustomResourceConversion describes how to convert different versions of
-    a CR.
-  formatted: CustomResourceConversion describes how to convert different versions
-    of a CR.
+  original: CustomResourceConversion describes how to convert different versions of a CR.
+  formatted: CustomResourceConversion describes how to convert different versions of a CR.

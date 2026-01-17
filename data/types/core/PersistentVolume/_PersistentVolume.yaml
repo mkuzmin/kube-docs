@@ -1,6 +1,4 @@
 description:
-  original: 'PersistentVolume (PV) is a storage resource provisioned by an administrator.
-    It is analogous to a node. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes'
-  formatted: 'PersistentVolume (PV) is a storage resource provisioned by an administrator.
-    It is analogous to a node. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes'
+  original: 'PersistentVolume (PV) is a storage resource provisioned by an administrator. It is analogous to a node. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes'
+  formatted: 'PersistentVolume (PV) is a storage resource provisioned by an administrator. It is analogous to a node. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes'
 kind: true

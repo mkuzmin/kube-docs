@@ -1,7 +1,5 @@
 description:
-  original: rules is a list of host rules used to configure the Ingress. If unspecified,
-    or no rule matches, all traffic is sent to the default backend.
-  formatted: rules is a list of host rules used to configure the Ingress. If unspecified,
-    or no rule matches, all traffic is sent to the default backend.
+  original: rules is a list of host rules used to configure the Ingress. If unspecified, or no rule matches, all traffic is sent to the default backend.
+  formatted: rules is a list of host rules used to configure the Ingress. If unspecified, or no rule matches, all traffic is sent to the default backend.
 type: IngressRule
 collection: array

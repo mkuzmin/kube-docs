@@ -1,7 +1,5 @@
 description:
-  original: ResourceNames is an optional white list of names that the rule applies
-    to.  An empty set means that everything is allowed.
-  formatted: ResourceNames is an optional white list of names that the rule applies
-    to.  An empty set means that everything is allowed.
+  original: ResourceNames is an optional white list of names that the rule applies to.  An empty set means that everything is allowed.
+  formatted: ResourceNames is an optional white list of names that the rule applies to.  An empty set means that everything is allowed.
 type: string
 collection: array

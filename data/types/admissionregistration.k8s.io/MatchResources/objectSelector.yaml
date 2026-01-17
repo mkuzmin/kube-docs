@@ -1,20 +1,8 @@
 description:
-  original: ObjectSelector decides whether to run the validation based on if the object
-    has matching labels. objectSelector is evaluated against both the oldObject and
-    newObject that would be sent to the cel validation, and is considered to match
-    if either object matches the selector. A null object (oldObject in the case of
-    create, or newObject in the case of delete) or an object that cannot have labels
-    (like a DeploymentRollback or a PodProxyOptions object) is not considered to match.
-    Use the object selector only if the webhook is opt-in, because end users may skip
-    the admission webhook by setting the labels. Default to the empty LabelSelector,
-    which matches everything.
-  formatted: ObjectSelector decides whether to run the validation based on if the
-    object has matching labels. objectSelector is evaluated against both the oldObject
-    and newObject that would be sent to the cel validation, and is considered to match
-    if either object matches the selector. A null object (oldObject in the case of
-    create, or newObject in the case of delete) or an object that cannot have labels
-    (like a DeploymentRollback or a PodProxyOptions object) is not considered to match.
-    Use the object selector only if the webhook is opt-in, because end users may skip
-    the admission webhook by setting the labels. Default to the empty LabelSelector,
-    which matches everything.
+  original: ObjectSelector decides whether to run the validation based on if the object has matching labels. objectSelector is evaluated against both the oldObject and newObject that would be sent to the cel validation, and is considered to match if either object matches the selector. A null object (oldObject
+    in the case of create, or newObject in the case of delete) or an object that cannot have labels (like a DeploymentRollback or a PodProxyOptions object) is not considered to match. Use the object selector only if the webhook is opt-in, because end users may skip the admission webhook by setting the
+    labels. Default to the empty LabelSelector, which matches everything.
+  formatted: ObjectSelector decides whether to run the validation based on if the object has matching labels. objectSelector is evaluated against both the oldObject and newObject that would be sent to the cel validation, and is considered to match if either object matches the selector. A null object (oldObject
+    in the case of create, or newObject in the case of delete) or an object that cannot have labels (like a DeploymentRollback or a PodProxyOptions object) is not considered to match. Use the object selector only if the webhook is opt-in, because end users may skip the admission webhook by setting the
+    labels. Default to the empty LabelSelector, which matches everything.
 type: LabelSelector
