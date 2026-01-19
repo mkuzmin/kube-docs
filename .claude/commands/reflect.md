@@ -1,3 +1,5 @@
+Use `superpowers:writing-skills` skill.
+
 In this conversation what have we learned about the project and code what is not documented in claude.md files and rules. Reflect.
 
 Before editing, check existing rules - is it already covered? Would extending an example suffice?
