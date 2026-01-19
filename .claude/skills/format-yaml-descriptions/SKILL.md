@@ -1,6 +1,9 @@
 ---
 name: format-yaml-descriptions
 description: Use when processing YAML files in data/types/ to transform the formatted field. For subagents processing API groups.
+allowed-tools:
+  - Glob
+  - Bash(yq:*)
 ---
 
 # Format YAML Descriptions
