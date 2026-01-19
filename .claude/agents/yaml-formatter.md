@@ -24,11 +24,16 @@ Transform `description.formatted` fields in YAML files.
 
 Include these rules in sub-agent prompts:
 
-### 1. Remove redundant name from start
-If description starts with the type or field name (derived from filename), remove it and capitalize the next word:
-- Type `_ExpressionWarning.yaml`: `ExpressionWarning is a warning information` → `Warning information`
-- Field `key.yaml`: `key specifies the audit annotation key` → `The audit annotation key`
-- Field `name.yaml`: `name is the name of the resource` → `Name of the resource`
+### 1. Remove redundant names
+Only remove text, never add new words.
+
+**A. Name at start** - remove filename-derived name from start (may follow an article):
+- `_ExpressionWarning.yaml`: `ExpressionWarning is a warning...` → `A warning...`
+- `key.yaml`: `key specifies the audit annotation key` → `The audit annotation key`
+- `conditions.yaml`: `The conditions represent the latest...` → `The latest...`
+
+**B. Parent type in prose** - remove parent type (directory name) references:
+- `ValidatingAdmissionPolicy/status.yaml`: `The status of the ValidatingAdmissionPolicy, including warnings` → `The status, including warnings`. No way to remove repetition of the field name without losing meaning. 
 
 ### 2. Code in backticks
 Wrap regex patterns, field paths, template patterns:
