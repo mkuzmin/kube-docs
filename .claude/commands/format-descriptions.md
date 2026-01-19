@@ -16,6 +16,13 @@ Examples:
 - Field path: `spec.os.name` → `` `spec.os.name` ``
 - Template: `{ValidatingAdmissionPolicy name}/{key}` → `` `{ValidatingAdmissionPolicy name}/{key}` ``
 
+For multiline code blocks (JSON, YAML examples), use triple backticks:
+````
+```json
+{"key": "value"}
+```
+````
+
 ### 2. Type references
 - In prose: use wiki links `[[TypeName]]`
 - In code context (dotted paths, etc.): just backticks
@@ -60,16 +67,27 @@ Type of deployment.
 
 ## Process
 
-1. List YAML files recursively in target directory (`data/types/{group}/{Type}/*.yaml`)
-2. For each file, spawn a subagent (Task tool with `general-purpose` type) that:
-   - Reads the file
-   - Applies transformation rules to `formatted` field
-   - Adds `enum: true` if enum pattern detected
-   - Writes the modified file
-3. Launch multiple subagents in parallel (batch of 5-10) to speed up processing
-4. Check each Task result for errors; collect failed file paths
-5. Report failed files at the end for manual review or retry
+1. List files: `find data/types/{group} -name "*.yaml"`
+2. Split into batches of 20 files
+3. Spawn subagents in parallel (5-10 at a time), each processes its batch using `yq`
+4. After group completes, say "Done. Ready for review." No statistics. Wait for user before continuing to next group.
 
-This keeps each file's content isolated in its own context window.
+### Subagent instructions
 
-After processing a group, stop and wait for user to review changes before continuing to next group.
+Each subagent receives a list of file paths and processes them using `yq`:
+
+```bash
+# For each file:
+# 1. Extract original description
+original=$(yq '.description.original' file.yaml)
+
+# 2. Apply transformations to $original (rules 1-4 above)
+
+# 3. Write to formatted
+yq -i ".description.formatted = strenv(formatted)" file.yaml
+
+# 4. Add enum flag if needed
+yq -i '.enum = true' file.yaml
+```
+
+Use `strenv()` to preserve multiline strings when writing.
