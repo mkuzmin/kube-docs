@@ -10,10 +10,10 @@ Process YAML files in `data/types/` and transform the `formatted` field.
 
 ### With argument (single group)
 
-Spawn one subagent to process the group:
+Spawn the `yaml-formatter` subagent to process the group:
 
 ```
-Process data/types/{group}/ using the format-yaml-descriptions skill.
+Process data/types/{group}/
 ```
 
 ### Without argument (all groups)
@@ -22,7 +22,7 @@ Process data/types/{group}/ using the format-yaml-descriptions skill.
 2. Create todo list with all groups
 3. Process one group at a time:
    - Mark as in_progress
-   - Spawn subagent: "Process data/types/{group}/ using the format-yaml-descriptions skill."
+   - Spawn `yaml-formatter` subagent: "Process data/types/{group}/"
    - Wait for completion
    - Mark as completed
    - Say "Done with {group}. Ready for review."
