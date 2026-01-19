@@ -18,7 +18,7 @@ Process data/types/{group}/
 
 ### Without argument (all groups)
 
-1. Use `Glob` pattern `data/types/*/` to list API group directories
+1. Use `ls data/types/` to list API group directories
 2. Create todo list with all groups
 3. Process one group at a time:
    - Mark as in_progress
