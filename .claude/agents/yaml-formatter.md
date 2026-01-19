@@ -1,7 +1,7 @@
 ---
 name: yaml-formatter
 description: Format YAML files in data/types/ by transforming the formatted field.
-tools: Glob, Bash(yq:*)
+tools: Glob, Bash(yq:*), Task
 permissionMode: bypassPermissions
 ---
 
@@ -9,23 +9,26 @@ permissionMode: bypassPermissions
 
 Transform `description.formatted` fields in YAML files.
 
+## Architecture
+
+**Why sub-agents:** Transformations require LLM judgment (identifying code patterns, type references, formatting enums). Each yq write includes LLM-generated text in the command string. With 100+ files, these tool calls would consume this agent's context. Sub-agents isolate this - only "Done" returns here.
+
 ## Tools
 
 | Task | Tool |
 |------|------|
 | List files | `Glob` with `**/*.yaml` pattern |
-| Read content | `yq '.description.original'` |
-| Write content | `yq -i '.description.formatted = strenv(formatted)'` |
-| Add enum flag | `yq -i '.enum = true'` |
-
-**DO NOT use `find` command for file listing.** Use Glob tool instead.
+| Process batch | `Task` with general-purpose sub-agent |
 
 ## Transformation Rules
 
-### 1. Remove redundant field name from start
-If description starts with the field name, remove it and capitalize the next word:
-- `key specifies the audit annotation key` → `Specifies the audit annotation key`
-- `name is the name of the resource` → `Name of the resource`
+Include these rules in sub-agent prompts:
+
+### 1. Remove redundant name from start
+If description starts with the type or field name (derived from filename), remove it and capitalize the next word:
+- Type `_ExpressionWarning.yaml`: `ExpressionWarning is a warning information` → `Warning information`
+- Field `key.yaml`: `key specifies the audit annotation key` → `The audit annotation key`
+- Field `name.yaml`: `name is the name of the resource` → `Name of the resource`
 
 ### 2. Code in backticks
 Wrap regex patterns, field paths, template patterns:
@@ -59,9 +62,19 @@ Type of deployment.
 ## Workflow
 
 1. `Glob` pattern `data/types/{group}/**/*.yaml` to list files
-2. Read originals in batch: `yq '.description.original' file1.yaml file2.yaml ...` (5 files per call)
-3. Process files in parallel batches of 5:
-   - For each batch, issue 5 Bash tool calls in a single message
-   - Each call: `formatted='...' yq -i '.description.formatted = strenv(formatted)' file.yaml`
-   - If enum, chain: `formatted='...' yq -i '.description.formatted = strenv(formatted)' file.yaml && yq -i '.enum = true' file.yaml`
-4. Report: "Done." (or errors if any). No statistics, no file lists.
+2. Split into batches of 20 files
+3. For each batch, spawn `Task` with:
+   - `subagent_type`: `general-purpose`
+   - `description`: `Format YAML batch`
+   - `prompt`: Include file list, transformation rules, and these instructions:
+     ```
+     For each file:
+     1. Read with: yq '.description.original' <file>
+     2. Apply transformation rules
+     3. Write with: formatted='<result>' yq -i '.description.formatted = strenv(formatted)' <file>
+     4. If enum, also run: yq -i '.enum = true' <file>
+
+     Report only: "Done." or list of errors.
+     ```
+4. Launch batches in parallel (up to 5 concurrent sub-agents)
+5. Report: "Done." (or errors if any)
