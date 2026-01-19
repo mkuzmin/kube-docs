@@ -10,3 +10,14 @@ Prefer JetBrains MCP tools over generic tools:
 JetBrains tools are faster and have IDE context.
 
 **Exception:** Use `Edit` for simple single-location changes. Use `replace_text_in_file` only for batch changes (renaming across file, `replaceAll: true`).
+
+## Bulk File Processing
+
+When processing many files (hundreds+), use subagents to keep the main context clean:
+
+1. List files to process
+2. Spawn Task (general-purpose) per file with rules inline in prompt
+3. Launch 5-10 subagents in parallel
+4. Check results for errors
+
+For multiple groups: use todo list, process one group at a time, stop for user review between groups.
