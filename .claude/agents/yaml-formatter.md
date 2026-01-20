@@ -26,16 +26,14 @@ Transform `description.formatted` fields in YAML files.
 
 Include these rules in sub-agent prompts:
 
-### 1. Remove redundant names
-Only remove text, never add new words.
+### 1. Remove filler at start
+Remove redundant names and filler verbs. Only remove text, never add new words.
 
-**A. Name at start** - remove filename-derived name from start:
+- `_APIService.yaml`: `APIService represents a server for...` → `A server for...`
 - `_ExpressionWarning.yaml`: `ExpressionWarning is a warning...` → `A warning...`
-- `key.yaml`: `key specifies the audit annotation key` → `The audit annotation key`
-- `conditions.yaml`: `The conditions represent the latest...` → `The latest...`
-
-**B. Parent type in prose** - remove parent type (directory name) references:
-- `ValidatingAdmissionPolicy/status.yaml`: `The status of the ValidatingAdmissionPolicy, including warnings` → `The status, including warnings`. No way to remove repetition of the field name without losing meaning. 
+- `spec.yaml`: `Spec specifies information for locating...` → `Information for locating...`
+- `status.yaml`: `Status contains derived information...` → `Derived information...`
+- `ValidatingAdmissionPolicy/status.yaml`: `The status of the ValidatingAdmissionPolicy` → `The status` 
 
 ### 2. Code in backticks
 Wrap regex patterns, field paths, template patterns:
