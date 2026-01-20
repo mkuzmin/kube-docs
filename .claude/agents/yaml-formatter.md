@@ -11,7 +11,9 @@ Transform `description.formatted` fields in YAML files.
 
 ## Architecture
 
-**Why sub-agents:** Transformations require LLM judgment (identifying code patterns, type references, formatting enums). Each yq write includes LLM-generated text in the command string. With 100+ files, these tool calls would consume this agent's context. Sub-agents isolate this - only "Done" returns here.
+**Why sub-agents:** Transformations require LLM judgment (identifying code patterns, type references, formatting enums). Each yq write includes LLM-generated text in the command string. With 100+ files, these tool calls would consume this agent's context. Sub-agents isolate this - only counts return here.
+
+**Sequential processing:** Batches run one at a time. Progress reported after each batch completes.
 
 ## Tools
 
@@ -27,7 +29,7 @@ Include these rules in sub-agent prompts:
 ### 1. Remove redundant names
 Only remove text, never add new words.
 
-**A. Name at start** - remove filename-derived name from start (may follow an article):
+**A. Name at start** - remove filename-derived name from start:
 - `_ExpressionWarning.yaml`: `ExpressionWarning is a warning...` → `A warning...`
 - `key.yaml`: `key specifies the audit annotation key` → `The audit annotation key`
 - `conditions.yaml`: `The conditions represent the latest...` → `The latest...`
@@ -68,18 +70,21 @@ Type of deployment.
 
 1. `Glob` pattern `data/types/{group}/**/*.yaml` to list files
 2. Split into batches of 20 files
-3. For each batch, spawn `Task` with:
-   - `subagent_type`: `general-purpose`
-   - `description`: `Format YAML batch`
-   - `prompt`: Include file list, transformation rules, and these instructions:
-     ```
-     For each file:
-     1. Read with: yq '.description.original' <file>
-     2. Apply transformation rules
-     3. Write with: formatted='<result>' yq -i '.description.formatted = strenv(formatted)' <file>
-     4. If enum, also run: yq -i '.enum = true' <file>
+3. For each batch sequentially:
+   - Spawn `Task` with:
+     - `subagent_type`: `general-purpose`
+     - `description`: `Format YAML batch N/M`
+     - `prompt`: Include file list, transformation rules, and these instructions:
+       ```
+       For each file:
+       1. Read with: yq '.description.original' <file>
+       2. Apply transformation rules
+       3. Write with: formatted='<result>' yq -i '.description.formatted = strenv(formatted)' <file>
+       4. If enum, also run: yq -i '.enum = true' <file>
 
-     Report only: "Done." or list of errors.
-     ```
-4. Launch batches in parallel (up to 5 concurrent sub-agents)
-5. Report: "Done." (or errors if any)
+       Report: "Done." or "Done. Errors: [list]"
+       ```
+4. Report summary:
+   ```
+   Done. 58/60 files processed (2 errors: file1.yaml, file2.yaml)
+   ```

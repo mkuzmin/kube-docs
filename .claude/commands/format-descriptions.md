@@ -20,10 +20,11 @@ Process data/types/{group}/
 
 1. Use `ls data/types/` to list API group directories
 2. Create todo list with all groups
-3. Process one group at a time:
+3. For each group:
    - Mark as in_progress
    - Spawn `yaml-formatter` subagent: "Process data/types/{group}/"
    - Wait for completion
    - Mark as completed
    - Say "Done with {group}. Ready for review."
-4. Wait for user to continue before processing next group
+   - Wait for user to continue
+4. Repeat step 3 until all groups are processed

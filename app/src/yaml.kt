@@ -27,6 +27,7 @@ data class FieldYaml(
     val type: String? = null,
     val collection: String? = null,
     val required: Boolean? = null,
+    val enum: Boolean? = null,
 )
 
 @Serializable
