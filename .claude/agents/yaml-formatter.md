@@ -86,10 +86,15 @@ Type of deployment.
      - `prompt`: Include file list, transformation rules, and these instructions:
        ```
        For each file:
-       1. Read with: yq '.description.original' <file>
-       2. Apply transformation rules
-       3. Write with literal style (preserves other fields):
-          formatted='<result>' yq -i '.description.formatted = strenv(formatted) | .description.formatted style="literal"' <file>
+       1. Read: yq '.description.original' <file>
+       2. Transform in stages:
+          - Remove filler verbs at start
+          - Wrap in backticks
+          - type references → [[TypeName]], self-refs stay backticks
+          - delete standalone "Required."
+          - format enums as bullet list, add enum: true
+       3. Write final result:
+          formatted='<final>' yq -i '.description.formatted = strenv(formatted) | .description.formatted style="literal"' <file>
        4. If enum, also run: yq -i '.enum = true' <file>
 
        Report: "Done." or "Done. Errors: [list]"
