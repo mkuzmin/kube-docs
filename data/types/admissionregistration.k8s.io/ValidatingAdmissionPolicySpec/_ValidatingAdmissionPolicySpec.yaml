@@ -2,4 +2,4 @@ description:
   original: |-
     ValidatingAdmissionPolicySpec is the specification of the desired behavior of the AdmissionPolicy.
   formatted: |-
-    ValidatingAdmissionPolicySpec is the specification of the desired behavior of the AdmissionPolicy.
+    The specification of the desired behavior of the AdmissionPolicy.

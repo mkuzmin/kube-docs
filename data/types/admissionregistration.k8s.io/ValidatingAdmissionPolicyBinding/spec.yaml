@@ -2,5 +2,5 @@ description:
   original: |-
     Specification of the desired behavior of the ValidatingAdmissionPolicyBinding.
   formatted: |-
-    Specification of the desired behavior of the ValidatingAdmissionPolicyBinding.
+    Specification of the desired behavior of the `ValidatingAdmissionPolicyBinding`.
 type: ValidatingAdmissionPolicyBindingSpec

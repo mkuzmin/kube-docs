@@ -2,4 +2,4 @@ description:
   original: |-
     ParamRef describes how to locate the params to be used as input to expressions of rules applied by a policy binding.
   formatted: |-
-    ParamRef describes how to locate the params to be used as input to expressions of rules applied by a policy binding.
+    Describes how to locate the params to be used as input to expressions of rules applied by a policy binding.

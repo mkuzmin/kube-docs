@@ -2,4 +2,4 @@ description:
   original: |-
     ValidatingWebhook describes an admission webhook and the resources and operations it applies to.
   formatted: |-
-    ValidatingWebhook describes an admission webhook and the resources and operations it applies to.
+    Describes an admission webhook and the resources and operations it applies to.

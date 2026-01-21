@@ -2,6 +2,6 @@ description:
   original: |-
     Webhooks is a list of webhooks and the affected resources and operations.
   formatted: |-
-    Webhooks is a list of webhooks and the affected resources and operations.
+    A list of webhooks and the affected resources and operations.
 type: ValidatingWebhook
 collection: array

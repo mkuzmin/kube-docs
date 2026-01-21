@@ -2,4 +2,4 @@ description:
   original: |-
     TypeChecking contains results of type checking the expressions in the ValidatingAdmissionPolicy
   formatted: |-
-    TypeChecking contains results of type checking the expressions in the ValidatingAdmissionPolicy
+    Contains results of type checking the expressions in the [[ValidatingAdmissionPolicy]]

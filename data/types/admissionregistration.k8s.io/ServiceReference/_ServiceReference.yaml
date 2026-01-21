@@ -2,4 +2,4 @@ description:
   original: |-
     ServiceReference holds a reference to Service.legacy.k8s.io
   formatted: |-
-    ServiceReference holds a reference to Service.legacy.k8s.io
+    A reference to `Service.legacy.k8s.io`
