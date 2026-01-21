@@ -1,11 +1,11 @@
 description:
   original: |-
     usages specifies a set of key usages requested in the issued certificate.
-    
+
     Requests for TLS client certificates typically request: "digital signature", "key encipherment", "client auth".
-    
+
     Requests for TLS serving certificates typically request: "key encipherment", "digital signature", "server auth".
-    
+
     Valid values are:
      "signing", "digital signature", "content commitment",
      "key encipherment", "key agreement", "data encipherment",
@@ -16,11 +16,11 @@ description:
      "timestamping", "ocsp signing", "microsoft sgc", "netscape sgc"
   formatted: |-
     usages specifies a set of key usages requested in the issued certificate.
-    
+
     Requests for TLS client certificates typically request: "digital signature", "key encipherment", "client auth".
-    
+
     Requests for TLS serving certificates typically request: "key encipherment", "digital signature", "server auth".
-    
+
     Valid values are:
      "signing", "digital signature", "content commitment",
      "key encipherment", "key agreement", "data encipherment",

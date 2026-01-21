@@ -1,19 +1,19 @@
 description:
   original: |-
     BindingFailureConditions defines the conditions for binding failure. They may be set in the per-device status conditions. If any is set to "True", a binding failure occurred.
-    
+
     The maximum number of binding failure conditions is 4.
-    
+
     The conditions must be a valid condition type string.
-    
+
     This is an alpha field and requires enabling the DRADeviceBindingConditions and DRAResourceClaimDeviceStatus feature gates.
   formatted: |-
     BindingFailureConditions defines the conditions for binding failure. They may be set in the per-device status conditions. If any is set to "True", a binding failure occurred.
-    
+
     The maximum number of binding failure conditions is 4.
-    
+
     The conditions must be a valid condition type string.
-    
+
     This is an alpha field and requires enabling the DRADeviceBindingConditions and DRAResourceClaimDeviceStatus feature gates.
 type: string
 collection: array

@@ -63,7 +63,7 @@ fun StringBuilder.appendLiteralBlock(key: String, value: String, indent: Int) {
     val prefix = " ".repeat(indent)
     appendLine("$prefix$key: |-")
     value.lines().forEach { line ->
-        appendLine("$prefix  $line")
+        appendLine("$prefix  $line".trimEnd())
     }
 }
 

@@ -1,11 +1,11 @@
 description:
   original: |-
     Counters defines the set of counters for this CounterSet The name of each counter must be unique in that set and must be a DNS label.
-    
+
     The maximum number of counters in all sets is 32.
   formatted: |-
     Counters defines the set of counters for this CounterSet The name of each counter must be unique in that set and must be a DNS label.
-    
+
     The maximum number of counters in all sets is 32.
 type: Counter
 collection: map

@@ -1,10 +1,10 @@
 description:
   original: |-
     AllNodes indicates that all nodes have access to the device.
-    
+
     Must only be set if Spec.PerDeviceNodeSelection is set to true. At most one of NodeName, NodeSelector and AllNodes can be set.
   formatted: |-
     AllNodes indicates that all nodes have access to the device.
-    
+
     Must only be set if Spec.PerDeviceNodeSelection is set to true. At most one of NodeName, NodeSelector and AllNodes can be set.
 type: boolean

@@ -1,7 +1,7 @@
 description:
   original: |-
     x-kubernetes-int-or-string specifies that this value is either an integer or a string. If this is true, an empty type is allowed and type as child of anyOf is permitted if following one of the following patterns:
-    
+
     1) anyOf:
        - type: integer
        - type: string
@@ -12,7 +12,7 @@ description:
        - ... zero or more
   formatted: |-
     x-kubernetes-int-or-string specifies that this value is either an integer or a string. If this is true, an empty type is allowed and type as child of anyOf is permitted if following one of the following patterns:
-    
+
     1) anyOf:
        - type: integer
        - type: string

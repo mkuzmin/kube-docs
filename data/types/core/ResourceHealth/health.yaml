@@ -7,7 +7,7 @@ description:
                   temporary and permanent issues.
      - Unknown: The status cannot be determined.
                 For example, Device Plugin got unregistered and hasn't been re-registered since.
-    
+
     In future we may want to introduce the PermanentlyUnhealthy Status.
   formatted: |-
     Health of the resource. can be one of:
@@ -17,6 +17,6 @@ description:
                   temporary and permanent issues.
      - Unknown: The status cannot be determined.
                 For example, Device Plugin got unregistered and hasn't been re-registered since.
-    
+
     In future we may want to introduce the PermanentlyUnhealthy Status.
 type: string
