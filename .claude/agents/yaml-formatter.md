@@ -29,24 +29,33 @@ Include these rules in sub-agent prompts:
 ### 1. Remove filler at start
 Remove redundant names and filler verbs at the **start** of descriptions. Only remove text, never add or rewrite words elsewhere.
 
+Filler verbs to remove: represents, specifies, contains, describes, holds, is.
+
 - `_APIService.yaml`: `APIService represents a server for...` → `A server for...`
 - `_ExpressionWarning.yaml`: `ExpressionWarning is a warning...` → `A warning...`
 - `spec.yaml`: `Spec specifies information for locating...` → `Information for locating...`
 - `status.yaml`: `Status contains derived information...` → `Derived information...`
+- `_ServiceReference.yaml`: `ServiceReference holds a reference...` → `A reference...`
+- `_APIServiceCondition.yaml`: `APIServiceCondition describes a condition...` → `A condition...`
 - `ValidatingAdmissionPolicy/status.yaml`: `The status of the ValidatingAdmissionPolicy` → `The status`
 
 **Do NOT rewrite sentences.** If original says "We'd recommend X", keep it - don't change to "Recommended: X". 
 
 ### 2. Code in backticks
-Wrap regex patterns, field paths, template patterns:
-- `[A-Za-z0-9][-A-Za-z0-9_.]*` → `` `[A-Za-z0-9][-A-Za-z0-9_.]*` ``
-- `spec.os.name` → `` `spec.os.name` ``
-- `{ValidatingAdmissionPolicy name}/{key}` → `` `{ValidatingAdmissionPolicy name}/{key}` ``
+Wrap in backticks anything that looks like code:
+- Own field names (self-references): `VersionPriority`, `groupPriorityMinimum`
+- Dotted paths: `spec.os.name`, `version.group`
+- Version strings: `v1`, `v10beta3`, `v1.bar`
+- Alphanumeric identifiers: `foo1`, `foo10`
+- Technical terms in version context: `alpha`, `beta`, `GA`
+- Regex patterns: `[A-Za-z0-9][-A-Za-z0-9_.]*`
+- Template patterns: `{ValidatingAdmissionPolicy name}/{key}`
 
 ### 3. Type references in prose
-Use wiki links `[[TypeName]]`:
+References to **other types** use wiki links `[[TypeName]]`:
 - "present in a Container" → "present in a [[Container]]"
-- In code context (dotted paths): just backticks, no wiki link
+
+Self-references (own type name or field names) use backticks, not wiki links.
 
 ### 4. Remove standalone "Required."
 Delete lines containing only "Required." - info is in `required:` property.
