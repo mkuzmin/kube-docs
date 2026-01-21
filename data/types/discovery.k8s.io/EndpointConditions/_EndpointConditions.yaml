@@ -1,3 +1,5 @@
 description:
-  original: EndpointConditions represents the current condition of an endpoint.
-  formatted: EndpointConditions represents the current condition of an endpoint.
+  original: |-
+    EndpointConditions represents the current condition of an endpoint.
+  formatted: |-
+    EndpointConditions represents the current condition of an endpoint.

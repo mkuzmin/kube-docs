@@ -1,3 +1,5 @@
 description:
-  original: Represents a Photon Controller persistent disk resource.
-  formatted: Represents a Photon Controller persistent disk resource.
+  original: |-
+    Represents a Photon Controller persistent disk resource.
+  formatted: |-
+    Represents a Photon Controller persistent disk resource.

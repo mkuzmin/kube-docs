@@ -1,3 +1,5 @@
 description:
-  original: ResourceQuotaSpec defines the desired hard limits to enforce for Quota.
-  formatted: ResourceQuotaSpec defines the desired hard limits to enforce for Quota.
+  original: |-
+    ResourceQuotaSpec defines the desired hard limits to enforce for Quota.
+  formatted: |-
+    ResourceQuotaSpec defines the desired hard limits to enforce for Quota.

@@ -1,3 +1,5 @@
 description:
-  original: PodSchedulingGate is associated to a Pod to guard its scheduling.
-  formatted: PodSchedulingGate is associated to a Pod to guard its scheduling.
+  original: |-
+    PodSchedulingGate is associated to a Pod to guard its scheduling.
+  formatted: |-
+    PodSchedulingGate is associated to a Pod to guard its scheduling.

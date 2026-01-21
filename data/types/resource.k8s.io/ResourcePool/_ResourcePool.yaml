@@ -1,3 +1,5 @@
 description:
-  original: ResourcePool describes the pool that ResourceSlices belong to.
-  formatted: ResourcePool describes the pool that ResourceSlices belong to.
+  original: |-
+    ResourcePool describes the pool that ResourceSlices belong to.
+  formatted: |-
+    ResourcePool describes the pool that ResourceSlices belong to.

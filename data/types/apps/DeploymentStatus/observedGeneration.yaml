@@ -1,4 +1,6 @@
 description:
-  original: The generation observed by the deployment controller.
-  formatted: The generation observed by the deployment controller.
+  original: |-
+    The generation observed by the deployment controller.
+  formatted: |-
+    The generation observed by the deployment controller.
 type: integer

@@ -1,3 +1,5 @@
 description:
-  original: DeviceClassSpec is used in a [DeviceClass] to define what can be allocated and how to configure it.
-  formatted: DeviceClassSpec is used in a [DeviceClass] to define what can be allocated and how to configure it.
+  original: |-
+    DeviceClassSpec is used in a [DeviceClass] to define what can be allocated and how to configure it.
+  formatted: |-
+    DeviceClassSpec is used in a [DeviceClass] to define what can be allocated and how to configure it.

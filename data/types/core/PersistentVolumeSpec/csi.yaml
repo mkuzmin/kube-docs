@@ -1,4 +1,6 @@
 description:
-  original: csi represents storage that is handled by an external CSI driver.
-  formatted: csi represents storage that is handled by an external CSI driver.
+  original: |-
+    csi represents storage that is handled by an external CSI driver.
+  formatted: |-
+    csi represents storage that is handled by an external CSI driver.
 type: CSIPersistentVolumeSource

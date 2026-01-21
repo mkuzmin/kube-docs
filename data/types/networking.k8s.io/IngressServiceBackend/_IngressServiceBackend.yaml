@@ -1,3 +1,5 @@
 description:
-  original: IngressServiceBackend references a Kubernetes Service as a Backend.
-  formatted: IngressServiceBackend references a Kubernetes Service as a Backend.
+  original: |-
+    IngressServiceBackend references a Kubernetes Service as a Backend.
+  formatted: |-
+    IngressServiceBackend references a Kubernetes Service as a Backend.

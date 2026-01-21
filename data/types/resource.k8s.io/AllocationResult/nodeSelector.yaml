@@ -1,4 +1,6 @@
 description:
-  original: NodeSelector defines where the allocated resources are available. If unset, they are available everywhere.
-  formatted: NodeSelector defines where the allocated resources are available. If unset, they are available everywhere.
+  original: |-
+    NodeSelector defines where the allocated resources are available. If unset, they are available everywhere.
+  formatted: |-
+    NodeSelector defines where the allocated resources are available. If unset, they are available everywhere.
 type: NodeSelector

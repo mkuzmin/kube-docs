@@ -1,3 +1,5 @@
 description:
-  original: CustomResourceSubresources defines the status and scale subresources for CustomResources.
-  formatted: CustomResourceSubresources defines the status and scale subresources for CustomResources.
+  original: |-
+    CustomResourceSubresources defines the status and scale subresources for CustomResources.
+  formatted: |-
+    CustomResourceSubresources defines the status and scale subresources for CustomResources.

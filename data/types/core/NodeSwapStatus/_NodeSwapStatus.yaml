@@ -1,3 +1,5 @@
 description:
-  original: NodeSwapStatus represents swap memory information.
-  formatted: NodeSwapStatus represents swap memory information.
+  original: |-
+    NodeSwapStatus represents swap memory information.
+  formatted: |-
+    NodeSwapStatus represents swap memory information.

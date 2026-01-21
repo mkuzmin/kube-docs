@@ -1,4 +1,6 @@
 description:
-  original: CEL contains a CEL expression for selecting a device.
-  formatted: CEL contains a CEL expression for selecting a device.
+  original: |-
+    CEL contains a CEL expression for selecting a device.
+  formatted: |-
+    CEL contains a CEL expression for selecting a device.
 type: CELDeviceSelector

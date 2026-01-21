@@ -1,5 +1,7 @@
 description:
-  original: 'path that is exported by the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs'
-  formatted: 'path that is exported by the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs'
+  original: |-
+    path that is exported by the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
+  formatted: |-
+    path that is exported by the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
 type: string
 required: true

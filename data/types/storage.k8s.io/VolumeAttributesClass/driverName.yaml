@@ -1,5 +1,7 @@
 description:
-  original: Name of the CSI driver This field is immutable.
-  formatted: Name of the CSI driver This field is immutable.
+  original: |-
+    Name of the CSI driver This field is immutable.
+  formatted: |-
+    Name of the CSI driver This field is immutable.
 type: string
 required: true

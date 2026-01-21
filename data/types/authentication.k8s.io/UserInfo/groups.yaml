@@ -1,5 +1,7 @@
 description:
-  original: The names of groups this user is a part of.
-  formatted: The names of groups this user is a part of.
+  original: |-
+    The names of groups this user is a part of.
+  formatted: |-
+    The names of groups this user is a part of.
 type: string
 collection: array

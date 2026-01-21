@@ -1,15 +1,15 @@
 description:
   original: |-
     A copy of all tolerations specified in the request at the time when the device got allocated.
-
+    
     The maximum number of tolerations is 16.
-
+    
     This is an alpha field and requires enabling the DRADeviceTaints feature gate.
   formatted: |-
     A copy of all tolerations specified in the request at the time when the device got allocated.
-
+    
     The maximum number of tolerations is 16.
-
+    
     This is an alpha field and requires enabling the DRADeviceTaints feature gate.
 type: DeviceToleration
 collection: array

@@ -1,3 +1,5 @@
 description:
-  original: Local represents directly-attached storage with node affinity
-  formatted: Local represents directly-attached storage with node affinity
+  original: |-
+    Local represents directly-attached storage with node affinity
+  formatted: |-
+    Local represents directly-attached storage with node affinity

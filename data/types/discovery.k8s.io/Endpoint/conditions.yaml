@@ -1,4 +1,6 @@
 description:
-  original: conditions contains information about the current status of the endpoint.
-  formatted: conditions contains information about the current status of the endpoint.
+  original: |-
+    conditions contains information about the current status of the endpoint.
+  formatted: |-
+    conditions contains information about the current status of the endpoint.
 type: EndpointConditions

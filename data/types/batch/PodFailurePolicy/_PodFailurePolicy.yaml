@@ -1,3 +1,5 @@
 description:
-  original: PodFailurePolicy describes how failed pods influence the backoffLimit.
-  formatted: PodFailurePolicy describes how failed pods influence the backoffLimit.
+  original: |-
+    PodFailurePolicy describes how failed pods influence the backoffLimit.
+  formatted: |-
+    PodFailurePolicy describes how failed pods influence the backoffLimit.

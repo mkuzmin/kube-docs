@@ -1,5 +1,7 @@
 description:
-  original: A node selector term, associated with the corresponding weight.
-  formatted: A node selector term, associated with the corresponding weight.
+  original: |-
+    A node selector term, associated with the corresponding weight.
+  formatted: |-
+    A node selector term, associated with the corresponding weight.
 type: NodeSelectorTerm
 required: true

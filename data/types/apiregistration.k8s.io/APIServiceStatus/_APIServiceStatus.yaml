@@ -1,3 +1,5 @@
 description:
-  original: APIServiceStatus contains derived information about an API server
-  formatted: APIServiceStatus contains derived information about an API server
+  original: |-
+    APIServiceStatus contains derived information about an API server
+  formatted: |-
+    APIServiceStatus contains derived information about an API server

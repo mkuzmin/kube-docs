@@ -1,6 +1,8 @@
 description:
-  original: paths is a collection of paths that map requests to backends.
-  formatted: paths is a collection of paths that map requests to backends.
+  original: |-
+    paths is a collection of paths that map requests to backends.
+  formatted: |-
+    paths is a collection of paths that map requests to backends.
 type: HTTPIngressPath
 collection: array
 required: true

@@ -1,5 +1,7 @@
 description:
-  original: name is the name of the given metric
-  formatted: name is the name of the given metric
+  original: |-
+    name is the name of the given metric
+  formatted: |-
+    name is the name of the given metric
 type: string
 required: true

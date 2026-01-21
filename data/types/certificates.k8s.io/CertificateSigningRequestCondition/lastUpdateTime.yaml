@@ -1,4 +1,6 @@
 description:
-  original: lastUpdateTime is the time of the last update to this condition
-  formatted: lastUpdateTime is the time of the last update to this condition
+  original: |-
+    lastUpdateTime is the time of the last update to this condition
+  formatted: |-
+    lastUpdateTime is the time of the last update to this condition
 type: Time

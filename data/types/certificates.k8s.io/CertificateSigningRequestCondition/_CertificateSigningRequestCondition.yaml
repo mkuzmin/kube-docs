@@ -1,3 +1,5 @@
 description:
-  original: CertificateSigningRequestCondition describes a condition of a CertificateSigningRequest object
-  formatted: CertificateSigningRequestCondition describes a condition of a CertificateSigningRequest object
+  original: |-
+    CertificateSigningRequestCondition describes a condition of a CertificateSigningRequest object
+  formatted: |-
+    CertificateSigningRequestCondition describes a condition of a CertificateSigningRequest object

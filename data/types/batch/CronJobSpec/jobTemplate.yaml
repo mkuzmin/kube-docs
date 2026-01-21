@@ -1,5 +1,7 @@
 description:
-  original: Specifies the job that will be created when executing a CronJob.
-  formatted: Specifies the job that will be created when executing a CronJob.
+  original: |-
+    Specifies the job that will be created when executing a CronJob.
+  formatted: |-
+    Specifies the job that will be created when executing a CronJob.
 type: JobTemplateSpec
 required: true

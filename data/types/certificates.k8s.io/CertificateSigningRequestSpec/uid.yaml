@@ -1,4 +1,6 @@
 description:
-  original: uid contains the uid of the user that created the CertificateSigningRequest. Populated by the API server on creation and immutable.
-  formatted: uid contains the uid of the user that created the CertificateSigningRequest. Populated by the API server on creation and immutable.
+  original: |-
+    uid contains the uid of the user that created the CertificateSigningRequest. Populated by the API server on creation and immutable.
+  formatted: |-
+    uid contains the uid of the user that created the CertificateSigningRequest. Populated by the API server on creation and immutable.
 type: string

@@ -1,3 +1,5 @@
 description:
-  original: ResourceQuotaStatus defines the enforced hard limits and observed use.
-  formatted: ResourceQuotaStatus defines the enforced hard limits and observed use.
+  original: |-
+    ResourceQuotaStatus defines the enforced hard limits and observed use.
+  formatted: |-
+    ResourceQuotaStatus defines the enforced hard limits and observed use.

@@ -1,4 +1,6 @@
 description:
-  original: The size of the image in bytes.
-  formatted: The size of the image in bytes.
+  original: |-
+    The size of the image in bytes.
+  formatted: |-
+    The size of the image in bytes.
 type: integer

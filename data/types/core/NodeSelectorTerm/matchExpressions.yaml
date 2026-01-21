@@ -1,5 +1,7 @@
 description:
-  original: A list of node selector requirements by node's labels.
-  formatted: A list of node selector requirements by node's labels.
+  original: |-
+    A list of node selector requirements by node's labels.
+  formatted: |-
+    A list of node selector requirements by node's labels.
 type: NodeSelectorRequirement
 collection: array

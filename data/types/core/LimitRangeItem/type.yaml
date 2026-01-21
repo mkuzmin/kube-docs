@@ -1,5 +1,7 @@
 description:
-  original: Type of resource that this limit applies to.
-  formatted: Type of resource that this limit applies to.
+  original: |-
+    Type of resource that this limit applies to.
+  formatted: |-
+    Type of resource that this limit applies to.
 type: string
 required: true

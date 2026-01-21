@@ -1,3 +1,5 @@
 description:
-  original: NonResourceAttributes includes the authorization attributes available for non-resource requests to the Authorizer interface
-  formatted: NonResourceAttributes includes the authorization attributes available for non-resource requests to the Authorizer interface
+  original: |-
+    NonResourceAttributes includes the authorization attributes available for non-resource requests to the Authorizer interface
+  formatted: |-
+    NonResourceAttributes includes the authorization attributes available for non-resource requests to the Authorizer interface

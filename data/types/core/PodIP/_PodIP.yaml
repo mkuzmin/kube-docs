@@ -1,3 +1,5 @@
 description:
-  original: PodIP represents a single IP address allocated to the pod.
-  formatted: PodIP represents a single IP address allocated to the pod.
+  original: |-
+    PodIP represents a single IP address allocated to the pod.
+  formatted: |-
+    PodIP represents a single IP address allocated to the pod.

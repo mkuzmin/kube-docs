@@ -1,4 +1,6 @@
 description:
-  original: Number of occurrences in this series up to the last heartbeat time
-  formatted: Number of occurrences in this series up to the last heartbeat time
+  original: |-
+    Number of occurrences in this series up to the last heartbeat time
+  formatted: |-
+    Number of occurrences in this series up to the last heartbeat time
 type: integer

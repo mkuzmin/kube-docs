@@ -1,4 +1,6 @@
 description:
-  original: '`group` matches based on user group name.'
-  formatted: '`group` matches based on user group name.'
+  original: |-
+    `group` matches based on user group name.
+  formatted: |-
+    `group` matches based on user group name.
 type: GroupSubject

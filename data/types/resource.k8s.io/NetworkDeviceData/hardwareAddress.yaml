@@ -1,10 +1,10 @@
 description:
   original: |-
     HardwareAddress represents the hardware address (e.g. MAC Address) of the device's network interface.
-
+    
     Must not be longer than 128 characters.
   formatted: |-
     HardwareAddress represents the hardware address (e.g. MAC Address) of the device's network interface.
-
+    
     Must not be longer than 128 characters.
 type: string

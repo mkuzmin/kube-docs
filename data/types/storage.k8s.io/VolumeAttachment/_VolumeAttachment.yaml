@@ -1,10 +1,10 @@
 description:
   original: |-
     VolumeAttachment captures the intent to attach or detach the specified volume to/from the specified node.
-
+    
     VolumeAttachment objects are non-namespaced.
   formatted: |-
     VolumeAttachment captures the intent to attach or detach the specified volume to/from the specified node.
-
+    
     VolumeAttachment objects are non-namespaced.
 kind: true

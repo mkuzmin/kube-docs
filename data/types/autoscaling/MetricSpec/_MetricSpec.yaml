@@ -1,3 +1,5 @@
 description:
-  original: MetricSpec specifies how to scale based on a single metric (only `type` and one other matching field should be set at once).
-  formatted: MetricSpec specifies how to scale based on a single metric (only `type` and one other matching field should be set at once).
+  original: |-
+    MetricSpec specifies how to scale based on a single metric (only `type` and one other matching field should be set at once).
+  formatted: |-
+    MetricSpec specifies how to scale based on a single metric (only `type` and one other matching field should be set at once).

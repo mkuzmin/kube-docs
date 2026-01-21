@@ -1,5 +1,7 @@
 description:
-  original: Used is the current observed total usage of the resource in the namespace.
-  formatted: Used is the current observed total usage of the resource in the namespace.
+  original: |-
+    Used is the current observed total usage of the resource in the namespace.
+  formatted: |-
+    Used is the current observed total usage of the resource in the namespace.
 type: Quantity
 collection: map

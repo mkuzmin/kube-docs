@@ -1,3 +1,5 @@
 description:
-  original: EventSeries contain information on series of events, i.e. thing that was/is happening continuously for some time.
-  formatted: EventSeries contain information on series of events, i.e. thing that was/is happening continuously for some time.
+  original: |-
+    EventSeries contain information on series of events, i.e. thing that was/is happening continuously for some time.
+  formatted: |-
+    EventSeries contain information on series of events, i.e. thing that was/is happening continuously for some time.

@@ -1,4 +1,6 @@
 description:
-  original: Status describes whether the claim is ready to use and what has been allocated.
-  formatted: Status describes whether the claim is ready to use and what has been allocated.
+  original: |-
+    Status describes whether the claim is ready to use and what has been allocated.
+  formatted: |-
+    Status describes whether the claim is ready to use and what has been allocated.
 type: ResourceClaimStatus

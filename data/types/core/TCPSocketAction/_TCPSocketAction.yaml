@@ -1,3 +1,5 @@
 description:
-  original: TCPSocketAction describes an action based on opening a socket
-  formatted: TCPSocketAction describes an action based on opening a socket
+  original: |-
+    TCPSocketAction describes an action based on opening a socket
+  formatted: |-
+    TCPSocketAction describes an action based on opening a socket

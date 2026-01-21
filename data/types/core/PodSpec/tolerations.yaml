@@ -1,5 +1,7 @@
 description:
-  original: If specified, the pod's tolerations.
-  formatted: If specified, the pod's tolerations.
+  original: |-
+    If specified, the pod's tolerations.
+  formatted: |-
+    If specified, the pod's tolerations.
 type: Toleration
 collection: array

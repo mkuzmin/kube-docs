@@ -1,4 +1,6 @@
 description:
-  original: The name that uniquely identifies this user among all active users.
-  formatted: The name that uniquely identifies this user among all active users.
+  original: |-
+    The name that uniquely identifies this user among all active users.
+  formatted: |-
+    The name that uniquely identifies this user among all active users.
 type: string

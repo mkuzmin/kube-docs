@@ -1,4 +1,6 @@
 description:
-  original: hints contains information associated with how an endpoint should be consumed.
-  formatted: hints contains information associated with how an endpoint should be consumed.
+  original: |-
+    hints contains information associated with how an endpoint should be consumed.
+  formatted: |-
+    hints contains information associated with how an endpoint should be consumed.
 type: EndpointHints

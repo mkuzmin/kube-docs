@@ -1,3 +1,5 @@
 description:
-  original: NetworkPolicySpec provides the specification of a NetworkPolicy
-  formatted: NetworkPolicySpec provides the specification of a NetworkPolicy
+  original: |-
+    NetworkPolicySpec provides the specification of a NetworkPolicy
+  formatted: |-
+    NetworkPolicySpec provides the specification of a NetworkPolicy

@@ -1,4 +1,6 @@
 description:
-  original: Indicates that the deployment is paused.
-  formatted: Indicates that the deployment is paused.
+  original: |-
+    Indicates that the deployment is paused.
+  formatted: |-
+    Indicates that the deployment is paused.
 type: boolean

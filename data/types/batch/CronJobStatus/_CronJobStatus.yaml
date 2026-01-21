@@ -1,3 +1,5 @@
 description:
-  original: CronJobStatus represents the current state of a cron job.
-  formatted: CronJobStatus represents the current state of a cron job.
+  original: |-
+    CronJobStatus represents the current state of a cron job.
+  formatted: |-
+    CronJobStatus represents the current state of a cron job.

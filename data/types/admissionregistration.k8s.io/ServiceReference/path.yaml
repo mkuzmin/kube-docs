@@ -1,4 +1,6 @@
 description:
-  original: '`path` is an optional URL path which will be sent in any request to this service.'
-  formatted: '`path` is an optional URL path which will be sent in any request to this service.'
+  original: |-
+    `path` is an optional URL path which will be sent in any request to this service.
+  formatted: |-
+    `path` is an optional URL path which will be sent in any request to this service.
 type: string

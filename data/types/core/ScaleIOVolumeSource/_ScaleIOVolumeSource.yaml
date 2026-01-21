@@ -1,3 +1,5 @@
 description:
-  original: ScaleIOVolumeSource represents a persistent ScaleIO volume
-  formatted: ScaleIOVolumeSource represents a persistent ScaleIO volume
+  original: |-
+    ScaleIOVolumeSource represents a persistent ScaleIO volume
+  formatted: |-
+    ScaleIOVolumeSource represents a persistent ScaleIO volume

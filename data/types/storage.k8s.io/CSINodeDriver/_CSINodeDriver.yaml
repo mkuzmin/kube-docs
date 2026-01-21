@@ -1,3 +1,5 @@
 description:
-  original: CSINodeDriver holds information about the specification of one CSI driver installed on a node
-  formatted: CSINodeDriver holds information about the specification of one CSI driver installed on a node
+  original: |-
+    CSINodeDriver holds information about the specification of one CSI driver installed on a node
+  formatted: |-
+    CSINodeDriver holds information about the specification of one CSI driver installed on a node

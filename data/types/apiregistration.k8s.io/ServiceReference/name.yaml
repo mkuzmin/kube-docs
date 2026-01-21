@@ -1,4 +1,6 @@
 description:
-  original: Name is the name of the service
-  formatted: Name is the name of the service
+  original: |-
+    Name is the name of the service
+  formatted: |-
+    Name is the name of the service
 type: string

@@ -1,4 +1,6 @@
 description:
-  original: NetworkPolicy describes what network traffic is allowed for a set of Pods
-  formatted: NetworkPolicy describes what network traffic is allowed for a set of Pods
+  original: |-
+    NetworkPolicy describes what network traffic is allowed for a set of Pods
+  formatted: |-
+    NetworkPolicy describes what network traffic is allowed for a set of Pods
 kind: true

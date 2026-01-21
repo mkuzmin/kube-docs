@@ -1,5 +1,7 @@
 description:
-  original: Current service state of apiService.
-  formatted: Current service state of apiService.
+  original: |-
+    Current service state of apiService.
+  formatted: |-
+    Current service state of apiService.
 type: APIServiceCondition
 collection: array

@@ -1,4 +1,6 @@
 description:
-  original: NetworkData contains network-related information specific to the device.
-  formatted: NetworkData contains network-related information specific to the device.
+  original: |-
+    NetworkData contains network-related information specific to the device.
+  formatted: |-
+    NetworkData contains network-related information specific to the device.
 type: NetworkDeviceData

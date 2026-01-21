@@ -1,3 +1,5 @@
 description:
-  original: NodeStatus is information about the current status of a node.
-  formatted: NodeStatus is information about the current status of a node.
+  original: |-
+    NodeStatus is information about the current status of a node.
+  formatted: |-
+    NodeStatus is information about the current status of a node.

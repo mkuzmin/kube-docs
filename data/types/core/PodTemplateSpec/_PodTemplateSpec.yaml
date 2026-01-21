@@ -1,3 +1,5 @@
 description:
-  original: PodTemplateSpec describes the data a pod should have when created from a template
-  formatted: PodTemplateSpec describes the data a pod should have when created from a template
+  original: |-
+    PodTemplateSpec describes the data a pod should have when created from a template
+  formatted: |-
+    PodTemplateSpec describes the data a pod should have when created from a template

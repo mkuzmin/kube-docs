@@ -1,4 +1,6 @@
 description:
-  original: Group is the group of the object being referenced.
-  formatted: Group is the group of the object being referenced.
+  original: |-
+    Group is the group of the object being referenced.
+  formatted: |-
+    Group is the group of the object being referenced.
 type: string

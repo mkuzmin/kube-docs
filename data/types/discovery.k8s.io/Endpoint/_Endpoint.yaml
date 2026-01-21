@@ -1,3 +1,5 @@
 description:
-  original: Endpoint represents a single logical "backend" implementing a service.
-  formatted: Endpoint represents a single logical "backend" implementing a service.
+  original: |-
+    Endpoint represents a single logical "backend" implementing a service.
+  formatted: |-
+    Endpoint represents a single logical "backend" implementing a service.

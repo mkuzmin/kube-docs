@@ -1,3 +1,5 @@
 description:
-  original: A single application container that you want to run within a pod.
-  formatted: A single application container that you want to run within a pod.
+  original: |-
+    A single application container that you want to run within a pod.
+  formatted: |-
+    A single application container that you want to run within a pod.

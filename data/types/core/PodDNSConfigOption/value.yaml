@@ -1,4 +1,6 @@
 description:
-  original: Value is this DNS resolver option's value.
-  formatted: Value is this DNS resolver option's value.
+  original: |-
+    Value is this DNS resolver option's value.
+  formatted: |-
+    Value is this DNS resolver option's value.
 type: string

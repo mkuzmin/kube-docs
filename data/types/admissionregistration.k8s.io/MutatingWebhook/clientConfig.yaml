@@ -1,5 +1,7 @@
 description:
-  original: ClientConfig defines how to communicate with the hook. Required
-  formatted: ClientConfig defines how to communicate with the hook. Required
+  original: |-
+    ClientConfig defines how to communicate with the hook. Required
+  formatted: |-
+    ClientConfig defines how to communicate with the hook. Required
 type: WebhookClientConfig
 required: true

@@ -1,5 +1,7 @@
 description:
-  original: Type of replication controller condition.
-  formatted: Type of replication controller condition.
+  original: |-
+    Type of replication controller condition.
+  formatted: |-
+    Type of replication controller condition.
 type: string
 required: true

@@ -1,4 +1,6 @@
 description:
-  original: time represents the time the error was encountered.
-  formatted: time represents the time the error was encountered.
+  original: |-
+    time represents the time the error was encountered.
+  formatted: |-
+    time represents the time the error was encountered.
 type: Time

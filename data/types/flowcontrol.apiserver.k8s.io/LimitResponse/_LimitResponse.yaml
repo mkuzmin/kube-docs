@@ -1,3 +1,5 @@
 description:
-  original: LimitResponse defines how to handle requests that can not be executed right now.
-  formatted: LimitResponse defines how to handle requests that can not be executed right now.
+  original: |-
+    LimitResponse defines how to handle requests that can not be executed right now.
+  formatted: |-
+    LimitResponse defines how to handle requests that can not be executed right now.

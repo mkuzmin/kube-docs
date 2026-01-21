@@ -1,5 +1,7 @@
 description:
-  original: Type of replica set condition.
-  formatted: Type of replica set condition.
+  original: |-
+    Type of replica set condition.
+  formatted: |-
+    Type of replica set condition.
 type: string
 required: true

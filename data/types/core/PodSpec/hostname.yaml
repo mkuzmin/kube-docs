@@ -1,4 +1,6 @@
 description:
-  original: Specifies the hostname of the Pod If not specified, the pod's hostname will be set to a system-defined value.
-  formatted: Specifies the hostname of the Pod If not specified, the pod's hostname will be set to a system-defined value.
+  original: |-
+    Specifies the hostname of the Pod If not specified, the pod's hostname will be set to a system-defined value.
+  formatted: |-
+    Specifies the hostname of the Pod If not specified, the pod's hostname will be set to a system-defined value.
 type: string

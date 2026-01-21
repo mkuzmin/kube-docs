@@ -1,3 +1,5 @@
 description:
-  original: DeviceCapacity describes a quantity associated with a device.
-  formatted: DeviceCapacity describes a quantity associated with a device.
+  original: |-
+    DeviceCapacity describes a quantity associated with a device.
+  formatted: |-
+    DeviceCapacity describes a quantity associated with a device.

@@ -1,5 +1,7 @@
 description:
-  original: Status of resource claims.
-  formatted: Status of resource claims.
+  original: |-
+    Status of resource claims.
+  formatted: |-
+    Status of resource claims.
 type: PodResourceClaimStatus
 collection: array

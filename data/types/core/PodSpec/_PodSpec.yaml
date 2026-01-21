@@ -1,3 +1,5 @@
 description:
-  original: PodSpec is a description of a pod.
-  formatted: PodSpec is a description of a pod.
+  original: |-
+    PodSpec is a description of a pod.
+  formatted: |-
+    PodSpec is a description of a pod.

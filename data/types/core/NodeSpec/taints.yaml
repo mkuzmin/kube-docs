@@ -1,5 +1,7 @@
 description:
-  original: If specified, the node's taints.
-  formatted: If specified, the node's taints.
+  original: |-
+    If specified, the node's taints.
+  formatted: |-
+    If specified, the node's taints.
 type: Taint
 collection: array

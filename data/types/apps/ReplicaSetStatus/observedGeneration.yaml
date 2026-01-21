@@ -1,4 +1,6 @@
 description:
-  original: ObservedGeneration reflects the generation of the most recently observed ReplicaSet.
-  formatted: ObservedGeneration reflects the generation of the most recently observed ReplicaSet.
+  original: |-
+    ObservedGeneration reflects the generation of the most recently observed ReplicaSet.
+  formatted: |-
+    ObservedGeneration reflects the generation of the most recently observed ReplicaSet.
 type: integer

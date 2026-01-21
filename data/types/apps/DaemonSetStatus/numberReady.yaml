@@ -1,5 +1,7 @@
 description:
-  original: numberReady is the number of nodes that should be running the daemon pod and have one or more of the daemon pod running with a Ready Condition.
-  formatted: numberReady is the number of nodes that should be running the daemon pod and have one or more of the daemon pod running with a Ready Condition.
+  original: |-
+    numberReady is the number of nodes that should be running the daemon pod and have one or more of the daemon pod running with a Ready Condition.
+  formatted: |-
+    numberReady is the number of nodes that should be running the daemon pod and have one or more of the daemon pod running with a Ready Condition.
 type: integer
 required: true

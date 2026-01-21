@@ -1,3 +1,5 @@
 description:
-  original: ObjectReference contains enough information to let you inspect or modify the referred object.
-  formatted: ObjectReference contains enough information to let you inspect or modify the referred object.
+  original: |-
+    ObjectReference contains enough information to let you inspect or modify the referred object.
+  formatted: |-
+    ObjectReference contains enough information to let you inspect or modify the referred object.

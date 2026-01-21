@@ -1,3 +1,5 @@
 description:
-  original: PriorityLevelConfigurationReference contains information that points to the "request-priority" being used.
-  formatted: PriorityLevelConfigurationReference contains information that points to the "request-priority" being used.
+  original: |-
+    PriorityLevelConfigurationReference contains information that points to the "request-priority" being used.
+  formatted: |-
+    PriorityLevelConfigurationReference contains information that points to the "request-priority" being used.

@@ -1,5 +1,7 @@
 description:
-  original: List of attachable volumes in use (mounted) by the node.
-  formatted: List of attachable volumes in use (mounted) by the node.
+  original: |-
+    List of attachable volumes in use (mounted) by the node.
+  formatted: |-
+    List of attachable volumes in use (mounted) by the node.
 type: string
 collection: array

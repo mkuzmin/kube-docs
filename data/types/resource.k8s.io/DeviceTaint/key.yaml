@@ -1,5 +1,7 @@
 description:
-  original: The taint key to be applied to a device. Must be a label name.
-  formatted: The taint key to be applied to a device. Must be a label name.
+  original: |-
+    The taint key to be applied to a device. Must be a label name.
+  formatted: |-
+    The taint key to be applied to a device. Must be a label name.
 type: string
 required: true

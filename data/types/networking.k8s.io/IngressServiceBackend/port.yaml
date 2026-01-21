@@ -1,4 +1,6 @@
 description:
-  original: port of the referenced service. A port name or port number is required for a IngressServiceBackend.
-  formatted: port of the referenced service. A port name or port number is required for a IngressServiceBackend.
+  original: |-
+    port of the referenced service. A port name or port number is required for a IngressServiceBackend.
+  formatted: |-
+    port of the referenced service. A port name or port number is required for a IngressServiceBackend.
 type: ServiceBackendPort

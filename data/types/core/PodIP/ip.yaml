@@ -1,5 +1,7 @@
 description:
-  original: IP is the IP address assigned to the pod
-  formatted: IP is the IP address assigned to the pod
+  original: |-
+    IP is the IP address assigned to the pod
+  formatted: |-
+    IP is the IP address assigned to the pod
 type: string
 required: true

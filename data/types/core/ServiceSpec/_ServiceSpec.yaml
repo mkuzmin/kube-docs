@@ -1,3 +1,5 @@
 description:
-  original: ServiceSpec describes the attributes that a user creates on a service.
-  formatted: ServiceSpec describes the attributes that a user creates on a service.
+  original: |-
+    ServiceSpec describes the attributes that a user creates on a service.
+  formatted: |-
+    ServiceSpec describes the attributes that a user creates on a service.

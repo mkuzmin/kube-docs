@@ -1,4 +1,6 @@
 description:
-  original: local represents directly-attached storage with node affinity
-  formatted: local represents directly-attached storage with node affinity
+  original: |-
+    local represents directly-attached storage with node affinity
+  formatted: |-
+    local represents directly-attached storage with node affinity
 type: LocalVolumeSource

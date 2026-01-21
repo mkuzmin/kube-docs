@@ -1,3 +1,5 @@
 description:
-  original: CustomResourceValidation is a list of validation methods for CustomResources.
-  formatted: CustomResourceValidation is a list of validation methods for CustomResources.
+  original: |-
+    CustomResourceValidation is a list of validation methods for CustomResources.
+  formatted: |-
+    CustomResourceValidation is a list of validation methods for CustomResources.

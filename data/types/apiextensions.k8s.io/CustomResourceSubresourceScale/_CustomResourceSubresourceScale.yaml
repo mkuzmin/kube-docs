@@ -1,3 +1,5 @@
 description:
-  original: CustomResourceSubresourceScale defines how to serve the scale subresource for CustomResources.
-  formatted: CustomResourceSubresourceScale defines how to serve the scale subresource for CustomResources.
+  original: |-
+    CustomResourceSubresourceScale defines how to serve the scale subresource for CustomResources.
+  formatted: |-
+    CustomResourceSubresourceScale defines how to serve the scale subresource for CustomResources.

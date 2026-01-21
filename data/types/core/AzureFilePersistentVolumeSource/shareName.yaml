@@ -1,5 +1,7 @@
 description:
-  original: shareName is the azure Share Name
-  formatted: shareName is the azure Share Name
+  original: |-
+    shareName is the azure Share Name
+  formatted: |-
+    shareName is the azure Share Name
 type: string
 required: true

@@ -1,3 +1,5 @@
 description:
-  original: FlowSchemaStatus represents the current state of a FlowSchema.
-  formatted: FlowSchemaStatus represents the current state of a FlowSchema.
+  original: |-
+    FlowSchemaStatus represents the current state of a FlowSchema.
+  formatted: |-
+    FlowSchemaStatus represents the current state of a FlowSchema.

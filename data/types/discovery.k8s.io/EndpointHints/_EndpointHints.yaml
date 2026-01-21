@@ -1,3 +1,5 @@
 description:
-  original: EndpointHints provides hints describing how an endpoint should be consumed.
-  formatted: EndpointHints provides hints describing how an endpoint should be consumed.
+  original: |-
+    EndpointHints provides hints describing how an endpoint should be consumed.
+  formatted: |-
+    EndpointHints provides hints describing how an endpoint should be consumed.

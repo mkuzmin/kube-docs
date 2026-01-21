@@ -1,3 +1,5 @@
 description:
-  original: VolumeNodeAffinity defines constraints that limit what nodes this volume can be accessed from.
-  formatted: VolumeNodeAffinity defines constraints that limit what nodes this volume can be accessed from.
+  original: |-
+    VolumeNodeAffinity defines constraints that limit what nodes this volume can be accessed from.
+  formatted: |-
+    VolumeNodeAffinity defines constraints that limit what nodes this volume can be accessed from.

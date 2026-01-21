@@ -1,6 +1,8 @@
 description:
-  original: Required. A list of node selector terms. The terms are ORed.
-  formatted: Required. A list of node selector terms. The terms are ORed.
+  original: |-
+    Required. A list of node selector terms. The terms are ORed.
+  formatted: |-
+    Required. A list of node selector terms. The terms are ORed.
 type: NodeSelectorTerm
 collection: array
 required: true

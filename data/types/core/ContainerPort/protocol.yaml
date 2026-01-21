@@ -1,4 +1,6 @@
 description:
-  original: Protocol for port. Must be UDP, TCP, or SCTP. Defaults to "TCP".
-  formatted: Protocol for port. Must be UDP, TCP, or SCTP. Defaults to "TCP".
+  original: |-
+    Protocol for port. Must be UDP, TCP, or SCTP. Defaults to "TCP".
+  formatted: |-
+    Protocol for port. Must be UDP, TCP, or SCTP. Defaults to "TCP".
 type: string

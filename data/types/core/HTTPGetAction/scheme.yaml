@@ -1,4 +1,6 @@
 description:
-  original: Scheme to use for connecting to the host. Defaults to HTTP.
-  formatted: Scheme to use for connecting to the host. Defaults to HTTP.
+  original: |-
+    Scheme to use for connecting to the host. Defaults to HTTP.
+  formatted: |-
+    Scheme to use for connecting to the host. Defaults to HTTP.
 type: string

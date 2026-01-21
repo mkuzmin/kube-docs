@@ -1,5 +1,7 @@
 description:
-  original: The header field value
-  formatted: The header field value
+  original: |-
+    The header field value
+  formatted: |-
+    The header field value
 type: string
 required: true

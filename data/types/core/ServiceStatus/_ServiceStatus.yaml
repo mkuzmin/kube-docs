@@ -1,3 +1,5 @@
 description:
-  original: ServiceStatus represents the current status of a service.
-  formatted: ServiceStatus represents the current status of a service.
+  original: |-
+    ServiceStatus represents the current status of a service.
+  formatted: |-
+    ServiceStatus represents the current status of a service.

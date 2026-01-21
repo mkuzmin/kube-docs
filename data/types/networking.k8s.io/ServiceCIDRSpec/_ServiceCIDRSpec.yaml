@@ -1,3 +1,5 @@
 description:
-  original: ServiceCIDRSpec define the CIDRs the user wants to use for allocating ClusterIPs for Services.
-  formatted: ServiceCIDRSpec define the CIDRs the user wants to use for allocating ClusterIPs for Services.
+  original: |-
+    ServiceCIDRSpec define the CIDRs the user wants to use for allocating ClusterIPs for Services.
+  formatted: |-
+    ServiceCIDRSpec define the CIDRs the user wants to use for allocating ClusterIPs for Services.

@@ -1,5 +1,7 @@
 description:
-  original: name is the name of the resource in question.
-  formatted: name is the name of the resource in question.
+  original: |-
+    name is the name of the resource in question.
+  formatted: |-
+    name is the name of the resource in question.
 type: string
 required: true

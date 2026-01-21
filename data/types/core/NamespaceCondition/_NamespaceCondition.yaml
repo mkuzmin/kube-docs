@@ -1,3 +1,5 @@
 description:
-  original: NamespaceCondition contains details about state of namespace.
-  formatted: NamespaceCondition contains details about state of namespace.
+  original: |-
+    NamespaceCondition contains details about state of namespace.
+  formatted: |-
+    NamespaceCondition contains details about state of namespace.

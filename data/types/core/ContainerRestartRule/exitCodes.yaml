@@ -1,4 +1,6 @@
 description:
-  original: Represents the exit codes to check on container exits.
-  formatted: Represents the exit codes to check on container exits.
+  original: |-
+    Represents the exit codes to check on container exits.
+  formatted: |-
+    Represents the exit codes to check on container exits.
 type: ContainerRestartRuleOnExitCodes

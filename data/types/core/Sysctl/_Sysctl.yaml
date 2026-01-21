@@ -1,3 +1,5 @@
 description:
-  original: Sysctl defines a kernel parameter to be set
-  formatted: Sysctl defines a kernel parameter to be set
+  original: |-
+    Sysctl defines a kernel parameter to be set
+  formatted: |-
+    Sysctl defines a kernel parameter to be set

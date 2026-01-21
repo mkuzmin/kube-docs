@@ -1,4 +1,6 @@
 description:
-  original: State holds details about the container's current condition.
-  formatted: State holds details about the container's current condition.
+  original: |-
+    State holds details about the container's current condition.
+  formatted: |-
+    State holds details about the container's current condition.
 type: ContainerState

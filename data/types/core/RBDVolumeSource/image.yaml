@@ -1,5 +1,7 @@
 description:
-  original: 'image is the rados image name. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it'
-  formatted: 'image is the rados image name. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it'
+  original: |-
+    image is the rados image name. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
+  formatted: |-
+    image is the rados image name. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
 type: string
 required: true

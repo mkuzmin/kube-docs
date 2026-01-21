@@ -1,3 +1,5 @@
 description:
-  original: ValidatingAdmissionPolicyStatus represents the status of an admission validation policy.
-  formatted: ValidatingAdmissionPolicyStatus represents the status of an admission validation policy.
+  original: |-
+    ValidatingAdmissionPolicyStatus represents the status of an admission validation policy.
+  formatted: |-
+    ValidatingAdmissionPolicyStatus represents the status of an admission validation policy.

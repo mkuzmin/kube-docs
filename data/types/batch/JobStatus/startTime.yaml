@@ -1,10 +1,10 @@
 description:
   original: |-
     Represents time when the job controller started processing a job. When a Job is created in the suspended state, this field is not set until the first time it is resumed. This field is reset every time a Job is resumed from suspension. It is represented in RFC3339 form and is in UTC.
-
+    
     Once set, the field can only be removed when the job is suspended. The field cannot be modified while the job is unsuspended or finished.
   formatted: |-
     Represents time when the job controller started processing a job. When a Job is created in the suspended state, this field is not set until the first time it is resumed. This field is reset every time a Job is resumed from suspension. It is represented in RFC3339 form and is in UTC.
-
+    
     Once set, the field can only be removed when the job is suspended. The field cannot be modified while the job is unsuspended or finished.
 type: Time

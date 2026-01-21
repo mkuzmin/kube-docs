@@ -1,4 +1,6 @@
 description:
-  original: Container's working directory. If not specified, the container runtime's default will be used, which might be configured in the container image. Cannot be updated.
-  formatted: Container's working directory. If not specified, the container runtime's default will be used, which might be configured in the container image. Cannot be updated.
+  original: |-
+    Container's working directory. If not specified, the container runtime's default will be used, which might be configured in the container image. Cannot be updated.
+  formatted: |-
+    Container's working directory. If not specified, the container runtime's default will be used, which might be configured in the container image. Cannot be updated.
 type: string

@@ -1,5 +1,7 @@
 description:
-  original: '`conditions` is the current state of "request-priority".'
-  formatted: '`conditions` is the current state of "request-priority".'
+  original: |-
+    `conditions` is the current state of "request-priority".
+  formatted: |-
+    `conditions` is the current state of "request-priority".
 type: PriorityLevelConfigurationCondition
 collection: array

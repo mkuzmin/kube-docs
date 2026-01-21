@@ -1,11 +1,11 @@
 description:
   original: |-
     Contains the information published by the driver.
-
+    
     Changing the spec automatically increments the metadata.generation number.
   formatted: |-
     Contains the information published by the driver.
-
+    
     Changing the spec automatically increments the metadata.generation number.
 type: ResourceSliceSpec
 required: true

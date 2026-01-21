@@ -1,3 +1,5 @@
 description:
-  original: ExternalMetricStatus indicates the current value of a global metric not associated with any Kubernetes object.
-  formatted: ExternalMetricStatus indicates the current value of a global metric not associated with any Kubernetes object.
+  original: |-
+    ExternalMetricStatus indicates the current value of a global metric not associated with any Kubernetes object.
+  formatted: |-
+    ExternalMetricStatus indicates the current value of a global metric not associated with any Kubernetes object.

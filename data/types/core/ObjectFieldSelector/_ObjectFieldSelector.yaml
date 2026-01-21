@@ -1,3 +1,5 @@
 description:
-  original: ObjectFieldSelector selects an APIVersioned field of an object.
-  formatted: ObjectFieldSelector selects an APIVersioned field of an object.
+  original: |-
+    ObjectFieldSelector selects an APIVersioned field of an object.
+  formatted: |-
+    ObjectFieldSelector selects an APIVersioned field of an object.

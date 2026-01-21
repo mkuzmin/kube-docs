@@ -1,3 +1,5 @@
 description:
-  original: ReplicationControllerSpec is the specification of a replication controller.
-  formatted: ReplicationControllerSpec is the specification of a replication controller.
+  original: |-
+    ReplicationControllerSpec is the specification of a replication controller.
+  formatted: |-
+    ReplicationControllerSpec is the specification of a replication controller.

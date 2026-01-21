@@ -1,5 +1,7 @@
 description:
-  original: Value of a property to set
-  formatted: Value of a property to set
+  original: |-
+    Value of a property to set
+  formatted: |-
+    Value of a property to set
 type: string
 required: true

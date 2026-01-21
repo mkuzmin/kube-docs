@@ -1,5 +1,7 @@
 description:
-  original: Name is the name of resource being referenced
-  formatted: Name is the name of resource being referenced
+  original: |-
+    Name is the name of resource being referenced
+  formatted: |-
+    Name is the name of resource being referenced
 type: string
 required: true

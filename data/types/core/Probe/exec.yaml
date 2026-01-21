@@ -1,4 +1,6 @@
 description:
-  original: Exec specifies a command to execute in the container.
-  formatted: Exec specifies a command to execute in the container.
+  original: |-
+    Exec specifies a command to execute in the container.
+  formatted: |-
+    Exec specifies a command to execute in the container.
 type: ExecAction

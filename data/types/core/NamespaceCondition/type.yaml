@@ -1,5 +1,7 @@
 description:
-  original: Type of namespace controller condition.
-  formatted: Type of namespace controller condition.
+  original: |-
+    Type of namespace controller condition.
+  formatted: |-
+    Type of namespace controller condition.
 type: string
 required: true

@@ -1,4 +1,6 @@
 description:
-  original: The ConfigMap to select from
-  formatted: The ConfigMap to select from
+  original: |-
+    The ConfigMap to select from
+  formatted: |-
+    The ConfigMap to select from
 type: ConfigMapEnvSource

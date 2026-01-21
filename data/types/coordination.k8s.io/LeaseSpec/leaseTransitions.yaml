@@ -1,4 +1,6 @@
 description:
-  original: leaseTransitions is the number of transitions of a lease between holders.
-  formatted: leaseTransitions is the number of transitions of a lease between holders.
+  original: |-
+    leaseTransitions is the number of transitions of a lease between holders.
+  formatted: |-
+    leaseTransitions is the number of transitions of a lease between holders.
 type: integer

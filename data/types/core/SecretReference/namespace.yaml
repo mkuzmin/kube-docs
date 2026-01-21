@@ -1,4 +1,6 @@
 description:
-  original: namespace defines the space within which the secret name must be unique.
-  formatted: namespace defines the space within which the secret name must be unique.
+  original: |-
+    namespace defines the space within which the secret name must be unique.
+  formatted: |-
+    namespace defines the space within which the secret name must be unique.
 type: string

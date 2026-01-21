@@ -1,5 +1,7 @@
 description:
-  original: The node address.
-  formatted: The node address.
+  original: |-
+    The node address.
+  formatted: |-
+    The node address.
 type: string
 required: true

@@ -1,5 +1,7 @@
 description:
-  original: The schedule in Cron format, see https://en.wikipedia.org/wiki/Cron.
-  formatted: The schedule in Cron format, see https://en.wikipedia.org/wiki/Cron.
+  original: |-
+    The schedule in Cron format, see https://en.wikipedia.org/wiki/Cron.
+  formatted: |-
+    The schedule in Cron format, see https://en.wikipedia.org/wiki/Cron.
 type: string
 required: true

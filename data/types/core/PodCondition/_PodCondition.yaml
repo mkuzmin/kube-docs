@@ -1,3 +1,5 @@
 description:
-  original: PodCondition contains details for the current condition of this pod.
-  formatted: PodCondition contains details for the current condition of this pod.
+  original: |-
+    PodCondition contains details for the current condition of this pod.
+  formatted: |-
+    PodCondition contains details for the current condition of this pod.

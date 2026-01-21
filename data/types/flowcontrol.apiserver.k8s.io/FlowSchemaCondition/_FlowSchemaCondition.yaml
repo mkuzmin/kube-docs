@@ -1,3 +1,5 @@
 description:
-  original: FlowSchemaCondition describes conditions for a FlowSchema.
-  formatted: FlowSchemaCondition describes conditions for a FlowSchema.
+  original: |-
+    FlowSchemaCondition describes conditions for a FlowSchema.
+  formatted: |-
+    FlowSchemaCondition describes conditions for a FlowSchema.

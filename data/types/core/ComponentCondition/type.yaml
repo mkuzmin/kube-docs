@@ -1,5 +1,7 @@
 description:
-  original: 'Type of condition for a component. Valid value: "Healthy"'
-  formatted: 'Type of condition for a component. Valid value: "Healthy"'
+  original: |-
+    Type of condition for a component. Valid value: "Healthy"
+  formatted: |-
+    Type of condition for a component. Valid value: "Healthy"
 type: string
 required: true

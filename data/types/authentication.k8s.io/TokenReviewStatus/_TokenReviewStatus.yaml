@@ -1,3 +1,5 @@
 description:
-  original: TokenReviewStatus is the result of the token authentication request.
-  formatted: TokenReviewStatus is the result of the token authentication request.
+  original: |-
+    TokenReviewStatus is the result of the token authentication request.
+  formatted: |-
+    TokenReviewStatus is the result of the token authentication request.

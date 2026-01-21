@@ -1,5 +1,7 @@
 description:
-  original: source represents the volume that should be attached.
-  formatted: source represents the volume that should be attached.
+  original: |-
+    source represents the volume that should be attached.
+  formatted: |-
+    source represents the volume that should be attached.
 type: VolumeAttachmentSource
 required: true

@@ -1,4 +1,6 @@
 description:
-  original: LimitRange sets resource usage limits for each kind of resource in a Namespace.
-  formatted: LimitRange sets resource usage limits for each kind of resource in a Namespace.
+  original: |-
+    LimitRange sets resource usage limits for each kind of resource in a Namespace.
+  formatted: |-
+    LimitRange sets resource usage limits for each kind of resource in a Namespace.
 kind: true

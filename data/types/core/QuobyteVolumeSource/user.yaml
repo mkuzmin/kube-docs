@@ -1,4 +1,6 @@
 description:
-  original: user to map volume access to Defaults to serivceaccount user
-  formatted: user to map volume access to Defaults to serivceaccount user
+  original: |-
+    user to map volume access to Defaults to serivceaccount user
+  formatted: |-
+    user to map volume access to Defaults to serivceaccount user
 type: string

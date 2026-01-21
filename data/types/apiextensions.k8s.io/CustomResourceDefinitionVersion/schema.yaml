@@ -1,4 +1,6 @@
 description:
-  original: schema describes the schema used for validation, pruning, and defaulting of this version of the custom resource.
-  formatted: schema describes the schema used for validation, pruning, and defaulting of this version of the custom resource.
+  original: |-
+    schema describes the schema used for validation, pruning, and defaulting of this version of the custom resource.
+  formatted: |-
+    schema describes the schema used for validation, pruning, and defaulting of this version of the custom resource.
 type: CustomResourceValidation

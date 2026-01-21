@@ -1,3 +1,5 @@
 description:
-  original: DeviceSelector must have exactly one field set.
-  formatted: DeviceSelector must have exactly one field set.
+  original: |-
+    DeviceSelector must have exactly one field set.
+  formatted: |-
+    DeviceSelector must have exactly one field set.

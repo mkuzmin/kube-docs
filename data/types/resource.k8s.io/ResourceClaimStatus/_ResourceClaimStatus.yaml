@@ -1,3 +1,5 @@
 description:
-  original: ResourceClaimStatus tracks whether the resource has been allocated and what the result of that was.
-  formatted: ResourceClaimStatus tracks whether the resource has been allocated and what the result of that was.
+  original: |-
+    ResourceClaimStatus tracks whether the resource has been allocated and what the result of that was.
+  formatted: |-
+    ResourceClaimStatus tracks whether the resource has been allocated and what the result of that was.

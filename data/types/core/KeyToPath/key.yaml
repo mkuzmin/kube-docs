@@ -1,5 +1,7 @@
 description:
-  original: key is the key to project.
-  formatted: key is the key to project.
+  original: |-
+    key is the key to project.
+  formatted: |-
+    key is the key to project.
 type: string
 required: true

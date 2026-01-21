@@ -1,4 +1,6 @@
 description:
-  original: Time at which previous execution of the container started
-  formatted: Time at which previous execution of the container started
+  original: |-
+    Time at which previous execution of the container started
+  formatted: |-
+    Time at which previous execution of the container started
 type: Time

@@ -1,3 +1,5 @@
 description:
-  original: MetricStatus describes the last-read state of a single metric.
-  formatted: MetricStatus describes the last-read state of a single metric.
+  original: |-
+    MetricStatus describes the last-read state of a single metric.
+  formatted: |-
+    MetricStatus describes the last-read state of a single metric.

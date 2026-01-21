@@ -1,5 +1,7 @@
 description:
-  original: The object that this event is about.
-  formatted: The object that this event is about.
+  original: |-
+    The object that this event is about.
+  formatted: |-
+    The object that this event is about.
 type: ObjectReference
 required: true

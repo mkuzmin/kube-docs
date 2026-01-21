@@ -1,3 +1,5 @@
 description:
-  original: ContainerRestartRule describes how a container exit is handled.
-  formatted: ContainerRestartRule describes how a container exit is handled.
+  original: |-
+    ContainerRestartRule describes how a container exit is handled.
+  formatted: |-
+    ContainerRestartRule describes how a container exit is handled.

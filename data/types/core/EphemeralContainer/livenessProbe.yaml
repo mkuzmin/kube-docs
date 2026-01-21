@@ -1,4 +1,6 @@
 description:
-  original: Probes are not allowed for ephemeral containers.
-  formatted: Probes are not allowed for ephemeral containers.
+  original: |-
+    Probes are not allowed for ephemeral containers.
+  formatted: |-
+    Probes are not allowed for ephemeral containers.
 type: Probe

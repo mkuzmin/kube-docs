@@ -1,3 +1,5 @@
 description:
-  original: ReplicaSetStatus represents the current status of a ReplicaSet.
-  formatted: ReplicaSetStatus represents the current status of a ReplicaSet.
+  original: |-
+    ReplicaSetStatus represents the current status of a ReplicaSet.
+  formatted: |-
+    ReplicaSetStatus represents the current status of a ReplicaSet.

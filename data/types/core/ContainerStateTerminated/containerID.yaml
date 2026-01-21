@@ -1,4 +1,6 @@
 description:
-  original: Container's ID in the format '<type>://<container_id>'
-  formatted: Container's ID in the format '<type>://<container_id>'
+  original: |-
+    Container's ID in the format '<type>://<container_id>'
+  formatted: |-
+    Container's ID in the format '<type>://<container_id>'
 type: string

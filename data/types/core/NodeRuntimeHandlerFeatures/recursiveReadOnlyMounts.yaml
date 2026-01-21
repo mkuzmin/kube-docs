@@ -1,4 +1,6 @@
 description:
-  original: RecursiveReadOnlyMounts is set to true if the runtime handler supports RecursiveReadOnlyMounts.
-  formatted: RecursiveReadOnlyMounts is set to true if the runtime handler supports RecursiveReadOnlyMounts.
+  original: |-
+    RecursiveReadOnlyMounts is set to true if the runtime handler supports RecursiveReadOnlyMounts.
+  formatted: |-
+    RecursiveReadOnlyMounts is set to true if the runtime handler supports RecursiveReadOnlyMounts.
 type: boolean

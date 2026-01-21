@@ -1,5 +1,7 @@
 description:
-  original: Ports are not allowed for ephemeral containers.
-  formatted: Ports are not allowed for ephemeral containers.
+  original: |-
+    Ports are not allowed for ephemeral containers.
+  formatted: |-
+    Ports are not allowed for ephemeral containers.
 type: ContainerPort
 collection: array

@@ -1,4 +1,6 @@
 description:
-  original: Actions that the management system should take in response to container lifecycle events. Cannot be updated.
-  formatted: Actions that the management system should take in response to container lifecycle events. Cannot be updated.
+  original: |-
+    Actions that the management system should take in response to container lifecycle events. Cannot be updated.
+  formatted: |-
+    Actions that the management system should take in response to container lifecycle events. Cannot be updated.
 type: Lifecycle

@@ -1,3 +1,5 @@
 description:
-  original: LoadBalancerStatus represents the status of a load-balancer.
-  formatted: LoadBalancerStatus represents the status of a load-balancer.
+  original: |-
+    LoadBalancerStatus represents the status of a load-balancer.
+  formatted: |-
+    LoadBalancerStatus represents the status of a load-balancer.

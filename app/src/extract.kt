@@ -36,27 +36,35 @@ fun main() {
 }
 
 fun writeType(file: File, schema: Schema) {
-    val doc = TypeYaml(
-        description = Description(
-            original = schema.description,
-            formatted = schema.description,
-        ),
-        kind = if (schema.kind != null) true else null,
-    )
-    val text = yaml.encodeToString(TypeYaml.serializer(), doc)
-    file.writeText(text + "\n")
+    file.writeText(buildString {
+        appendLine("description:")
+        appendLiteralBlock("original", schema.description, indent = 2)
+        appendLiteralBlock("formatted", schema.description, indent = 2)
+        if (schema.kind != null)
+            appendLine("kind: true")
+    })
 }
 
 fun writeField(file: File, prop: Property, isRequired: Boolean, skipDescription: Boolean) {
     val (type, collection) = extractType(prop)
-    val doc = FieldYaml(
-        description = if (skipDescription) null else prop.description?.let { Description(original = it, formatted = it) },
-        type = type,
-        collection = collection,
-        required = if (isRequired) true else null,
-    )
-    val text = yaml.encodeToString(FieldYaml.serializer(), doc)
-    file.writeText(text + "\n")
+    file.writeText(buildString {
+        if (!skipDescription && prop.description != null) {
+            appendLine("description:")
+            appendLiteralBlock("original", prop.description, indent = 2)
+            appendLiteralBlock("formatted", prop.description, indent = 2)
+        }
+        appendLine("type: $type")
+        if (collection != null) appendLine("collection: $collection")
+        if (isRequired) appendLine("required: true")
+    })
+}
+
+fun StringBuilder.appendLiteralBlock(key: String, value: String, indent: Int) {
+    val prefix = " ".repeat(indent)
+    appendLine("$prefix$key: |-")
+    value.lines().forEach { line ->
+        appendLine("$prefix  $line")
+    }
 }
 
 fun extractType(prop: Property): Pair<String, String?> = when {

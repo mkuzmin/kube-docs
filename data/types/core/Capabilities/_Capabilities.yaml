@@ -1,3 +1,5 @@
 description:
-  original: Adds and removes POSIX capabilities from running containers.
-  formatted: Adds and removes POSIX capabilities from running containers.
+  original: |-
+    Adds and removes POSIX capabilities from running containers.
+  formatted: |-
+    Adds and removes POSIX capabilities from running containers.

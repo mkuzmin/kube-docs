@@ -1,3 +1,5 @@
 description:
-  original: DaemonSetUpdateStrategy is a struct used to control the update strategy for a DaemonSet.
-  formatted: DaemonSetUpdateStrategy is a struct used to control the update strategy for a DaemonSet.
+  original: |-
+    DaemonSetUpdateStrategy is a struct used to control the update strategy for a DaemonSet.
+  formatted: |-
+    DaemonSetUpdateStrategy is a struct used to control the update strategy for a DaemonSet.

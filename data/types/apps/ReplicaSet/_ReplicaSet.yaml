@@ -1,4 +1,6 @@
 description:
-  original: ReplicaSet ensures that a specified number of pod replicas are running at any given time.
-  formatted: ReplicaSet ensures that a specified number of pod replicas are running at any given time.
+  original: |-
+    ReplicaSet ensures that a specified number of pod replicas are running at any given time.
+  formatted: |-
+    ReplicaSet ensures that a specified number of pod replicas are running at any given time.
 kind: true

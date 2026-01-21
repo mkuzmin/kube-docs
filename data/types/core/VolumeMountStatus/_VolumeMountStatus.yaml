@@ -1,3 +1,5 @@
 description:
-  original: VolumeMountStatus shows status of volume mounts.
-  formatted: VolumeMountStatus shows status of volume mounts.
+  original: |-
+    VolumeMountStatus shows status of volume mounts.
+  formatted: |-
+    VolumeMountStatus shows status of volume mounts.

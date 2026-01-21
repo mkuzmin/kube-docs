@@ -1,3 +1,5 @@
 description:
-  original: Maps a string key to a path within a volume.
-  formatted: Maps a string key to a path within a volume.
+  original: |-
+    Maps a string key to a path within a volume.
+  formatted: |-
+    Maps a string key to a path within a volume.

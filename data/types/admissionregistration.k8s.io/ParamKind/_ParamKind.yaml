@@ -1,3 +1,5 @@
 description:
-  original: ParamKind is a tuple of Group Kind and Version.
-  formatted: ParamKind is a tuple of Group Kind and Version.
+  original: |-
+    ParamKind is a tuple of Group Kind and Version.
+  formatted: |-
+    ParamKind is a tuple of Group Kind and Version.

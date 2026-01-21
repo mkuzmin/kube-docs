@@ -1,3 +1,5 @@
 description:
-  original: PodReadinessGate contains the reference to a pod condition
-  formatted: PodReadinessGate contains the reference to a pod condition
+  original: |-
+    PodReadinessGate contains the reference to a pod condition
+  formatted: |-
+    PodReadinessGate contains the reference to a pod condition

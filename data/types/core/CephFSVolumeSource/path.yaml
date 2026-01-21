@@ -1,4 +1,6 @@
 description:
-  original: 'path is Optional: Used as the mounted root, rather than the full Ceph tree, default is /'
-  formatted: 'path is Optional: Used as the mounted root, rather than the full Ceph tree, default is /'
+  original: |-
+    path is Optional: Used as the mounted root, rather than the full Ceph tree, default is /
+  formatted: |-
+    path is Optional: Used as the mounted root, rather than the full Ceph tree, default is /
 type: string

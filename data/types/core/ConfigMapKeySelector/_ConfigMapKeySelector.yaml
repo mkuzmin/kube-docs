@@ -1,3 +1,5 @@
 description:
-  original: Selects a key from a ConfigMap.
-  formatted: Selects a key from a ConfigMap.
+  original: |-
+    Selects a key from a ConfigMap.
+  formatted: |-
+    Selects a key from a ConfigMap.

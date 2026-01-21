@@ -1,4 +1,6 @@
 description:
-  original: status contains information about whether the request is approved or denied, and the certificate issued by the signer, or the failure condition indicating signer failure.
-  formatted: status contains information about whether the request is approved or denied, and the certificate issued by the signer, or the failure condition indicating signer failure.
+  original: |-
+    status contains information about whether the request is approved or denied, and the certificate issued by the signer, or the failure condition indicating signer failure.
+  formatted: |-
+    status contains information about whether the request is approved or denied, and the certificate issued by the signer, or the failure condition indicating signer failure.
 type: CertificateSigningRequestStatus

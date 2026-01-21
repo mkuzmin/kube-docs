@@ -1,4 +1,6 @@
 description:
-  original: deprecatedCount is the deprecated field assuring backward compatibility with core.v1 Event type.
-  formatted: deprecatedCount is the deprecated field assuring backward compatibility with core.v1 Event type.
+  original: |-
+    deprecatedCount is the deprecated field assuring backward compatibility with core.v1 Event type.
+  formatted: |-
+    deprecatedCount is the deprecated field assuring backward compatibility with core.v1 Event type.
 type: integer

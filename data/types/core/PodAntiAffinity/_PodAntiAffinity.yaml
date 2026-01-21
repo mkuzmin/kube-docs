@@ -1,3 +1,5 @@
 description:
-  original: Pod anti affinity is a group of inter pod anti affinity scheduling rules.
-  formatted: Pod anti affinity is a group of inter pod anti affinity scheduling rules.
+  original: |-
+    Pod anti affinity is a group of inter pod anti affinity scheduling rules.
+  formatted: |-
+    Pod anti affinity is a group of inter pod anti affinity scheduling rules.

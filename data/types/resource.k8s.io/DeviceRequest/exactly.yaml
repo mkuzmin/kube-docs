@@ -1,10 +1,10 @@
 description:
   original: |-
     Exactly specifies the details for a single request that must be met exactly for the request to be satisfied.
-
+    
     One of Exactly or FirstAvailable must be set.
   formatted: |-
     Exactly specifies the details for a single request that must be met exactly for the request to be satisfied.
-
+    
     One of Exactly or FirstAvailable must be set.
 type: ExactDeviceRequest

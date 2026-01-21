@@ -1,4 +1,6 @@
 description:
-  original: 'Required: Selects a field of the pod: only annotations, labels, name, namespace and uid are supported.'
-  formatted: 'Required: Selects a field of the pod: only annotations, labels, name, namespace and uid are supported.'
+  original: |-
+    Required: Selects a field of the pod: only annotations, labels, name, namespace and uid are supported.
+  formatted: |-
+    Required: Selects a field of the pod: only annotations, labels, name, namespace and uid are supported.
 type: ObjectFieldSelector

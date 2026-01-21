@@ -1,4 +1,6 @@
 description:
-  original: The total number of nodes that are running updated daemon pod
-  formatted: The total number of nodes that are running updated daemon pod
+  original: |-
+    The total number of nodes that are running updated daemon pod
+  formatted: |-
+    The total number of nodes that are running updated daemon pod
 type: integer

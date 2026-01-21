@@ -1,4 +1,6 @@
 description:
-  original: The last time this condition was updated.
-  formatted: The last time this condition was updated.
+  original: |-
+    The last time this condition was updated.
+  formatted: |-
+    The last time this condition was updated.
 type: Time

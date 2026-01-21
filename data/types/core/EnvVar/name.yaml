@@ -1,5 +1,7 @@
 description:
-  original: Name of the environment variable. May consist of any printable ASCII characters except '='.
-  formatted: Name of the environment variable. May consist of any printable ASCII characters except '='.
+  original: |-
+    Name of the environment variable. May consist of any printable ASCII characters except '='.
+  formatted: |-
+    Name of the environment variable. May consist of any printable ASCII characters except '='.
 type: string
 required: true

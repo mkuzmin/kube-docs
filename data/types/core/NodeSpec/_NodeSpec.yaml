@@ -1,3 +1,5 @@
 description:
-  original: NodeSpec describes the attributes that a node is created with.
-  formatted: NodeSpec describes the attributes that a node is created with.
+  original: |-
+    NodeSpec describes the attributes that a node is created with.
+  formatted: |-
+    NodeSpec describes the attributes that a node is created with.

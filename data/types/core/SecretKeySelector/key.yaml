@@ -1,5 +1,7 @@
 description:
-  original: The key of the secret to select from.  Must be a valid secret key.
-  formatted: The key of the secret to select from.  Must be a valid secret key.
+  original: |-
+    The key of the secret to select from.  Must be a valid secret key.
+  formatted: |-
+    The key of the secret to select from.  Must be a valid secret key.
 type: string
 required: true

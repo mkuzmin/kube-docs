@@ -1,3 +1,5 @@
 description:
-  original: DeploymentStrategy describes how to replace existing pods with new ones.
-  formatted: DeploymentStrategy describes how to replace existing pods with new ones.
+  original: |-
+    DeploymentStrategy describes how to replace existing pods with new ones.
+  formatted: |-
+    DeploymentStrategy describes how to replace existing pods with new ones.

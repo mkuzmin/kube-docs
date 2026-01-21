@@ -1,5 +1,7 @@
 description:
-  original: Rules holds all the PolicyRules for this ClusterRole
-  formatted: Rules holds all the PolicyRules for this ClusterRole
+  original: |-
+    Rules holds all the PolicyRules for this ClusterRole
+  formatted: |-
+    Rules holds all the PolicyRules for this ClusterRole
 type: PolicyRule
 collection: array

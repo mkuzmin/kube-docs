@@ -1,5 +1,7 @@
 description:
-  original: IP address of the host file entry.
-  formatted: IP address of the host file entry.
+  original: |-
+    IP address of the host file entry.
+  formatted: |-
+    IP address of the host file entry.
 type: string
 required: true

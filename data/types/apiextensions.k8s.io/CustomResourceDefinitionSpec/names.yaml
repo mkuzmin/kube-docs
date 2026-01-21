@@ -1,5 +1,7 @@
 description:
-  original: names specify the resource and kind names for the custom resource.
-  formatted: names specify the resource and kind names for the custom resource.
+  original: |-
+    names specify the resource and kind names for the custom resource.
+  formatted: |-
+    names specify the resource and kind names for the custom resource.
 type: CustomResourceDefinitionNames
 required: true

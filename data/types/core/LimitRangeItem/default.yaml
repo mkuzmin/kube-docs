@@ -1,5 +1,7 @@
 description:
-  original: Default resource requirement limit value by resource name if resource limit is omitted.
-  formatted: Default resource requirement limit value by resource name if resource limit is omitted.
+  original: |-
+    Default resource requirement limit value by resource name if resource limit is omitted.
+  formatted: |-
+    Default resource requirement limit value by resource name if resource limit is omitted.
 type: Quantity
 collection: map

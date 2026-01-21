@@ -1,5 +1,7 @@
 description:
-  original: type represents whether the metric type is Utilization, Value, or AverageValue
-  formatted: type represents whether the metric type is Utilization, Value, or AverageValue
+  original: |-
+    type represents whether the metric type is Utilization, Value, or AverageValue
+  formatted: |-
+    type represents whether the metric type is Utilization, Value, or AverageValue
 type: string
 required: true

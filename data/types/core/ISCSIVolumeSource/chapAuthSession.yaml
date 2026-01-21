@@ -1,4 +1,6 @@
 description:
-  original: chapAuthSession defines whether support iSCSI Session CHAP authentication
-  formatted: chapAuthSession defines whether support iSCSI Session CHAP authentication
+  original: |-
+    chapAuthSession defines whether support iSCSI Session CHAP authentication
+  formatted: |-
+    chapAuthSession defines whether support iSCSI Session CHAP authentication
 type: boolean

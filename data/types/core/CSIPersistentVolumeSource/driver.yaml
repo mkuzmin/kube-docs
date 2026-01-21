@@ -1,5 +1,7 @@
 description:
-  original: driver is the name of the driver to use for this volume. Required.
-  formatted: driver is the name of the driver to use for this volume. Required.
+  original: |-
+    driver is the name of the driver to use for this volume. Required.
+  formatted: |-
+    driver is the name of the driver to use for this volume. Required.
 type: string
 required: true

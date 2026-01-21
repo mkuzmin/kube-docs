@@ -1,3 +1,5 @@
 description:
-  original: VolumeAttachmentSpec is the specification of a VolumeAttachment request.
-  formatted: VolumeAttachmentSpec is the specification of a VolumeAttachment request.
+  original: |-
+    VolumeAttachmentSpec is the specification of a VolumeAttachment request.
+  formatted: |-
+    VolumeAttachmentSpec is the specification of a VolumeAttachment request.

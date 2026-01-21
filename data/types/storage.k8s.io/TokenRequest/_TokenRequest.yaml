@@ -1,3 +1,5 @@
 description:
-  original: TokenRequest contains parameters of a service account token.
-  formatted: TokenRequest contains parameters of a service account token.
+  original: |-
+    TokenRequest contains parameters of a service account token.
+  formatted: |-
+    TokenRequest contains parameters of a service account token.

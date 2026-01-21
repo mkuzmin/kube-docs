@@ -1,3 +1,5 @@
 description:
-  original: Represents an ephemeral volume that is handled by a normal storage driver.
-  formatted: Represents an ephemeral volume that is handled by a normal storage driver.
+  original: |-
+    Represents an ephemeral volume that is handled by a normal storage driver.
+  formatted: |-
+    Represents an ephemeral volume that is handled by a normal storage driver.

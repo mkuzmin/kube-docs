@@ -1,5 +1,7 @@
 description:
-  original: Subjects holds references to the objects the role applies to.
-  formatted: Subjects holds references to the objects the role applies to.
+  original: |-
+    Subjects holds references to the objects the role applies to.
+  formatted: |-
+    Subjects holds references to the objects the role applies to.
 type: Subject
 collection: array

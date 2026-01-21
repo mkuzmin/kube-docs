@@ -1,5 +1,7 @@
 description:
-  original: Any additional information provided by the authenticator.
-  formatted: Any additional information provided by the authenticator.
+  original: |-
+    Any additional information provided by the authenticator.
+  formatted: |-
+    Any additional information provided by the authenticator.
 type: string
 collection: map

@@ -1,3 +1,5 @@
 description:
-  original: LinuxContainerUser represents user identity information in Linux containers
-  formatted: LinuxContainerUser represents user identity information in Linux containers
+  original: |-
+    LinuxContainerUser represents user identity information in Linux containers
+  formatted: |-
+    LinuxContainerUser represents user identity information in Linux containers

@@ -1,3 +1,5 @@
 description:
-  original: NodeSystemInfo is a set of ids/uuids to uniquely identify the node.
-  formatted: NodeSystemInfo is a set of ids/uuids to uniquely identify the node.
+  original: |-
+    NodeSystemInfo is a set of ids/uuids to uniquely identify the node.
+  formatted: |-
+    NodeSystemInfo is a set of ids/uuids to uniquely identify the node.

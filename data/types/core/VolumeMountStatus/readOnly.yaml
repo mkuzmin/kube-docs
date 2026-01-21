@@ -1,4 +1,6 @@
 description:
-  original: ReadOnly corresponds to the original VolumeMount.
-  formatted: ReadOnly corresponds to the original VolumeMount.
+  original: |-
+    ReadOnly corresponds to the original VolumeMount.
+  formatted: |-
+    ReadOnly corresponds to the original VolumeMount.
 type: boolean

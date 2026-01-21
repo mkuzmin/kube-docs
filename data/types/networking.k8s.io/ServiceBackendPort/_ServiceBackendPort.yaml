@@ -1,3 +1,5 @@
 description:
-  original: ServiceBackendPort is the service port being referenced.
-  formatted: ServiceBackendPort is the service port being referenced.
+  original: |-
+    ServiceBackendPort is the service port being referenced.
+  formatted: |-
+    ServiceBackendPort is the service port being referenced.

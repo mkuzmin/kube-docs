@@ -1,3 +1,5 @@
 description:
-  original: ReplicationControllerStatus represents the current status of a replication controller.
-  formatted: ReplicationControllerStatus represents the current status of a replication controller.
+  original: |-
+    ReplicationControllerStatus represents the current status of a replication controller.
+  formatted: |-
+    ReplicationControllerStatus represents the current status of a replication controller.

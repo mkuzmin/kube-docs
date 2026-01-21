@@ -1,4 +1,6 @@
 description:
-  original: parameters is a link to a custom resource containing additional configuration for the controller. This is optional if the controller does not require extra parameters.
-  formatted: parameters is a link to a custom resource containing additional configuration for the controller. This is optional if the controller does not require extra parameters.
+  original: |-
+    parameters is a link to a custom resource containing additional configuration for the controller. This is optional if the controller does not require extra parameters.
+  formatted: |-
+    parameters is a link to a custom resource containing additional configuration for the controller. This is optional if the controller does not require extra parameters.
 type: IngressClassParametersReference

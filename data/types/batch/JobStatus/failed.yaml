@@ -1,4 +1,6 @@
 description:
-  original: The number of pods which reached phase Failed. The value increases monotonically.
-  formatted: The number of pods which reached phase Failed. The value increases monotonically.
+  original: |-
+    The number of pods which reached phase Failed. The value increases monotonically.
+  formatted: |-
+    The number of pods which reached phase Failed. The value increases monotonically.
 type: integer

@@ -1,5 +1,7 @@
 description:
-  original: name must match the name of a persistentVolumeClaim in the pod
-  formatted: name must match the name of a persistentVolumeClaim in the pod
+  original: |-
+    name must match the name of a persistentVolumeClaim in the pod
+  formatted: |-
+    name must match the name of a persistentVolumeClaim in the pod
 type: string
 required: true

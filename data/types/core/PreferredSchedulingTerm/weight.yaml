@@ -1,5 +1,7 @@
 description:
-  original: Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
-  formatted: Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
+  original: |-
+    Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
+  formatted: |-
+    Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
 type: integer
 required: true

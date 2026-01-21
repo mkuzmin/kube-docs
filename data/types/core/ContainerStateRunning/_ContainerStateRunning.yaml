@@ -1,3 +1,5 @@
 description:
-  original: ContainerStateRunning is a running state of a container.
-  formatted: ContainerStateRunning is a running state of a container.
+  original: |-
+    ContainerStateRunning is a running state of a container.
+  formatted: |-
+    ContainerStateRunning is a running state of a container.

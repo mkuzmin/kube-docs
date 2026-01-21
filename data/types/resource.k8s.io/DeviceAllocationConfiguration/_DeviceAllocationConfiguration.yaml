@@ -1,3 +1,5 @@
 description:
-  original: DeviceAllocationConfiguration gets embedded in an AllocationResult.
-  formatted: DeviceAllocationConfiguration gets embedded in an AllocationResult.
+  original: |-
+    DeviceAllocationConfiguration gets embedded in an AllocationResult.
+  formatted: |-
+    DeviceAllocationConfiguration gets embedded in an AllocationResult.

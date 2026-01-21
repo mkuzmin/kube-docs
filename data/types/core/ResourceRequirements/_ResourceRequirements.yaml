@@ -1,3 +1,5 @@
 description:
-  original: ResourceRequirements describes the compute resource requirements.
-  formatted: ResourceRequirements describes the compute resource requirements.
+  original: |-
+    ResourceRequirements describes the compute resource requirements.
+  formatted: |-
+    ResourceRequirements describes the compute resource requirements.

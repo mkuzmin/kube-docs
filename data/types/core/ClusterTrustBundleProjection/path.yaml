@@ -1,5 +1,7 @@
 description:
-  original: Relative path from the volume root to write the bundle.
-  formatted: Relative path from the volume root to write the bundle.
+  original: |-
+    Relative path from the volume root to write the bundle.
+  formatted: |-
+    Relative path from the volume root to write the bundle.
 type: string
 required: true

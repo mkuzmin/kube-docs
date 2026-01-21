@@ -1,4 +1,6 @@
 description:
-  original: Selects a key of a ConfigMap.
-  formatted: Selects a key of a ConfigMap.
+  original: |-
+    Selects a key of a ConfigMap.
+  formatted: |-
+    Selects a key of a ConfigMap.
 type: ConfigMapKeySelector

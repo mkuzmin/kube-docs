@@ -1,3 +1,5 @@
 description:
-  original: EnvVar represents an environment variable present in a Container.
-  formatted: EnvVar represents an environment variable present in a Container.
+  original: |-
+    EnvVar represents an environment variable present in a Container.
+  formatted: |-
+    EnvVar represents an environment variable present in a Container.

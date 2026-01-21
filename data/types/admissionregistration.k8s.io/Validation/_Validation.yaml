@@ -1,3 +1,5 @@
 description:
-  original: Validation specifies the CEL expression which is used to apply the validation.
-  formatted: Validation specifies the CEL expression which is used to apply the validation.
+  original: |-
+    Validation specifies the CEL expression which is used to apply the validation.
+  formatted: |-
+    Validation specifies the CEL expression which is used to apply the validation.

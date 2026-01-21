@@ -1,4 +1,6 @@
 description:
-  original: This should be a short, machine understandable string that gives the reason for the transition into the object's current status.
-  formatted: This should be a short, machine understandable string that gives the reason for the transition into the object's current status.
+  original: |-
+    This should be a short, machine understandable string that gives the reason for the transition into the object's current status.
+  formatted: |-
+    This should be a short, machine understandable string that gives the reason for the transition into the object's current status.
 type: string

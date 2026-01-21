@@ -1,5 +1,7 @@
 description:
-  original: Max usage constraints on this kind by resource name.
-  formatted: Max usage constraints on this kind by resource name.
+  original: |-
+    Max usage constraints on this kind by resource name.
+  formatted: |-
+    Max usage constraints on this kind by resource name.
 type: Quantity
 collection: map

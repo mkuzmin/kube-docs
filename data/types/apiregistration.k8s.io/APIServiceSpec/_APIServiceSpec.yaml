@@ -1,3 +1,5 @@
 description:
-  original: APIServiceSpec contains information for locating and communicating with a server. Only https is supported, though you are able to disable certificate verification.
-  formatted: APIServiceSpec contains information for locating and communicating with a server. Only https is supported, though you are able to disable certificate verification.
+  original: |-
+    APIServiceSpec contains information for locating and communicating with a server. Only https is supported, though you are able to disable certificate verification.
+  formatted: |-
+    APIServiceSpec contains information for locating and communicating with a server. Only https is supported, though you are able to disable certificate verification.

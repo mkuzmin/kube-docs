@@ -1,3 +1,5 @@
 description:
-  original: FileKeySelector selects a key of the env file.
-  formatted: FileKeySelector selects a key of the env file.
+  original: |-
+    FileKeySelector selects a key of the env file.
+  formatted: |-
+    FileKeySelector selects a key of the env file.

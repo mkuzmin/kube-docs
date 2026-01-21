@@ -1,3 +1,5 @@
 description:
-  original: TypedLocalObjectReference contains enough information to let you locate the typed referenced object inside the same namespace.
-  formatted: TypedLocalObjectReference contains enough information to let you locate the typed referenced object inside the same namespace.
+  original: |-
+    TypedLocalObjectReference contains enough information to let you locate the typed referenced object inside the same namespace.
+  formatted: |-
+    TypedLocalObjectReference contains enough information to let you locate the typed referenced object inside the same namespace.

@@ -1,3 +1,5 @@
 description:
-  original: ContainerPort represents a network port in a single container.
-  formatted: ContainerPort represents a network port in a single container.
+  original: |-
+    ContainerPort represents a network port in a single container.
+  formatted: |-
+    ContainerPort represents a network port in a single container.

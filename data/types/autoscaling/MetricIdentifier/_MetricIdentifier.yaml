@@ -1,3 +1,5 @@
 description:
-  original: MetricIdentifier defines the name and optionally selector for a metric
-  formatted: MetricIdentifier defines the name and optionally selector for a metric
+  original: |-
+    MetricIdentifier defines the name and optionally selector for a metric
+  formatted: |-
+    MetricIdentifier defines the name and optionally selector for a metric

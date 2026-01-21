@@ -1,3 +1,5 @@
 description:
-  original: TypeChecking contains results of type checking the expressions in the ValidatingAdmissionPolicy
-  formatted: TypeChecking contains results of type checking the expressions in the ValidatingAdmissionPolicy
+  original: |-
+    TypeChecking contains results of type checking the expressions in the ValidatingAdmissionPolicy
+  formatted: |-
+    TypeChecking contains results of type checking the expressions in the ValidatingAdmissionPolicy

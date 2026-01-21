@@ -1,5 +1,7 @@
 description:
-  original: ingress is a list containing ingress points for the load-balancer.
-  formatted: ingress is a list containing ingress points for the load-balancer.
+  original: |-
+    ingress is a list containing ingress points for the load-balancer.
+  formatted: |-
+    ingress is a list containing ingress points for the load-balancer.
 type: IngressLoadBalancerIngress
 collection: array

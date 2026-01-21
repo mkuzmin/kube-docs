@@ -1,3 +1,5 @@
 description:
-  original: StatefulSetStatus represents the current state of a StatefulSet.
-  formatted: StatefulSetStatus represents the current state of a StatefulSet.
+  original: |-
+    StatefulSetStatus represents the current state of a StatefulSet.
+  formatted: |-
+    StatefulSetStatus represents the current state of a StatefulSet.

@@ -1,5 +1,7 @@
 description:
-  original: Hostnames for the above IP address.
-  formatted: Hostnames for the above IP address.
+  original: |-
+    Hostnames for the above IP address.
+  formatted: |-
+    Hostnames for the above IP address.
 type: string
 collection: array

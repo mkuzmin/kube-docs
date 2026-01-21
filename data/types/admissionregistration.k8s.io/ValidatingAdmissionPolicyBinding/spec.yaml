@@ -1,4 +1,6 @@
 description:
-  original: Specification of the desired behavior of the ValidatingAdmissionPolicyBinding.
-  formatted: Specification of the desired behavior of the ValidatingAdmissionPolicyBinding.
+  original: |-
+    Specification of the desired behavior of the ValidatingAdmissionPolicyBinding.
+  formatted: |-
+    Specification of the desired behavior of the ValidatingAdmissionPolicyBinding.
 type: ValidatingAdmissionPolicyBindingSpec

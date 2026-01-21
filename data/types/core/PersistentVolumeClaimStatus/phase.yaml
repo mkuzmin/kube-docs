@@ -1,4 +1,6 @@
 description:
-  original: phase represents the current phase of PersistentVolumeClaim.
-  formatted: phase represents the current phase of PersistentVolumeClaim.
+  original: |-
+    phase represents the current phase of PersistentVolumeClaim.
+  formatted: |-
+    phase represents the current phase of PersistentVolumeClaim.
 type: string

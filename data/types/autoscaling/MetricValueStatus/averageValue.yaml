@@ -1,4 +1,6 @@
 description:
-  original: averageValue is the current value of the average of the metric across all relevant pods (as a quantity)
-  formatted: averageValue is the current value of the average of the metric across all relevant pods (as a quantity)
+  original: |-
+    averageValue is the current value of the average of the metric across all relevant pods (as a quantity)
+  formatted: |-
+    averageValue is the current value of the average of the metric across all relevant pods (as a quantity)
 type: Quantity

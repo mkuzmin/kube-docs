@@ -1,4 +1,6 @@
 description:
-  original: Devices is the result of allocating devices.
-  formatted: Devices is the result of allocating devices.
+  original: |-
+    Devices is the result of allocating devices.
+  formatted: |-
+    Devices is the result of allocating devices.
 type: DeviceAllocationResult

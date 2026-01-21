@@ -1,5 +1,7 @@
 description:
-  original: Added capabilities
-  formatted: Added capabilities
+  original: |-
+    Added capabilities
+  formatted: |-
+    Added capabilities
 type: string
 collection: array

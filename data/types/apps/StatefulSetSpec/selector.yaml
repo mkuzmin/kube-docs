@@ -1,5 +1,7 @@
 description:
-  original: 'selector is a label query over pods that should match the replica count. It must match the pod template''s labels. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#label-selectors'
-  formatted: 'selector is a label query over pods that should match the replica count. It must match the pod template''s labels. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#label-selectors'
+  original: |-
+    selector is a label query over pods that should match the replica count. It must match the pod template's labels. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#label-selectors
+  formatted: |-
+    selector is a label query over pods that should match the replica count. It must match the pod template's labels. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#label-selectors
 type: LabelSelector
 required: true

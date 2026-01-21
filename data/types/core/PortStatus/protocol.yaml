@@ -1,5 +1,7 @@
 description:
-  original: 'Protocol is the protocol of the service port of which status is recorded here The supported values are: "TCP", "UDP", "SCTP"'
-  formatted: 'Protocol is the protocol of the service port of which status is recorded here The supported values are: "TCP", "UDP", "SCTP"'
+  original: |-
+    Protocol is the protocol of the service port of which status is recorded here The supported values are: "TCP", "UDP", "SCTP"
+  formatted: |-
+    Protocol is the protocol of the service port of which status is recorded here The supported values are: "TCP", "UDP", "SCTP"
 type: string
 required: true

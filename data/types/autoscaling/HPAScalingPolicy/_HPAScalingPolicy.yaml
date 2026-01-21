@@ -1,3 +1,5 @@
 description:
-  original: HPAScalingPolicy is a single policy which must hold true for a specified past interval.
-  formatted: HPAScalingPolicy is a single policy which must hold true for a specified past interval.
+  original: |-
+    HPAScalingPolicy is a single policy which must hold true for a specified past interval.
+  formatted: |-
+    HPAScalingPolicy is a single policy which must hold true for a specified past interval.

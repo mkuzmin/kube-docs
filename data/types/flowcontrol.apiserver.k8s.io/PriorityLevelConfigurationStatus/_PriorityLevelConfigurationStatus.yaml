@@ -1,3 +1,5 @@
 description:
-  original: PriorityLevelConfigurationStatus represents the current state of a "request-priority".
-  formatted: PriorityLevelConfigurationStatus represents the current state of a "request-priority".
+  original: |-
+    PriorityLevelConfigurationStatus represents the current state of a "request-priority".
+  formatted: |-
+    PriorityLevelConfigurationStatus represents the current state of a "request-priority".

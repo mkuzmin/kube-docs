@@ -1,3 +1,5 @@
 description:
-  original: ResourceClaimTemplateSpec contains the metadata and fields for a ResourceClaim.
-  formatted: ResourceClaimTemplateSpec contains the metadata and fields for a ResourceClaim.
+  original: |-
+    ResourceClaimTemplateSpec contains the metadata and fields for a ResourceClaim.
+  formatted: |-
+    ResourceClaimTemplateSpec contains the metadata and fields for a ResourceClaim.

@@ -1,4 +1,6 @@
 description:
-  original: Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
-  formatted: Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
+  original: |-
+    Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
+  formatted: |-
+    Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
 type: string

@@ -1,3 +1,5 @@
 description:
-  original: LocalObjectReference contains enough information to let you locate the referenced object inside the same namespace.
-  formatted: LocalObjectReference contains enough information to let you locate the referenced object inside the same namespace.
+  original: |-
+    LocalObjectReference contains enough information to let you locate the referenced object inside the same namespace.
+  formatted: |-
+    LocalObjectReference contains enough information to let you locate the referenced object inside the same namespace.

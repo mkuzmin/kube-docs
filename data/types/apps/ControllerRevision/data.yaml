@@ -1,4 +1,6 @@
 description:
-  original: Data is the serialized representation of the state.
-  formatted: Data is the serialized representation of the state.
+  original: |-
+    Data is the serialized representation of the state.
+  formatted: |-
+    Data is the serialized representation of the state.
 type: RawExtension

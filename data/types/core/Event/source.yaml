@@ -1,4 +1,6 @@
 description:
-  original: The component reporting this event. Should be a short machine understandable string.
-  formatted: The component reporting this event. Should be a short machine understandable string.
+  original: |-
+    The component reporting this event. Should be a short machine understandable string.
+  formatted: |-
+    The component reporting this event. Should be a short machine understandable string.
 type: EventSource

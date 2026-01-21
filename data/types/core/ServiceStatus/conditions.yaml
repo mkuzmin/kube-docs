@@ -1,5 +1,7 @@
 description:
-  original: Current service state
-  formatted: Current service state
+  original: |-
+    Current service state
+  formatted: |-
+    Current service state
 type: Condition
 collection: array

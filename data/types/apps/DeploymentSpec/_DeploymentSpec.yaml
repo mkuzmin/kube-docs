@@ -1,3 +1,5 @@
 description:
-  original: DeploymentSpec is the specification of the desired behavior of the Deployment.
-  formatted: DeploymentSpec is the specification of the desired behavior of the Deployment.
+  original: |-
+    DeploymentSpec is the specification of the desired behavior of the Deployment.
+  formatted: |-
+    DeploymentSpec is the specification of the desired behavior of the Deployment.

@@ -1,5 +1,7 @@
 description:
-  original: '`name` is the name of the service. Required'
-  formatted: '`name` is the name of the service. Required'
+  original: |-
+    `name` is the name of the service. Required
+  formatted: |-
+    `name` is the name of the service. Required
 type: string
 required: true

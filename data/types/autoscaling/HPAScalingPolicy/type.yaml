@@ -1,5 +1,7 @@
 description:
-  original: type is used to specify the scaling policy.
-  formatted: type is used to specify the scaling policy.
+  original: |-
+    type is used to specify the scaling policy.
+  formatted: |-
+    type is used to specify the scaling policy.
 type: string
 required: true

@@ -1,3 +1,5 @@
 description:
-  original: SessionAffinityConfig represents the configurations of session affinity.
-  formatted: SessionAffinityConfig represents the configurations of session affinity.
+  original: |-
+    SessionAffinityConfig represents the configurations of session affinity.
+  formatted: |-
+    SessionAffinityConfig represents the configurations of session affinity.

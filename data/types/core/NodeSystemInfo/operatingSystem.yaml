@@ -1,5 +1,7 @@
 description:
-  original: The Operating System reported by the node
-  formatted: The Operating System reported by the node
+  original: |-
+    The Operating System reported by the node
+  formatted: |-
+    The Operating System reported by the node
 type: string
 required: true

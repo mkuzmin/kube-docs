@@ -1,4 +1,6 @@
 description:
-  original: Namespace is the namespace of the object being referenced.
-  formatted: Namespace is the namespace of the object being referenced.
+  original: |-
+    Namespace is the namespace of the object being referenced.
+  formatted: |-
+    Namespace is the namespace of the object being referenced.
 type: string

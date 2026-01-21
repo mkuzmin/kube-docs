@@ -1,3 +1,5 @@
 description:
-  original: FlowSchemaSpec describes how the FlowSchema's specification looks like.
-  formatted: FlowSchemaSpec describes how the FlowSchema's specification looks like.
+  original: |-
+    FlowSchemaSpec describes how the FlowSchema's specification looks like.
+  formatted: |-
+    FlowSchemaSpec describes how the FlowSchema's specification looks like.

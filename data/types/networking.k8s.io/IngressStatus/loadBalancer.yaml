@@ -1,4 +1,6 @@
 description:
-  original: loadBalancer contains the current status of the load-balancer.
-  formatted: loadBalancer contains the current status of the load-balancer.
+  original: |-
+    loadBalancer contains the current status of the load-balancer.
+  formatted: |-
+    loadBalancer contains the current status of the load-balancer.
 type: IngressLoadBalancerStatus

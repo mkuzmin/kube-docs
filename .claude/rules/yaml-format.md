@@ -14,9 +14,9 @@ data/types/{group}/{TypeName}/
 
 ```yaml
 description:
-  original: |
+  original: |-
     Deployment enables declarative updates for Pods and ReplicaSets.
-  formatted: |
+  formatted: |-
     Deployment enables declarative updates for Pods and ReplicaSets.
 kind: true  # only for top-level resources
 ```
@@ -25,13 +25,29 @@ kind: true  # only for top-level resources
 
 ```yaml
 description:
-  original: |
+  original: |-
     Specification of the desired behavior.
-  formatted: |
+  formatted: |-
     Specification of the desired behavior.
 type: PodSpec
 collection: array
 required: true
+```
+
+## Literal Block Style
+
+Use `|-` (literal with strip chomping) for description values:
+- `|` keeps one trailing newline in parsed value
+- `|-` strips trailing newlines (what we want)
+
+```yaml
+# good - no trailing newline in value
+formatted: |-
+  Description text here.
+
+# bad - value includes trailing newline
+formatted: |
+  Description text here.
 ```
 
 ## Workflow

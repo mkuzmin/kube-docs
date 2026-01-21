@@ -1,5 +1,7 @@
 description:
-  original: Number of pod disruptions that are currently allowed.
-  formatted: Number of pod disruptions that are currently allowed.
+  original: |-
+    Number of pod disruptions that are currently allowed.
+  formatted: |-
+    Number of pod disruptions that are currently allowed.
 type: integer
 required: true

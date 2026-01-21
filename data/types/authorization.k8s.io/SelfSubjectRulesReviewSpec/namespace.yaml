@@ -1,4 +1,6 @@
 description:
-  original: Namespace to evaluate rules for. Required.
-  formatted: Namespace to evaluate rules for. Required.
+  original: |-
+    Namespace to evaluate rules for. Required.
+  formatted: |-
+    Namespace to evaluate rules for. Required.
 type: string

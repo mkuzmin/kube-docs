@@ -1,7 +1,7 @@
 description:
   original: |-
     x-kubernetes-list-type annotates an array to further describe its topology. This extension must only be used on lists and may have 3 possible values:
-
+    
     1) `atomic`: the list is treated as a single entity, like a scalar.
          Atomic lists will be entirely replaced when updated. This extension
          may be used on any type of list (struct, scalar, ...).
@@ -16,7 +16,7 @@ description:
     Defaults to atomic for arrays.
   formatted: |-
     x-kubernetes-list-type annotates an array to further describe its topology. This extension must only be used on lists and may have 3 possible values:
-
+    
     1) `atomic`: the list is treated as a single entity, like a scalar.
          Atomic lists will be entirely replaced when updated. This extension
          may be used on any type of list (struct, scalar, ...).

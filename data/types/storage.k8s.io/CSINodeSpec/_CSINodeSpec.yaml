@@ -1,3 +1,5 @@
 description:
-  original: CSINodeSpec holds information about the specification of all CSI drivers installed on a node
-  formatted: CSINodeSpec holds information about the specification of all CSI drivers installed on a node
+  original: |-
+    CSINodeSpec holds information about the specification of all CSI drivers installed on a node
+  formatted: |-
+    CSINodeSpec holds information about the specification of all CSI drivers installed on a node

@@ -1,18 +1,18 @@
 description:
   original: |-
     optionalOldSelf is used to opt a transition rule into evaluation even when the object is first created, or if the old object is missing the value.
-
+    
     When enabled `oldSelf` will be a CEL optional whose value will be `None` if there is no old value, or when the object is initially created.
-
+    
     You may check for presence of oldSelf using `oldSelf.hasValue()` and unwrap it after checking using `oldSelf.value()`. Check the CEL documentation for Optional types for more information: https://pkg.go.dev/github.com/google/cel-go/cel#OptionalTypes
-
+    
     May not be set unless `oldSelf` is used in `rule`.
   formatted: |-
     optionalOldSelf is used to opt a transition rule into evaluation even when the object is first created, or if the old object is missing the value.
-
+    
     When enabled `oldSelf` will be a CEL optional whose value will be `None` if there is no old value, or when the object is initially created.
-
+    
     You may check for presence of oldSelf using `oldSelf.hasValue()` and unwrap it after checking using `oldSelf.value()`. Check the CEL documentation for Optional types for more information: https://pkg.go.dev/github.com/google/cel-go/cel#OptionalTypes
-
+    
     May not be set unless `oldSelf` is used in `rule`.
 type: boolean

@@ -1,4 +1,6 @@
 description:
-  original: readOnly specifies a read-only configuration for the volume. Defaults to false (read/write).
-  formatted: readOnly specifies a read-only configuration for the volume. Defaults to false (read/write).
+  original: |-
+    readOnly specifies a read-only configuration for the volume. Defaults to false (read/write).
+  formatted: |-
+    readOnly specifies a read-only configuration for the volume. Defaults to false (read/write).
 type: boolean

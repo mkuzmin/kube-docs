@@ -1,7 +1,7 @@
 description:
   original: |-
     CapacityRequestPolicyRange defines a valid range for consumable capacity values.
-
+    
       - If the requested amount is less than Min, it is rounded up to the Min value.
       - If Step is set and the requested amount is between Min and Max but not aligned with Step,
         it will be rounded up to the next value equal to Min + (n * Step).
@@ -10,7 +10,7 @@ description:
         and the device cannot be allocated.
   formatted: |-
     CapacityRequestPolicyRange defines a valid range for consumable capacity values.
-
+    
       - If the requested amount is less than Min, it is rounded up to the Min value.
       - If Step is set and the requested amount is between Min and Max but not aligned with Step,
         it will be rounded up to the next value equal to Min + (n * Step).

@@ -1,5 +1,7 @@
 description:
-  original: Name corresponds to the name of the original VolumeMount.
-  formatted: Name corresponds to the name of the original VolumeMount.
+  original: |-
+    Name corresponds to the name of the original VolumeMount.
+  formatted: |-
+    Name corresponds to the name of the original VolumeMount.
 type: string
 required: true

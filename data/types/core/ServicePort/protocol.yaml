@@ -1,4 +1,6 @@
 description:
-  original: The IP protocol for this port. Supports "TCP", "UDP", and "SCTP". Default is TCP.
-  formatted: The IP protocol for this port. Supports "TCP", "UDP", and "SCTP". Default is TCP.
+  original: |-
+    The IP protocol for this port. Supports "TCP", "UDP", and "SCTP". Default is TCP.
+  formatted: |-
+    The IP protocol for this port. Supports "TCP", "UDP", and "SCTP". Default is TCP.
 type: string

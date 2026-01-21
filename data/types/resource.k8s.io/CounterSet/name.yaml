@@ -1,5 +1,7 @@
 description:
-  original: Name defines the name of the counter set. It must be a DNS label.
-  formatted: Name defines the name of the counter set. It must be a DNS label.
+  original: |-
+    Name defines the name of the counter set. It must be a DNS label.
+  formatted: |-
+    Name defines the name of the counter set. It must be a DNS label.
 type: string
 required: true

@@ -1,3 +1,5 @@
 description:
-  original: ContainerResizePolicy represents resource resize policy for the container.
-  formatted: ContainerResizePolicy represents resource resize policy for the container.
+  original: |-
+    ContainerResizePolicy represents resource resize policy for the container.
+  formatted: |-
+    ContainerResizePolicy represents resource resize policy for the container.

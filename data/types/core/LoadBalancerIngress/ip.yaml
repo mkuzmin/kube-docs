@@ -1,4 +1,6 @@
 description:
-  original: IP is set for load-balancer ingress points that are IP based (typically GCE or OpenStack load-balancers)
-  formatted: IP is set for load-balancer ingress points that are IP based (typically GCE or OpenStack load-balancers)
+  original: |-
+    IP is set for load-balancer ingress points that are IP based (typically GCE or OpenStack load-balancers)
+  formatted: |-
+    IP is set for load-balancer ingress points that are IP based (typically GCE or OpenStack load-balancers)
 type: string

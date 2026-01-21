@@ -1,4 +1,6 @@
 description:
-  original: '`type` is the type of the condition. Required.'
-  formatted: '`type` is the type of the condition. Required.'
+  original: |-
+    `type` is the type of the condition. Required.
+  formatted: |-
+    `type` is the type of the condition. Required.
 type: string

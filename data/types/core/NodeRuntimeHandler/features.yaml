@@ -1,4 +1,6 @@
 description:
-  original: Supported features.
-  formatted: Supported features.
+  original: |-
+    Supported features.
+  formatted: |-
+    Supported features.
 type: NodeRuntimeHandlerFeatures

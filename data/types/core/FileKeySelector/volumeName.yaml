@@ -1,5 +1,7 @@
 description:
-  original: The name of the volume mount containing the env file.
-  formatted: The name of the volume mount containing the env file.
+  original: |-
+    The name of the volume mount containing the env file.
+  formatted: |-
+    The name of the volume mount containing the env file.
 type: string
 required: true

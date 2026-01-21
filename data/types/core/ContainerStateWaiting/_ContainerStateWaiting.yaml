@@ -1,3 +1,5 @@
 description:
-  original: ContainerStateWaiting is a waiting state of a container.
-  formatted: ContainerStateWaiting is a waiting state of a container.
+  original: |-
+    ContainerStateWaiting is a waiting state of a container.
+  formatted: |-
+    ContainerStateWaiting is a waiting state of a container.

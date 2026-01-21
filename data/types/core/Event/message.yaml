@@ -1,4 +1,6 @@
 description:
-  original: A human-readable description of the status of this operation.
-  formatted: A human-readable description of the status of this operation.
+  original: |-
+    A human-readable description of the status of this operation.
+  formatted: |-
+    A human-readable description of the status of this operation.
 type: string

@@ -1,4 +1,6 @@
 description:
-  original: BoolValue is a true/false value.
-  formatted: BoolValue is a true/false value.
+  original: |-
+    BoolValue is a true/false value.
+  formatted: |-
+    BoolValue is a true/false value.
 type: boolean

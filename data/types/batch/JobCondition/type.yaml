@@ -1,5 +1,7 @@
 description:
-  original: Type of job condition, Complete or Failed.
-  formatted: Type of job condition, Complete or Failed.
+  original: |-
+    Type of job condition, Complete or Failed.
+  formatted: |-
+    Type of job condition, Complete or Failed.
 type: string
 required: true

@@ -1,4 +1,6 @@
 description:
-  original: Specify whether the ConfigMap must be defined
-  formatted: Specify whether the ConfigMap must be defined
+  original: |-
+    Specify whether the ConfigMap must be defined
+  formatted: |-
+    Specify whether the ConfigMap must be defined
 type: boolean

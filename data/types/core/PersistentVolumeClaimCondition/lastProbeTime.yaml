@@ -1,4 +1,6 @@
 description:
-  original: lastProbeTime is the time we probed the condition.
-  formatted: lastProbeTime is the time we probed the condition.
+  original: |-
+    lastProbeTime is the time we probed the condition.
+  formatted: |-
+    lastProbeTime is the time we probed the condition.
 type: Time

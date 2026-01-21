@@ -1,3 +1,5 @@
 description:
-  original: SuccessPolicy describes when a Job can be declared as succeeded based on the success of some indexes.
-  formatted: SuccessPolicy describes when a Job can be declared as succeeded based on the success of some indexes.
+  original: |-
+    SuccessPolicy describes when a Job can be declared as succeeded based on the success of some indexes.
+  formatted: |-
+    SuccessPolicy describes when a Job can be declared as succeeded based on the success of some indexes.

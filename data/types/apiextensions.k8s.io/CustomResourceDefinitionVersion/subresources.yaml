@@ -1,4 +1,6 @@
 description:
-  original: subresources specify what subresources this version of the defined custom resource have.
-  formatted: subresources specify what subresources this version of the defined custom resource have.
+  original: |-
+    subresources specify what subresources this version of the defined custom resource have.
+  formatted: |-
+    subresources specify what subresources this version of the defined custom resource have.
 type: CustomResourceSubresources

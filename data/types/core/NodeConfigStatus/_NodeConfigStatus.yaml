@@ -1,3 +1,5 @@
 description:
-  original: NodeConfigStatus describes the status of the config assigned by Node.Spec.ConfigSource.
-  formatted: NodeConfigStatus describes the status of the config assigned by Node.Spec.ConfigSource.
+  original: |-
+    NodeConfigStatus describes the status of the config assigned by Node.Spec.ConfigSource.
+  formatted: |-
+    NodeConfigStatus describes the status of the config assigned by Node.Spec.ConfigSource.

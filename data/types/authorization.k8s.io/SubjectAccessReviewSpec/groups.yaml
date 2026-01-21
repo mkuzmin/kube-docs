@@ -1,5 +1,7 @@
 description:
-  original: Groups is the groups you're testing for.
-  formatted: Groups is the groups you're testing for.
+  original: |-
+    Groups is the groups you're testing for.
+  formatted: |-
+    Groups is the groups you're testing for.
 type: string
 collection: array

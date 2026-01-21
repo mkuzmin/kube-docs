@@ -1,4 +1,6 @@
 description:
-  original: configMap information about the configMap data to project
-  formatted: configMap information about the configMap data to project
+  original: |-
+    configMap information about the configMap data to project
+  formatted: |-
+    configMap information about the configMap data to project
 type: ConfigMapProjection

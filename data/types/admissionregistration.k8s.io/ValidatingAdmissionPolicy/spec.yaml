@@ -1,4 +1,6 @@
 description:
-  original: Specification of the desired behavior of the ValidatingAdmissionPolicy.
-  formatted: Specification of the desired behavior of the ValidatingAdmissionPolicy.
+  original: |-
+    Specification of the desired behavior of the ValidatingAdmissionPolicy.
+  formatted: |-
+    Specification of the desired behavior of the ValidatingAdmissionPolicy.
 type: ValidatingAdmissionPolicySpec

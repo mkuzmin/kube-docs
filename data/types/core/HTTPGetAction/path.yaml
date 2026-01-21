@@ -1,4 +1,6 @@
 description:
-  original: Path to access on the HTTP server.
-  formatted: Path to access on the HTTP server.
+  original: |-
+    Path to access on the HTTP server.
+  formatted: |-
+    Path to access on the HTTP server.
 type: string

@@ -1,4 +1,6 @@
 description:
-  original: NonResourceAttributes describes information for a non-resource access request
-  formatted: NonResourceAttributes describes information for a non-resource access request
+  original: |-
+    NonResourceAttributes describes information for a non-resource access request
+  formatted: |-
+    NonResourceAttributes describes information for a non-resource access request
 type: NonResourceAttributes

@@ -1,4 +1,6 @@
 description:
-  original: The Hostname of this endpoint
-  formatted: The Hostname of this endpoint
+  original: |-
+    The Hostname of this endpoint
+  formatted: |-
+    The Hostname of this endpoint
 type: string

@@ -1,5 +1,7 @@
 description:
-  original: spec is the specification of CSINode
-  formatted: spec is the specification of CSINode
+  original: |-
+    spec is the specification of CSINode
+  formatted: |-
+    spec is the specification of CSINode
 type: CSINodeSpec
 required: true

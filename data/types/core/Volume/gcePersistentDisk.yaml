@@ -1,6 +1,6 @@
 description:
-  original: 'gcePersistentDisk represents a GCE Disk resource that is attached to a kubelet''s host machine and then exposed to the pod. Deprecated: GCEPersistentDisk is deprecated. All operations for the in-tree gcePersistentDisk type are redirected to the pd.csi.storage.gke.io CSI driver. More info:
-    https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk'
-  formatted: 'gcePersistentDisk represents a GCE Disk resource that is attached to a kubelet''s host machine and then exposed to the pod. Deprecated: GCEPersistentDisk is deprecated. All operations for the in-tree gcePersistentDisk type are redirected to the pd.csi.storage.gke.io CSI driver. More info:
-    https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk'
+  original: |-
+    gcePersistentDisk represents a GCE Disk resource that is attached to a kubelet's host machine and then exposed to the pod. Deprecated: GCEPersistentDisk is deprecated. All operations for the in-tree gcePersistentDisk type are redirected to the pd.csi.storage.gke.io CSI driver. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
+  formatted: |-
+    gcePersistentDisk represents a GCE Disk resource that is attached to a kubelet's host machine and then exposed to the pod. Deprecated: GCEPersistentDisk is deprecated. All operations for the in-tree gcePersistentDisk type are redirected to the pd.csi.storage.gke.io CSI driver. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
 type: GCEPersistentDiskVolumeSource

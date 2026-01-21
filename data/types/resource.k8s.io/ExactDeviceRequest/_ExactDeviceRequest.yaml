@@ -1,3 +1,5 @@
 description:
-  original: ExactDeviceRequest is a request for one or more identical devices.
-  formatted: ExactDeviceRequest is a request for one or more identical devices.
+  original: |-
+    ExactDeviceRequest is a request for one or more identical devices.
+  formatted: |-
+    ExactDeviceRequest is a request for one or more identical devices.

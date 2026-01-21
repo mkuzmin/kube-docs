@@ -1,5 +1,7 @@
 description:
-  original: APIGroup is the group for the resource being referenced
-  formatted: APIGroup is the group for the resource being referenced
+  original: |-
+    APIGroup is the group for the resource being referenced
+  formatted: |-
+    APIGroup is the group for the resource being referenced
 type: string
 required: true

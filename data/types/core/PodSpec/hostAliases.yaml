@@ -1,5 +1,7 @@
 description:
-  original: HostAliases is an optional list of hosts and IPs that will be injected into the pod's hosts file if specified.
-  formatted: HostAliases is an optional list of hosts and IPs that will be injected into the pod's hosts file if specified.
+  original: |-
+    HostAliases is an optional list of hosts and IPs that will be injected into the pod's hosts file if specified.
+  formatted: |-
+    HostAliases is an optional list of hosts and IPs that will be injected into the pod's hosts file if specified.
 type: HostAlias
 collection: array

@@ -1,5 +1,7 @@
 description:
-  original: The available runtime handlers.
-  formatted: The available runtime handlers.
+  original: |-
+    The available runtime handlers.
+  formatted: |-
+    The available runtime handlers.
 type: NodeRuntimeHandler
 collection: array

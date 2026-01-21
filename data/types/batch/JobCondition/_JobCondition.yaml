@@ -1,3 +1,5 @@
 description:
-  original: JobCondition describes current state of a job.
-  formatted: JobCondition describes current state of a job.
+  original: |-
+    JobCondition describes current state of a job.
+  formatted: |-
+    JobCondition describes current state of a job.

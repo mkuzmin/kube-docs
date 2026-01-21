@@ -1,3 +1,5 @@
 description:
-  original: JobSpec describes how the job execution will look like.
-  formatted: JobSpec describes how the job execution will look like.
+  original: |-
+    JobSpec describes how the job execution will look like.
+  formatted: |-
+    JobSpec describes how the job execution will look like.

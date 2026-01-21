@@ -1,4 +1,6 @@
 description:
-  original: Swap Info reported by the node.
-  formatted: Swap Info reported by the node.
+  original: |-
+    Swap Info reported by the node.
+  formatted: |-
+    Swap Info reported by the node.
 type: NodeSwapStatus

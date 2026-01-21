@@ -1,3 +1,5 @@
 description:
-  original: DaemonSetStatus represents the current status of a daemon set.
-  formatted: DaemonSetStatus represents the current status of a daemon set.
+  original: |-
+    DaemonSetStatus represents the current status of a daemon set.
+  formatted: |-
+    DaemonSetStatus represents the current status of a daemon set.

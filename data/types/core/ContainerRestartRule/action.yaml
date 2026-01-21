@@ -1,5 +1,7 @@
 description:
-  original: Specifies the action taken on a container exit if the requirements are satisfied. The only possible value is "Restart" to restart the container.
-  formatted: Specifies the action taken on a container exit if the requirements are satisfied. The only possible value is "Restart" to restart the container.
+  original: |-
+    Specifies the action taken on a container exit if the requirements are satisfied. The only possible value is "Restart" to restart the container.
+  formatted: |-
+    Specifies the action taken on a container exit if the requirements are satisfied. The only possible value is "Restart" to restart the container.
 type: string
 required: true

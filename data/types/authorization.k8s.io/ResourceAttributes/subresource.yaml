@@ -1,4 +1,6 @@
 description:
-  original: Subresource is one of the existing resource types.  "" means none.
-  formatted: Subresource is one of the existing resource types.  "" means none.
+  original: |-
+    Subresource is one of the existing resource types.  "" means none.
+  formatted: |-
+    Subresource is one of the existing resource types.  "" means none.
 type: string

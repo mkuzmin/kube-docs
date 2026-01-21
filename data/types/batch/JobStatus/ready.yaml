@@ -1,4 +1,6 @@
 description:
-  original: The number of active pods which have a Ready condition and are not terminating (without a deletionTimestamp).
-  formatted: The number of active pods which have a Ready condition and are not terminating (without a deletionTimestamp).
+  original: |-
+    The number of active pods which have a Ready condition and are not terminating (without a deletionTimestamp).
+  formatted: |-
+    The number of active pods which have a Ready condition and are not terminating (without a deletionTimestamp).
 type: integer

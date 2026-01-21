@@ -1,4 +1,6 @@
 description:
-  original: Type of this event (Normal, Warning), new types could be added in the future
-  formatted: Type of this event (Normal, Warning), new types could be added in the future
+  original: |-
+    Type of this event (Normal, Warning), new types could be added in the future
+  formatted: |-
+    Type of this event (Normal, Warning), new types could be added in the future
 type: string

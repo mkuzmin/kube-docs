@@ -1,5 +1,7 @@
 description:
-  original: AllocatedResourcesStatus represents the status of various resources allocated for this Pod.
-  formatted: AllocatedResourcesStatus represents the status of various resources allocated for this Pod.
+  original: |-
+    AllocatedResourcesStatus represents the status of various resources allocated for this Pod.
+  formatted: |-
+    AllocatedResourcesStatus represents the status of various resources allocated for this Pod.
 type: ResourceStatus
 collection: array

@@ -1,4 +1,6 @@
 description:
-  original: Most recently observed status of the PodDisruptionBudget.
-  formatted: Most recently observed status of the PodDisruptionBudget.
+  original: |-
+    Most recently observed status of the PodDisruptionBudget.
+  formatted: |-
+    Most recently observed status of the PodDisruptionBudget.
 type: PodDisruptionBudgetStatus

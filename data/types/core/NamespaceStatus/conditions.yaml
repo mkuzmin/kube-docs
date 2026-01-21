@@ -1,5 +1,7 @@
 description:
-  original: Represents the latest available observations of a namespace's current state.
-  formatted: Represents the latest available observations of a namespace's current state.
+  original: |-
+    Represents the latest available observations of a namespace's current state.
+  formatted: |-
+    Represents the latest available observations of a namespace's current state.
 type: NamespaceCondition
 collection: array

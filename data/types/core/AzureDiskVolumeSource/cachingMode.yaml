@@ -1,4 +1,6 @@
 description:
-  original: 'cachingMode is the Host Caching mode: None, Read Only, Read Write.'
-  formatted: 'cachingMode is the Host Caching mode: None, Read Only, Read Write.'
+  original: |-
+    cachingMode is the Host Caching mode: None, Read Only, Read Write.
+  formatted: |-
+    cachingMode is the Host Caching mode: None, Read Only, Read Write.
 type: string

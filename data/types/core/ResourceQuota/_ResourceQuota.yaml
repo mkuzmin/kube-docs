@@ -1,4 +1,6 @@
 description:
-  original: ResourceQuota sets aggregate quota restrictions enforced per namespace
-  formatted: ResourceQuota sets aggregate quota restrictions enforced per namespace
+  original: |-
+    ResourceQuota sets aggregate quota restrictions enforced per namespace
+  formatted: |-
+    ResourceQuota sets aggregate quota restrictions enforced per namespace
 kind: true

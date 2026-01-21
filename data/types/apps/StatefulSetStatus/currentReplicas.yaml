@@ -1,4 +1,6 @@
 description:
-  original: currentReplicas is the number of Pods created by the StatefulSet controller from the StatefulSet version indicated by currentRevision.
-  formatted: currentReplicas is the number of Pods created by the StatefulSet controller from the StatefulSet version indicated by currentRevision.
+  original: |-
+    currentReplicas is the number of Pods created by the StatefulSet controller from the StatefulSet version indicated by currentRevision.
+  formatted: |-
+    currentReplicas is the number of Pods created by the StatefulSet controller from the StatefulSet version indicated by currentRevision.
 type: integer

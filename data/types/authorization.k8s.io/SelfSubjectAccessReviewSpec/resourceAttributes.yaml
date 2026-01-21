@@ -1,4 +1,6 @@
 description:
-  original: ResourceAuthorizationAttributes describes information for a resource access request
-  formatted: ResourceAuthorizationAttributes describes information for a resource access request
+  original: |-
+    ResourceAuthorizationAttributes describes information for a resource access request
+  formatted: |-
+    ResourceAuthorizationAttributes describes information for a resource access request
 type: ResourceAttributes

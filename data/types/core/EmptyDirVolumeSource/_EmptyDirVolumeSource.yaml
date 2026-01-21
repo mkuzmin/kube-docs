@@ -1,3 +1,5 @@
 description:
-  original: Represents an empty directory for a pod. Empty directory volumes support ownership management and SELinux relabeling.
-  formatted: Represents an empty directory for a pod. Empty directory volumes support ownership management and SELinux relabeling.
+  original: |-
+    Represents an empty directory for a pod. Empty directory volumes support ownership management and SELinux relabeling.
+  formatted: |-
+    Represents an empty directory for a pod. Empty directory volumes support ownership management and SELinux relabeling.

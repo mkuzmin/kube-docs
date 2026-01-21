@@ -1,4 +1,6 @@
 description:
-  original: User represents user identity information initially attached to the first process of the container
-  formatted: User represents user identity information initially attached to the first process of the container
+  original: |-
+    User represents user identity information initially attached to the first process of the container
+  formatted: |-
+    User represents user identity information initially attached to the first process of the container
 type: ContainerUser

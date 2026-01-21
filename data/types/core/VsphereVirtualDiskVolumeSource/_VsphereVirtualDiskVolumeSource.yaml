@@ -1,3 +1,5 @@
 description:
-  original: Represents a vSphere volume resource.
-  formatted: Represents a vSphere volume resource.
+  original: |-
+    Represents a vSphere volume resource.
+  formatted: |-
+    Represents a vSphere volume resource.

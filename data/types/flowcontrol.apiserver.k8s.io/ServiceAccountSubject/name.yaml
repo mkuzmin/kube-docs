@@ -1,5 +1,7 @@
 description:
-  original: '`name` is the name of matching ServiceAccount objects, or "*" to match regardless of name. Required.'
-  formatted: '`name` is the name of matching ServiceAccount objects, or "*" to match regardless of name. Required.'
+  original: |-
+    `name` is the name of matching ServiceAccount objects, or "*" to match regardless of name. Required.
+  formatted: |-
+    `name` is the name of matching ServiceAccount objects, or "*" to match regardless of name. Required.
 type: string
 required: true

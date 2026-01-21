@@ -1,5 +1,7 @@
 description:
-  original: Type of DaemonSet condition.
-  formatted: Type of DaemonSet condition.
+  original: |-
+    Type of DaemonSet condition.
+  formatted: |-
+    Type of DaemonSet condition.
 type: string
 required: true

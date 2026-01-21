@@ -1,3 +1,5 @@
 description:
-  original: Projection that may be projected along with other supported volume types. Exactly one of these fields must be set.
-  formatted: Projection that may be projected along with other supported volume types. Exactly one of these fields must be set.
+  original: |-
+    Projection that may be projected along with other supported volume types. Exactly one of these fields must be set.
+  formatted: |-
+    Projection that may be projected along with other supported volume types. Exactly one of these fields must be set.

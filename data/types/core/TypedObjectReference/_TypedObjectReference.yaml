@@ -1,3 +1,5 @@
 description:
-  original: TypedObjectReference contains enough information to let you locate the typed referenced object
-  formatted: TypedObjectReference contains enough information to let you locate the typed referenced object
+  original: |-
+    TypedObjectReference contains enough information to let you locate the typed referenced object
+  formatted: |-
+    TypedObjectReference contains enough information to let you locate the typed referenced object

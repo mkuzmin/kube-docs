@@ -1,3 +1,5 @@
 description:
-  original: NodeDaemonEndpoints lists ports opened by daemons running on the Node.
-  formatted: NodeDaemonEndpoints lists ports opened by daemons running on the Node.
+  original: |-
+    NodeDaemonEndpoints lists ports opened by daemons running on the Node.
+  formatted: |-
+    NodeDaemonEndpoints lists ports opened by daemons running on the Node.

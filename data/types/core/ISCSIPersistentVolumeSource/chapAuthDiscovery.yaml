@@ -1,4 +1,6 @@
 description:
-  original: chapAuthDiscovery defines whether support iSCSI Discovery CHAP authentication
-  formatted: chapAuthDiscovery defines whether support iSCSI Discovery CHAP authentication
+  original: |-
+    chapAuthDiscovery defines whether support iSCSI Discovery CHAP authentication
+  formatted: |-
+    chapAuthDiscovery defines whether support iSCSI Discovery CHAP authentication
 type: boolean

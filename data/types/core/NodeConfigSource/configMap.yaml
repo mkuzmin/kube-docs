@@ -1,4 +1,6 @@
 description:
-  original: ConfigMap is a reference to a Node's ConfigMap
-  formatted: ConfigMap is a reference to a Node's ConfigMap
+  original: |-
+    ConfigMap is a reference to a Node's ConfigMap
+  formatted: |-
+    ConfigMap is a reference to a Node's ConfigMap
 type: ConfigMapNodeConfigSource

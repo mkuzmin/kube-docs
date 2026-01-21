@@ -1,5 +1,7 @@
 description:
-  original: List of container images on this node
-  formatted: List of container images on this node
+  original: |-
+    List of container images on this node
+  formatted: |-
+    List of container images on this node
 type: ContainerImage
 collection: array

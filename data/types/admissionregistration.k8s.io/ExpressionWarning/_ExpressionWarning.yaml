@@ -1,3 +1,5 @@
 description:
-  original: ExpressionWarning is a warning information that targets a specific expression.
-  formatted: ExpressionWarning is a warning information that targets a specific expression.
+  original: |-
+    ExpressionWarning is a warning information that targets a specific expression.
+  formatted: |-
+    ExpressionWarning is a warning information that targets a specific expression.

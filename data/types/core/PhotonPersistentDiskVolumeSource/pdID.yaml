@@ -1,5 +1,7 @@
 description:
-  original: pdID is the ID that identifies Photon Controller persistent disk
-  formatted: pdID is the ID that identifies Photon Controller persistent disk
+  original: |-
+    pdID is the ID that identifies Photon Controller persistent disk
+  formatted: |-
+    pdID is the ID that identifies Photon Controller persistent disk
 type: string
 required: true

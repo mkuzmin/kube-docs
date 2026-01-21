@@ -1,5 +1,7 @@
 description:
-  original: Spec holds information about the request being evaluated
-  formatted: Spec holds information about the request being evaluated
+  original: |-
+    Spec holds information about the request being evaluated
+  formatted: |-
+    Spec holds information about the request being evaluated
 type: SubjectAccessReviewSpec
 required: true

@@ -1,3 +1,5 @@
 description:
-  original: ContainerExtendedResourceRequest has the mapping of container name, extended resource name to the device request name.
-  formatted: ContainerExtendedResourceRequest has the mapping of container name, extended resource name to the device request name.
+  original: |-
+    ContainerExtendedResourceRequest has the mapping of container name, extended resource name to the device request name.
+  formatted: |-
+    ContainerExtendedResourceRequest has the mapping of container name, extended resource name to the device request name.

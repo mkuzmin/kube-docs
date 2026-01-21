@@ -1,4 +1,6 @@
 description:
-  original: RollingUpdate is used to communicate parameters when Type is RollingUpdateStatefulSetStrategyType.
-  formatted: RollingUpdate is used to communicate parameters when Type is RollingUpdateStatefulSetStrategyType.
+  original: |-
+    RollingUpdate is used to communicate parameters when Type is RollingUpdateStatefulSetStrategyType.
+  formatted: |-
+    RollingUpdate is used to communicate parameters when Type is RollingUpdateStatefulSetStrategyType.
 type: RollingUpdateStatefulSetStrategy

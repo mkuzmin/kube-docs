@@ -27,13 +27,15 @@ Transform `description.formatted` fields in YAML files.
 Include these rules in sub-agent prompts:
 
 ### 1. Remove filler at start
-Remove redundant names and filler verbs. Only remove text, never add new words.
+Remove redundant names and filler verbs at the **start** of descriptions. Only remove text, never add or rewrite words elsewhere.
 
 - `_APIService.yaml`: `APIService represents a server for...` → `A server for...`
 - `_ExpressionWarning.yaml`: `ExpressionWarning is a warning...` → `A warning...`
 - `spec.yaml`: `Spec specifies information for locating...` → `Information for locating...`
 - `status.yaml`: `Status contains derived information...` → `Derived information...`
-- `ValidatingAdmissionPolicy/status.yaml`: `The status of the ValidatingAdmissionPolicy` → `The status` 
+- `ValidatingAdmissionPolicy/status.yaml`: `The status of the ValidatingAdmissionPolicy` → `The status`
+
+**Do NOT rewrite sentences.** If original says "We'd recommend X", keep it - don't change to "Recommended: X". 
 
 ### 2. Code in backticks
 Wrap regex patterns, field paths, template patterns:
@@ -77,7 +79,8 @@ Type of deployment.
        For each file:
        1. Read with: yq '.description.original' <file>
        2. Apply transformation rules
-       3. Write with: formatted='<result>' yq -i '.description.formatted = strenv(formatted)' <file>
+       3. Write with literal style (preserves other fields):
+          formatted='<result>' yq -i '.description.formatted = strenv(formatted) | .description.formatted style="literal"' <file>
        4. If enum, also run: yq -i '.enum = true' <file>
 
        Report: "Done." or "Done. Errors: [list]"

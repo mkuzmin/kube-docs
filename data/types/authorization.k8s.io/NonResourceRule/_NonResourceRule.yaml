@@ -1,3 +1,5 @@
 description:
-  original: NonResourceRule holds information that describes a rule for the non-resource
-  formatted: NonResourceRule holds information that describes a rule for the non-resource
+  original: |-
+    NonResourceRule holds information that describes a rule for the non-resource
+  formatted: |-
+    NonResourceRule holds information that describes a rule for the non-resource

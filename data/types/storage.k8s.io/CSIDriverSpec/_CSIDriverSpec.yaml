@@ -1,3 +1,5 @@
 description:
-  original: CSIDriverSpec is the specification of a CSIDriver.
-  formatted: CSIDriverSpec is the specification of a CSIDriver.
+  original: |-
+    CSIDriverSpec is the specification of a CSIDriver.
+  formatted: |-
+    CSIDriverSpec is the specification of a CSIDriver.

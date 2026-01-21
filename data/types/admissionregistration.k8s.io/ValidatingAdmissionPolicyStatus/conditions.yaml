@@ -1,5 +1,7 @@
 description:
-  original: The conditions represent the latest available observations of a policy's current state.
-  formatted: The conditions represent the latest available observations of a policy's current state.
+  original: |-
+    The conditions represent the latest available observations of a policy's current state.
+  formatted: |-
+    The conditions represent the latest available observations of a policy's current state.
 type: Condition
 collection: array

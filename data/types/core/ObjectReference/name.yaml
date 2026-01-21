@@ -1,4 +1,6 @@
 description:
-  original: 'Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names'
-  formatted: 'Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names'
+  original: |-
+    Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
+  formatted: |-
+    Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
 type: string

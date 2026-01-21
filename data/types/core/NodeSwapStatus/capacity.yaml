@@ -1,4 +1,6 @@
 description:
-  original: Total amount of swap memory in bytes.
-  formatted: Total amount of swap memory in bytes.
+  original: |-
+    Total amount of swap memory in bytes.
+  formatted: |-
+    Total amount of swap memory in bytes.
 type: integer

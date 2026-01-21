@@ -1,4 +1,6 @@
 description:
-  original: A human readable message indicating details about why the pod is in this condition.
-  formatted: A human readable message indicating details about why the pod is in this condition.
+  original: |-
+    A human readable message indicating details about why the pod is in this condition.
+  formatted: |-
+    A human readable message indicating details about why the pod is in this condition.
 type: string

@@ -1,5 +1,7 @@
 description:
-  original: Resources resize policy for the container.
-  formatted: Resources resize policy for the container.
+  original: |-
+    Resources resize policy for the container.
+  formatted: |-
+    Resources resize policy for the container.
 type: ContainerResizePolicy
 collection: array

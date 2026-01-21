@@ -1,5 +1,7 @@
 description:
-  original: repository is the URL
-  formatted: repository is the URL
+  original: |-
+    repository is the URL
+  formatted: |-
+    repository is the URL
 type: string
 required: true

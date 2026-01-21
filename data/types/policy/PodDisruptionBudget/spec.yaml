@@ -1,4 +1,6 @@
 description:
-  original: Specification of the desired behavior of the PodDisruptionBudget.
-  formatted: Specification of the desired behavior of the PodDisruptionBudget.
+  original: |-
+    Specification of the desired behavior of the PodDisruptionBudget.
+  formatted: |-
+    Specification of the desired behavior of the PodDisruptionBudget.
 type: PodDisruptionBudgetSpec

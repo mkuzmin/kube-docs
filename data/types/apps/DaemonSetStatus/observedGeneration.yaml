@@ -1,4 +1,6 @@
 description:
-  original: The most recent generation observed by the daemon set controller.
-  formatted: The most recent generation observed by the daemon set controller.
+  original: |-
+    The most recent generation observed by the daemon set controller.
+  formatted: |-
+    The most recent generation observed by the daemon set controller.
 type: integer

@@ -1,3 +1,5 @@
 description:
-  original: HTTPGetAction describes an action based on HTTP Get requests.
-  formatted: HTTPGetAction describes an action based on HTTP Get requests.
+  original: |-
+    HTTPGetAction describes an action based on HTTP Get requests.
+  formatted: |-
+    HTTPGetAction describes an action based on HTTP Get requests.

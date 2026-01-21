@@ -1,3 +1,5 @@
 description:
-  original: CustomResourceDefinitionStatus indicates the state of the CustomResourceDefinition
-  formatted: CustomResourceDefinitionStatus indicates the state of the CustomResourceDefinition
+  original: |-
+    CustomResourceDefinitionStatus indicates the state of the CustomResourceDefinition
+  formatted: |-
+    CustomResourceDefinitionStatus indicates the state of the CustomResourceDefinition

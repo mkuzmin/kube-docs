@@ -1,3 +1,5 @@
 description:
-  original: Represents a StorageOS persistent volume resource.
-  formatted: Represents a StorageOS persistent volume resource.
+  original: |-
+    Represents a StorageOS persistent volume resource.
+  formatted: |-
+    Represents a StorageOS persistent volume resource.

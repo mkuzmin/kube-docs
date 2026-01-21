@@ -1,3 +1,5 @@
 description:
-  original: IngressLoadBalancerStatus represents the status of a load-balancer.
-  formatted: IngressLoadBalancerStatus represents the status of a load-balancer.
+  original: |-
+    IngressLoadBalancerStatus represents the status of a load-balancer.
+  formatted: |-
+    IngressLoadBalancerStatus represents the status of a load-balancer.

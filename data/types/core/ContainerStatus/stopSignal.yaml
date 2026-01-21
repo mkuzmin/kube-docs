@@ -1,4 +1,6 @@
 description:
-  original: StopSignal reports the effective stop signal for this container
-  formatted: StopSignal reports the effective stop signal for this container
+  original: |-
+    StopSignal reports the effective stop signal for this container
+  formatted: |-
+    StopSignal reports the effective stop signal for this container
 type: string

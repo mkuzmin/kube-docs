@@ -1,4 +1,6 @@
 description:
-  original: The results of type checking for each expression. Presence of this field indicates the completion of the type checking.
-  formatted: The results of type checking for each expression. Presence of this field indicates the completion of the type checking.
+  original: |-
+    The results of type checking for each expression. Presence of this field indicates the completion of the type checking.
+  formatted: |-
+    The results of type checking for each expression. Presence of this field indicates the completion of the type checking.
 type: TypeChecking

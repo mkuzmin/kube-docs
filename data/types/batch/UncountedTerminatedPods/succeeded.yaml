@@ -1,5 +1,7 @@
 description:
-  original: succeeded holds UIDs of succeeded Pods.
-  formatted: succeeded holds UIDs of succeeded Pods.
+  original: |-
+    succeeded holds UIDs of succeeded Pods.
+  formatted: |-
+    succeeded holds UIDs of succeeded Pods.
 type: string
 collection: array

@@ -1,4 +1,6 @@
 description:
-  original: clientIP contains the configurations of Client IP based session affinity.
-  formatted: clientIP contains the configurations of Client IP based session affinity.
+  original: |-
+    clientIP contains the configurations of Client IP based session affinity.
+  formatted: |-
+    clientIP contains the configurations of Client IP based session affinity.
 type: ClientIPConfig

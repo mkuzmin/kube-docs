@@ -1,3 +1,5 @@
 description:
-  original: PersistentVolumeClaimCondition contains details about state of pvc
-  formatted: PersistentVolumeClaimCondition contains details about state of pvc
+  original: |-
+    PersistentVolumeClaimCondition contains details about state of pvc
+  formatted: |-
+    PersistentVolumeClaimCondition contains details about state of pvc

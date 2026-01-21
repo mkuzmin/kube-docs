@@ -1,5 +1,7 @@
 description:
-  original: extra contains extra attributes of the user that created the CertificateSigningRequest. Populated by the API server on creation and immutable.
-  formatted: extra contains extra attributes of the user that created the CertificateSigningRequest. Populated by the API server on creation and immutable.
+  original: |-
+    extra contains extra attributes of the user that created the CertificateSigningRequest. Populated by the API server on creation and immutable.
+  formatted: |-
+    extra contains extra attributes of the user that created the CertificateSigningRequest. Populated by the API server on creation and immutable.
 type: string
 collection: map

@@ -1,4 +1,6 @@
 description:
-  original: The reason for the condition's last transition.
-  formatted: The reason for the condition's last transition.
+  original: |-
+    The reason for the condition's last transition.
+  formatted: |-
+    The reason for the condition's last transition.
 type: string

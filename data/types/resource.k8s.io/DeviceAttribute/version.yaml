@@ -1,4 +1,6 @@
 description:
-  original: VersionValue is a semantic version according to semver.org spec 2.0.0. Must not be longer than 64 characters.
-  formatted: VersionValue is a semantic version according to semver.org spec 2.0.0. Must not be longer than 64 characters.
+  original: |-
+    VersionValue is a semantic version according to semver.org spec 2.0.0. Must not be longer than 64 characters.
+  formatted: |-
+    VersionValue is a semantic version according to semver.org spec 2.0.0. Must not be longer than 64 characters.
 type: string

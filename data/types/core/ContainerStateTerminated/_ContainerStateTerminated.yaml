@@ -1,3 +1,5 @@
 description:
-  original: ContainerStateTerminated is a terminated state of a container.
-  formatted: ContainerStateTerminated is a terminated state of a container.
+  original: |-
+    ContainerStateTerminated is a terminated state of a container.
+  formatted: |-
+    ContainerStateTerminated is a terminated state of a container.

@@ -1,5 +1,7 @@
 description:
-  original: Name of the attached volume
-  formatted: Name of the attached volume
+  original: |-
+    Name of the attached volume
+  formatted: |-
+    Name of the attached volume
 type: string
 required: true

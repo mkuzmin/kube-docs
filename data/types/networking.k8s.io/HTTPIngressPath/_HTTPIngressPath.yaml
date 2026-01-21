@@ -1,3 +1,5 @@
 description:
-  original: HTTPIngressPath associates a path with a backend. Incoming urls matching the path are forwarded to the backend.
-  formatted: HTTPIngressPath associates a path with a backend. Incoming urls matching the path are forwarded to the backend.
+  original: |-
+    HTTPIngressPath associates a path with a backend. Incoming urls matching the path are forwarded to the backend.
+  formatted: |-
+    HTTPIngressPath associates a path with a backend. Incoming urls matching the path are forwarded to the backend.

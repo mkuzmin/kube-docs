@@ -1,3 +1,5 @@
 description:
-  original: PriorityLevelConfigurationSpec specifies the configuration of a priority level.
-  formatted: PriorityLevelConfigurationSpec specifies the configuration of a priority level.
+  original: |-
+    PriorityLevelConfigurationSpec specifies the configuration of a priority level.
+  formatted: |-
+    PriorityLevelConfigurationSpec specifies the configuration of a priority level.

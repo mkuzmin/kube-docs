@@ -1,3 +1,5 @@
 description:
-  original: ServicePort contains information on service's port.
-  formatted: ServicePort contains information on service's port.
+  original: |-
+    ServicePort contains information on service's port.
+  formatted: |-
+    ServicePort contains information on service's port.

@@ -1,4 +1,6 @@
 description:
-  original: Type is a SELinux type label that applies to the container.
-  formatted: Type is a SELinux type label that applies to the container.
+  original: |-
+    Type is a SELinux type label that applies to the container.
+  formatted: |-
+    Type is a SELinux type label that applies to the container.
 type: string

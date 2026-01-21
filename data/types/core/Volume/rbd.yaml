@@ -1,4 +1,6 @@
 description:
-  original: 'rbd represents a Rados Block Device mount on the host that shares a pod''s lifetime. Deprecated: RBD is deprecated and the in-tree rbd type is no longer supported.'
-  formatted: 'rbd represents a Rados Block Device mount on the host that shares a pod''s lifetime. Deprecated: RBD is deprecated and the in-tree rbd type is no longer supported.'
+  original: |-
+    rbd represents a Rados Block Device mount on the host that shares a pod's lifetime. Deprecated: RBD is deprecated and the in-tree rbd type is no longer supported.
+  formatted: |-
+    rbd represents a Rados Block Device mount on the host that shares a pod's lifetime. Deprecated: RBD is deprecated and the in-tree rbd type is no longer supported.
 type: RBDVolumeSource

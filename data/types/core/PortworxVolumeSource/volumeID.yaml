@@ -1,5 +1,7 @@
 description:
-  original: volumeID uniquely identifies a Portworx volume
-  formatted: volumeID uniquely identifies a Portworx volume
+  original: |-
+    volumeID uniquely identifies a Portworx volume
+  formatted: |-
+    volumeID uniquely identifies a Portworx volume
 type: string
 required: true

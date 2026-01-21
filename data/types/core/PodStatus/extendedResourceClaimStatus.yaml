@@ -1,4 +1,6 @@
 description:
-  original: Status of extended resource claim backed by DRA.
-  formatted: Status of extended resource claim backed by DRA.
+  original: |-
+    Status of extended resource claim backed by DRA.
+  formatted: |-
+    Status of extended resource claim backed by DRA.
 type: PodExtendedResourceClaimStatus

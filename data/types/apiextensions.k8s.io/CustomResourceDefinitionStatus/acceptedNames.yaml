@@ -1,4 +1,6 @@
 description:
-  original: acceptedNames are the names that are actually being used to serve discovery. They may be different than the names in spec.
-  formatted: acceptedNames are the names that are actually being used to serve discovery. They may be different than the names in spec.
+  original: |-
+    acceptedNames are the names that are actually being used to serve discovery. They may be different than the names in spec.
+  formatted: |-
+    acceptedNames are the names that are actually being used to serve discovery. They may be different than the names in spec.
 type: CustomResourceDefinitionNames

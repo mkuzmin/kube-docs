@@ -1,3 +1,5 @@
 description:
-  original: CustomResourceColumnDefinition specifies a column for server side printing.
-  formatted: CustomResourceColumnDefinition specifies a column for server side printing.
+  original: |-
+    CustomResourceColumnDefinition specifies a column for server side printing.
+  formatted: |-
+    CustomResourceColumnDefinition specifies a column for server side printing.

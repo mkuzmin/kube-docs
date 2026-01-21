@@ -1,4 +1,6 @@
 description:
-  original: Represents the requirement on the container exit codes.
-  formatted: Represents the requirement on the container exit codes.
+  original: |-
+    Represents the requirement on the container exit codes.
+  formatted: |-
+    Represents the requirement on the container exit codes.
 type: PodFailurePolicyOnExitCodesRequirement

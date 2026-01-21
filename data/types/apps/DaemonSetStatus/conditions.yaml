@@ -1,5 +1,7 @@
 description:
-  original: Represents the latest available observations of a DaemonSet's current state.
-  formatted: Represents the latest available observations of a DaemonSet's current state.
+  original: |-
+    Represents the latest available observations of a DaemonSet's current state.
+  formatted: |-
+    Represents the latest available observations of a DaemonSet's current state.
 type: DaemonSetCondition
 collection: array

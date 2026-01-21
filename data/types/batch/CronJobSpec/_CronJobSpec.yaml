@@ -1,3 +1,5 @@
 description:
-  original: CronJobSpec describes how the job execution will look like and when it will actually run.
-  formatted: CronJobSpec describes how the job execution will look like and when it will actually run.
+  original: |-
+    CronJobSpec describes how the job execution will look like and when it will actually run.
+  formatted: |-
+    CronJobSpec describes how the job execution will look like and when it will actually run.

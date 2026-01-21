@@ -1,3 +1,5 @@
 description:
-  original: NamespaceStatus is information about the current status of a Namespace.
-  formatted: NamespaceStatus is information about the current status of a Namespace.
+  original: |-
+    NamespaceStatus is information about the current status of a Namespace.
+  formatted: |-
+    NamespaceStatus is information about the current status of a Namespace.

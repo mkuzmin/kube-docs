@@ -1,4 +1,6 @@
 description:
-  original: SubjectAccessReview checks whether or not a user or group can perform an action.
-  formatted: SubjectAccessReview checks whether or not a user or group can perform an action.
+  original: |-
+    SubjectAccessReview checks whether or not a user or group can perform an action.
+  formatted: |-
+    SubjectAccessReview checks whether or not a user or group can perform an action.
 kind: true

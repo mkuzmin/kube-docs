@@ -1,5 +1,7 @@
 description:
-  original: conditions applied to the request. Known conditions are "Approved", "Denied", and "Failed".
-  formatted: conditions applied to the request. Known conditions are "Approved", "Denied", and "Failed".
+  original: |-
+    conditions applied to the request. Known conditions are "Approved", "Denied", and "Failed".
+  formatted: |-
+    conditions applied to the request. Known conditions are "Approved", "Denied", and "Failed".
 type: CertificateSigningRequestCondition
 collection: array

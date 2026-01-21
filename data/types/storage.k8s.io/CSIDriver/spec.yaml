@@ -1,5 +1,7 @@
 description:
-  original: spec represents the specification of the CSI Driver.
-  formatted: spec represents the specification of the CSI Driver.
+  original: |-
+    spec represents the specification of the CSI Driver.
+  formatted: |-
+    spec represents the specification of the CSI Driver.
 type: CSIDriverSpec
 required: true

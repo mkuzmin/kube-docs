@@ -1,3 +1,5 @@
 description:
-  original: Represents a source location of a volume to mount, managed by an external CSI driver
-  formatted: Represents a source location of a volume to mount, managed by an external CSI driver
+  original: |-
+    Represents a source location of a volume to mount, managed by an external CSI driver
+  formatted: |-
+    Represents a source location of a volume to mount, managed by an external CSI driver

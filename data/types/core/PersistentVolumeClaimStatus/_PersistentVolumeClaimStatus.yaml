@@ -1,3 +1,5 @@
 description:
-  original: PersistentVolumeClaimStatus is the current status of a persistent volume claim.
-  formatted: PersistentVolumeClaimStatus is the current status of a persistent volume claim.
+  original: |-
+    PersistentVolumeClaimStatus is the current status of a persistent volume claim.
+  formatted: |-
+    PersistentVolumeClaimStatus is the current status of a persistent volume claim.

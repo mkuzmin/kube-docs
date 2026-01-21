@@ -1,3 +1,5 @@
 description:
-  original: ModifyVolumeStatus represents the status object of ControllerModifyVolume operation
-  formatted: ModifyVolumeStatus represents the status object of ControllerModifyVolume operation
+  original: |-
+    ModifyVolumeStatus represents the status object of ControllerModifyVolume operation
+  formatted: |-
+    ModifyVolumeStatus represents the status object of ControllerModifyVolume operation

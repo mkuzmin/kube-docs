@@ -1,7 +1,7 @@
 description:
   original: |-
     x-kubernetes-map-type annotates an object to further describe its topology. This extension must only be used when type is object and may have 2 possible values:
-
+    
     1) `granular`:
          These maps are actual maps (key-value pairs) and each fields are independent
          from each other (they can each be manipulated by separate actors). This is
@@ -10,7 +10,7 @@ description:
          Atomic maps will be entirely replaced when updated.
   formatted: |-
     x-kubernetes-map-type annotates an object to further describe its topology. This extension must only be used when type is object and may have 2 possible values:
-
+    
     1) `granular`:
          These maps are actual maps (key-value pairs) and each fields are independent
          from each other (they can each be manipulated by separate actors). This is

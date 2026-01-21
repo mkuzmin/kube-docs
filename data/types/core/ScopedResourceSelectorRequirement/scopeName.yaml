@@ -1,5 +1,7 @@
 description:
-  original: The name of the scope that the selector applies to.
-  formatted: The name of the scope that the selector applies to.
+  original: |-
+    The name of the scope that the selector applies to.
+  formatted: |-
+    The name of the scope that the selector applies to.
 type: string
 required: true

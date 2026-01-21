@@ -1,4 +1,6 @@
 description:
-  original: '`user` matches based on username.'
-  formatted: '`user` matches based on username.'
+  original: |-
+    `user` matches based on username.
+  formatted: |-
+    `user` matches based on username.
 type: UserSubject

@@ -1,3 +1,5 @@
 description:
-  original: DeviceClaim defines how to request devices with a ResourceClaim.
-  formatted: DeviceClaim defines how to request devices with a ResourceClaim.
+  original: |-
+    DeviceClaim defines how to request devices with a ResourceClaim.
+  formatted: |-
+    DeviceClaim defines how to request devices with a ResourceClaim.

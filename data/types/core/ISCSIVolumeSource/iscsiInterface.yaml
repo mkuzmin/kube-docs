@@ -1,4 +1,6 @@
 description:
-  original: iscsiInterface is the interface Name that uses an iSCSI transport. Defaults to 'default' (tcp).
-  formatted: iscsiInterface is the interface Name that uses an iSCSI transport. Defaults to 'default' (tcp).
+  original: |-
+    iscsiInterface is the interface Name that uses an iSCSI transport. Defaults to 'default' (tcp).
+  formatted: |-
+    iscsiInterface is the interface Name that uses an iSCSI transport. Defaults to 'default' (tcp).
 type: string

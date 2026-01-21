@@ -1,3 +1,5 @@
 description:
-  original: HTTPHeader describes a custom header to be used in HTTP probes
-  formatted: HTTPHeader describes a custom header to be used in HTTP probes
+  original: |-
+    HTTPHeader describes a custom header to be used in HTTP probes
+  formatted: |-
+    HTTPHeader describes a custom header to be used in HTTP probes

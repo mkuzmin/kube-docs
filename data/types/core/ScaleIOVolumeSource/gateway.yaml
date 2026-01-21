@@ -1,5 +1,7 @@
 description:
-  original: gateway is the host address of the ScaleIO API Gateway.
-  formatted: gateway is the host address of the ScaleIO API Gateway.
+  original: |-
+    gateway is the host address of the ScaleIO API Gateway.
+  formatted: |-
+    gateway is the host address of the ScaleIO API Gateway.
 type: string
 required: true

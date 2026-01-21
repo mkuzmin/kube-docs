@@ -1,4 +1,6 @@
 description:
-  original: Specification of the desired behavior of the Deployment.
-  formatted: Specification of the desired behavior of the Deployment.
+  original: |-
+    Specification of the desired behavior of the Deployment.
+  formatted: |-
+    Specification of the desired behavior of the Deployment.
 type: DeploymentSpec

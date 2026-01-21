@@ -1,4 +1,6 @@
 description:
-  original: CronJob represents the configuration of a single cron job.
-  formatted: CronJob represents the configuration of a single cron job.
+  original: |-
+    CronJob represents the configuration of a single cron job.
+  formatted: |-
+    CronJob represents the configuration of a single cron job.
 kind: true

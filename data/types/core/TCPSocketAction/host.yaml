@@ -1,4 +1,6 @@
 description:
-  original: 'Optional: Host name to connect to, defaults to the pod IP.'
-  formatted: 'Optional: Host name to connect to, defaults to the pod IP.'
+  original: |-
+    Optional: Host name to connect to, defaults to the pod IP.
+  formatted: |-
+    Optional: Host name to connect to, defaults to the pod IP.
 type: string

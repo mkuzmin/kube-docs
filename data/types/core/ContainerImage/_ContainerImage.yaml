@@ -1,3 +1,5 @@
 description:
-  original: Describe a container image
-  formatted: Describe a container image
+  original: |-
+    Describe a container image
+  formatted: |-
+    Describe a container image

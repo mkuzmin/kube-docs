@@ -1,5 +1,7 @@
 description:
-  original: Represents the latest available observations of a statefulset's current state.
-  formatted: Represents the latest available observations of a statefulset's current state.
+  original: |-
+    Represents the latest available observations of a statefulset's current state.
+  formatted: |-
+    Represents the latest available observations of a statefulset's current state.
 type: StatefulSetCondition
 collection: array

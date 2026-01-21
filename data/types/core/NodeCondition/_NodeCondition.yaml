@@ -1,3 +1,5 @@
 description:
-  original: NodeCondition contains condition information for a node.
-  formatted: NodeCondition contains condition information for a node.
+  original: |-
+    NodeCondition contains condition information for a node.
+  formatted: |-
+    NodeCondition contains condition information for a node.

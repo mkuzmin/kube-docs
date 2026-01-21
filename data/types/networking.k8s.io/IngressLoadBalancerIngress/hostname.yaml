@@ -1,4 +1,6 @@
 description:
-  original: hostname is set for load-balancer ingress points that are DNS based.
-  formatted: hostname is set for load-balancer ingress points that are DNS based.
+  original: |-
+    hostname is set for load-balancer ingress points that are DNS based.
+  formatted: |-
+    hostname is set for load-balancer ingress points that are DNS based.
 type: string

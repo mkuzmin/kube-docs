@@ -1,3 +1,5 @@
 description:
-  original: HorizontalPodAutoscalerSpec describes the desired functionality of the HorizontalPodAutoscaler.
-  formatted: HorizontalPodAutoscalerSpec describes the desired functionality of the HorizontalPodAutoscaler.
+  original: |-
+    HorizontalPodAutoscalerSpec describes the desired functionality of the HorizontalPodAutoscaler.
+  formatted: |-
+    HorizontalPodAutoscalerSpec describes the desired functionality of the HorizontalPodAutoscaler.

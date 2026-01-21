@@ -1,5 +1,7 @@
 description:
-  original: system is the name of the storage system as configured in ScaleIO.
-  formatted: system is the name of the storage system as configured in ScaleIO.
+  original: |-
+    system is the name of the storage system as configured in ScaleIO.
+  formatted: |-
+    system is the name of the storage system as configured in ScaleIO.
 type: string
 required: true

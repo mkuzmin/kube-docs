@@ -1,4 +1,6 @@
 description:
-  original: Runtime handler name. Empty for the default runtime handler.
-  formatted: Runtime handler name. Empty for the default runtime handler.
+  original: |-
+    Runtime handler name. Empty for the default runtime handler.
+  formatted: |-
+    Runtime handler name. Empty for the default runtime handler.
 type: string

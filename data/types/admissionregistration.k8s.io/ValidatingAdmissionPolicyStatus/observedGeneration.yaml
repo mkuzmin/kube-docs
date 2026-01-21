@@ -1,4 +1,6 @@
 description:
-  original: The generation observed by the controller.
-  formatted: The generation observed by the controller.
+  original: |-
+    The generation observed by the controller.
+  formatted: |-
+    The generation observed by the controller.
 type: integer

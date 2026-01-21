@@ -1,4 +1,6 @@
 description:
-  original: reason is a brief CamelCase string that describes any failure and is meant for machine parsing and tidy display in the CLI.
-  formatted: reason is a brief CamelCase string that describes any failure and is meant for machine parsing and tidy display in the CLI.
+  original: |-
+    reason is a brief CamelCase string that describes any failure and is meant for machine parsing and tidy display in the CLI.
+  formatted: |-
+    reason is a brief CamelCase string that describes any failure and is meant for machine parsing and tidy display in the CLI.
 type: string

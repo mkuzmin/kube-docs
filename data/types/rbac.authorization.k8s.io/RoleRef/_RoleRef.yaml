@@ -1,3 +1,5 @@
 description:
-  original: RoleRef contains information that points to the role being used
-  formatted: RoleRef contains information that points to the role being used
+  original: |-
+    RoleRef contains information that points to the role being used
+  formatted: |-
+    RoleRef contains information that points to the role being used

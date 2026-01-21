@@ -1,4 +1,6 @@
 description:
-  original: group to map volume access to Default is no group
-  formatted: group to map volume access to Default is no group
+  original: |-
+    group to map volume access to Default is no group
+  formatted: |-
+    group to map volume access to Default is no group
 type: string

@@ -1,3 +1,5 @@
 description:
-  original: PersistentVolumeStatus is the current status of a persistent volume.
-  formatted: PersistentVolumeStatus is the current status of a persistent volume.
+  original: |-
+    PersistentVolumeStatus is the current status of a persistent volume.
+  formatted: |-
+    PersistentVolumeStatus is the current status of a persistent volume.

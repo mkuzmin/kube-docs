@@ -1,3 +1,5 @@
 description:
-  original: TokenReviewSpec is a description of the token authentication request.
-  formatted: TokenReviewSpec is a description of the token authentication request.
+  original: |-
+    TokenReviewSpec is a description of the token authentication request.
+  formatted: |-
+    TokenReviewSpec is a description of the token authentication request.

@@ -1,4 +1,6 @@
 description:
-  original: User is a SELinux user label that applies to the container.
-  formatted: User is a SELinux user label that applies to the container.
+  original: |-
+    User is a SELinux user label that applies to the container.
+  formatted: |-
+    User is a SELinux user label that applies to the container.
 type: string

@@ -1,3 +1,5 @@
 description:
-  original: Pod affinity is a group of inter pod affinity scheduling rules.
-  formatted: Pod affinity is a group of inter pod affinity scheduling rules.
+  original: |-
+    Pod affinity is a group of inter pod affinity scheduling rules.
+  formatted: |-
+    Pod affinity is a group of inter pod affinity scheduling rules.

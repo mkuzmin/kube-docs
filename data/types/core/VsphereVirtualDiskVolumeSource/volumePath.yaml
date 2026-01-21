@@ -1,5 +1,7 @@
 description:
-  original: volumePath is the path that identifies vSphere volume vmdk
-  formatted: volumePath is the path that identifies vSphere volume vmdk
+  original: |-
+    volumePath is the path that identifies vSphere volume vmdk
+  formatted: |-
+    volumePath is the path that identifies vSphere volume vmdk
 type: string
 required: true

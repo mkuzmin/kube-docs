@@ -1,3 +1,5 @@
 description:
-  original: DeviceAllocationResult is the result of allocating devices.
-  formatted: DeviceAllocationResult is the result of allocating devices.
+  original: |-
+    DeviceAllocationResult is the result of allocating devices.
+  formatted: |-
+    DeviceAllocationResult is the result of allocating devices.

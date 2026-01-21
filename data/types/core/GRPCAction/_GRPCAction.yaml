@@ -1,3 +1,5 @@
 description:
-  original: GRPCAction specifies an action involving a GRPC service.
-  formatted: GRPCAction specifies an action involving a GRPC service.
+  original: |-
+    GRPCAction specifies an action involving a GRPC service.
+  formatted: |-
+    GRPCAction specifies an action involving a GRPC service.

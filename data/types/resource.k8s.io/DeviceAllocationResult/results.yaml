@@ -1,5 +1,7 @@
 description:
-  original: Results lists all allocated devices.
-  formatted: Results lists all allocated devices.
+  original: |-
+    Results lists all allocated devices.
+  formatted: |-
+    Results lists all allocated devices.
 type: DeviceRequestAllocationResult
 collection: array

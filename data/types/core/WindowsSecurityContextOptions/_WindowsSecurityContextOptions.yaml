@@ -1,3 +1,5 @@
 description:
-  original: WindowsSecurityContextOptions contain Windows-specific options and credentials.
-  formatted: WindowsSecurityContextOptions contain Windows-specific options and credentials.
+  original: |-
+    WindowsSecurityContextOptions contain Windows-specific options and credentials.
+  formatted: |-
+    WindowsSecurityContextOptions contain Windows-specific options and credentials.

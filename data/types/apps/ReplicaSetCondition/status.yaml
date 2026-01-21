@@ -1,5 +1,7 @@
 description:
-  original: Status of the condition, one of True, False, Unknown.
-  formatted: Status of the condition, one of True, False, Unknown.
+  original: |-
+    Status of the condition, one of True, False, Unknown.
+  formatted: |-
+    Status of the condition, one of True, False, Unknown.
 type: string
 required: true

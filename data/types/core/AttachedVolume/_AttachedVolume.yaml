@@ -1,3 +1,5 @@
 description:
-  original: AttachedVolume describes a volume attached to a node
-  formatted: AttachedVolume describes a volume attached to a node
+  original: |-
+    AttachedVolume describes a volume attached to a node
+  formatted: |-
+    AttachedVolume describes a volume attached to a node

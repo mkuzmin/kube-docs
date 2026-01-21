@@ -1,3 +1,5 @@
 description:
-  original: PortStatus represents the error condition of a service port
-  formatted: PortStatus represents the error condition of a service port
+  original: |-
+    PortStatus represents the error condition of a service port
+  formatted: |-
+    PortStatus represents the error condition of a service port

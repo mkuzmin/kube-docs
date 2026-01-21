@@ -1,4 +1,6 @@
 description:
-  original: If specified, the pod's scheduling constraints
-  formatted: If specified, the pod's scheduling constraints
+  original: |-
+    If specified, the pod's scheduling constraints
+  formatted: |-
+    If specified, the pod's scheduling constraints
 type: Affinity

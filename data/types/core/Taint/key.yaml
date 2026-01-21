@@ -1,5 +1,7 @@
 description:
-  original: Required. The taint key to be applied to a node.
-  formatted: Required. The taint key to be applied to a node.
+  original: |-
+    Required. The taint key to be applied to a node.
+  formatted: |-
+    Required. The taint key to be applied to a node.
 type: string
 required: true

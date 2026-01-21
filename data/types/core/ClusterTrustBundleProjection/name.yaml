@@ -1,4 +1,6 @@
 description:
-  original: Select a single ClusterTrustBundle by object name.  Mutually-exclusive with signerName and labelSelector.
-  formatted: Select a single ClusterTrustBundle by object name.  Mutually-exclusive with signerName and labelSelector.
+  original: |-
+    Select a single ClusterTrustBundle by object name.  Mutually-exclusive with signerName and labelSelector.
+  formatted: |-
+    Select a single ClusterTrustBundle by object name.  Mutually-exclusive with signerName and labelSelector.
 type: string

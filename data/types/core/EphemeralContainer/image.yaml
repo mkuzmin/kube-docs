@@ -1,4 +1,6 @@
 description:
-  original: 'Container image name. More info: https://kubernetes.io/docs/concepts/containers/images'
-  formatted: 'Container image name. More info: https://kubernetes.io/docs/concepts/containers/images'
+  original: |-
+    Container image name. More info: https://kubernetes.io/docs/concepts/containers/images
+  formatted: |-
+    Container image name. More info: https://kubernetes.io/docs/concepts/containers/images
 type: string

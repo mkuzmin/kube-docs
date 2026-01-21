@@ -1,4 +1,6 @@
 description:
-  original: A human readable message indicating details about the transition.
-  formatted: A human readable message indicating details about the transition.
+  original: |-
+    A human readable message indicating details about the transition.
+  formatted: |-
+    A human readable message indicating details about the transition.
 type: string

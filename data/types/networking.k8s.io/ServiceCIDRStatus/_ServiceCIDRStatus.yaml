@@ -1,3 +1,5 @@
 description:
-  original: ServiceCIDRStatus describes the current state of the ServiceCIDR.
-  formatted: ServiceCIDRStatus describes the current state of the ServiceCIDR.
+  original: |-
+    ServiceCIDRStatus describes the current state of the ServiceCIDR.
+  formatted: |-
+    ServiceCIDRStatus describes the current state of the ServiceCIDR.

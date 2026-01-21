@@ -1,4 +1,6 @@
 description:
-  original: persistentVolumeName represents the name of the persistent volume to attach.
-  formatted: persistentVolumeName represents the name of the persistent volume to attach.
+  original: |-
+    persistentVolumeName represents the name of the persistent volume to attach.
+  formatted: |-
+    persistentVolumeName represents the name of the persistent volume to attach.
 type: string

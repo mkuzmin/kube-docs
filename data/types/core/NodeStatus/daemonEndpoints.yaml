@@ -1,4 +1,6 @@
 description:
-  original: Endpoints of daemons running on the Node.
-  formatted: Endpoints of daemons running on the Node.
+  original: |-
+    Endpoints of daemons running on the Node.
+  formatted: |-
+    Endpoints of daemons running on the Node.
 type: NodeDaemonEndpoints

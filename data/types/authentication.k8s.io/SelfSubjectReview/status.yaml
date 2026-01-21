@@ -1,4 +1,6 @@
 description:
-  original: Status is filled in by the server with the user attributes.
-  formatted: Status is filled in by the server with the user attributes.
+  original: |-
+    Status is filled in by the server with the user attributes.
+  formatted: |-
+    Status is filled in by the server with the user attributes.
 type: SelfSubjectReviewStatus

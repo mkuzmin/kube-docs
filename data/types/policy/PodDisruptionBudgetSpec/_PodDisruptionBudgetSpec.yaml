@@ -1,3 +1,5 @@
 description:
-  original: PodDisruptionBudgetSpec is a description of a PodDisruptionBudget.
-  formatted: PodDisruptionBudgetSpec is a description of a PodDisruptionBudget.
+  original: |-
+    PodDisruptionBudgetSpec is a description of a PodDisruptionBudget.
+  formatted: |-
+    PodDisruptionBudgetSpec is a description of a PodDisruptionBudget.

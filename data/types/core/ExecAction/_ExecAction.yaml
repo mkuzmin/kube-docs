@@ -1,3 +1,5 @@
 description:
-  original: ExecAction describes a "run in container" action.
-  formatted: ExecAction describes a "run in container" action.
+  original: |-
+    ExecAction describes a "run in container" action.
+  formatted: |-
+    ExecAction describes a "run in container" action.

@@ -1,4 +1,6 @@
 description:
-  original: Endpoint on which Kubelet is listening.
-  formatted: Endpoint on which Kubelet is listening.
+  original: |-
+    Endpoint on which Kubelet is listening.
+  formatted: |-
+    Endpoint on which Kubelet is listening.
 type: DaemonEndpoint

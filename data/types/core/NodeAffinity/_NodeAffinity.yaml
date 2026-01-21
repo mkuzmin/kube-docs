@@ -1,3 +1,5 @@
 description:
-  original: Node affinity is a group of node affinity scheduling rules.
-  formatted: Node affinity is a group of node affinity scheduling rules.
+  original: |-
+    Node affinity is a group of node affinity scheduling rules.
+  formatted: |-
+    Node affinity is a group of node affinity scheduling rules.

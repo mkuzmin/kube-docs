@@ -1,3 +1,5 @@
 description:
-  original: ClientIPConfig represents the configurations of Client IP based session affinity.
-  formatted: ClientIPConfig represents the configurations of Client IP based session affinity.
+  original: |-
+    ClientIPConfig represents the configurations of Client IP based session affinity.
+  formatted: |-
+    ClientIPConfig represents the configurations of Client IP based session affinity.

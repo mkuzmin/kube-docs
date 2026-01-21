@@ -1,3 +1,5 @@
 description:
-  original: ValidationRule describes a validation rule written in the CEL expression language.
-  formatted: ValidationRule describes a validation rule written in the CEL expression language.
+  original: |-
+    ValidationRule describes a validation rule written in the CEL expression language.
+  formatted: |-
+    ValidationRule describes a validation rule written in the CEL expression language.

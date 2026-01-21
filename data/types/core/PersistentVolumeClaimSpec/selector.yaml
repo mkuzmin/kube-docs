@@ -1,4 +1,6 @@
 description:
-  original: selector is a label query over volumes to consider for binding.
-  formatted: selector is a label query over volumes to consider for binding.
+  original: |-
+    selector is a label query over volumes to consider for binding.
+  formatted: |-
+    selector is a label query over volumes to consider for binding.
 type: LabelSelector

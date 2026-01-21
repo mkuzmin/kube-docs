@@ -1,3 +1,5 @@
 description:
-  original: NetworkPolicyPort describes a port to allow traffic on
-  formatted: NetworkPolicyPort describes a port to allow traffic on
+  original: |-
+    NetworkPolicyPort describes a port to allow traffic on
+  formatted: |-
+    NetworkPolicyPort describes a port to allow traffic on

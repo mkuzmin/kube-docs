@@ -1,4 +1,6 @@
 description:
-  original: MutatingWebhookConfiguration describes the configuration of and admission webhook that accept or reject and may change the object.
-  formatted: MutatingWebhookConfiguration describes the configuration of and admission webhook that accept or reject and may change the object.
+  original: |-
+    MutatingWebhookConfiguration describes the configuration of and admission webhook that accept or reject and may change the object.
+  formatted: |-
+    MutatingWebhookConfiguration describes the configuration of and admission webhook that accept or reject and may change the object.
 kind: true

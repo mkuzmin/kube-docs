@@ -1,5 +1,7 @@
 description:
-  original: DescribedObject specifies the descriptions of a object,such as kind,name apiVersion
-  formatted: DescribedObject specifies the descriptions of a object,such as kind,name apiVersion
+  original: |-
+    DescribedObject specifies the descriptions of a object,such as kind,name apiVersion
+  formatted: |-
+    DescribedObject specifies the descriptions of a object,such as kind,name apiVersion
 type: CrossVersionObjectReference
 required: true

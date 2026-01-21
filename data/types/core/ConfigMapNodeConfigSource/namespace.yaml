@@ -1,5 +1,7 @@
 description:
-  original: Namespace is the metadata.namespace of the referenced ConfigMap. This field is required in all cases.
-  formatted: Namespace is the metadata.namespace of the referenced ConfigMap. This field is required in all cases.
+  original: |-
+    Namespace is the metadata.namespace of the referenced ConfigMap. This field is required in all cases.
+  formatted: |-
+    Namespace is the metadata.namespace of the referenced ConfigMap. This field is required in all cases.
 type: string
 required: true

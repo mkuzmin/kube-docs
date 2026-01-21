@@ -1,3 +1,5 @@
 description:
-  original: ResourceSliceSpec contains the information published by the driver in one ResourceSlice.
-  formatted: ResourceSliceSpec contains the information published by the driver in one ResourceSlice.
+  original: |-
+    ResourceSliceSpec contains the information published by the driver in one ResourceSlice.
+  formatted: |-
+    ResourceSliceSpec contains the information published by the driver in one ResourceSlice.

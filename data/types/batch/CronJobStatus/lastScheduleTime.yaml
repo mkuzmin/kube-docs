@@ -1,4 +1,6 @@
 description:
-  original: Information when was the last time the job was successfully scheduled.
-  formatted: Information when was the last time the job was successfully scheduled.
+  original: |-
+    Information when was the last time the job was successfully scheduled.
+  formatted: |-
+    Information when was the last time the job was successfully scheduled.
 type: Time

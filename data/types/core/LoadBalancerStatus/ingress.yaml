@@ -1,5 +1,7 @@
 description:
-  original: Ingress is a list containing ingress points for the load-balancer. Traffic intended for the service should be sent to these ingress points.
-  formatted: Ingress is a list containing ingress points for the load-balancer. Traffic intended for the service should be sent to these ingress points.
+  original: |-
+    Ingress is a list containing ingress points for the load-balancer. Traffic intended for the service should be sent to these ingress points.
+  formatted: |-
+    Ingress is a list containing ingress points for the load-balancer. Traffic intended for the service should be sent to these ingress points.
 type: LoadBalancerIngress
 collection: array

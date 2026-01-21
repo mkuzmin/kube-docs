@@ -1,3 +1,5 @@
 description:
-  original: ImageVolumeSource represents a image volume resource.
-  formatted: ImageVolumeSource represents a image volume resource.
+  original: |-
+    ImageVolumeSource represents a image volume resource.
+  formatted: |-
+    ImageVolumeSource represents a image volume resource.

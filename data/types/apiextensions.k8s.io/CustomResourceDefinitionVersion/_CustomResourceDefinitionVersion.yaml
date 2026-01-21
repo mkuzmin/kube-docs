@@ -1,3 +1,5 @@
 description:
-  original: CustomResourceDefinitionVersion describes a version for CRD.
-  formatted: CustomResourceDefinitionVersion describes a version for CRD.
+  original: |-
+    CustomResourceDefinitionVersion describes a version for CRD.
+  formatted: |-
+    CustomResourceDefinitionVersion describes a version for CRD.

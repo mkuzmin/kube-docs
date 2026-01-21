@@ -1,4 +1,6 @@
 description:
-  original: status is the current information about the autoscaler.
-  formatted: status is the current information about the autoscaler.
+  original: |-
+    status is the current information about the autoscaler.
+  formatted: |-
+    status is the current information about the autoscaler.
 type: HorizontalPodAutoscalerStatus

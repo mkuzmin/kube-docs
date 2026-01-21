@@ -1,3 +1,5 @@
 description:
-  original: DeviceAttribute must have exactly one field set.
-  formatted: DeviceAttribute must have exactly one field set.
+  original: |-
+    DeviceAttribute must have exactly one field set.
+  formatted: |-
+    DeviceAttribute must have exactly one field set.

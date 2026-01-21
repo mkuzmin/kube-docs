@@ -1,4 +1,6 @@
 description:
-  original: This flag tells the controller to suspend subsequent executions, it does not apply to already started executions.  Defaults to false.
-  formatted: This flag tells the controller to suspend subsequent executions, it does not apply to already started executions.  Defaults to false.
+  original: |-
+    This flag tells the controller to suspend subsequent executions, it does not apply to already started executions.  Defaults to false.
+  formatted: |-
+    This flag tells the controller to suspend subsequent executions, it does not apply to already started executions.  Defaults to false.
 type: boolean

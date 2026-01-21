@@ -1,5 +1,7 @@
 description:
-  original: 'Required: resource to select'
-  formatted: 'Required: resource to select'
+  original: |-
+    Required: resource to select
+  formatted: |-
+    Required: resource to select
 type: string
 required: true

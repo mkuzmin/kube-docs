@@ -1,4 +1,6 @@
 description:
-  original: zone is the name of the Zone this endpoint exists in.
-  formatted: zone is the name of the Zone this endpoint exists in.
+  original: |-
+    zone is the name of the Zone this endpoint exists in.
+  formatted: |-
+    zone is the name of the Zone this endpoint exists in.
 type: string

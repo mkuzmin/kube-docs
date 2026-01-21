@@ -1,3 +1,5 @@
 description:
-  original: HorizontalPodAutoscalerStatus describes the current status of a horizontal pod autoscaler.
-  formatted: HorizontalPodAutoscalerStatus describes the current status of a horizontal pod autoscaler.
+  original: |-
+    HorizontalPodAutoscalerStatus describes the current status of a horizontal pod autoscaler.
+  formatted: |-
+    HorizontalPodAutoscalerStatus describes the current status of a horizontal pod autoscaler.

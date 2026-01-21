@@ -1,4 +1,6 @@
 description:
-  original: Time at which the container was last (re-)started
-  formatted: Time at which the container was last (re-)started
+  original: |-
+    Time at which the container was last (re-)started
+  formatted: |-
+    Time at which the container was last (re-)started
 type: Time

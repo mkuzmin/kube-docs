@@ -1,5 +1,7 @@
 description:
-  original: A list of pointers to currently running jobs.
-  formatted: A list of pointers to currently running jobs.
+  original: |-
+    A list of pointers to currently running jobs.
+  formatted: |-
+    A list of pointers to currently running jobs.
 type: ObjectReference
 collection: array

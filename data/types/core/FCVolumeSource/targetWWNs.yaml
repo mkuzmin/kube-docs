@@ -1,5 +1,7 @@
 description:
-  original: 'targetWWNs is Optional: FC target worldwide names (WWNs)'
-  formatted: 'targetWWNs is Optional: FC target worldwide names (WWNs)'
+  original: |-
+    targetWWNs is Optional: FC target worldwide names (WWNs)
+  formatted: |-
+    targetWWNs is Optional: FC target worldwide names (WWNs)
 type: string
 collection: array

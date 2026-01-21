@@ -1,3 +1,5 @@
 description:
-  original: ReplicaSetSpec is the specification of a ReplicaSet.
-  formatted: ReplicaSetSpec is the specification of a ReplicaSet.
+  original: |-
+    ReplicaSetSpec is the specification of a ReplicaSet.
+  formatted: |-
+    ReplicaSetSpec is the specification of a ReplicaSet.
