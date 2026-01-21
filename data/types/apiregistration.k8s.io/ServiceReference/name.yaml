@@ -2,5 +2,5 @@ description:
   original: |-
     Name is the name of the service
   formatted: |-
-    Name is the name of the service
+    The name of the service
 type: string

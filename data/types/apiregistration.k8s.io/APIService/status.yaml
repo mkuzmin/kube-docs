@@ -2,5 +2,5 @@ description:
   original: |-
     Status contains derived information about an API server
   formatted: |-
-    Status contains derived information about an API server
+    Derived information about an API server
 type: APIServiceStatus

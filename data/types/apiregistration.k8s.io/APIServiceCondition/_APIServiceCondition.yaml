@@ -2,4 +2,4 @@ description:
   original: |-
     APIServiceCondition describes the state of an APIService at a particular point
   formatted: |-
-    APIServiceCondition describes the state of an APIService at a particular point
+    The state of an [[APIService]] at a particular point
