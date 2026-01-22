@@ -51,16 +51,51 @@ Wrap in backticks anything that looks like code:
 - Regex patterns: `[A-Za-z0-9][-A-Za-z0-9_.]*`
 - Template patterns: `{ValidatingAdmissionPolicy name}/{key}`
 
-### 3. Type references in prose
+### 3. Code blocks in triple backticks
+Wrap multi-line code examples (JSON, YAML) in fenced code blocks with language tag:
+
+Before:
+```
+For example, set the selector as follows: "namespaceSelector": {
+  "matchExpressions": [
+    {
+      "key": "runlevel",
+      "operator": "NotIn",
+      "values": ["0", "1"]
+    }
+  ]
+}
+```
+
+After:
+````
+For example, set the selector as follows:
+
+```json
+"namespaceSelector": {
+  "matchExpressions": [
+    {
+      "key": "runlevel",
+      "operator": "NotIn",
+      "values": ["0", "1"]
+    }
+  ]
+}
+```
+````
+
+### 4. Type references in prose
 References to **other types** use wiki links `[[TypeName]]`:
 - "present in a Container" → "present in a [[Container]]"
 
 Self-references (own type name or field names) use backticks, not wiki links.
 
-### 4. Remove standalone "Required."
-Delete lines containing only "Required." - info is in `required:` property.
+### 5. Handle "Required."
+If description ends with "Required." or has standalone "Required." line:
+- Remove the "Required." text
+- Add `required: true` property to the YAML file
 
-### 5. Format enums
+### 6. Format enums
 Transform "Can be X or Y" or "allowed values are" to list format. Add `enum: true` to YAML.
 
 Before:
@@ -89,13 +124,15 @@ Type of deployment.
        1. Read: yq '.description.original' <file>
        2. Transform in stages:
           - Remove filler verbs at start
-          - Wrap in backticks
+          - Wrap inline code in backticks
+          - Wrap multi-line JSON/YAML in fenced code blocks
           - type references → [[TypeName]], self-refs stay backticks
-          - delete standalone "Required."
-          - format enums as bullet list, add enum: true
+          - remove "Required." text
+          - format enums as bullet list
        3. Write final result:
           formatted='<final>' yq -i '.description.formatted = strenv(formatted) | .description.formatted style="literal"' <file>
-       4. If enum, also run: yq -i '.enum = true' <file>
+       4. If had "Required.", also run: yq -i '.required = true' <file>
+       5. If enum, also run: yq -i '.enum = true' <file>
 
        Report: "Done." or "Done. Errors: [list]"
        ```
