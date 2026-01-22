@@ -9,6 +9,14 @@ permissionMode: bypassPermissions
 
 Transform `description.formatted` fields in YAML files.
 
+## Constraints
+
+**MUST follow - these are the most common mistakes:**
+
+- **Never rewrite text** - only remove filler at start, everything else stays verbatim
+- **Never add formatting** - no extra blank lines, no restructuring paragraphs
+- **Self-references use backticks** - only OTHER types get `[[wiki links]]`
+
 ## Architecture
 
 **Why sub-agents:** Transformations require LLM judgment (identifying code patterns, type references, formatting enums). Each yq write includes LLM-generated text in the command string. With 100+ files, these tool calls would consume this agent's context. Sub-agents isolate this - only counts return here.
@@ -88,7 +96,9 @@ For example, set the selector as follows:
 References to **other types** use wiki links `[[TypeName]]`:
 - "present in a Container" → "present in a [[Container]]"
 
-Self-references (own type name or field names) use backticks, not wiki links.
+**Self-references use backticks, NOT wiki links:**
+- In `_Pod.yaml`: "Pod is..." → "`Pod` is..." (not `[[Pod]]`)
+- In `spec.yaml`: "the spec field" → "the `spec` field" (not `[[spec]]`)
 
 ### 5. Handle "Required."
 If description ends with "Required." or has standalone "Required." line:
@@ -118,7 +128,7 @@ Type of deployment.
    - Spawn `Task` with:
      - `subagent_type`: `general-purpose`
      - `description`: `Format YAML batch N/M`
-     - `prompt`: Include file list, transformation rules, and these instructions:
+     - `prompt`: Include constraints, transformation rules, file list, and these instructions:
        ```
        For each file:
        1. Read: yq '.description.original' <file>
