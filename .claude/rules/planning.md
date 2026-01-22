@@ -40,3 +40,12 @@ Structure steps as vertical slices (end-to-end through all layers), not horizont
 1. Add field X (extract → generate → verify)
 2. Add field Y (extract → generate → verify)
 ```
+
+**Tracer bullets:** Start with the smallest possible end-to-end slice. Get it working, seek feedback, then expand. This validates the approach before investing in full implementation.
+
+```
+# Example: adding a new field to output
+1. Pick ONE type, ONE field
+2. Extract → generate → verify output looks right
+3. Expand to all types
+```
