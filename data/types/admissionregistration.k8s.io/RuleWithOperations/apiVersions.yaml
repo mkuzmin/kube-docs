@@ -2,7 +2,6 @@ description:
   original: |-
     APIVersions is the API versions the resources belong to. '*' is all versions. If '*' is present, the length of the slice must be one. Required.
   formatted: |-
-    The API versions the resources belong to. `*` is all versions. If `*` is present, the length of the slice must be one.
+    APIVersions is the API versions the resources belong to. '*' is all versions. If '*' is present, the length of the slice must be one. Required.
 type: string
 collection: array
-required: true

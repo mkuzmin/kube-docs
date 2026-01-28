@@ -2,5 +2,5 @@ description:
   original: |-
     Version is the API version this server hosts.  For example, "v1"
   formatted: |-
-    The API version this server hosts.  For example, `v1`
+    Version is the API version this server hosts.  For example, "v1"
 type: string

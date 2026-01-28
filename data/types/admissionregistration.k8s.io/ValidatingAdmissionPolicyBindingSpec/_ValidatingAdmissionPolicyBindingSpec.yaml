@@ -2,4 +2,4 @@ description:
   original: |-
     ValidatingAdmissionPolicyBindingSpec is the specification of the ValidatingAdmissionPolicyBinding.
   formatted: |-
-    The specification of the [[ValidatingAdmissionPolicyBinding]].
+    ValidatingAdmissionPolicyBindingSpec is the specification of the ValidatingAdmissionPolicyBinding.

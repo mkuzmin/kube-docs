@@ -2,5 +2,5 @@ description:
   original: |-
     Group is the API group name this server hosts
   formatted: |-
-    The API group name this server hosts
+    Group is the API group name this server hosts
 type: string

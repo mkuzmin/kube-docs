@@ -2,4 +2,4 @@ description:
   original: |-
     ValidatingAdmissionPolicyStatus represents the status of an admission validation policy.
   formatted: |-
-    Represents the status of an admission validation policy.
+    ValidatingAdmissionPolicyStatus represents the status of an admission validation policy.

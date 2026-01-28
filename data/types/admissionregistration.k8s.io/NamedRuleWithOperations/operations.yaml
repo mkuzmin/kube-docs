@@ -2,7 +2,6 @@ description:
   original: |-
     Operations is the operations the admission hook cares about - CREATE, UPDATE, DELETE, CONNECT or * for all of those operations and any future admission operations that are added. If '*' is present, the length of the slice must be one. Required.
   formatted: |-
-    The operations the admission hook cares about - `CREATE`, `UPDATE`, `DELETE`, `CONNECT` or `*` for all of those operations and any future admission operations that are added. If `*` is present, the length of the slice must be one.
+    Operations is the operations the admission hook cares about - CREATE, UPDATE, DELETE, CONNECT or * for all of those operations and any future admission operations that are added. If '*' is present, the length of the slice must be one. Required.
 type: string
 collection: array
-required: true

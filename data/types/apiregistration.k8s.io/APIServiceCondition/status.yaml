@@ -2,10 +2,6 @@ description:
   original: |-
     Status is the status of the condition. Can be True, False, Unknown.
   formatted: |-
-    The status of the condition:
-    - `True`
-    - `False`
-    - `Unknown`
+    Status is the status of the condition. Can be True, False, Unknown.
 type: string
 required: true
-enum: true

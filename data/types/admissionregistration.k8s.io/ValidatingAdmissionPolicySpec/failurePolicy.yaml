@@ -10,14 +10,13 @@ description:
 
     Allowed values are Ignore or Fail. Defaults to Fail.
   formatted: |-
-    Defines how to handle failures for the admission policy. Failures can occur from CEL expression parse errors, type check errors, runtime errors and invalid or mis-configured policy definitions or bindings.
+    failurePolicy defines how to handle failures for the admission policy. Failures can occur from CEL expression parse errors, type check errors, runtime errors and invalid or mis-configured policy definitions or bindings.
 
-    A policy is invalid if `spec.paramKind` refers to a non-existent Kind. A binding is invalid if `spec.paramRef.name` refers to a non-existent resource.
+    A policy is invalid if spec.paramKind refers to a non-existent Kind. A binding is invalid if spec.paramRef.name refers to a non-existent resource.
 
-    `failurePolicy` does not define how validations that evaluate to false are handled.
+    failurePolicy does not define how validations that evaluate to false are handled.
 
-    When `failurePolicy` is set to `Fail`, [[ValidatingAdmissionPolicyBinding]] `validationActions` define how failures are enforced.
-    - `Ignore`
-    - `Fail` (**default**)
+    When failurePolicy is set to Fail, ValidatingAdmissionPolicyBinding validationActions define how failures are enforced.
+
+    Allowed values are Ignore or Fail. Defaults to Fail.
 type: string
-enum: true

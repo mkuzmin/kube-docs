@@ -4,7 +4,7 @@ description:
 
     If the webhook is running within the cluster, then you should use `service`.
   formatted: |-
-    A reference to the service for this webhook. Either `service` or `url` must be specified.
+    `service` is a reference to the service for this webhook. Either `service` or `url` must be specified.
 
     If the webhook is running within the cluster, then you should use `service`.
 type: ServiceReference

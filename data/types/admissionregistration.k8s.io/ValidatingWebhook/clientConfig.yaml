@@ -2,6 +2,6 @@ description:
   original: |-
     ClientConfig defines how to communicate with the hook. Required
   formatted: |-
-    Defines how to communicate with the hook.
+    ClientConfig defines how to communicate with the hook. Required
 type: WebhookClientConfig
 required: true

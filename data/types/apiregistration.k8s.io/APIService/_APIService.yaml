@@ -2,5 +2,5 @@ description:
   original: |-
     APIService represents a server for a particular GroupVersion. Name must be "version.group".
   formatted: |-
-    A server for a particular GroupVersion. Name must be `version.group`.
+    APIService represents a server for a particular GroupVersion. Name must be "version.group".
 kind: true

@@ -2,4 +2,4 @@ description:
   original: |-
     ExpressionWarning is a warning information that targets a specific expression.
   formatted: |-
-    A warning information that targets a specific expression.
+    ExpressionWarning is a warning information that targets a specific expression.

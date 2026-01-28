@@ -2,5 +2,5 @@ description:
   original: |-
     Namespace is the namespace of the service
   formatted: |-
-    The namespace of the service
+    Namespace is the namespace of the service
 type: string
