@@ -11,12 +11,9 @@ description:
     In future we may want to introduce the PermanentlyUnhealthy Status.
   formatted: |-
     Health of the resource. can be one of:
-     - Healthy: operates as normal
-     - Unhealthy: reported unhealthy. We consider this a temporary health issue
-                  since we do not have a mechanism today to distinguish
-                  temporary and permanent issues.
-     - Unknown: The status cannot be determined.
-                For example, Device Plugin got unregistered and hasn't been re-registered since.
+      - `Healthy`: operates as normal
+      - `Unhealthy`: reported unhealthy. We consider this a temporary health issue since we do not have a mechanism today to distinguish temporary and permanent issues.
+      - `Unknown`: The status cannot be determined. For example, Device Plugin got unregistered and hasn't been re-registered since.
 
-    In future we may want to introduce the PermanentlyUnhealthy Status.
+    In future we may want to introduce the `PermanentlyUnhealthy` Status.
 type: string

@@ -13,10 +13,11 @@ description:
     This is an alpha field and requires enabling RecoverVolumeExpansionFailure feature.
   formatted: |-
     allocatedResources tracks the resources allocated to a PVC including its capacity. Key names follow standard Kubernetes label syntax. Valid values are either:
-    	* Un-prefixed keys:
-    		- storage - the capacity of the volume.
-    	* Custom resources must use implementation-defined prefixed names such as "example.com/my-custom-resource"
-    Apart from above values - keys that are unprefixed or have kubernetes.io prefix are considered reserved and hence may not be used.
+      * Un-prefixed keys: 
+        - `storage` - the capacity of the volume.
+      * Custom resources must use implementation-defined prefixed names such as `example.com/my-custom-resource`
+
+    Apart from above values - keys that are unprefixed or have `kubernetes.io` prefix are considered reserved and hence may not be used.
 
     Capacity reported here may be larger than the actual capacity when a volume expansion operation is requested. For storage quota, the larger value from allocatedResources and PVC.spec.resources is used. If allocatedResources is not set, PVC.spec.resources alone is used for quota calculation. If a volume expansion capacity request is lowered, allocatedResources is only lowered if there are no expansion operations in progress and if the actual volume capacity is equal or lower than the requested capacity.
 
