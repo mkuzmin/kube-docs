@@ -1,0 +1,48 @@
+certificates.k8s.io/CertificateSigningRequest/spec.yaml
+spec contains the certificate request, and is immutable after creation. Only the request, signerName, expirationSeconds, and usages fields can be set on creation. Other fields are derived by Kubernetes and cannot be modified by users.
+===
+certificates.k8s.io/CertificateSigningRequest/status.yaml
+status contains information about whether the request is approved or denied, and the certificate issued by the signer, or the failure condition indicating signer failure.
+===
+certificates.k8s.io/CertificateSigningRequestCondition/_CertificateSigningRequestCondition.yaml
+CertificateSigningRequestCondition describes a condition of a CertificateSigningRequest object
+===
+certificates.k8s.io/CertificateSigningRequestCondition/lastTransitionTime.yaml
+lastTransitionTime is the time the condition last transitioned from one status to another. If unset, when a new condition type is added or an existing condition's status is changed, the server defaults this to the current time.
+===
+certificates.k8s.io/CertificateSigningRequestCondition/lastUpdateTime.yaml
+lastUpdateTime is the time of the last update to this condition
+===
+certificates.k8s.io/CertificateSigningRequestCondition/message.yaml
+message contains a human readable message with details about the request state
+===
+certificates.k8s.io/CertificateSigningRequestCondition/reason.yaml
+reason indicates a brief reason for the request state
+===
+certificates.k8s.io/CertificateSigningRequestCondition/status.yaml
+status of the condition, one of True, False, Unknown. Approved, Denied, and Failed conditions may not be "False" or "Unknown".
+===
+certificates.k8s.io/CertificateSigningRequestSpec/_CertificateSigningRequestSpec.yaml
+CertificateSigningRequestSpec contains the certificate request.
+===
+certificates.k8s.io/CertificateSigningRequestSpec/extra.yaml
+extra contains extra attributes of the user that created the CertificateSigningRequest. Populated by the API server on creation and immutable.
+===
+certificates.k8s.io/CertificateSigningRequestSpec/groups.yaml
+groups contains group membership of the user that created the CertificateSigningRequest. Populated by the API server on creation and immutable.
+===
+certificates.k8s.io/CertificateSigningRequestSpec/request.yaml
+request contains an x509 certificate signing request encoded in a "CERTIFICATE REQUEST" PEM block. When serialized as JSON or YAML, the data is additionally base64-encoded.
+===
+certificates.k8s.io/CertificateSigningRequestSpec/uid.yaml
+uid contains the uid of the user that created the CertificateSigningRequest. Populated by the API server on creation and immutable.
+===
+certificates.k8s.io/CertificateSigningRequestSpec/username.yaml
+username contains the name of the user that created the CertificateSigningRequest. Populated by the API server on creation and immutable.
+===
+certificates.k8s.io/CertificateSigningRequestStatus/_CertificateSigningRequestStatus.yaml
+CertificateSigningRequestStatus contains conditions used to indicate approved/denied/failed status of the request, and the issued certificate.
+===
+certificates.k8s.io/CertificateSigningRequestStatus/conditions.yaml
+conditions applied to the request. Known conditions are "Approved", "Denied", and "Failed".
+===

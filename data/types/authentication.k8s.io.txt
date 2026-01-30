@@ -1,0 +1,60 @@
+authentication.k8s.io/SelfSubjectReview/_SelfSubjectReview.yaml
+SelfSubjectReview contains the user information that the kube-apiserver has about the user making this request. When using impersonation, users will receive the user info of the user being impersonated. If impersonation or request header authentication is used, any extra keys will have their case ignored and returned as lowercase.
+===
+authentication.k8s.io/SelfSubjectReview/status.yaml
+Status is filled in by the server with the user attributes.
+===
+authentication.k8s.io/SelfSubjectReviewStatus/_SelfSubjectReviewStatus.yaml
+SelfSubjectReviewStatus is filled by the kube-apiserver and sent back to a user.
+===
+authentication.k8s.io/SelfSubjectReviewStatus/userInfo.yaml
+User attributes of the user making this request.
+===
+authentication.k8s.io/TokenReview/_TokenReview.yaml
+TokenReview attempts to authenticate a token to a known user. Note: TokenReview requests may be cached by the webhook token authenticator plugin in the kube-apiserver.
+===
+authentication.k8s.io/TokenReview/spec.yaml
+Spec holds information about the request being evaluated
+===
+authentication.k8s.io/TokenReview/status.yaml
+Status is filled in by the server and indicates whether the request can be authenticated.
+===
+authentication.k8s.io/TokenReviewSpec/_TokenReviewSpec.yaml
+TokenReviewSpec is a description of the token authentication request.
+===
+authentication.k8s.io/TokenReviewSpec/audiences.yaml
+Audiences is a list of the identifiers that the resource server presented with the token identifies as. Audience-aware token authenticators will verify that the token was intended for at least one of the audiences in this list. If no audiences are provided, the audience will default to the audience of the Kubernetes apiserver.
+===
+authentication.k8s.io/TokenReviewSpec/token.yaml
+Token is the opaque bearer token.
+===
+authentication.k8s.io/TokenReviewStatus/_TokenReviewStatus.yaml
+TokenReviewStatus is the result of the token authentication request.
+===
+authentication.k8s.io/TokenReviewStatus/audiences.yaml
+Audiences are audience identifiers chosen by the authenticator that are compatible with both the TokenReview and token. An identifier is any identifier in the intersection of the TokenReviewSpec audiences and the token's audiences. A client of the TokenReview API that sets the spec.audiences field should validate that a compatible audience identifier is returned in the status.audiences field to ensure that the TokenReview server is audience aware. If a TokenReview returns an empty status.audience field where status.authenticated is "true", the token is valid against the audience of the Kubernetes API server.
+===
+authentication.k8s.io/TokenReviewStatus/authenticated.yaml
+Authenticated indicates that the token was associated with a known user.
+===
+authentication.k8s.io/TokenReviewStatus/error.yaml
+Error indicates that the token couldn't be checked
+===
+authentication.k8s.io/TokenReviewStatus/user.yaml
+User is the UserInfo associated with the provided token.
+===
+authentication.k8s.io/UserInfo/_UserInfo.yaml
+UserInfo holds the information about the user needed to implement the user.Info interface.
+===
+authentication.k8s.io/UserInfo/extra.yaml
+Any additional information provided by the authenticator.
+===
+authentication.k8s.io/UserInfo/groups.yaml
+The names of groups this user is a part of.
+===
+authentication.k8s.io/UserInfo/uid.yaml
+A unique value that identifies this user across time. If this user is deleted and another user by the same name is added, they will have different UIDs.
+===
+authentication.k8s.io/UserInfo/username.yaml
+The name that uniquely identifies this user among all active users.
+===

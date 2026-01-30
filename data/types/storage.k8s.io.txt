@@ -1,0 +1,135 @@
+storage.k8s.io/CSIDriver/_CSIDriver.yaml
+CSIDriver captures information about a Container Storage Interface (CSI) volume driver deployed on the cluster. Kubernetes attach detach controller uses this object to determine whether attach is required. Kubelet uses this object to determine whether pod information needs to be passed on mount. CSIDriver objects are non-namespaced.
+===
+storage.k8s.io/CSIDriver/spec.yaml
+spec represents the specification of the CSI Driver.
+===
+storage.k8s.io/CSIDriverSpec/_CSIDriverSpec.yaml
+CSIDriverSpec is the specification of a CSIDriver.
+===
+storage.k8s.io/CSINode/_CSINode.yaml
+CSINode holds information about all CSI drivers installed on a node. CSI drivers do not need to create the CSINode object directly. As long as they use the node-driver-registrar sidecar container, the kubelet will automatically populate the CSINode object for the CSI driver as part of kubelet plugin registration. CSINode has the same name as a node. If the object is missing, it means either there are no CSI Drivers available on the node, or the Kubelet version is low enough that it doesn't create this object. CSINode has an OwnerReference that points to the corresponding node object.
+===
+storage.k8s.io/CSINode/spec.yaml
+spec is the specification of CSINode
+===
+storage.k8s.io/CSINodeDriver/_CSINodeDriver.yaml
+CSINodeDriver holds information about the specification of one CSI driver installed on a node
+===
+storage.k8s.io/CSINodeDriver/allocatable.yaml
+allocatable represents the volume resources of a node that are available for scheduling. This field is beta.
+===
+storage.k8s.io/CSINodeDriver/name.yaml
+name represents the name of the CSI driver that this object refers to. This MUST be the same name returned by the CSI GetPluginName() call for that driver.
+===
+storage.k8s.io/CSINodeDriver/nodeID.yaml
+nodeID of the node from the driver point of view. This field enables Kubernetes to communicate with storage systems that do not share the same nomenclature for nodes. For example, Kubernetes may refer to a given node as "node1", but the storage system may refer to the same node as "nodeA". When Kubernetes issues a command to the storage system to attach a volume to a specific node, it can use this field to refer to the node name using the ID that the storage system will understand, e.g. "nodeA" instead of "node1". This field is required.
+===
+storage.k8s.io/CSINodeDriver/topologyKeys.yaml
+topologyKeys is the list of keys supported by the driver. When a driver is initialized on a cluster, it provides a set of topology keys that it understands (e.g. "company.com/zone", "company.com/region"). When a driver is initialized on a node, it provides the same topology keys along with values. Kubelet will expose these topology keys as labels on its own node object. When Kubernetes does topology aware provisioning, it can use this list to determine which labels it should retrieve from the node object and pass back to the driver. It is possible for different nodes to use different topology keys. This can be empty if driver does not support topology.
+===
+storage.k8s.io/CSINodeSpec/_CSINodeSpec.yaml
+CSINodeSpec holds information about the specification of all CSI drivers installed on a node
+===
+storage.k8s.io/CSINodeSpec/drivers.yaml
+drivers is a list of information of all CSI Drivers existing on a node. If all drivers in the list are uninstalled, this can become empty.
+===
+storage.k8s.io/CSIStorageCapacity/nodeTopology.yaml
+nodeTopology defines which nodes have access to the storage for which capacity was reported. If not set, the storage is not accessible from any node in the cluster. If empty, the storage is accessible from all nodes. This field is immutable.
+===
+storage.k8s.io/CSIStorageCapacity/storageClassName.yaml
+storageClassName represents the name of the StorageClass that the reported capacity applies to. It must meet the same requirements as the name of a StorageClass object (non-empty, DNS subdomain). If that object no longer exists, the CSIStorageCapacity object is obsolete and should be removed by its creator. This field is immutable.
+===
+storage.k8s.io/StorageClass/allowVolumeExpansion.yaml
+allowVolumeExpansion shows whether the storage class allow volume expand.
+===
+storage.k8s.io/StorageClass/allowedTopologies.yaml
+allowedTopologies restrict the node topologies where volumes can be dynamically provisioned. Each volume plugin defines its own supported topology specifications. An empty TopologySelectorTerm list means there is no topology restriction. This field is only honored by servers that enable the VolumeScheduling feature.
+===
+storage.k8s.io/StorageClass/mountOptions.yaml
+mountOptions controls the mountOptions for dynamically provisioned PersistentVolumes of this storage class. e.g. ["ro", "soft"]. Not validated - mount of the PVs will simply fail if one is invalid.
+===
+storage.k8s.io/StorageClass/parameters.yaml
+parameters holds the parameters for the provisioner that should create volumes of this storage class.
+===
+storage.k8s.io/StorageClass/provisioner.yaml
+provisioner indicates the type of the provisioner.
+===
+storage.k8s.io/StorageClass/reclaimPolicy.yaml
+reclaimPolicy controls the reclaimPolicy for dynamically provisioned PersistentVolumes of this storage class. Defaults to Delete.
+===
+storage.k8s.io/StorageClass/volumeBindingMode.yaml
+volumeBindingMode indicates how PersistentVolumeClaims should be provisioned and bound.  When unset, VolumeBindingImmediate is used. This field is only honored by servers that enable the VolumeScheduling feature.
+===
+storage.k8s.io/TokenRequest/_TokenRequest.yaml
+TokenRequest contains parameters of a service account token.
+===
+storage.k8s.io/TokenRequest/audience.yaml
+audience is the intended audience of the token in "TokenRequestSpec". It will default to the audiences of kube apiserver.
+===
+storage.k8s.io/TokenRequest/expirationSeconds.yaml
+expirationSeconds is the duration of validity of the token in "TokenRequestSpec". It has the same default value of "ExpirationSeconds" in "TokenRequestSpec".
+===
+storage.k8s.io/VolumeAttachment/spec.yaml
+spec represents specification of the desired attach/detach volume behavior. Populated by the Kubernetes system.
+===
+storage.k8s.io/VolumeAttachment/status.yaml
+status represents status of the VolumeAttachment request. Populated by the entity completing the attach or detach operation, i.e. the external-attacher.
+===
+storage.k8s.io/VolumeAttachmentSource/_VolumeAttachmentSource.yaml
+VolumeAttachmentSource represents a volume that should be attached. Right now only PersistentVolumes can be attached via external attacher, in the future we may allow also inline volumes in pods. Exactly one member can be set.
+===
+storage.k8s.io/VolumeAttachmentSource/inlineVolumeSpec.yaml
+inlineVolumeSpec contains all the information necessary to attach a persistent volume defined by a pod's inline VolumeSource. This field is populated only for the CSIMigration feature. It contains translated fields from a pod's inline VolumeSource to a PersistentVolumeSpec. This field is beta-level and is only honored by servers that enabled the CSIMigration feature.
+===
+storage.k8s.io/VolumeAttachmentSource/persistentVolumeName.yaml
+persistentVolumeName represents the name of the persistent volume to attach.
+===
+storage.k8s.io/VolumeAttachmentSpec/_VolumeAttachmentSpec.yaml
+VolumeAttachmentSpec is the specification of a VolumeAttachment request.
+===
+storage.k8s.io/VolumeAttachmentSpec/attacher.yaml
+attacher indicates the name of the volume driver that MUST handle this request. This is the name returned by GetPluginName().
+===
+storage.k8s.io/VolumeAttachmentSpec/nodeName.yaml
+nodeName represents the node that the volume should be attached to.
+===
+storage.k8s.io/VolumeAttachmentSpec/source.yaml
+source represents the volume that should be attached.
+===
+storage.k8s.io/VolumeAttachmentStatus/_VolumeAttachmentStatus.yaml
+VolumeAttachmentStatus is the status of a VolumeAttachment request.
+===
+storage.k8s.io/VolumeAttachmentStatus/attachError.yaml
+attachError represents the last error encountered during attach operation, if any. This field must only be set by the entity completing the attach operation, i.e. the external-attacher.
+===
+storage.k8s.io/VolumeAttachmentStatus/attached.yaml
+attached indicates the volume is successfully attached. This field must only be set by the entity completing the attach operation, i.e. the external-attacher.
+===
+storage.k8s.io/VolumeAttachmentStatus/attachmentMetadata.yaml
+attachmentMetadata is populated with any information returned by the attach operation, upon successful attach, that must be passed into subsequent WaitForAttach or Mount calls. This field must only be set by the entity completing the attach operation, i.e. the external-attacher.
+===
+storage.k8s.io/VolumeAttachmentStatus/detachError.yaml
+detachError represents the last error encountered during detach operation, if any. This field must only be set by the entity completing the detach operation, i.e. the external-attacher.
+===
+storage.k8s.io/VolumeAttributesClass/_VolumeAttributesClass.yaml
+VolumeAttributesClass represents a specification of mutable volume attributes defined by the CSI driver. The class can be specified during dynamic provisioning of PersistentVolumeClaims, and changed in the PersistentVolumeClaim spec after provisioning.
+===
+storage.k8s.io/VolumeAttributesClass/driverName.yaml
+Name of the CSI driver This field is immutable.
+===
+storage.k8s.io/VolumeError/_VolumeError.yaml
+VolumeError captures an error encountered during a volume operation.
+===
+storage.k8s.io/VolumeError/message.yaml
+message represents the error encountered during Attach or Detach operation. This string may be logged, so it should not contain sensitive information.
+===
+storage.k8s.io/VolumeError/time.yaml
+time represents the time the error was encountered.
+===
+storage.k8s.io/VolumeNodeResources/_VolumeNodeResources.yaml
+VolumeNodeResources is a set of resource limits for scheduling of volumes.
+===
+storage.k8s.io/VolumeNodeResources/count.yaml
+count indicates the maximum number of unique volumes managed by the CSI driver that can be used on a node. A volume that is both attached and mounted on a node is considered to be used once, not twice. The same rule applies for a unique volume that is shared among multiple pods on the same node. If this field is not specified, then the supported number of volumes on this node is unbounded.
+===

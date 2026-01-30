@@ -1,0 +1,30 @@
+coordination.k8s.io/Lease/_Lease.yaml
+Lease defines a lease concept.
+===
+coordination.k8s.io/Lease/spec.yaml
+spec contains the specification of the Lease. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#spec-and-status
+===
+coordination.k8s.io/LeaseSpec/_LeaseSpec.yaml
+LeaseSpec is a specification of a Lease.
+===
+coordination.k8s.io/LeaseSpec/acquireTime.yaml
+acquireTime is a time when the current lease was acquired.
+===
+coordination.k8s.io/LeaseSpec/holderIdentity.yaml
+holderIdentity contains the identity of the holder of a current lease. If Coordinated Leader Election is used, the holder identity must be equal to the elected LeaseCandidate.metadata.name field.
+===
+coordination.k8s.io/LeaseSpec/leaseDurationSeconds.yaml
+leaseDurationSeconds is a duration that candidates for a lease need to wait to force acquire it. This is measured against the time of last observed renewTime.
+===
+coordination.k8s.io/LeaseSpec/leaseTransitions.yaml
+leaseTransitions is the number of transitions of a lease between holders.
+===
+coordination.k8s.io/LeaseSpec/preferredHolder.yaml
+PreferredHolder signals to a lease holder that the lease has a more optimal holder and should be given up. This field can only be set if Strategy is also set.
+===
+coordination.k8s.io/LeaseSpec/renewTime.yaml
+renewTime is a time when the current holder of a lease has last updated the lease.
+===
+coordination.k8s.io/LeaseSpec/strategy.yaml
+Strategy indicates the strategy for picking the leader for coordinated leader election. If the field is not specified, there is no active coordination for this lease. (Alpha) Using this field requires the CoordinatedLeaderElection feature gate to be enabled.
+===
