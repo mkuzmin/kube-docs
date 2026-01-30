@@ -12,9 +12,9 @@ alias:: CapacityRequirements
       
       When a requestPolicy is defined, the requested amount is adjusted upward to the nearest valid value based on the policy. If the requested amount cannot be adjusted to a valid value—because it exceeds what the requestPolicy allows— the device is considered ineligible for allocation.
       
-      For any capacity that is not explicitly requested: - If no requestPolicy is set, the default consumed capacity is equal to the full device capacity
-        (i.e., the whole device is claimed).
-      - If a requestPolicy is set, the default consumed capacity is determined according to that policy.
+      For any capacity that is not explicitly requested:
+        - If no requestPolicy is set, the default consumed capacity is equal to the full device capacity (i.e., the whole device is claimed).
+        - If a requestPolicy is set, the default consumed capacity is determined according to that policy.
       
-      If the device allows multiple allocation, the aggregated amount across all requests must not exceed the capacity value. The consumed capacity, which may be adjusted based on the requestPolicy if defined, is recorded in the resource claim’s status.devices[*].consumedCapacity field.
+      If the device allows multiple allocation, the aggregated amount across all requests must not exceed the capacity value. The consumed capacity, which may be adjusted based on the requestPolicy if defined, is recorded in the resource claim's status.devices[*].consumedCapacity field.
 

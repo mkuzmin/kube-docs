@@ -15,8 +15,7 @@ alias:: RuntimeClass
   - `metadata` (ObjectMeta)
 
   - `overhead` ([[Overhead]])
-    - overhead represents the resource overhead associated with running a pod for a given RuntimeClass. For more details, see
-       https://kubernetes.io/docs/concepts/scheduling-eviction/pod-overhead/
+    - overhead represents the resource overhead associated with running a pod for a given RuntimeClass. For more details, see https://kubernetes.io/docs/concepts/scheduling-eviction/pod-overhead/
 
   - `scheduling` ([[Scheduling]])
     - scheduling holds the scheduling constraints to ensure that pods running with this RuntimeClass are scheduled to nodes that support it. If scheduling is nil, this RuntimeClass is assumed to be supported by all nodes.

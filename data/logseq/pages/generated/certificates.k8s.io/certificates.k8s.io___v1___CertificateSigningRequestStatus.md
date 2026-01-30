@@ -22,7 +22,6 @@ alias:: CertificateSigningRequestStatus
       The certificate is encoded in PEM format.
       
       When serialized as JSON or YAML, the data is additionally base64-encoded, so it consists of:
-      
           base64(
           -----BEGIN CERTIFICATE-----
           ...

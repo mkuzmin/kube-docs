@@ -11,7 +11,6 @@ alias:: CertificateSigningRequestSpec
       The v1.22+ in-tree implementations of the well-known Kubernetes signers will honor this field as long as the requested duration is not greater than the maximum duration they will honor per the --cluster-signing-duration CLI flag to the Kubernetes controller manager.
       
       Certificate signers may not honor this field for various reasons:
-      
         1. Old signer that is unaware of the field (such as the in-tree
            implementations prior to v1.22)
         2. Signer whose configured maximum is shorter than the requested duration

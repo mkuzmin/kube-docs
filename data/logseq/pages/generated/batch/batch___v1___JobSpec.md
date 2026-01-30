@@ -44,10 +44,9 @@ alias:: JobSpec
     - Specifies the policy of handling failed pods. In particular, it allows to specify the set of actions and conditions which need to be satisfied to take the associated action. If empty, the default behaviour applies - the counter of failed pods, represented by the jobs's .status.failed field, is incremented and it is checked against the backoffLimit. This field cannot be used in combination with restartPolicy=OnFailure.
 
   - `podReplacementPolicy` (string)
-    - podReplacementPolicy specifies when to create replacement Pods. Possible values are: - TerminatingOrFailed means that we recreate pods
-        when they are terminating (has a metadata.deletionTimestamp) or failed.
-      - Failed means to wait until a previously created Pod is fully terminated (has phase
-        Failed or Succeeded) before creating a replacement Pod.
+    - podReplacementPolicy specifies when to create replacement Pods. Possible values are:
+        - TerminatingOrFailed means that we recreate pods when they are terminating (has a metadata.deletionTimestamp) or failed.
+        - Failed means to wait until a previously created Pod is fully terminated (has phase Failed or Succeeded) before creating a replacement Pod.
       
       When using podFailurePolicy, Failed is the the only allowed value. TerminatingOrFailed and Failed are allowed values when podFailurePolicy is not in use.
 

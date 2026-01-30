@@ -48,7 +48,11 @@ alias:: PodSpec
     - Specifies the hostname of the Pod If not specified, the pod's hostname will be set to a system-defined value.
 
   - `hostnameOverride` (string)
-    - HostnameOverride specifies an explicit override for the pod's hostname as perceived by the pod. This field only specifies the pod's hostname and does not affect its DNS records. When this field is set to a non-empty string: - It takes precedence over the values set in `hostname` and `subdomain`. - The Pod's hostname will be set to this value. - `setHostnameAsFQDN` must be nil or set to false. - `hostNetwork` must be set to false.
+    - HostnameOverride specifies an explicit override for the pod's hostname as perceived by the pod. This field only specifies the pod's hostname and does not affect its DNS records. When this field is set to a non-empty string:
+        - It takes precedence over the values set in `hostname` and `subdomain`.
+        - The Pod's hostname will be set to this value.
+        - `setHostnameAsFQDN` must be nil or set to false.
+        - `hostNetwork` must be set to false.
       
       This field must be a valid DNS subdomain as defined in RFC 1123 and contain at most 64 characters. Requires the HostnameOverride feature gate to be enabled.
 
@@ -67,9 +71,35 @@ alias:: PodSpec
   - `os` ([[PodOS]])
     - Specifies the OS of the containers in the pod. Some pod and container fields are restricted if this is set.
       
-      If the OS field is set to linux, the following fields must be unset: -securityContext.windowsOptions
+      If the OS field is set to linux, the following fields must be unset:
+        - securityContext.windowsOptions
       
-      If the OS field is set to windows, following fields must be unset: - spec.hostPID - spec.hostIPC - spec.hostUsers - spec.resources - spec.securityContext.appArmorProfile - spec.securityContext.seLinuxOptions - spec.securityContext.seccompProfile - spec.securityContext.fsGroup - spec.securityContext.fsGroupChangePolicy - spec.securityContext.sysctls - spec.shareProcessNamespace - spec.securityContext.runAsUser - spec.securityContext.runAsGroup - spec.securityContext.supplementalGroups - spec.securityContext.supplementalGroupsPolicy - spec.containers[*].securityContext.appArmorProfile - spec.containers[*].securityContext.seLinuxOptions - spec.containers[*].securityContext.seccompProfile - spec.containers[*].securityContext.capabilities - spec.containers[*].securityContext.readOnlyRootFilesystem - spec.containers[*].securityContext.privileged - spec.containers[*].securityContext.allowPrivilegeEscalation - spec.containers[*].securityContext.procMount - spec.containers[*].securityContext.runAsUser - spec.containers[*].securityContext.runAsGroup
+      If the OS field is set to windows, following fields must be unset:
+        - spec.hostPID
+        - spec.hostIPC
+        - spec.hostUsers
+        - spec.resources
+        - spec.securityContext.appArmorProfile
+        - spec.securityContext.seLinuxOptions
+        - spec.securityContext.seccompProfile
+        - spec.securityContext.fsGroup
+        - spec.securityContext.fsGroupChangePolicy
+        - spec.securityContext.sysctls
+        - spec.shareProcessNamespace
+        - spec.securityContext.runAsUser
+        - spec.securityContext.runAsGroup
+        - spec.securityContext.supplementalGroups
+        - spec.securityContext.supplementalGroupsPolicy
+        - spec.containers[*].securityContext.appArmorProfile
+        - spec.containers[*].securityContext.seLinuxOptions
+        - spec.containers[*].securityContext.seccompProfile
+        - spec.containers[*].securityContext.capabilities
+        - spec.containers[*].securityContext.readOnlyRootFilesystem
+        - spec.containers[*].securityContext.privileged
+        - spec.containers[*].securityContext.allowPrivilegeEscalation
+        - spec.containers[*].securityContext.procMount
+        - spec.containers[*].securityContext.runAsUser
+        - spec.containers[*].securityContext.runAsGroup
 
   - `overhead` (object)
     - Overhead represents the resource overhead associated with running a pod for a given RuntimeClass. This field will be autopopulated at admission time by the RuntimeClass admission controller. If the RuntimeClass admission controller is enabled, overhead must not be set in Pod create requests. The RuntimeClass admission controller will reject Pod create requests which have the overhead already set. If RuntimeClass is configured and selected in the PodSpec, Overhead will be set to the value defined in the corresponding RuntimeClass, otherwise it will remain unset and treated as zero. More info: https://git.k8s.io/enhancements/keps/sig-node/688-pod-overhead/README.md
