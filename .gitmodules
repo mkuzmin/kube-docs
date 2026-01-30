@@ -2,3 +2,6 @@
 	path = external/kubernetes
 	url = https://github.com/kubernetes/kubernetes.git
 	branch = release-1.34
+[submodule "external/website"]
+	path = external/website
+	url = https://github.com/kubernetes/website.git
