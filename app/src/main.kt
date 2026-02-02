@@ -100,7 +100,7 @@ fun generatePages(types: Map<String, Type>, group: ApiGroup, outDir: File) {
                     field != null -> formatFieldType(field, types)
                     else -> error("Field '$fieldName' not found in type or standard fields")
                 }
-                val requiredStr = if (field?.required == true) ", **required**" else ""
+                val requiredStr = if (field?.required == true || field?.requiredImplicitly == true) ", **required**" else ""
                 appendLine("  - `$fieldName` ($typeStr)$requiredStr")
 
                 if (fieldName !in setOf("apiVersion", "kind", "metadata")) {
