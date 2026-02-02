@@ -76,7 +76,7 @@ alias:: MutatingWebhook
     - reinvocationPolicy indicates whether this webhook should be called multiple times as part of a single admission evaluation. Allowed values are "Never" and "IfNeeded".
         - `Never`: the webhook will not be called more than once in a single admission evaluation.
         - `IfNeeded`: the webhook will be called at least one additional time as part of the admission evaluation if the object being admitted is modified by other admission plugins after the initial webhook call. Webhooks that specify this option *must* be idempotent, able to process objects they previously admitted.
-        
+      
         Note:
           * the number of additional invocations is not guaranteed to be exactly one.
           * if additional invocations result in further modifications to the object, webhooks are not guaranteed to be invoked again.

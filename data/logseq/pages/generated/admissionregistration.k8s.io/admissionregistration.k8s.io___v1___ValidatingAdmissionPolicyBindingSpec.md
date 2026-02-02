@@ -33,12 +33,12 @@ alias:: ValidatingAdmissionPolicyBindingSpec
       
       Example audit annotation:
         ```json
-        {"validation.policy.admission.k8s.io/validation_failure": [{                                                                             
-            "message": "Invalid value",                                                  
-            "policy": "policy.example.com",                                              
-            "binding": "policybinding.example.com",                                      
-            "expressionIndex": "1",                                                      
-            "validationActions": ["Audit"]                                               
+        {"validation.policy.admission.k8s.io/validation_failure": [{
+            "message": "Invalid value",
+            "policy": "policy.example.com",
+            "binding": "policybinding.example.com",
+            "expressionIndex": "1",
+            "validationActions": ["Audit"]
         }]}
       ```
       
