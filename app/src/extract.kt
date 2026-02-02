@@ -36,10 +36,17 @@ fun main() {
 }
 
 fun writeType(file: File, schema: Schema) {
+    val formatted = if (file.exists()) {
+        val y = yaml.decodeFromString(TypeYaml.serializer(), file.readText())
+        y.description.formatted
+    } else {
+        schema.description
+    }
+
     file.writeText(buildString {
         appendLine("description:")
         appendLiteralBlock("original", schema.description, indent = 2)
-        appendLiteralBlock("formatted", schema.description, indent = 2)
+        appendLiteralBlock("formatted", formatted, indent = 2)
         if (schema.kind != null)
             appendLine("kind: true")
     })
@@ -47,11 +54,18 @@ fun writeType(file: File, schema: Schema) {
 
 fun writeField(file: File, prop: Property, isRequired: Boolean, skipDescription: Boolean) {
     val (type, collection) = extractType(prop)
+    val formatted = if (file.exists() && prop.description != null) {
+        val y = yaml.decodeFromString(FieldYaml.serializer(), file.readText())
+        y.description?.formatted
+    } else {
+        null
+    }
+
     file.writeText(buildString {
         if (!skipDescription && prop.description != null) {
             appendLine("description:")
             appendLiteralBlock("original", prop.description, indent = 2)
-            appendLiteralBlock("formatted", prop.description, indent = 2)
+            appendLiteralBlock("formatted", formatted ?: prop.description, indent = 2)
         }
         appendLine("type: $type")
         if (collection != null) appendLine("collection: $collection")
@@ -59,6 +73,7 @@ fun writeField(file: File, prop: Property, isRequired: Boolean, skipDescription:
     })
 }
 
+// kaml doesn't support literal style (`|-`) for single-line values, so we write YAML manually
 fun StringBuilder.appendLiteralBlock(key: String, value: String, indent: Int) {
     val prefix = " ".repeat(indent)
     appendLine("$prefix$key: |-")
