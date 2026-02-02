@@ -5,11 +5,11 @@ alias:: Role
 - Properties
   heading:: true
 
-  - `apiVersion` (string)
+  - `apiVersion` (string), **required**
 
-  - `kind` (string)
+  - `kind` (string), **required**
 
-  - `metadata` (ObjectMeta)
+  - `metadata` (ObjectMeta), **required**
 
   - `rules` ([][[PolicyRule]])
     - Rules holds all the PolicyRules for this Role

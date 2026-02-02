@@ -5,11 +5,11 @@ alias:: PersistentVolumeClaim
 - Properties
   heading:: true
 
-  - `apiVersion` (string)
+  - `apiVersion` (string), **required**
 
-  - `kind` (string)
+  - `kind` (string), **required**
 
-  - `metadata` (ObjectMeta)
+  - `metadata` (ObjectMeta), **required**
 
   - `spec` ([[PersistentVolumeClaimSpec]])
     - spec defines the desired characteristics of a volume requested by a pod author. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims

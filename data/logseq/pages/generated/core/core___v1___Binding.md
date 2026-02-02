@@ -5,11 +5,11 @@ alias:: Binding
 - Properties
   heading:: true
 
-  - `apiVersion` (string)
+  - `apiVersion` (string), **required**
 
-  - `kind` (string)
+  - `kind` (string), **required**
 
-  - `metadata` (ObjectMeta)
+  - `metadata` (ObjectMeta), **required**
 
   - `target` ([[ObjectReference]]), **required**
     - The target object that you want to bind to the standard object.

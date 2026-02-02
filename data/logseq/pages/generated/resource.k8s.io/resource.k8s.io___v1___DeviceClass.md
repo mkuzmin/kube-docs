@@ -7,11 +7,11 @@ alias:: DeviceClass
 - Properties
   heading:: true
 
-  - `apiVersion` (string)
+  - `apiVersion` (string), **required**
 
-  - `kind` (string)
+  - `kind` (string), **required**
 
-  - `metadata` (ObjectMeta)
+  - `metadata` (ObjectMeta), **required**
 
   - `spec` ([[DeviceClassSpec]]), **required**
     - Spec defines what can be allocated and how to configure it.

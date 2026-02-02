@@ -5,11 +5,11 @@ alias:: SubjectAccessReview
 - Properties
   heading:: true
 
-  - `apiVersion` (string)
+  - `apiVersion` (string), **required**
 
-  - `kind` (string)
+  - `kind` (string), **required**
 
-  - `metadata` (ObjectMeta)
+  - `metadata` (ObjectMeta), **required**
 
   - `spec` ([[SubjectAccessReviewSpec]]), **required**
     - Spec holds information about the request being evaluated

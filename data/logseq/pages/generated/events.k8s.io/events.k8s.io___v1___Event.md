@@ -8,7 +8,7 @@ alias:: Event
   - `action` (string)
     - action is what action was taken/failed regarding to the regarding object. It is machine-readable. This field cannot be empty for new Events and it can have at most 128 characters.
 
-  - `apiVersion` (string)
+  - `apiVersion` (string), **required**
 
   - `deprecatedCount` (integer)
     - deprecatedCount is the deprecated field assuring backward compatibility with core.v1 Event type.
@@ -25,9 +25,9 @@ alias:: Event
   - `eventTime` (MicroTime), **required**
     - eventTime is the time when this Event was first observed. It is required.
 
-  - `kind` (string)
+  - `kind` (string), **required**
 
-  - `metadata` (ObjectMeta)
+  - `metadata` (ObjectMeta), **required**
 
   - `note` (string)
     - note is a human-readable description of the status of this operation. Maximal length of the note is 1kB, but libraries should be prepared to handle values up to 64kB.

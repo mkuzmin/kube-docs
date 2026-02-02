@@ -7,11 +7,11 @@ alias:: VolumeAttachment
 - Properties
   heading:: true
 
-  - `apiVersion` (string)
+  - `apiVersion` (string), **required**
 
-  - `kind` (string)
+  - `kind` (string), **required**
 
-  - `metadata` (ObjectMeta)
+  - `metadata` (ObjectMeta), **required**
 
   - `spec` ([[VolumeAttachmentSpec]]), **required**
     - spec represents specification of the desired attach/detach volume behavior. Populated by the Kubernetes system.

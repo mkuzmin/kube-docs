@@ -5,11 +5,11 @@ alias:: APIService
 - Properties
   heading:: true
 
-  - `apiVersion` (string)
+  - `apiVersion` (string), **required**
 
-  - `kind` (string)
+  - `kind` (string), **required**
 
-  - `metadata` (ObjectMeta)
+  - `metadata` (ObjectMeta), **required**
 
   - `spec` ([[APIServiceSpec]])
     - Spec contains information for locating and communicating with a server

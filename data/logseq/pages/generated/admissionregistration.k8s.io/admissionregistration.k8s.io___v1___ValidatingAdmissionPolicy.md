@@ -5,11 +5,11 @@ alias:: ValidatingAdmissionPolicy
 - Properties
   heading:: true
 
-  - `apiVersion` (string)
+  - `apiVersion` (string), **required**
 
-  - `kind` (string)
+  - `kind` (string), **required**
 
-  - `metadata` (ObjectMeta)
+  - `metadata` (ObjectMeta), **required**
 
   - `spec` ([[ValidatingAdmissionPolicySpec]])
     - Specification of the desired behavior of the ValidatingAdmissionPolicy.

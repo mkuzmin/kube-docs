@@ -5,11 +5,11 @@ alias:: Deployment
 - Properties
   heading:: true
 
-  - `apiVersion` (string)
+  - `apiVersion` (string), **required**
 
-  - `kind` (string)
+  - `kind` (string), **required**
 
-  - `metadata` (ObjectMeta)
+  - `metadata` (ObjectMeta), **required**
 
   - `spec` ([[DeploymentSpec]])
     - Specification of the desired behavior of the Deployment.

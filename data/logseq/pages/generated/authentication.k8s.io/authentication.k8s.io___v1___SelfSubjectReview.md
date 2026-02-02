@@ -5,11 +5,11 @@ alias:: SelfSubjectReview
 - Properties
   heading:: true
 
-  - `apiVersion` (string)
+  - `apiVersion` (string), **required**
 
-  - `kind` (string)
+  - `kind` (string), **required**
 
-  - `metadata` (ObjectMeta)
+  - `metadata` (ObjectMeta), **required**
 
   - `status` ([[SelfSubjectReviewStatus]])
     - Status is filled in by the server with the user attributes.
