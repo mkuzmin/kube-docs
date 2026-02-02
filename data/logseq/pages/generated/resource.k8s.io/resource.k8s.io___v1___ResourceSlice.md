@@ -15,11 +15,11 @@ alias:: ResourceSlice
 - Properties
   heading:: true
 
-  - `apiVersion` (string)
+  - `apiVersion` (string), **required**
 
-  - `kind` (string)
+  - `kind` (string), **required**
 
-  - `metadata` (ObjectMeta)
+  - `metadata` (ObjectMeta), **required**
 
   - `spec` ([[ResourceSliceSpec]]), **required**
     - Contains the information published by the driver.

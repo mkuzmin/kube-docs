@@ -5,11 +5,11 @@ alias:: ValidatingWebhookConfiguration
 - Properties
   heading:: true
 
-  - `apiVersion` (string)
+  - `apiVersion` (string), **required**
 
-  - `kind` (string)
+  - `kind` (string), **required**
 
-  - `metadata` (ObjectMeta)
+  - `metadata` (ObjectMeta), **required**
 
   - `webhooks` ([][[ValidatingWebhook]])
     - Webhooks is a list of webhooks and the affected resources and operations.

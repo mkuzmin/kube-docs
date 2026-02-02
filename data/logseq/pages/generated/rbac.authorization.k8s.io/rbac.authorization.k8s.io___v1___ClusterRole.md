@@ -8,11 +8,11 @@ alias:: ClusterRole
   - `aggregationRule` ([[AggregationRule]])
     - AggregationRule is an optional field that describes how to build the Rules for this ClusterRole. If AggregationRule is set, then the Rules are controller managed and direct changes to Rules will be stomped by the controller.
 
-  - `apiVersion` (string)
+  - `apiVersion` (string), **required**
 
-  - `kind` (string)
+  - `kind` (string), **required**
 
-  - `metadata` (ObjectMeta)
+  - `metadata` (ObjectMeta), **required**
 
   - `rules` ([][[PolicyRule]])
     - Rules holds all the PolicyRules for this ClusterRole

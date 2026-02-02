@@ -5,12 +5,12 @@ alias:: ComponentStatus
 - Properties
   heading:: true
 
-  - `apiVersion` (string)
+  - `apiVersion` (string), **required**
 
   - `conditions` ([][[ComponentCondition]])
     - List of component conditions observed
 
-  - `kind` (string)
+  - `kind` (string), **required**
 
-  - `metadata` (ObjectMeta)
+  - `metadata` (ObjectMeta), **required**
 

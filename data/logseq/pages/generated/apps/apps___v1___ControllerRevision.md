@@ -5,14 +5,14 @@ alias:: ControllerRevision
 - Properties
   heading:: true
 
-  - `apiVersion` (string)
+  - `apiVersion` (string), **required**
 
   - `data` (RawExtension)
     - Data is the serialized representation of the state.
 
-  - `kind` (string)
+  - `kind` (string), **required**
 
-  - `metadata` (ObjectMeta)
+  - `metadata` (ObjectMeta), **required**
 
   - `revision` (integer), **required**
     - Revision indicates the revision of the state represented by Data.

@@ -32,6 +32,7 @@ description:
 type: PodSpec
 collection: array
 required: true
+requiredImplicitly: true  # for apiVersion/kind/metadata on kinds
 ```
 
 ## Literal Block Style

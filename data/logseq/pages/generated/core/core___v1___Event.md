@@ -8,7 +8,7 @@ alias:: Event
   - `action` (string)
     - What action was taken/failed regarding to the Regarding object.
 
-  - `apiVersion` (string)
+  - `apiVersion` (string), **required**
 
   - `count` (integer)
     - The number of times this event has occurred.
@@ -22,7 +22,7 @@ alias:: Event
   - `involvedObject` ([[ObjectReference]]), **required**
     - The object that this event is about.
 
-  - `kind` (string)
+  - `kind` (string), **required**
 
   - `lastTimestamp` (Time)
     - The time at which the most recent occurrence of this event was recorded.

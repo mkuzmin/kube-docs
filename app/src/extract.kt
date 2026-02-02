@@ -28,8 +28,9 @@ fun main() {
 
             schema.properties.forEach { (fieldName, prop) ->
                 val isRequired = fieldName in schema.required
+                val isImplicitlyRequired = schema.kind != null && fieldName in setOf("apiVersion", "kind", "metadata")
                 val skipDescription = fieldName in setOf("apiVersion", "kind", "metadata")
-                writeField(File(typeDir, "$fieldName.yaml"), prop, isRequired, skipDescription)
+                writeField(File(typeDir, "$fieldName.yaml"), prop, isRequired, isImplicitlyRequired, skipDescription)
             }
         }
     }
@@ -52,7 +53,7 @@ fun writeType(file: File, schema: Schema) {
     })
 }
 
-fun writeField(file: File, prop: Property, isRequired: Boolean, skipDescription: Boolean) {
+fun writeField(file: File, prop: Property, isRequired: Boolean, isImplicitlyRequired: Boolean, skipDescription: Boolean) {
     val (type, collection) = extractType(prop)
     val formatted = if (file.exists() && prop.description != null) {
         val y = yaml.decodeFromString(FieldYaml.serializer(), file.readText())
@@ -70,6 +71,7 @@ fun writeField(file: File, prop: Property, isRequired: Boolean, skipDescription:
         appendLine("type: $type")
         if (collection != null) appendLine("collection: $collection")
         if (isRequired) appendLine("required: true")
+        if (isImplicitlyRequired) appendLine("requiredImplicitly: true")
     })
 }
 

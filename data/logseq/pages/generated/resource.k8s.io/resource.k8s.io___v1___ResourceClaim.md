@@ -7,11 +7,11 @@ alias:: ResourceClaim
 - Properties
   heading:: true
 
-  - `apiVersion` (string)
+  - `apiVersion` (string), **required**
 
-  - `kind` (string)
+  - `kind` (string), **required**
 
-  - `metadata` (ObjectMeta)
+  - `metadata` (ObjectMeta), **required**
 
   - `spec` ([[ResourceClaimSpec]]), **required**
     - Spec describes what is being requested and how to configure it. The spec is immutable.

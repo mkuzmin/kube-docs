@@ -5,11 +5,11 @@ alias:: CSINode
 - Properties
   heading:: true
 
-  - `apiVersion` (string)
+  - `apiVersion` (string), **required**
 
-  - `kind` (string)
+  - `kind` (string), **required**
 
-  - `metadata` (ObjectMeta)
+  - `metadata` (ObjectMeta), **required**
 
   - `spec` ([[CSINodeSpec]]), **required**
     - spec is the specification of CSINode
