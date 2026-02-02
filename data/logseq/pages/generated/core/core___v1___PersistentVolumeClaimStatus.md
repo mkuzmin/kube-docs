@@ -38,7 +38,7 @@ alias:: PersistentVolumeClaimStatus
 
   - `allocatedResources` (object)
     - allocatedResources tracks the resources allocated to a PVC including its capacity. Key names follow standard Kubernetes label syntax. Valid values are either:
-        * Un-prefixed keys: 
+        * Un-prefixed keys:
           - `storage` - the capacity of the volume.
         * Custom resources must use implementation-defined prefixed names such as `example.com/my-custom-resource`
       
