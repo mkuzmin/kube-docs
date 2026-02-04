@@ -30,13 +30,50 @@ Use `mkdirs()` + `touch` + `yq -i` for all files. `yq -i` requires file to exist
 
 **OpenAPI-derived fields to update:**
 - Type files: `description.original`, `kind`
-- Field files: `description.original`, `type`, `collection`, `required.openapi`, `required.kind` (for apiVersion/kind/metadata only)
+- Field files: `description.original`, `type`, `collection`, `required` block (for apiVersion/kind/metadata only)
 
-**Non-obvious points:**
-- `required.kind` for apiVersion/kind/metadata: written from extraction for kind types. Other fields never have this.
-- For optional fields (e.g., `collection`): use conditional in Kotlin - if value non-null call `yq '.field = strenv(VAL)'`, else call `yq 'del(.field)'`.
-- Pass multiline strings via environment variable + `strenv()`: `DESC="..." yq -i '.desc = strenv(DESC)' file.yaml`. Avoids escaping issues, outputs literal block style.
-- For booleans (e.g., `kind`): use literal `yq '.kind = true'` - no strenv needed.
+### yq Expressions
+
+**Description fields** (type files and field files with descriptions):
+```bash
+# Set original (always) - strenv preserves literal style on existing files
+DESC="..." yq -i '.description.original = strenv(DESC) | .description.original style="literal"' file.yaml
+
+# Set formatted only if missing (preserves edits, initializes new files)
+DESC="..." yq -i '.description.formatted = (.description.formatted // strenv(DESC)) | .description.formatted style="literal"' file.yaml
+```
+
+Note: `style="literal"` is required - without it, new files get plain strings instead of `|-` blocks.
+
+**Type-specific fields:**
+```bash
+# kind (boolean) - set if true, delete if false/null
+yq -i '.kind = true' file.yaml
+yq -i 'del(.kind)' file.yaml
+```
+
+**Field-specific fields:**
+```bash
+# type (always present)
+yq -i '.type = "TypeName"' file.yaml
+
+# collection (optional) - set or delete
+yq -i '.collection = "array"' file.yaml
+yq -i 'del(.collection)' file.yaml
+
+# required block - set entire block or delete
+yq -i '.required = {"openapi": true}' file.yaml
+yq -i '.required = {"kind": true}' file.yaml
+yq -i '.required = {"openapi": true, "kind": true}' file.yaml
+yq -i 'del(.required)' file.yaml
+```
+
+### Implementation Notes
+
+- `required.kind` applies only to apiVersion/kind/metadata fields on kind types
+- `required.openapi` comes from OpenAPI `required` array
+- Set entire `required` block at once (simpler than managing nested fields)
+- Fields without descriptions (apiVersion, kind, metadata) skip the description yq calls entirely
 
 ## Verification
 
