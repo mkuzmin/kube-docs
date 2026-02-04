@@ -1,16 +1,14 @@
 # Plan: Preserve External YAML Fields in Extraction
 
-## Current Problem
+## Problem Statement
 
 YAML files in `data/types/` contain three kinds of data:
 
-1. **OpenAPI-derived** - extracted by Kotlin code from specs (e.g., `description.original`, `type`, `required`)
-2. **AI-added** - detected by subagents from Kubernetes source code (e.g., `requiredImplicitly`, `enum`)
+1. **OpenAPI-derived** - extracted by Kotlin code from specs (e.g., `description.original`, `type`, `required.openapi`)
+2. **AI-added** - detected by Claude Code slash commands from Kubernetes source code and descriptions (e.g., `enum`)
 3. **Edited** - `description.formatted` refined by AI or manually
 
-Current `extract.kt` completely overwrites YAML files, preserving only `description.formatted`. All other externally-added fields are lost.
-
-When extraction runs after AI agents have enriched files, their work is destroyed.
+Re-running extraction overwrites files, losing AI-added and edited data.
 
 ## Goal
 
@@ -32,10 +30,10 @@ Use `mkdirs()` + `touch` + `yq -i` for all files. `yq -i` requires file to exist
 
 **OpenAPI-derived fields to update:**
 - Type files: `description.original`, `kind`
-- Field files: `description.original`, `type`, `collection`, `required`, `requiredImplicitly` (for apiVersion/kind/metadata only)
+- Field files: `description.original`, `type`, `collection`, `required.openapi`, `required.kind` (for apiVersion/kind/metadata only)
 
 **Non-obvious points:**
-- `requiredImplicitly` for apiVersion/kind/metadata: keep writing from extraction (current behavior). AI agents may add it to other fields.
+- `required.kind` for apiVersion/kind/metadata: written from extraction for kind types. Other fields never have this.
 - For optional fields (e.g., `collection`): use conditional in Kotlin - if value non-null call `yq '.field = strenv(VAL)'`, else call `yq 'del(.field)'`.
 - Pass multiline strings via environment variable + `strenv()`: `DESC="..." yq -i '.desc = strenv(DESC)' file.yaml`. Avoids escaping issues, outputs literal block style.
 - For booleans (e.g., `kind`): use literal `yq '.kind = true'` - no strenv needed.
