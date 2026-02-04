@@ -37,53 +37,51 @@ fun main() {
 }
 
 fun writeType(file: File, schema: Schema) {
-    val formatted = if (file.exists()) {
-        val y = yaml.decodeFromString(TypeYaml.serializer(), file.readText())
-        y.description.formatted
-    } else {
-        schema.description
-    }
+    file.parentFile.mkdirs()
+    if (!file.exists()) file.createNewFile()
 
-    file.writeText(buildString {
-        appendLine("description:")
-        appendLiteralBlock("original", schema.description, indent = 2)
-        appendLiteralBlock("formatted", formatted, indent = 2)
-        if (schema.kind != null)
-            appendLine("kind: true")
-    })
+    // description.original - always update
+    yq(file, ".description.original = strenv(DESC) | .description.original style=\"literal\"", "DESC" to schema.description)
+
+    // description.formatted - set only if missing (preserves edits)
+    yq(file, ".description.formatted = (.description.formatted // strenv(DESC)) | .description.formatted style=\"literal\"", "DESC" to schema.description)
+
+    // kind - set if true, delete if false/null
+    if (schema.kind != null) {
+        yq(file, ".kind = true")
+    } else {
+        yq(file, "del(.kind)")
+    }
 }
 
 fun writeField(file: File, prop: Property, requiredOpenapi: Boolean, requiredKind: Boolean, skipDescription: Boolean) {
     val (type, collection) = extractType(prop)
-    val formatted = if (file.exists() && prop.description != null) {
-        val y = yaml.decodeFromString(FieldYaml.serializer(), file.readText())
-        y.description?.formatted
-    } else {
-        null
+
+    file.parentFile.mkdirs()
+    if (!file.exists()) file.createNewFile()
+
+    // description - skip for apiVersion/kind/metadata
+    if (!skipDescription && prop.description != null) {
+        yq(file, ".description.original = strenv(DESC) | .description.original style=\"literal\"", "DESC" to prop.description)
+        yq(file, ".description.formatted = (.description.formatted // strenv(DESC)) | .description.formatted style=\"literal\"", "DESC" to prop.description)
     }
 
-    file.writeText(buildString {
-        if (!skipDescription && prop.description != null) {
-            appendLine("description:")
-            appendLiteralBlock("original", prop.description, indent = 2)
-            appendLiteralBlock("formatted", formatted ?: prop.description, indent = 2)
-        }
-        appendLine("type: $type")
-        if (collection != null) appendLine("collection: $collection")
-        if (requiredOpenapi || requiredKind) {
-            appendLine("required:")
-            if (requiredOpenapi) appendLine("  openapi: true")
-            if (requiredKind) appendLine("  kind: true")
-        }
-    })
-}
+    // type - always present
+    yq(file, ".type = \"$type\"")
 
-// kaml doesn't support literal style (`|-`) for single-line values, so we write YAML manually
-fun StringBuilder.appendLiteralBlock(key: String, value: String, indent: Int) {
-    val prefix = " ".repeat(indent)
-    appendLine("$prefix$key: |-")
-    value.lines().forEach { line ->
-        appendLine("$prefix  $line".trimEnd())
+    // collection - set or delete
+    if (collection != null) {
+        yq(file, ".collection = \"$collection\"")
+    } else {
+        yq(file, "del(.collection)")
+    }
+
+    // required block - set entire block or delete
+    when {
+        requiredOpenapi && requiredKind -> yq(file, ".required = {\"openapi\": true, \"kind\": true}")
+        requiredOpenapi -> yq(file, ".required = {\"openapi\": true}")
+        requiredKind -> yq(file, ".required = {\"kind\": true}")
+        else -> yq(file, "del(.required)")
     }
 }
 
@@ -109,3 +107,13 @@ fun extractType(prop: Property): Pair<String, String?> = when {
 
 fun extractRefType(ref: String): String =
     ref.removePrefix("#/components/schemas/").substringAfterLast(".")
+
+fun yq(file: File, expression: String, vararg env: Pair<String, String>) {
+    val envArray = env.flatMap { (k, v) -> listOf("$k=$v") }.toTypedArray()
+    val process = ProcessBuilder("env", *envArray, "yq", "-i", expression, file.absolutePath)
+        .redirectErrorStream(true)
+        .start()
+    val output = process.inputStream.bufferedReader().readText()
+    val exitCode = process.waitFor()
+    if (exitCode != 0) error("yq failed (exit $exitCode): $output")
+}
