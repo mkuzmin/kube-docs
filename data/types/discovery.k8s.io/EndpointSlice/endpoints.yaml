@@ -5,4 +5,5 @@ description:
     endpoints is a list of unique endpoints in this slice. Each slice may include a maximum of 1000 endpoints.
 type: Endpoint
 collection: array
-required: true
+required:
+  openapi: true

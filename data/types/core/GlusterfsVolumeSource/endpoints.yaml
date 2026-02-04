@@ -4,4 +4,5 @@ description:
   formatted: |-
     endpoints is the endpoint name that details Glusterfs topology.
 type: string
-required: true
+required:
+  openapi: true

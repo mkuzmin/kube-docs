@@ -9,4 +9,5 @@ description:
     The maximum number counters in a device is 32. In addition, the maximum number of all counters in all devices is 1024 (for example, 64 devices with 16 counters each).
 type: Counter
 collection: map
-required: true
+required:
+  openapi: true

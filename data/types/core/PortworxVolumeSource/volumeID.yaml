@@ -4,4 +4,5 @@ description:
   formatted: |-
     volumeID uniquely identifies a Portworx volume
 type: string
-required: true
+required:
+  openapi: true

@@ -4,4 +4,5 @@ description:
   formatted: |-
     type represents whether the metric type is Utilization, Value, or AverageValue
 type: string
-required: true
+required:
+  openapi: true

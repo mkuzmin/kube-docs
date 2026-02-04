@@ -1,3 +1,4 @@
 type: ObjectMeta
-required: true
-requiredImplicitly: true
+required:
+  openapi: true
+  kind: true

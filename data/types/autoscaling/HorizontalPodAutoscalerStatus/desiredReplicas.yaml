@@ -4,4 +4,5 @@ description:
   formatted: |-
     desiredReplicas is the desired number of replicas of pods managed by this autoscaler, as last calculated by the autoscaler.
 type: integer
-required: true
+required:
+  openapi: true

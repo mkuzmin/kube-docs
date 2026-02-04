@@ -4,4 +4,5 @@ description:
   formatted: |-
     iqn is Target iSCSI Qualified Name.
 type: string
-required: true
+required:
+  openapi: true

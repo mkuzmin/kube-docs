@@ -31,9 +31,12 @@ description:
     Specification of the desired behavior.
 type: PodSpec
 collection: array
-required: true
-requiredImplicitly: true  # for apiVersion/kind/metadata on kinds
+required:
+  openapi: true  # from OpenAPI required array
+  kind: true     # implicitly required for kinds (apiVersion/kind/metadata)
 ```
+
+The `required:` block is omitted entirely when the field is optional.
 
 ## Literal Block Style
 

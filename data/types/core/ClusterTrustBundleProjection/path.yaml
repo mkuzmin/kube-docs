@@ -4,4 +4,5 @@ description:
   formatted: |-
     Relative path from the volume root to write the bundle.
 type: string
-required: true
+required:
+  openapi: true

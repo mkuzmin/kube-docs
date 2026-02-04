@@ -4,4 +4,5 @@ description:
   formatted: |-
     The port number of the endpoint.
 type: integer
-required: true
+required:
+  openapi: true

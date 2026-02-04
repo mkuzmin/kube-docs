@@ -4,4 +4,5 @@ description:
   formatted: |-
     replicas is the number of Pods created by the StatefulSet controller.
 type: integer
-required: true
+required:
+  openapi: true

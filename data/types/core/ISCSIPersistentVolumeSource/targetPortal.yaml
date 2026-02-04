@@ -4,4 +4,5 @@ description:
   formatted: |-
     targetPortal is iSCSI Target Portal. The Portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
 type: string
-required: true
+required:
+  openapi: true

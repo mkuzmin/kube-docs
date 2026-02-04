@@ -4,4 +4,5 @@ description:
   formatted: |-
     Kubelet's generated CSRs will be addressed to this signer.
 type: string
-required: true
+required:
+  openapi: true

@@ -4,4 +4,5 @@ description:
   formatted: |-
     Name of the attached volume
 type: string
-required: true
+required:
+  openapi: true

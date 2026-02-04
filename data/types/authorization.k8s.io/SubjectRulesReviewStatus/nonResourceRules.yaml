@@ -5,4 +5,5 @@ description:
     NonResourceRules is the list of actions the subject is allowed to perform on non-resources. The list ordering isn't significant, may contain duplicates, and possibly be incomplete.
 type: NonResourceRule
 collection: array
-required: true
+required:
+  openapi: true

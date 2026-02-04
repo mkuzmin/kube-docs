@@ -4,4 +4,5 @@ description:
   formatted: |-
     Required: resource to select
 type: string
-required: true
+required:
+  openapi: true

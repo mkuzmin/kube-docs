@@ -4,4 +4,5 @@ description:
   formatted: |-
     The object that this event is about.
 type: ObjectReference
-required: true
+required:
+  openapi: true

@@ -4,4 +4,5 @@ description:
   formatted: |-
     key is the key to project.
 type: string
-required: true
+required:
+  openapi: true

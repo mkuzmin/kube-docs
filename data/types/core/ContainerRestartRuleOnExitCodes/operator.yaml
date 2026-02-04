@@ -9,4 +9,5 @@ description:
       - In: the requirement is satisfied if the container exit code is in the set of specified values.
       - NotIn: the requirement is satisfied if the container exit code is not in the set of specified values.
 type: string
-required: true
+required:
+  openapi: true

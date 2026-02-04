@@ -4,4 +4,5 @@ description:
   formatted: |-
     ImageID is the image ID of the container's image. The image ID may not match the image ID of the image used in the PodSpec, as it may have been resolved by the runtime.
 type: string
-required: true
+required:
+  openapi: true

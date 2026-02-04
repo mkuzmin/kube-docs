@@ -4,4 +4,5 @@ description:
   formatted: |-
     value contains the amount of change which is permitted by the policy. It must be greater than zero
 type: integer
-required: true
+required:
+  openapi: true

@@ -4,4 +4,5 @@ description:
   formatted: |-
     type describes the current condition
 type: string
-required: true
+required:
+  openapi: true

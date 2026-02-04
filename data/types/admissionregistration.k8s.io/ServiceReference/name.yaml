@@ -4,4 +4,5 @@ description:
   formatted: |-
     `name` is the name of the service. Required
 type: string
-required: true
+required:
+  openapi: true

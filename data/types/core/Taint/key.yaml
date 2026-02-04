@@ -4,4 +4,5 @@ description:
   formatted: |-
     Required. The taint key to be applied to a node.
 type: string
-required: true
+required:
+  openapi: true

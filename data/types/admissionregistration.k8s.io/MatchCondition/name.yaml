@@ -8,4 +8,5 @@ description:
 
     Required.
 type: string
-required: true
+required:
+  openapi: true

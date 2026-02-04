@@ -4,4 +4,5 @@ description:
   formatted: |-
     Type of node condition.
 type: string
-required: true
+required:
+  openapi: true

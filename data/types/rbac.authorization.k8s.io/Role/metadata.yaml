@@ -1,2 +1,3 @@
 type: ObjectMeta
-requiredImplicitly: true
+required:
+  kind: true

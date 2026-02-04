@@ -4,4 +4,5 @@ description:
   formatted: |-
     volume is a string that references an already created Quobyte volume by name.
 type: string
-required: true
+required:
+  openapi: true

@@ -8,4 +8,5 @@ description:
 
     Combined with ResourceSliceCount, this mechanism enables consumers to detect pools which are comprised of multiple ResourceSlices and are in an incomplete state.
 type: integer
-required: true
+required:
+  openapi: true

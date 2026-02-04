@@ -4,4 +4,5 @@ description:
   formatted: |-
     UID identifies exactly one incarnation of the resource.
 type: string
-required: true
+required:
+  openapi: true

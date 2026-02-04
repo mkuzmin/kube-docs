@@ -44,4 +44,5 @@ description:
      5. Expiration/certificate lifetime: whether it is fixed by the signer, configurable by the admin.
      6. Whether or not requests for CA certificates are allowed.
 type: string
-required: true
+required:
+  openapi: true

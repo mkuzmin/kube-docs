@@ -4,4 +4,5 @@ description:
   formatted: |-
     The name of the container requesting resources.
 type: string
-required: true
+required:
+  openapi: true

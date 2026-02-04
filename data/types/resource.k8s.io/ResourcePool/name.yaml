@@ -8,4 +8,5 @@ description:
 
     It must not be longer than 253 characters and must consist of one or more DNS sub-domains separated by slashes. This field is immutable.
 type: string
-required: true
+required:
+  openapi: true

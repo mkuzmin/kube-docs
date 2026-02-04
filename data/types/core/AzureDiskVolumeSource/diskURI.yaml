@@ -4,4 +4,5 @@ description:
   formatted: |-
     diskURI is the URI of data disk in the blob storage
 type: string
-required: true
+required:
+  openapi: true

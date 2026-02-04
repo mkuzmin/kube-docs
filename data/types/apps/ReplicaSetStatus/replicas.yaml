@@ -4,4 +4,5 @@ description:
   formatted: |-
     Replicas is the most recently observed number of non-terminating pods. More info: https://kubernetes.io/docs/concepts/workloads/controllers/replicaset
 type: integer
-required: true
+required:
+  openapi: true

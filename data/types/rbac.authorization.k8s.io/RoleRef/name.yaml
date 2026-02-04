@@ -4,4 +4,5 @@ description:
   formatted: |-
     Name is the name of resource being referenced
 type: string
-required: true
+required:
+  openapi: true

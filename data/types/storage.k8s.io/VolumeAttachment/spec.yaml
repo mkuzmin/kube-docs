@@ -4,4 +4,5 @@ description:
   formatted: |-
     spec represents specification of the desired attach/detach volume behavior. Populated by the Kubernetes system.
 type: VolumeAttachmentSpec
-required: true
+required:
+  openapi: true

@@ -4,4 +4,5 @@ description:
   formatted: |-
     spec is the specification of CSINode
 type: CSINodeSpec
-required: true
+required:
+  openapi: true

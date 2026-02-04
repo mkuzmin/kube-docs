@@ -4,4 +4,5 @@ description:
   formatted: |-
     Spec holds information about the request being evaluated
 type: SubjectAccessReviewSpec
-required: true
+required:
+  openapi: true

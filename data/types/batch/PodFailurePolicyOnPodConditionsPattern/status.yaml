@@ -4,4 +4,5 @@ description:
   formatted: |-
     Specifies the required Pod condition status. To match a pod condition it is required that the specified status equals the pod condition status. Defaults to True.
 type: string
-required: true
+required:
+  openapi: true

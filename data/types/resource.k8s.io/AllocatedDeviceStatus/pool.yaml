@@ -8,4 +8,5 @@ description:
 
     Must not be longer than 253 characters and may contain one or more DNS sub-domains separated by slashes.
 type: string
-required: true
+required:
+  openapi: true

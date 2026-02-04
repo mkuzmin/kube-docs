@@ -9,4 +9,5 @@ description:
     The maximum number of counters in all sets is 32.
 type: Counter
 collection: map
-required: true
+required:
+  openapi: true

@@ -4,4 +4,5 @@ description:
   formatted: |-
     repository is the URL
 type: string
-required: true
+required:
+  openapi: true

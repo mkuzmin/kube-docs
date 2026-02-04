@@ -4,4 +4,5 @@ description:
   formatted: |-
     DevicePath represents the device path where the volume should be available
 type: string
-required: true
+required:
+  openapi: true

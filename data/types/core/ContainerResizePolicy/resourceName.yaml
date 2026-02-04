@@ -4,4 +4,5 @@ description:
   formatted: |-
     Name of the resource to which this resource resize policy applies. Supported values: cpu, memory.
 type: string
-required: true
+required:
+  openapi: true

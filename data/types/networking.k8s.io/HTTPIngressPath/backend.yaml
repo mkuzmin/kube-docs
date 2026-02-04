@@ -4,4 +4,5 @@ description:
   formatted: |-
     backend defines the referenced service endpoint to which the traffic will be forwarded to.
 type: IngressBackend
-required: true
+required:
+  openapi: true

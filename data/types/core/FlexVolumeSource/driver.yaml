@@ -4,4 +4,5 @@ description:
   formatted: |-
     driver is the name of the driver to use for this volume.
 type: string
-required: true
+required:
+  openapi: true

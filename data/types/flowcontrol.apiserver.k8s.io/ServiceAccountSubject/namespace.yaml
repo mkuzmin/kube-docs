@@ -4,4 +4,5 @@ description:
   formatted: |-
     `namespace` is the namespace of matching ServiceAccount objects. Required.
 type: string
-required: true
+required:
+  openapi: true

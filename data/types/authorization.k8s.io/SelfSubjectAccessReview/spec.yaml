@@ -4,4 +4,5 @@ description:
   formatted: |-
     Spec holds information about the request being evaluated.  user and groups must be empty
 type: SelfSubjectAccessReviewSpec
-required: true
+required:
+  openapi: true

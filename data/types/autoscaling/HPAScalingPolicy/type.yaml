@@ -4,4 +4,5 @@ description:
   formatted: |-
     type is used to specify the scaling policy.
 type: string
-required: true
+required:
+  openapi: true

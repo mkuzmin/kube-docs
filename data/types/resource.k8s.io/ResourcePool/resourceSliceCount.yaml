@@ -8,4 +8,5 @@ description:
 
     Consumers can use this to check whether they have seen all ResourceSlices belonging to the same pool.
 type: integer
-required: true
+required:
+  openapi: true

@@ -1,2 +1,3 @@
 type: string
-requiredImplicitly: true
+required:
+  kind: true

@@ -4,4 +4,5 @@ description:
   formatted: |-
     status of the condition, one of True, False, Unknown. Approved, Denied, and Failed conditions may not be "False" or "Unknown".
 type: string
-required: true
+required:
+  openapi: true

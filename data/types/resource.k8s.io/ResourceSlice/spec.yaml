@@ -8,4 +8,5 @@ description:
 
     Changing the spec automatically increments the metadata.generation number.
 type: ResourceSliceSpec
-required: true
+required:
+  openapi: true

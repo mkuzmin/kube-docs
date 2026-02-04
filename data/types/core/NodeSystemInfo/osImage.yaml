@@ -4,4 +4,5 @@ description:
   formatted: |-
     OS Image reported by the node from /etc/os-release (e.g. Debian GNU/Linux 7 (wheezy)).
 type: string
-required: true
+required:
+  openapi: true

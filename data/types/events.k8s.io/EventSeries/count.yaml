@@ -4,4 +4,5 @@ description:
   formatted: |-
     count is the number of occurrences in this series up to the last heartbeat time.
 type: integer
-required: true
+required:
+  openapi: true
