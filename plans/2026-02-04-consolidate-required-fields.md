@@ -52,8 +52,10 @@ Remove all `required` and `requiredImplicitly` lines from existing YAML files. T
 
 Run from project root:
 ```bash
-find data/types -name '*.yaml' -exec yq -i 'del(.required) | del(.requiredImplicitly)' {} +
+find data/types -name '*.yaml' -exec yq -i 'del(.required) | del(.requiredImplicitly)' {} \;
 ```
+
+Note: Use `\;` not `+` because `yq -i` (in-place edit) doesn't work correctly with batched files.
 
 ### Success Criteria:
 
