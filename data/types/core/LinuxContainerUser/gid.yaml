@@ -4,4 +4,5 @@ description:
   formatted: |-
     GID is the primary gid initially attached to the first process in the container
 type: integer
-required: true
+required:
+  openapi: true

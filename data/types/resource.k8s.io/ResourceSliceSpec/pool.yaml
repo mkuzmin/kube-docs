@@ -4,4 +4,5 @@ description:
   formatted: |-
     Pool describes the pool that this ResourceSlice belongs to.
 type: ResourcePool
-required: true
+required:
+  openapi: true

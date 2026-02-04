@@ -26,9 +26,14 @@ data class FieldYaml(
     val description: Description? = null,
     val type: String? = null,
     val collection: String? = null,
-    val required: Boolean? = null,
-    val requiredImplicitly: Boolean? = null,
+    val required: Required? = null,
     val enum: Boolean? = null,
+)
+
+@Serializable
+data class Required(
+    val openapi: Boolean? = null,
+    val kind: Boolean? = null,
 )
 
 @Serializable

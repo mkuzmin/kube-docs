@@ -4,4 +4,5 @@ description:
   formatted: |-
     The Operating System reported by the node
 type: string
-required: true
+required:
+  openapi: true

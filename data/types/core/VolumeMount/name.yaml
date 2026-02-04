@@ -4,4 +4,5 @@ description:
   formatted: |-
     This must match the Name of a Volume.
 type: string
-required: true
+required:
+  openapi: true

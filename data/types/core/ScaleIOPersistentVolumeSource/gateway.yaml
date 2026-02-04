@@ -4,4 +4,5 @@ description:
   formatted: |-
     gateway is the host address of the ScaleIO API Gateway.
 type: string
-required: true
+required:
+  openapi: true

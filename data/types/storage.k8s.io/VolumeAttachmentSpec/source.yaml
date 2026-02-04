@@ -4,4 +4,5 @@ description:
   formatted: |-
     source represents the volume that should be attached.
 type: VolumeAttachmentSource
-required: true
+required:
+  openapi: true

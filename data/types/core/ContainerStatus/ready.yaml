@@ -8,4 +8,5 @@ description:
 
     The value is typically used to determine whether a container is ready to accept traffic.
 type: boolean
-required: true
+required:
+  openapi: true

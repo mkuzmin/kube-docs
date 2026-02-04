@@ -4,4 +4,5 @@ description:
   formatted: |-
     audience is the intended audience of the token in "TokenRequestSpec". It will default to the audiences of kube apiserver.
 type: string
-required: true
+required:
+  openapi: true

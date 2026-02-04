@@ -8,4 +8,5 @@ description:
 
     Must be a DNS label.
 type: string
-required: true
+required:
+  openapi: true

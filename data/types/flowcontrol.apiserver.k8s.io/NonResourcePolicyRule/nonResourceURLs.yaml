@@ -17,4 +17,5 @@ description:
     "*" matches all non-resource urls. if it is present, it must be the only entry. Required.
 type: string
 collection: array
-required: true
+required:
+  openapi: true

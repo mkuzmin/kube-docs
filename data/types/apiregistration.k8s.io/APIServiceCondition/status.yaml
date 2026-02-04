@@ -4,4 +4,5 @@ description:
   formatted: |-
     Status is the status of the condition. Can be True, False, Unknown.
 type: string
-required: true
+required:
+  openapi: true

@@ -4,4 +4,5 @@ description:
   formatted: |-
     Specifies the job that will be created when executing a CronJob.
 type: JobTemplateSpec
-required: true
+required:
+  openapi: true

@@ -4,4 +4,5 @@ description:
   formatted: |-
     type is the type of the condition. Types include Established, NamesAccepted and Terminating.
 type: string
-required: true
+required:
+  openapi: true

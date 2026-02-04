@@ -12,4 +12,5 @@ description:
 
     Changing the spec automatically increments the metadata.generation number.
 type: DeviceClassSpec
-required: true
+required:
+  openapi: true

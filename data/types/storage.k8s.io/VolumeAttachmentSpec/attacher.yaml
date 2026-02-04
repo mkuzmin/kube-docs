@@ -4,4 +4,5 @@ description:
   formatted: |-
     attacher indicates the name of the volume driver that MUST handle this request. This is the name returned by GetPluginName().
 type: string
-required: true
+required:
+  openapi: true

@@ -4,4 +4,5 @@ description:
   formatted: |-
     Name is unique identifier among all devices managed by the driver in the pool. It must be a DNS label.
 type: string
-required: true
+required:
+  openapi: true

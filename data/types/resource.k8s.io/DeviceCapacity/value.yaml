@@ -8,4 +8,5 @@ description:
 
     This field reflects the fixed total capacity and does not change. The consumed amount is tracked separately by scheduler and does not affect this value.
 type: Quantity
-required: true
+required:
+  openapi: true

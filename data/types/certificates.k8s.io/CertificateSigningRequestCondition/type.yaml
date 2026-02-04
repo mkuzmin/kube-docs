@@ -24,4 +24,5 @@ description:
 
     Only one condition of a given type is allowed.
 type: string
-required: true
+required:
+  openapi: true

@@ -4,4 +4,5 @@ description:
   formatted: |-
     names specify the resource and kind names for the custom resource.
 type: CustomResourceDefinitionNames
-required: true
+required:
+  openapi: true

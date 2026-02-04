@@ -4,4 +4,5 @@ description:
   formatted: |-
     shareName is the azure share Name
 type: string
-required: true
+required:
+  openapi: true

@@ -4,4 +4,5 @@ description:
   formatted: |-
     The effect of the taint on claims that do not tolerate the taint and through such claims on the pods using them. Valid effects are NoSchedule and NoExecute. PreferNoSchedule as used for nodes is not valid here.
 type: string
-required: true
+required:
+  openapi: true

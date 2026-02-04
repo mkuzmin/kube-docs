@@ -4,4 +4,5 @@ description:
   formatted: |-
     `name` is the name of matching ServiceAccount objects, or "*" to match regardless of name. Required.
 type: string
-required: true
+required:
+  openapi: true

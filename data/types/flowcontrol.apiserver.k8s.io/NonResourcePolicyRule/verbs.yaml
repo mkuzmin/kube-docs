@@ -5,4 +5,5 @@ description:
     `verbs` is a list of matching verbs and may not be empty. "*" matches all verbs. If it is present, it must be the only entry. Required.
 type: string
 collection: array
-required: true
+required:
+  openapi: true

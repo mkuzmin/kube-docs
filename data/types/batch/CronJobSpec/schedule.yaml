@@ -4,4 +4,5 @@ description:
   formatted: |-
     The schedule in Cron format, see https://en.wikipedia.org/wiki/Cron.
 type: string
-required: true
+required:
+  openapi: true

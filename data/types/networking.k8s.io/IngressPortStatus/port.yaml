@@ -4,4 +4,5 @@ description:
   formatted: |-
     port is the port number of the ingress port.
 type: integer
-required: true
+required:
+  openapi: true

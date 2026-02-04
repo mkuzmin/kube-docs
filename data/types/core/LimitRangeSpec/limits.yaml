@@ -5,4 +5,5 @@ description:
     Limits is the list of LimitRangeItem objects that are enforced.
 type: LimitRangeItem
 collection: array
-required: true
+required:
+  openapi: true

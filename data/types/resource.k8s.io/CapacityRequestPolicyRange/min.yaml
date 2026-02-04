@@ -8,4 +8,5 @@ description:
 
     Min must be greater than or equal to zero, and less than or equal to the capacity value. requestPolicy.default must be more than or equal to the minimum.
 type: Quantity
-required: true
+required:
+  openapi: true

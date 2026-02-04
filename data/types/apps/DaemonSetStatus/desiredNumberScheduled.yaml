@@ -4,4 +4,5 @@ description:
   formatted: |-
     The total number of nodes that should be running the daemon pod (including nodes correctly running the daemon pod). More info: https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/
 type: integer
-required: true
+required:
+  openapi: true

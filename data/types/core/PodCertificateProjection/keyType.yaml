@@ -8,4 +8,5 @@ description:
 
     Valid values are "RSA3072", "RSA4096", "ECDSAP256", "ECDSAP384", "ECDSAP521", and "ED25519".
 type: string
-required: true
+required:
+  openapi: true

@@ -4,4 +4,5 @@ description:
   formatted: |-
     Name of the object being referenced.
 type: string
-required: true
+required:
+  openapi: true

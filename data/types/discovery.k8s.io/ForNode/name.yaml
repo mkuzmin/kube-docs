@@ -4,4 +4,5 @@ description:
   formatted: |-
     name represents the name of the node.
 type: string
-required: true
+required:
+  openapi: true

@@ -4,4 +4,5 @@ description:
   formatted: |-
     ResourceID is the unique identifier of the resource. See the ResourceID type for more information.
 type: string
-required: true
+required:
+  openapi: true

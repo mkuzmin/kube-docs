@@ -8,4 +8,5 @@ description:
 
     This field is immutable. A ResourceClaim will get created by the control plane for a Pod when needed and then not get updated anymore.
 type: ResourceClaimTemplateSpec
-required: true
+required:
+  openapi: true

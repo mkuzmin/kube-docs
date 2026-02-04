@@ -4,4 +4,5 @@ description:
   formatted: |-
     name is the referenced service. The service must exist in the same namespace as the Ingress object.
 type: string
-required: true
+required:
+  openapi: true

@@ -4,4 +4,5 @@ description:
   formatted: |-
     ContainerRuntime Version reported by the node through runtime remote API (e.g. containerd://1.4.2).
 type: string
-required: true
+required:
+  openapi: true

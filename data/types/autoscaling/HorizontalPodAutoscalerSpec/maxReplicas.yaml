@@ -4,4 +4,5 @@ description:
   formatted: |-
     maxReplicas is the upper limit for the number of replicas to which the autoscaler can scale up. It cannot be less that minReplicas.
 type: integer
-required: true
+required:
+  openapi: true

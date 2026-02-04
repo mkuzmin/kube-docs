@@ -9,4 +9,5 @@ description:
       - RuntimeDefault - the container runtime default profile should be used.
       - Unconfined - no profile should be applied.
 type: string
-required: true
+required:
+  openapi: true

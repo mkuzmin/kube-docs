@@ -4,4 +4,5 @@ description:
   formatted: |-
     Allowed is required. True if the action would be allowed, false otherwise.
 type: boolean
-required: true
+required:
+  openapi: true

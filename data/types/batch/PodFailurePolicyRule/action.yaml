@@ -24,4 +24,5 @@ description:
       counter towards the .backoffLimit is incremented.
     Additional values are considered to be added in the future. Clients should react to an unknown action by skipping the rule.
 type: string
-required: true
+required:
+  openapi: true

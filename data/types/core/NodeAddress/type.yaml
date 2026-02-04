@@ -4,4 +4,5 @@ description:
   formatted: |-
     Node address type, one of Hostname, ExternalIP or InternalIP.
 type: string
-required: true
+required:
+  openapi: true

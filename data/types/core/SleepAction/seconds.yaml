@@ -4,4 +4,5 @@ description:
   formatted: |-
     Seconds is the number of seconds to sleep.
 type: integer
-required: true
+required:
+  openapi: true

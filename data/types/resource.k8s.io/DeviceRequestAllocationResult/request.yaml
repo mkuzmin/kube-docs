@@ -8,4 +8,5 @@ description:
 
     Multiple devices may have been allocated per request.
 type: string
-required: true
+required:
+  openapi: true

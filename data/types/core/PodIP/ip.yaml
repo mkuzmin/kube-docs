@@ -4,4 +4,5 @@ description:
   formatted: |-
     IP is the IP address assigned to the pod
 type: string
-required: true
+required:
+  openapi: true

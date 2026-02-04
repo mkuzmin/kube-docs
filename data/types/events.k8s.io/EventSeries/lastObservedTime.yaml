@@ -4,4 +4,5 @@ description:
   formatted: |-
     lastObservedTime is the time when last Event from the series was seen before last heartbeat.
 type: MicroTime
-required: true
+required:
+  openapi: true

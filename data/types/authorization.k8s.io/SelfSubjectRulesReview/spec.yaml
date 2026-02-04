@@ -4,4 +4,5 @@ description:
   formatted: |-
     Spec holds information about the request being evaluated.
 type: SelfSubjectRulesReviewSpec
-required: true
+required:
+  openapi: true

@@ -4,4 +4,5 @@ description:
   formatted: |-
     Path of the field to select in the specified API version.
 type: string
-required: true
+required:
+  openapi: true

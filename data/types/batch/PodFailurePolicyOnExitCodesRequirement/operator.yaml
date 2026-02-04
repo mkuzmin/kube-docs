@@ -20,4 +20,5 @@ description:
       by the 'containerName' field) is not in the set of specified values.
     Additional values are considered to be added in the future. Clients should react to an unknown operator by assuming the requirement is not satisfied.
 type: string
-required: true
+required:
+  openapi: true

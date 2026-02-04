@@ -4,4 +4,5 @@ description:
   formatted: |-
     metric identifies the target metric by name and selector
 type: MetricIdentifier
-required: true
+required:
+  openapi: true

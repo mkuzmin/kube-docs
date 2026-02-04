@@ -4,4 +4,5 @@ description:
   formatted: |-
     server is the hostname or IP address of the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
 type: string
-required: true
+required:
+  openapi: true
