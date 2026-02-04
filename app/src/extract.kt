@@ -40,18 +40,14 @@ fun writeType(file: File, schema: Schema) {
     file.parentFile.mkdirs()
     if (!file.exists()) file.createNewFile()
 
-    // description.original - always update
-    yq(file, ".description.original = strenv(DESC) | .description.original style=\"literal\"", "DESC" to schema.description)
+    val kindExpr = if (schema.kind != null) ".kind = true" else "del(.kind)"
+    val expr = """
+        .description.original = strenv(DESC) | .description.original style="literal" |
+        .description.formatted = (.description.formatted // strenv(DESC)) | .description.formatted style="literal" |
+        $kindExpr
+    """.trimIndent()
 
-    // description.formatted - set only if missing (preserves edits)
-    yq(file, ".description.formatted = (.description.formatted // strenv(DESC)) | .description.formatted style=\"literal\"", "DESC" to schema.description)
-
-    // kind - set if true, delete if false/null
-    if (schema.kind != null) {
-        yq(file, ".kind = true")
-    } else {
-        yq(file, "del(.kind)")
-    }
+    yq(file, expr, "DESC" to schema.description)
 }
 
 fun writeField(file: File, prop: Property, requiredOpenapi: Boolean, requiredKind: Boolean, skipDescription: Boolean) {
@@ -60,28 +56,26 @@ fun writeField(file: File, prop: Property, requiredOpenapi: Boolean, requiredKin
     file.parentFile.mkdirs()
     if (!file.exists()) file.createNewFile()
 
-    // description - skip for apiVersion/kind/metadata
+    val collectionExpr = if (collection != null) ".collection = \"$collection\"" else "del(.collection)"
+    val requiredExpr = when {
+        requiredOpenapi && requiredKind -> ".required = {\"openapi\": true, \"kind\": true}"
+        requiredOpenapi -> ".required = {\"openapi\": true}"
+        requiredKind -> ".required = {\"kind\": true}"
+        else -> "del(.required)"
+    }
+
     if (!skipDescription && prop.description != null) {
-        yq(file, ".description.original = strenv(DESC) | .description.original style=\"literal\"", "DESC" to prop.description)
-        yq(file, ".description.formatted = (.description.formatted // strenv(DESC)) | .description.formatted style=\"literal\"", "DESC" to prop.description)
-    }
-
-    // type - always present
-    yq(file, ".type = \"$type\"")
-
-    // collection - set or delete
-    if (collection != null) {
-        yq(file, ".collection = \"$collection\"")
+        val expr = listOf(
+            ".description.original = strenv(DESC) | .description.original style=\"literal\"",
+            ".description.formatted = (.description.formatted // strenv(DESC)) | .description.formatted style=\"literal\"",
+            ".type = \"$type\"",
+            collectionExpr,
+            requiredExpr
+        ).joinToString(" | ")
+        yq(file, expr, "DESC" to prop.description)
     } else {
-        yq(file, "del(.collection)")
-    }
-
-    // required block - set entire block or delete
-    when {
-        requiredOpenapi && requiredKind -> yq(file, ".required = {\"openapi\": true, \"kind\": true}")
-        requiredOpenapi -> yq(file, ".required = {\"openapi\": true}")
-        requiredKind -> yq(file, ".required = {\"kind\": true}")
-        else -> yq(file, "del(.required)")
+        val expr = listOf(".type = \"$type\"", collectionExpr, requiredExpr).joinToString(" | ")
+        yq(file, expr)
     }
 }
 
