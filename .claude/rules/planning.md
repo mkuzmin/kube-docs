@@ -3,9 +3,10 @@
 ## Go Slow, Think First
 
 1. **Architecture before implementation** - Agree on high-level approach before discussing code details
-2. **One problem at a time** - Don't jump ahead to future steps; focus on the immediate task
+2. **One problem at a time** - Make one change, wait for review, then proceed to next
 3. **Ask questions early** - Clarify scope, goals, and constraints before proposing solutions. Ask one question at a time.
 4. **Verify claims** - Double-check numbers, counts, and assumptions with actual data
+5. **Never switch to implementation** - Planning phase ends with a finalized plan file, not code
 
 ## Incremental Planning
 
