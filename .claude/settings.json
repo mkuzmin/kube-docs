@@ -3,5 +3,18 @@
     "allow": [
       "Bash(./gradlew:*)"
     ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "AskUserQuestion",
+        "hooks": [
+          {
+            "type": "command",
+            "command": ".claude/hooks/check-single-question.sh"
+          }
+        ]
+      }
+    ]
   }
 }
